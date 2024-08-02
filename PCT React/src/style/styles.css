@@ -1,0 +1,30 @@
+:root {
+    --default-text-color: white;
+    --default-box-shadow: 4px 4px 10px -1px #424242;
+    --default-hover-time: 500ms;
+    --default-click-time: 50ms;
+    --default-font-family: Arial, Helvetica, sans-serif;
+
+    --default-bg-color: #57835a;
+    --default-hover: #2a3f2b;
+    --default-active: #233524;
+    --default-disabled-color: #758576;
+
+    --default-alt-color: #ffbd59;
+    --default-alt-hover: #c59245;
+    --default-alt-active: #86622c;
+    --default-dark-color: #424242;
+    --default-light-color: #e6e5e5;
+
+    --unset-bg-color: #e63f37;
+    --unset-hover: #81231f;
+    --unset-active: #4b1412;
+
+    --table-header-color: #4c4c4c;
+    --table-box-shadow: inset 0 0 0 1px #424242;
+    --table-dark-color: #333333;
+    --table-dark-alt: black;
+
+    --title-bg-color: #34579d;
+    --title-box-shadow: 0 14px 20px -20px #424242;
+}
