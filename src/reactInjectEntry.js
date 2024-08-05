@@ -8,7 +8,7 @@ define(["N/ui/serverWidget"], function (serverWidget) {
         if (context.request.method === "GET") {
             // Add a form
             var form = serverWidget.createForm({
-                title: "Test Render",
+                title: "Title",
             });
             // Add an inline HTML field
             var field = form.addField({
@@ -18,8 +18,9 @@ define(["N/ui/serverWidget"], function (serverWidget) {
             });
             // Add the html
             field.defaultValue =
-            '<div id="root"></div><script id="testid" src="https://feb0-134-215-146-147.ngrok-free.app/index.js">"</script>'
+            '<div id="root"></div><script id="testid" crossorigin="anonymous" src="https://main.d1l6dhpcrlds15.amplifyapp.com">"</script>'
             context.response.writePage(form);
+            //'<iframe src="https://main.d1l6dhpcrlds15.amplifyapp.com/" title=""></iframe>'
         }
     }
     return {
