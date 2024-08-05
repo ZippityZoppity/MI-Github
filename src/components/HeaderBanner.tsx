@@ -1,17 +1,15 @@
 import Button from "./Button";
 import "../style/HeaderTheme.scss";
 import headerLogo from "../assets/mi-logo.png";
-import React from "react";
 
-export default function HeaderBanner(props) {
+export default function HeaderBanner(props: {
+    updateFile: Function;
+    setUploadedData: Function;
+}) {
     const resetButton = () => {
-        props.updateNumItems(0);
         props.updateFile("");
-        props.updateJSON([]);
-        sessionStorage.setItem("itemData", "[]");
-        sessionStorage.setItem("uploadedJSON", "[]");
-        sessionStorage.setItem("numItemResults", "0");
-        sessionStorage.setItem("numSelected", "0");
+        props.setUploadedData([]);
+        sessionStorage.setItem("uploadedData", "[]");
     };
 
     return (

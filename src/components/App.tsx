@@ -4,21 +4,11 @@ import FileBanner from "./FileBanner";
 import HeaderBanner from "./HeaderBanner";
 import ResultsTable from "./ResultsTable";
 import FooterBanner from "./FooterBanner";
-import React from "react";
 
 export default function MainApp() {
     // Set default sessionStorage values
-    !sessionStorage.getItem("itemData") &&
-        sessionStorage.setItem("itemData", "[]");
     !sessionStorage.getItem("uploadedData") &&
         sessionStorage.setItem("uploadedData", "[]");
-    !sessionStorage.getItem("numItemResults") &&
-        sessionStorage.setItem("numItemResults", "0");
-    !sessionStorage.getItem("numSelected") &&
-        sessionStorage.setItem("numSelected", "0");
-
-    let ItemDetails = {};
-
     // fetch("https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json")
     //   .then((res) => {
     //     console.log("res:", res);
@@ -31,25 +21,27 @@ export default function MainApp() {
     const [uploadedFile, updateFile] = useState("");
     const [uploadedData, setUploadedData] = useState(
         JSON.parse(sessionStorage.getItem("uploadedData") || "")
-        
+    );
+
+    let ItemDetails = {};
+
+    const checkRows = () => {
+        let allRowsSelected = true;
+        for (const row of uploadedData) {
+            if (!row.selected) allRowsSelected = false;
+        }
+        return allRowsSelected;
+    };
 
     return (
         <div className="MainApp">
             <HeaderBanner
-                updateNumItems={updateNumItems}
                 updateFile={updateFile}
-                uploadedData={uploadedData}
+                setUploadedData={setUploadedData}
             />
-            <FileBanner
-                numItems={numItems}
-                updateNumItems={updateNumItems}
-                uploadedFile={uploadedFile}
-                updateFile={updateFile}
-                uploadedData={uploadedData}
-                buttonConstants={buttonConstants}
-            />
+            <FileBanner />
             {/* <ResultsTable /> */}
-            <Box className="item-table">
+            <div className="item-table">
                 <ResultsTable
                     uploadedJSON={uploadedJSON}
                     uploadedData={uploadedData}
@@ -57,10 +49,10 @@ export default function MainApp() {
                     updateNumSelected={updateNumSelected}
                     buttonConstants={buttonConstants}
                 />
-            </Box>
+            </div>
             <FooterBanner
-                numItems={uploadedJSON.length}
-                selectedItems={numSelected}
+                allRowsSelected={checkRows()}
+                uploadedData={uploadedData}
             />
         </div>
     );
