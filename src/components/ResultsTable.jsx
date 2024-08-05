@@ -8,10 +8,10 @@ export default function ResultsTable(props) {
       console.log("e:", e);
       if (e.field === 'selection') {
         let newJSON = props.uploadedJSON;
-        if (newJSON[e.id].selection == props.buttonConstants.S_FALSE) {
+        if (newJSON[e.id].selection === props.buttonConstants.S_FALSE) {
           props.updateNumSelected(props.numSelected - 1)
           newJSON[e.id].selection = props.buttonConstants.S_TRUE;
-        } else if (newJSON[e.id].selection == props.buttonConstants.S_TRUE) {
+        } else if (newJSON[e.id].selection === props.buttonConstants.S_TRUE) {
           props.updateNumSelected(props.numSelected + 1)
           newJSON[e.id].selection = props.buttonConstants.S_FALSE;
         }

@@ -13,7 +13,7 @@ function MainApp() {
   (!sessionStorage.getItem('uploadedJSON')) && sessionStorage.setItem('uploadedJSON', '[]');
   (!sessionStorage.getItem('numItemResults')) && sessionStorage.setItem('numItemResults', '0');
   (!sessionStorage.getItem('numSelected')) && sessionStorage.setItem('numSelected', '0');
-  let ItemDetails = {};
+  //let ItemDetails = {};
   
   // fetch("https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json")
   //   .then((res) => {

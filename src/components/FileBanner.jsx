@@ -51,7 +51,7 @@ export default function FileBanner(props) {
                     // ^ filler test data remove this ^ //
                 });
                 for (let i = 1; i < uploadedJSON.length; i++) {
-                    if (i % 5 === 0 || i === uploadedJSON.length == 1) {
+                    if (i % 5 === 0 || i === uploadedJSON.length === 1) {
                         let temp_item = {
                             id: i + uploadedJSON.length,
                             selection: props.buttonConstants.S_GET,
