@@ -18,7 +18,7 @@ define(["N/ui/serverWidget"], function (serverWidget) {
             });
             // Add the html
             field.defaultValue =
-            '<div id="root"></div><script id="testid" crossorigin="anonymous" src="https://main.d1l6dhpcrlds15.amplifyapp.com">"</script>'
+            '<div id="root"></div><script id="testid" crossorigin="anonymous" src="https://main.d1l6dhpcrlds15.amplifyapp.com"></script>'
             context.response.writePage(form);
             //'<iframe src="https://main.d1l6dhpcrlds15.amplifyapp.com/" title=""></iframe>'
         }
@@ -27,3 +27,10 @@ define(["N/ui/serverWidget"], function (serverWidget) {
         onRequest: onRequest,
     };
 });
+// fetch('https://main.d1l6dhpcrlds15.amplifyapp.com/', {
+//     method: 'GET',
+//     mode: 'cors',
+//     headers: {
+//         'Accept': 'application/json'
+//     }
+// }).then(res => res.text()).then(data => console.log(data))
