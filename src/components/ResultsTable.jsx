@@ -3,6 +3,7 @@ import { COLUMN_HEADERS } from '../data/ColumnData';
 import "../style/TableTheme.css";
 
 export default function ResultsTable(props) {
+console.log("props", props);
 
     const selectCellClick = (e) => {
       console.log("e:", e);
@@ -28,12 +29,12 @@ export default function ResultsTable(props) {
           columns={COLUMN_HEADERS}
           initialState={{
             pagination: {
-              paginationModel: { page: 0, pageSize: 6 },
+              paginationModel: { page: 0, pageSize: 10 },
             },
           }}
           onCellClick={(e) => {selectCellClick(e)}}
           autoHeight
-          onRowEditStart={console.log('test')}
+          onRowEditStart={() => {}}
         />
     );
 }

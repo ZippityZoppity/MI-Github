@@ -22,7 +22,7 @@
         background-color: var(--unset-hover);
         transition: var(--default-hover-time);
     }
-    
+
     &:active {
         background-color: var(--unset-active);
         transition: var(--default-click-time);
@@ -31,11 +31,8 @@
     font-size: 1vw;
     color: var(--default-text-color);
     background-color: var(--unset-bg-color);
-    border-color:
-        var(--unset-active)
-        var(--unset-bg-color)
-        var(--unset-bg-color)
-        var(--unset-active);
+    border-color: var(--unset-active) var(--unset-bg-color)
+        var(--unset-bg-color) var(--unset-active);
     box-shadow: var(--default-box-shadow);
     width: 10vw;
     padding: 2vh 0 2vh 0;

@@ -21,9 +21,9 @@ export default function FileBanner(props) {
      * @param {*} e target file
      */
     const onDrop = useCallback(acceptedFiles => {
-        console.log("acceptedFiles:", acceptedFiles);
         if (acceptedFiles[0].type === 'text/csv') {
             props.updateFile(acceptedFiles[0])
+            uploadCSV(acceptedFiles[0]);
         } else {
             alert('File must be of type CSV (Comma Seperated Value)!');
         }
@@ -34,17 +34,17 @@ export default function FileBanner(props) {
      * Function that runs on Upload click, that parses a csv
      * file into a JSON object and updates state variables
      */
-    const uploadCSVButton = (e) => {
+    const uploadCSV = (acceptedFile) => {
         updateIsSearching(true);
         let uploadedJSON = {}
-        Papa.parse(props.uploadedFile, {
+
+        Papa.parse(acceptedFile, {
             header: true,
             complete: (results) => {
                 uploadedJSON = results.data;
                 uploadedJSON.forEach((item, index) => {
                     item.id = index;
                     item.selection = props.buttonConstants.S_FALSE;
-                    console.log("item.selection:", item.selection);
                     // v filler test data remove this v //
                     item.best_match = '1/10';
                     item.our_description = 'test desc'
@@ -64,6 +64,20 @@ export default function FileBanner(props) {
                         i++;
                     }
                 }
+                //temp add data to rows
+                for (const row of uploadedJSON) {
+                    row.our_descriptions = [{
+                        text: "test 1",
+                        match: 1
+                    },
+                    {
+                        text: "test 2",
+                        match: 5
+                    }, {
+                        text: "test 3",
+                        match: 9
+                    }]
+                }
                 props.updateJSON(uploadedJSON);
                 props.updateNumItems(uploadedJSON.length)
                 sessionStorage.setItem('uploadedJSON', JSON.stringify(uploadedJSON));
@@ -81,8 +95,9 @@ export default function FileBanner(props) {
                 <Box className="csv-button-container">
                     <Button
                         type={'CSVButton'}
-                        onClick={uploadCSVButton} 
-                        isDisabled = {(props.uploadedFile === '')}
+                        onClick={() => {
+                            document.getElementById("csv-upload-area").click()
+                        }} 
                     />
                 </Box>
                 <Box className="query-icon-container">
@@ -112,7 +127,7 @@ export default function FileBanner(props) {
                 </Box>
                 <Box className="dnd-text-container">
                     <Box className="drop-zone" {...getRootProps()}>
-                        <input {...getInputProps()} />
+                        <input {...getInputProps()} id="csv-upload-area" />
                         {
                             (props.uploadedFile === '') ?
                             <Box className="dnd-text">Drag and Drop File</Box>

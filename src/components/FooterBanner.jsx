@@ -7,24 +7,6 @@ import "../style/FooterTheme.css";
 
 export default function FooterBanner(props) {
 
-    // const columns = [
-    //     {
-    //         id: 'manufacturer',
-    //         displayName: 'Manufacturer',
-    //     },
-    //     {
-    //         id: 'item_code',
-    //         displayName: 'Item Code',
-    //     },
-    //     {
-    //         id: 'our_description',
-    //         displayName: 'Our Description',
-    //     },
-    //     {
-    //         id: 'best_match',
-    //         displayName: 'Best Match',
-    //     },
-    // ]
     const getSelectedData = () => {
         let data = [];
         props.selectedItems.forEach(item => {
@@ -39,7 +21,6 @@ export default function FooterBanner(props) {
                 )
             }
         });
-        console.log("data:", data);
         return data;
     }
 

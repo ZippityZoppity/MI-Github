@@ -1,14 +1,5 @@
-import "../style/TableTheme.css";
-import { useState } from "react";
 
-export default function SelectionButton(props) {
-
-    let buttonText = 'Button';
-    let buttonTitle = 'Button';
-    let buttonKey = '0';
-    let buttonOnClick = () => console.log('button pressed');
-    let buttonClass = '';
-    let isDisabled = false;
+export default function DataTable(props) {
 
     switch (props.type) {
         case 'HeaderButton':
