@@ -7,8 +7,8 @@ import FooterBanner from "./FooterBanner";
 
 export default function MainApp() {
     // Set default sessionStorage values
-    !sessionStorage.getItem("uploadedData") &&
-        sessionStorage.setItem("uploadedData", "[]");
+    !sessionStorage.getItem("uploadedData") && sessionStorage.setItem("uploadedData", "[]");
+
     // fetch("https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json")
     //   .then((res) => {
     //     console.log("res:", res);
@@ -18,12 +18,11 @@ export default function MainApp() {
     //     // ItemDetails = JSON.parse(text)// do something with "text"
     //   })
     //   .catch((e) => console.error(e));
+
     const [uploadedFile, updateFile] = useState("");
     const [uploadedData, setUploadedData] = useState(
         JSON.parse(sessionStorage.getItem("uploadedData") || "")
     );
-
-    let ItemDetails = {};
 
     const checkRows = () => {
         let allRowsSelected = true;
@@ -35,25 +34,20 @@ export default function MainApp() {
 
     return (
         <div className="MainApp">
-            <HeaderBanner
+            <HeaderBanner updateFile={updateFile} setUploadedData={setUploadedData} />
+            <FileBanner
                 updateFile={updateFile}
                 setUploadedData={setUploadedData}
-            />
-            <FileBanner />
-            {/* <ResultsTable /> */}
-            <div className="item-table">
-                <ResultsTable
-                    uploadedJSON={uploadedJSON}
-                    uploadedData={uploadedData}
-                    numSelected={numSelected}
-                    updateNumSelected={updateNumSelected}
-                    buttonConstants={buttonConstants}
-                />
-            </div>
-            <FooterBanner
-                allRowsSelected={checkRows()}
                 uploadedData={uploadedData}
+                uploadedFile={uploadedFile}
             />
+            <ResultsTable
+                updateFile={updateFile}
+                setUploadedData={setUploadedData}
+                uploadedData={uploadedData}
+                uploadedFile={uploadedFile}
+            />
+            <FooterBanner allRowsSelected={checkRows()} uploadedData={uploadedData} />
         </div>
     );
 }

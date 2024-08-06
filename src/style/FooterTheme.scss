@@ -1,19 +1,15 @@
 .footer-banner {
-    display: inline-block;
-    margin: 20px;
-}
-
-.item-selection-info {
-    text-align: center;
     width: 70vw;
-    background-color: var(--default-light-color);;
+    padding: 10px 30px;
+    background-color: var(--default-light-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.item-selection-info > div {
-    width: fit-content;
-    display: inline-flex;
-    vertical-align: middle;
-    margin-right: 5px;
+.footer-message {
+    display: flex;
+    align-items: center;
 }
 
 .all-items-selected {
@@ -35,6 +31,15 @@
 }
 
 .footer-button {
+    font-family: var(--default-font-family);
+    font-size: 1vw;
+    color: var(--default-text-color);
+    background-color: var(--default-bg-color);
+    border: none;
+    box-shadow: var(--default-box-shadow);
+    padding: 2.5vh 3.5vw 2.5vh 3.5vw;
+    cursor: pointer;
+
     &:hover {
         background-color: var(--default-hover);
         transition: var(--default-hover-time);
@@ -44,19 +49,9 @@
         background-color: var(--default-active);
         transition: var(--default-click-time);
     }
-    position: sticky;
-    left: 100%;
-    font-family: var(--default-font-family);
-    font-size: 1vw;
-    color: var(--default-text-color);
-    background-color: var(--default-bg-color);
-    border: none;
-    box-shadow: var(--default-box-shadow);
-    margin-top: 40px;
-    padding: 2.5vh 3.5vw 2.5vh 3.5vw;
-    cursor: pointer;
 }
 
 .footer-icon {
     height: 3vh;
+    margin-left: 10px;
 }

@@ -7,8 +7,8 @@ export default function SelectionButton(props: {
 }) {
     return (
         <div
-            onClick={() => props.buttonOnClick}
-            className={"pct-button " + props.buttonClass}
+            onClick={() => props.buttonOnClick()}
+            className={props.buttonClass}
             style={{ cursor: "pointer" }}
         >
             {props.title}

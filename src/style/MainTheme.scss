@@ -1,14 +1,7 @@
 .MainApp {
-    align-content: center;
     text-align: center;
-    display: block;
     width: 100%;
-}
-.file-buttons {
-    width: 1/3vw;
-}
-
-.csv-button-container {
-    align-content: center;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

@@ -1,7 +1,7 @@
 import CsvDownloader from "react-csv-downloader";
 import checkIcon from "../assets/icons8-check-48.png";
 import errIcon from "../assets/icons8-error-48.png";
-import "../style/FooterTheme.css";
+import "../style/FooterTheme.scss";
 import { CSV_COLUMNS } from "../data/ColumnData";
 
 export default function FooterBanner(props: {
@@ -28,39 +28,36 @@ export default function FooterBanner(props: {
         return data;
     };
 
+    let footerMessage = "All items have a selection";
+    let showErrorIcon = false;
+    let messageClass = "all-items-selected";
+
+    if (props.uploadedData.length === 0) {
+        footerMessage = "No data found";
+        showErrorIcon = true;
+        messageClass = "missing-items";
+    } else if (!props.allRowsSelected) {
+        footerMessage = "Items are missing a selection";
+        showErrorIcon = true;
+        messageClass = "missing-items";
+    }
+
     return (
         <div className="footer-banner">
-            <div className="item-selection-info">
-                <div>
-                    {props.allRowsSelected ? (
-                        <p className="all-items-selected">
-                            All items have a selection
-                        </p>
-                    ) : (
-                        <p className="missing-items">
-                            Items are missing a selection
-                        </p>
-                    )}
-                </div>
-                <div>
-                    <img
-                        src={props.allRowsSelected ? checkIcon : errIcon}
-                        className="footer-icon"
-                    />
-                </div>
+            <div className="footer-message ">
+                <p className={messageClass}>{footerMessage}</p>
+                <img src={showErrorIcon ? errIcon : checkIcon} className="footer-icon" />
             </div>
-            <div className="download-button-container">
-                <CsvDownloader
-                    filename="Selected_items"
-                    columns={CSV_COLUMNS}
-                    datas={getSelectedData}
-                    extension=".csv"
-                    separator=";"
-                    wrapColumnChar="'"
-                    className="footer-button"
-                    text="Download Results"
-                />
-            </div>
+            <CsvDownloader
+                filename="Selected_items"
+                columns={CSV_COLUMNS}
+                datas={getSelectedData}
+                extension=".csv"
+                separator=";"
+                wrapColumnChar="'"
+                className="footer-button"
+                text="Download Results"
+            />
         </div>
     );
 }

@@ -1,10 +1,10 @@
 .header-banner {
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
     box-shadow: var(--title-box-shadow);
     width: 100%;
     margin-bottom: 30px;
-    vertical-align: middle;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 10px;
 }
 
@@ -13,20 +13,9 @@
     color: var(--title-bg-color);
     font-weight: bolder;
     font-size: 2vw;
-    text-align: center;
-    align-content: center;
 }
 
 .header-button {
-    &:hover {
-        background-color: var(--unset-hover);
-        transition: var(--default-hover-time);
-    }
-
-    &:active {
-        background-color: var(--unset-active);
-        transition: var(--default-click-time);
-    }
     font-family: var(--default-font-family);
     font-size: 1vw;
     color: var(--default-text-color);
@@ -36,12 +25,18 @@
     box-shadow: var(--default-box-shadow);
     width: 10vw;
     padding: 2vh 0 2vh 0;
+    
+    &:hover {
+        background-color: var(--unset-hover);
+        transition: var(--default-hover-time);
+    }
+
+    &:active {
+        background-color: var(--unset-active);
+        transition: var(--default-click-time);
+    }
 }
 
 .medical-inno-logo {
     width: 10vw;
-}
-
-.start-over-button {
-    margin: auto;
 }
