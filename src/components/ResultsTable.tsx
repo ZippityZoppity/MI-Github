@@ -9,26 +9,50 @@ export default function ResultsTable(props: {
     uploadedData: Array<any>;
     uploadedFile: any;
 }) {
-    const selectCellClick = (e: any) => {
-        if (e.field === "selection") {
-        }
+    const selectCellClick = (id: Number, index: any) => {
+        let newData: Array<any> = props.uploadedData;
+
+        let match = newData.find((data) => data.id === id);
+
+        //update selections
+        match.our_descriptions[match.selection].selected = false;
+        match.our_descriptions[index].selected = true;
+        match.selection = index;
+
+        props.setUploadedData(newData);
     };
 
     let rows: Array<ReactElement> = [];
     for (const data of props.uploadedData) {
-        rows.push(<Row data={data} />);
+        for (let index = 0; index < data.our_descriptions.length; index++) {
+            const desc = data.our_descriptions[index];
+            console.log("desc", desc);
+
+            rows.push(
+                <Row
+                    manufacturer={desc.selected ? data.manufacturer : ""}
+                    item_code={desc.selected ? data.item_code : ""}
+                    comp_description={data.comp_description}
+                    our_description={desc}
+                    selected={desc.selected}
+                    selectCellClick={selectCellClick}
+                    id={data.id}
+                    index={index}
+                />
+            );
+        }
     }
 
     return (
         <table className="item-table">
             <thead>
                 <tr>
-                    <th>Manufacturer</th>
-                    <th>Item Code</th>
-                    <th>Competitor Description</th>
-                    <th>Our Description</th>
-                    <th>Best Match</th>
-                    <th>Selection</th>
+                    <th colSpan={1}>Manufacturer</th>
+                    <th colSpan={1}>Item Code</th>
+                    <th colSpan={3}>Competitor Description</th>
+                    <th colSpan={3}>Our Description</th>
+                    <th colSpan={1}>Best Match</th>
+                    <th colSpan={1}>Selection</th>
                 </tr>
             </thead>
             <tbody>{rows}</tbody>

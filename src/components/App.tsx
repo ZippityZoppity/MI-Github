@@ -6,23 +6,25 @@ import ResultsTable from "./ResultsTable";
 import FooterBanner from "./FooterBanner";
 
 export default function MainApp() {
-    // Set default sessionStorage values
-    !sessionStorage.getItem("uploadedData") && sessionStorage.setItem("uploadedData", "[]");
-
-    // fetch("https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json")
-    //   .then((res) => {
-    //     console.log("res:", res);
-    //     res.text()
-    //   }).then((text) => {
-    //     console.log("text:", text);
-    //     // ItemDetails = JSON.parse(text)// do something with "text"
-    //   })
-    //   .catch((e) => console.error(e));
+    // fetch(
+    //     "https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json",
+    //     {
+    //         method: "Get",
+    //         mode: "cors",
+    //     }
+    // )
+    //     .then((res) => {
+    //         console.log("res:", res);
+    //         res.text();
+    //     })
+    //     .then((text) => {
+    //         console.log("text:", text);
+    //         // ItemDetails = JSON.parse(text)// do something with "text"
+    //     })
+    //     .catch((e) => console.error(e));
 
     const [uploadedFile, updateFile] = useState("");
-    const [uploadedData, setUploadedData] = useState(
-        JSON.parse(sessionStorage.getItem("uploadedData") || "")
-    );
+    const [uploadedData, setUploadedData] = useState<Array<any>>([]);
 
     const checkRows = () => {
         let allRowsSelected = true;
@@ -34,7 +36,10 @@ export default function MainApp() {
 
     return (
         <div className="MainApp">
-            <HeaderBanner updateFile={updateFile} setUploadedData={setUploadedData} />
+            <HeaderBanner
+                updateFile={updateFile}
+                setUploadedData={setUploadedData}
+            />
             <FileBanner
                 updateFile={updateFile}
                 setUploadedData={setUploadedData}
@@ -47,7 +52,10 @@ export default function MainApp() {
                 uploadedData={uploadedData}
                 uploadedFile={uploadedFile}
             />
-            <FooterBanner allRowsSelected={checkRows()} uploadedData={uploadedData} />
+            <FooterBanner
+                allRowsSelected={checkRows()}
+                uploadedData={uploadedData}
+            />
         </div>
     );
 }

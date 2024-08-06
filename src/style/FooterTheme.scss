@@ -1,6 +1,6 @@
 .footer-banner {
     width: 70vw;
-    padding: 10px 30px;
+    padding: 10px 0px;
     background-color: var(--default-light-color);
     display: flex;
     align-items: center;
@@ -37,7 +37,7 @@
     background-color: var(--default-bg-color);
     border: none;
     box-shadow: var(--default-box-shadow);
-    padding: 2.5vh 3.5vw 2.5vh 3.5vw;
+    padding: 1.5vh 2.5vw;
     cursor: pointer;
 
     &:hover {

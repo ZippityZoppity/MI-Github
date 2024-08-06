@@ -29,7 +29,8 @@ export default function FileBanner(props: {
             alert("File must be of type CSV (Comma Seperated Value)!");
         }
     }, []);
-    const { getRootProps, acceptedFiles, getInputProps, isDragActive } = useDropzone({ onDrop });
+    const { getRootProps, acceptedFiles, getInputProps, isDragActive } =
+        useDropzone({ onDrop });
 
     /**
      * Function that runs on Upload click, that parses a csv
@@ -43,31 +44,54 @@ export default function FileBanner(props: {
             header: true,
             complete: (results) => {
                 uploadedData = results.data;
+
+                //add id
                 uploadedData.forEach((item, index) => {
                     item.id = index;
                 });
-                //temp add data to rows
+
+                //clean data
                 for (const row of uploadedData) {
+                    row.comp_description = row["'comp_description'"];
+                    row.item_code = row["'item_code'"];
+                    row.manufacturer = row["'manufacturer'"];
+                    //temp add data to rows
                     row.our_descriptions = [
                         {
-                            text: "test 1",
-                            match: 1,
-                            selected: false,
+                            text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
+                            match: Math.floor(Math.random() * 10),
                         },
                         {
-                            text: "test 2",
-                            match: 5,
-                            selected: false,
+                            text: "McKesson Sterilization Wrap Blue 48 X 48 Inch Single Layer Cellulose Steam / EO Gas",
+                            match: Math.floor(Math.random() * 10),
                         },
                         {
-                            text: "test 3",
-                            match: 9,
-                            selected: true,
+                            text: "McKesson Sterilization Wrap Blue 128 X 128 Inch Single Layer Cellulose Steam / EO Gas",
+                            match: Math.floor(Math.random() * 10),
                         },
                     ];
                 }
+
+                //process data
+                for (const data of uploadedData) {
+                    //find best match
+                    let currentBest = 0;
+                    for (const description of data.our_descriptions) {
+                        if (description.match > currentBest) {
+                            currentBest = description.match;
+                        }
+                    }
+                    let bestMatch = data.our_descriptions.find(
+                        (desc: { match: number }) => desc.match === currentBest
+                    );
+                    bestMatch.selected = true;
+                    data.selection = data.our_descriptions.indexOf(bestMatch);
+
+                    //set true if a match is 7 or higher
+                    if (bestMatch.match >= 7) bestMatch.bestMatch = true;
+                }
+                console.log("uploadedData", uploadedData);
                 props.setUploadedData(uploadedData);
-                sessionStorage.setItem("uploadedData", JSON.stringify(uploadedData));
             },
         });
         updateIsSearching(false);
@@ -89,7 +113,9 @@ export default function FileBanner(props: {
                         {props.uploadedFile === "" ? (
                             <div className="dnd-text">Drag and Drop File</div>
                         ) : (
-                            <div className="dnd-text">{props.uploadedFile.name}</div>
+                            <div className="dnd-text">
+                                {props.uploadedFile.name}
+                            </div>
                         )}
                     </div>
                 </div>
@@ -108,11 +134,17 @@ export default function FileBanner(props: {
             </div>
             <div>{!isSearching ? <></> : <Loading />}</div>
             {props.uploadedData.length === 0 ? (
-                <div className="results-text">Upload a File to Identify Items</div>
+                <div className="results-text">
+                    Upload a File to Identify Items
+                </div>
             ) : (
                 <div className="results-text">
                     {props.uploadedData.length} Items Identified
-                    <img src={resultsIcon} alt="Checkmark icon" className="results-icon" />
+                    <img
+                        src={resultsIcon}
+                        alt="Checkmark icon"
+                        className="results-icon"
+                    />
                 </div>
             )}
         </div>
