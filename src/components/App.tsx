@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { SetStateAction, useState } from "react";
 import "../style/MainTheme.scss";
 import FileBanner from "./FileBanner";
 import HeaderBanner from "./HeaderBanner";
@@ -37,25 +37,22 @@ export default function MainApp() {
     return (
         <div className="MainApp">
             <HeaderBanner
-                updateFile={updateFile}
-                setUploadedData={setUploadedData}
+                updateFile={(file: SetStateAction<string>) => updateFile(file)}
+                setUploadedData={(data: SetStateAction<any[]>) => setUploadedData(data)}
             />
             <FileBanner
-                updateFile={updateFile}
-                setUploadedData={setUploadedData}
+                updateFile={(file: SetStateAction<string>) => updateFile(file)}
+                setUploadedData={(data: SetStateAction<any[]>) => setUploadedData(data)}
                 uploadedData={uploadedData}
                 uploadedFile={uploadedFile}
             />
             <ResultsTable
-                updateFile={updateFile}
-                setUploadedData={setUploadedData}
+                updateFile={(file: SetStateAction<string>) => updateFile(file)}
+                setUploadedData={(data: SetStateAction<any[]>) => setUploadedData(data)}
                 uploadedData={uploadedData}
                 uploadedFile={uploadedFile}
             />
-            <FooterBanner
-                allRowsSelected={checkRows()}
-                uploadedData={uploadedData}
-            />
+            <FooterBanner allRowsSelected={checkRows()} uploadedData={uploadedData} />
         </div>
     );
 }

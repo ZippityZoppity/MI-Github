@@ -19,6 +19,7 @@ export default function ResultsTable(props: {
         match.our_descriptions[index].selected = true;
         match.selection = index;
 
+        console.log("newData", newData);
         props.setUploadedData(newData);
     };
 
@@ -26,7 +27,6 @@ export default function ResultsTable(props: {
     for (const data of props.uploadedData) {
         for (let index = 0; index < data.our_descriptions.length; index++) {
             const desc = data.our_descriptions[index];
-            console.log("desc", desc);
 
             rows.push(
                 <Row
@@ -38,10 +38,24 @@ export default function ResultsTable(props: {
                     selectCellClick={selectCellClick}
                     id={data.id}
                     index={index}
+                    key={data.id + "-" + index}
                 />
             );
         }
     }
+    rows.push(
+        <Row
+            manufacturer={""}
+            item_code={""}
+            comp_description={""}
+            our_description={{ text: "", match: "" }}
+            selected={false}
+            selectCellClick={selectCellClick}
+            id={8888}
+            index={9999}
+            key={"add-row"}
+        />
+    );
 
     return (
         <table className="item-table">
@@ -50,7 +64,7 @@ export default function ResultsTable(props: {
                     <th colSpan={1}>Manufacturer</th>
                     <th colSpan={1}>Item Code</th>
                     <th colSpan={3}>Competitor Description</th>
-                    <th colSpan={3}>Our Description</th>
+                    <th colSpan={4}>Our Description</th>
                     <th colSpan={1}>Best Match</th>
                     <th colSpan={1}>Selection</th>
                 </tr>

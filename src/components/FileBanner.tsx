@@ -29,8 +29,7 @@ export default function FileBanner(props: {
             alert("File must be of type CSV (Comma Seperated Value)!");
         }
     }, []);
-    const { getRootProps, acceptedFiles, getInputProps, isDragActive } =
-        useDropzone({ onDrop });
+    const { getRootProps, acceptedFiles, getInputProps, isDragActive } = useDropzone({ onDrop });
 
     /**
      * Function that runs on Upload click, that parses a csv
@@ -90,7 +89,7 @@ export default function FileBanner(props: {
                     //set true if a match is 7 or higher
                     if (bestMatch.match >= 7) bestMatch.bestMatch = true;
                 }
-                console.log("uploadedData", uploadedData);
+
                 props.setUploadedData(uploadedData);
             },
         });
@@ -113,9 +112,7 @@ export default function FileBanner(props: {
                         {props.uploadedFile === "" ? (
                             <div className="dnd-text">Drag and Drop File</div>
                         ) : (
-                            <div className="dnd-text">
-                                {props.uploadedFile.name}
-                            </div>
+                            <div className="dnd-text">{props.uploadedFile.name}</div>
                         )}
                     </div>
                 </div>
@@ -134,17 +131,11 @@ export default function FileBanner(props: {
             </div>
             <div>{!isSearching ? <></> : <Loading />}</div>
             {props.uploadedData.length === 0 ? (
-                <div className="results-text">
-                    Upload a File to Identify Items
-                </div>
+                <div className="results-text">Upload a File to Identify Items</div>
             ) : (
                 <div className="results-text">
                     {props.uploadedData.length} Items Identified
-                    <img
-                        src={resultsIcon}
-                        alt="Checkmark icon"
-                        className="results-icon"
-                    />
+                    <img src={resultsIcon} alt="Checkmark icon" className="results-icon" />
                 </div>
             )}
         </div>

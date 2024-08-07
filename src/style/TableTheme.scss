@@ -23,7 +23,19 @@
     }
 
     td {
-        font-size: medium;
+        font-size: small;
+
+        textarea {
+            border: none;
+            margin-top: 20px;
+            font-family: var(--default-font-family);
+            font-size: small;
+            color: var(--table-header-color);
+            width: 100%;
+            min-height: 100px;
+            text-wrap: wrap;
+            resize: none;
+        }
     }
 }
 
