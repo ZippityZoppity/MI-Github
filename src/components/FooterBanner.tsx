@@ -55,8 +55,9 @@ export default function FooterBanner(props: {
                 extension=".csv"
                 separator=";"
                 wrapColumnChar="'"
-                className="footer-button"
+                className={props.allRowsSelected ? "footer-button" : "footer-button-disabled"}
                 text="Download Results"
+                disabled={!props.allRowsSelected}
             />
         </div>
     );

@@ -13,11 +13,13 @@ export default function ResultsTable(props: {
         let newData: Array<any> = props.uploadedData;
 
         let match = newData.find((data) => data.id === id);
-
+        console.log("match b4:", match);
+        
         //update selections
         match.our_descriptions[match.selection].selected = false;
         match.our_descriptions[index].selected = true;
         match.selection = index;
+        console.log("match after:", match);
 
         console.log("newData", newData);
         props.setUploadedData(newData);

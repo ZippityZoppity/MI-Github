@@ -51,6 +51,16 @@
     }
 }
 
+.footer-button-disabled {
+    font-family: var(--default-font-family);
+    font-size: 1vw;
+    color: var(--default-text-color);
+    background-color: var(--default-disabled-color);
+    border: none;
+    box-shadow: var(--default-box-shadow);
+    padding: 1.5vh 2.5vw;
+}
+
 .footer-icon {
     height: 3vh;
     margin-left: 10px;

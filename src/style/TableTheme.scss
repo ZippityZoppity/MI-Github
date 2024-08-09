@@ -39,6 +39,10 @@
     }
 }
 
+.comp-desc-cell-new {
+    background-color: var(--table-light-color);
+}
+
 .button-cell {
     font-size: 2ch;
     color: var(--default-text-color);
@@ -68,6 +72,20 @@
 
     &:active {
         background-color: var(--unset-active);
+    }
+}
+
+.button-cell-new {
+    @extend .button-cell;
+    color: var(--default-text-color);
+    background-color: var(--default-dark-color);
+
+    &:hover {
+        background-color: var(--table-dark-color);
+    }
+
+    &:active {
+        background-color: var(--table-dark-alt);
     }
 }
 

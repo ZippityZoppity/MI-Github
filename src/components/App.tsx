@@ -27,7 +27,8 @@ export default function MainApp() {
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);
 
     const checkRows = () => {
-        let allRowsSelected = true;
+        //if rows are empty return false
+        let allRowsSelected = (uploadedData.length !== 0);
         for (const row of uploadedData) {
             if (!row.selected) allRowsSelected = false;
         }
