@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Button from "./Button";
 export default function Row(props: {
     manufacturer: string;
@@ -16,7 +17,16 @@ export default function Row(props: {
     let buttonTitle = props.selected ? "Selection" : "Choose";
     let buttonClass = props.selected ? "button-cell" : "button-cell-unset"
     let comp_placeholder = '';
-    let comp_desc_class = ''
+    let comp_desc_class = '';
+
+    const [newDescription, setDescription] = useState('');
+    const onClick = () => {
+        if (isNewRow) {
+            props.selectCellClick(newDescription)
+        } else {
+            props.selectCellClick(props.id, props.index)
+        }
+    }
 
     if (isNewRow) {
         buttonTitle = "Add New";
@@ -30,14 +40,18 @@ export default function Row(props: {
             <td colSpan={1}>{props.manufacturer}</td>
             <td colSpan={1}>{props.item_code}</td>
             <td colSpan={3} className={comp_desc_class}>
-                <textarea placeholder={comp_placeholder} defaultValue={props.comp_description} />
+                <textarea
+                    placeholder={comp_placeholder}
+                    defaultValue={props.comp_description}
+                    onChange={(e) => {setDescription(e.target.value)}}    
+                />
             </td>
             <td colSpan={4}>{props.our_description.text}</td>
             <td colSpan={1}>{isNewRow ? " " : props.our_description.match + "/10"}</td>
             <td colSpan={1}>
                 <Button
                     title={buttonTitle}
-                    buttonOnClick={() => props.selectCellClick(props.id, props.index)}
+                    buttonOnClick={onClick}
                     buttonClass={buttonClass}
                 />
             </td>

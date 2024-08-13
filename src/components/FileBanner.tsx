@@ -83,11 +83,13 @@ export default function FileBanner(props: {
                     let bestMatch = data.our_descriptions.find(
                         (desc: { match: number }) => desc.match === currentBest
                     );
-                    bestMatch.selected = true;
-                    data.selection = data.our_descriptions.indexOf(bestMatch);
-
+                    bestMatch.selected = false;
+                    bestMatch.bestMatch = true;
                     //set true if a match is 7 or higher
-                    if (bestMatch.match >= 7) bestMatch.bestMatch = true;
+                    if (bestMatch.match >= 7) {
+                        bestMatch.selected = true;
+                    }
+                    data.selection = data.our_descriptions.indexOf(bestMatch);
                 }
 
                 props.setUploadedData(uploadedData);
