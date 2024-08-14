@@ -89,7 +89,10 @@ export default function FileBanner(props: {
                     if (bestMatch.match >= 7) {
                         bestMatch.selected = true;
                     }
-                    data.selection = data.our_descriptions.indexOf(bestMatch);
+                    let bestMatchIndex = data.our_descriptions.indexOf(bestMatch);
+                    data.our_descriptions.splice(bestMatchIndex, 1);
+                    data.our_descriptions.unshift(bestMatch);
+                    data.selection = 0;
                 }
 
                 props.setUploadedData(uploadedData);

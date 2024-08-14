@@ -22,9 +22,21 @@
         padding: 10px 20px;
     }
 
+    .table-cell-container-unselected {
+        overflow: hidden;
+        max-height: 140px;
+        transition: max-height 0.5s;
+    }
+
+    .table-cell-container-selected {
+        // overflow: hidden;
+        max-height: 1000px;
+        transition: max-height 0.5s;
+    }
+
     td {
         font-size: small;
-
+        overflow: hidden;
         textarea {
             border: none;
             margin-top: 20px;
@@ -35,12 +47,31 @@
             min-height: 100px;
             text-wrap: wrap;
             resize: none;
+            align-content: center;
+        }
+    }
+
+    td {
+        height: 100px;
+        vertical-align: top;
+        p {
+            margin-top: 20px;
+            overflow: hidden;
+            height: 100px;
+            width: 200px;
+            align-content: center;
         }
     }
 }
 
 .comp-desc-cell-new {
     background-color: var(--table-light-color);
+}
+
+.cell-button-container {
+    margin-top: 20px;
+    height: 100px;
+    align-content: center;
 }
 
 .button-cell {
@@ -63,7 +94,6 @@
 
 .button-cell-unset {
     @extend .button-cell;
-    color: var(--default-text-color);
     background-color: var(--unset-bg-color);
 
     &:hover {
@@ -77,7 +107,6 @@
 
 .button-cell-new {
     @extend .button-cell;
-    color: var(--default-text-color);
     background-color: var(--default-dark-color);
 
     &:hover {
@@ -91,7 +120,6 @@
 
 .button-cell-match {
     @extend .button-cell;
-    color: var(--default-text-color);
     background-color: var(--default-dark-color);
 
     &:hover {
@@ -100,5 +128,18 @@
 
     &:active {
         background-color: var(--default-dark-alt);
+    }
+}
+
+.button-cell-usethis {
+    @extend .button-cell;
+    background-color: var(--default-alt-color);
+
+    &:hover {
+        background-color: var(--default-alt-hover);
+    }
+
+    &:active {
+        background-color: var(--default-alt-active);
     }
 }
