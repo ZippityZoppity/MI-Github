@@ -23,6 +23,22 @@ export default function MainApp() {
     //     })
     //     .catch((e) => console.error(e));
 
+    fetch('https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/', {
+        method: "GET",
+        mode: "cors",
+        headers: {
+            "Content-Type": "text/plain"
+        }
+    })
+    .then((res) => {
+        console.log("res:", res);
+        res.text()
+    })
+    .then((data) => {
+        console.log('data', data);
+    })
+    .catch((e) => console.log('e', e));
+
     const [uploadedFile, updateFile] = useState("");
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);
 

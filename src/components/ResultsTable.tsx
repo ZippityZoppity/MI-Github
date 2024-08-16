@@ -27,13 +27,20 @@ export default function ResultsTable(props: {
     };
 
     const addNewRowClick = (description: String) => {
-        //temp add data to rows
+        
+
+
+        //          CALL OUR MODEL          //
         let our_descriptions = [
             {
                 text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
                 match: Math.floor(Math.random() * 10),
             }
         ];
+        //          DONE CALLING MODEL      //
+
+
+
         let currentBest = 0;
         for (const description of our_descriptions) {
             if (description.match > currentBest) {

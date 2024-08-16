@@ -54,7 +54,10 @@ export default function FileBanner(props: {
                     row.comp_description = row["'comp_description'"];
                     row.item_code = row["'item_code'"];
                     row.manufacturer = row["'manufacturer'"];
-                    //temp add data to rows
+
+
+
+                    //          CALL OUR MODEL          //
                     row.our_descriptions = [
                         {
                             text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
@@ -70,6 +73,10 @@ export default function FileBanner(props: {
                         },
                     ];
                 }
+                //          DONE CALLING MODEL          //
+
+
+                
 
                 //process data
                 for (const data of uploadedData) {
