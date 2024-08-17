@@ -23,21 +23,31 @@ export default function MainApp() {
     //     })
     //     .catch((e) => console.error(e));
 
-    fetch('https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/', {
-        method: "GET",
-        mode: "cors",
-        headers: {
-            "Content-Type": "text/plain"
-        }
-    })
-    .then((res) => {
-        console.log("res:", res);
-        res.text()
-    })
-    .then((data) => {
-        console.log('data', data);
-    })
-    .catch((e) => console.log('e', e));
+    const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
+
+    const get_formatted_data = () => {
+        fetch(MEDICAL_INNOVATIONS_ENDPOINT, {
+            method: "POST",
+            mode: "cors",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                "prompts": "Micropore w/dispenser 2' x 10yds 12rls/bx 10bx/cs"
+            })
+        })
+        .then((res) => {
+            console.log("res:", res);
+            return res.json()
+        })
+        .then((data) => {
+            console.log('data', data);
+        })
+        .catch((e) => console.log('e', e));
+    }
+
+    get_formatted_data();
+
 
     const [uploadedFile, updateFile] = useState("");
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);

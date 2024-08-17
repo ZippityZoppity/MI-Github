@@ -25,13 +25,14 @@
     .table-cell-container-unselected {
         overflow: hidden;
         max-height: 140px;
-        transition: max-height 0.5s;
+        transition: max-height 1s;
+        text-align: center;
     }
 
     .table-cell-container-selected {
         // overflow: hidden;
         max-height: 1000px;
-        transition: max-height 0.5s;
+        transition: max-height 1s;
     }
 
     td {
@@ -43,7 +44,7 @@
             font-family: var(--default-font-family);
             font-size: small;
             color: var(--table-header-color);
-            width: 100%;
+            width: 95%;
             min-height: 100px;
             text-wrap: wrap;
             resize: none;
