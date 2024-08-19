@@ -31,6 +31,7 @@
 
     .table-cell-container-selected {
         // overflow: hidden;
+        text-align: center;
         max-height: 1000px;
         transition: max-height 1s;
     }

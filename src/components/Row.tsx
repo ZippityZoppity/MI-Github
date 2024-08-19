@@ -19,8 +19,8 @@ export default function Row(props: {
     let isNewRow = props.id == 8888;
     let buttonTitle = props.selected ? "Selection" : "Choose";
     let buttonClass = props.selected ? "button-cell" : "button-cell-unset"
-    let subButtonTitle = props.selected ? "Choose" : "Use This";
-    let subButtonClass = props.selected ? "button-cell-unset" : "button-cell-usethis"
+    let subButtonTitle = "Use This";
+    let subButtonClass = "button-cell-usethis"
     let comp_placeholder = '';
     let comp_desc_class = '';
     let cellContainerClass = (props.rowSelected === props.index) ? "table-cell-container-selected" : "table-cell-container-unselected";

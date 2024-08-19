@@ -1,5 +1,6 @@
 import { SetStateAction, useState } from "react";
 import "../style/MainTheme.scss";
+import { formattedDescriptions } from "../data/FormattedDesc"
 import FileBanner from "./FileBanner";
 import HeaderBanner from "./HeaderBanner";
 import ResultsTable from "./ResultsTable";
@@ -22,10 +23,12 @@ export default function MainApp() {
     //         // ItemDetails = JSON.parse(text)// do something with "text"
     //     })
     //     .catch((e) => console.error(e));
+    const ourDescriptions = formattedDescriptions;
 
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
 
-    const get_formatted_data = () => {
+    const get_formatted_data = (prompt: any) => {
+        let formatted_data = {};
         fetch(MEDICAL_INNOVATIONS_ENDPOINT, {
             method: "POST",
             mode: "cors",
@@ -33,7 +36,7 @@ export default function MainApp() {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                "prompts": "Micropore w/dispenser 2' x 10yds 12rls/bx 10bx/cs"
+                "prompts": prompt
             })
         })
         .then((res) => {
@@ -41,12 +44,14 @@ export default function MainApp() {
             return res.json()
         })
         .then((data) => {
+            formatted_data = data;
             console.log('data', data);
         })
         .catch((e) => console.log('e', e));
+        return formatted_data;
     }
 
-    get_formatted_data();
+    // get_formatted_data("Micropore w/dispenser 2' x 10yds 12rls/bx 10bx/cs");
 
 
     const [uploadedFile, updateFile] = useState("");
@@ -55,8 +60,12 @@ export default function MainApp() {
     const checkRows = () => {
         //if rows are empty return false
         let allRowsSelected = (uploadedData.length !== 0);
-        for (const row of uploadedData) {
-            if (!row.selected) allRowsSelected = false;
+        for (const row of uploadedData) {            
+            let subrowSelected = false;
+            for (const subrow of row.our_descriptions) {
+                if (subrow.selected) subrowSelected = true;
+            }
+            if (!subrowSelected) allRowsSelected = false;
         }
         return allRowsSelected;
     };
@@ -72,6 +81,8 @@ export default function MainApp() {
                 setUploadedData={(data: SetStateAction<any[]>) => setUploadedData(data)}
                 uploadedData={uploadedData}
                 uploadedFile={uploadedFile}
+                ourDescriptions={ourDescriptions}
+                getFormattedData={get_formatted_data}
             />
             <ResultsTable
                 updateFile={(file: SetStateAction<string>) => updateFile(file)}

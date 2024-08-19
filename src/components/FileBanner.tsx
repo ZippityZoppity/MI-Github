@@ -14,6 +14,8 @@ export default function FileBanner(props: {
     setUploadedData: Function;
     uploadedData: Array<any>;
     uploadedFile: any;
+    ourDescriptions: any;
+    getFormattedData: Function;
 }) {
     const [isSearching, updateIsSearching] = useState(false);
 
@@ -49,37 +51,78 @@ export default function FileBanner(props: {
                     item.id = index;
                 });
 
+                let compDescriptions = [
+                    ["Medical Tape",
+                    "3M",
+                    "1in",
+                    "10yd",
+                    "Durapore, High Adhesion, Silk-Like, Cloth, NonSterile"],
+                    ["Transpore Surgical Tape",
+                    "1.5yd",
+                    "Single-Use, White"],
+                    ["Micropore",
+                    "1ft",
+                    "10yd",
+                    "With Dispenser, 12 Rolls per Box, 10 Boxes per Case"],
+                    ["Micropore",
+                    "2ft",
+                    "With Dispenser, 6 Rolls per Box, 10 Boxes per Case"],
+                ]
+
                 //clean data
                 for (const row of uploadedData) {
-                    row.comp_description = row["'comp_description'"];
+                    let formattedCompDesc = compDescriptions[Math.floor(Math.random() * 3)]
+                    row.comp_description = formattedCompDesc;
+                    // row.comp_description = row["'comp_description'"];
                     row.item_code = row["'item_code'"];
                     row.manufacturer = row["'manufacturer'"];
-
-
+                    row.our_descriptions = []; 
+                    let allDescriptions: any[] = [];
 
                     //          CALL OUR MODEL          //
-                    row.our_descriptions = [
-                        {
-                            text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
-                            match: Math.floor(Math.random() * 10),
-                        },
-                        {
-                            text: "McKesson Sterilization Wrap Blue 48 X 48 Inch Single Layer Cellulose Steam / EO Gas",
-                            match: Math.floor(Math.random() * 10),
-                        },
-                        {
-                            text: "McKesson Sterilization Wrap Blue 128 X 128 Inch Single Layer Cellulose Steam / EO Gas",
-                            match: Math.floor(Math.random() * 10),
-                        },
-                    ];
+                    // let formattedCompDesc = props.getFormattedData(row.comp_description)
+                    props.ourDescriptions.forEach((description: Array<String>) => {
+                        // let formattedOurDesc = props.getFormattedData(description)
+                        let matches = 0;
+                        let total = description.length;
+                        description.forEach(ourAttr => {
+                            formattedCompDesc.forEach(compAttr => {
+                                if (compAttr == ourAttr) matches++;
+                            })
+                        })
+                        let newNumerator = Math.floor(matches * (10 / total));
+                        allDescriptions.push({
+                            text: description,
+                            match: newNumerator,
+                            selected: false,
+                            bestMatch: false,
+                        })
+                    });
+                    // allDescriptions.sort((a, b) => {
+                    //     return (a.value > b.value) ? a : b;
+                    // })
+                    row.our_descriptions = allDescriptions.filter((desc) => {if ( desc.match > 4) return desc})
+                    console.log("row.our_descriptions:", row.our_descriptions);
+                    // row.our_descriptions = [
+                    //     {
+                    //         text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
+                    //         match: Math.floor(Math.random() * 10),
+                    //     },
+                    //     {
+                    //         text: "McKesson Sterilization Wrap Blue 48 X 48 Inch Single Layer Cellulose Steam / EO Gas",
+                    //         match: Math.floor(Math.random() * 10),
+                    //     },
+                    //     {
+                    //         text: "McKesson Sterilization Wrap Blue 128 X 128 Inch Single Layer Cellulose Steam / EO Gas",
+                    //         match: Math.floor(Math.random() * 10),
+                    //     },
+                    // ];
                 }
                 //          DONE CALLING MODEL          //
 
-
-                
-
                 //process data
                 for (const data of uploadedData) {
+                    console.log("data:", data);
                     //find best match
                     let currentBest = 0;
                     for (const description of data.our_descriptions) {
@@ -90,6 +133,7 @@ export default function FileBanner(props: {
                     let bestMatch = data.our_descriptions.find(
                         (desc: { match: number }) => desc.match === currentBest
                     );
+                    console.log("bestMatch:", bestMatch);
                     bestMatch.selected = false;
                     bestMatch.bestMatch = true;
                     //set true if a match is 7 or higher
