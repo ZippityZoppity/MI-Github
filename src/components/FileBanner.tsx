@@ -67,11 +67,23 @@ export default function FileBanner(props: {
                     ["Micropore",
                     "2ft",
                     "With Dispenser, 6 Rolls per Box, 10 Boxes per Case"],
+                    ["3M™ Avagard™",
+                    "Surgical Scrub",
+                    "16oz",
+                    "Waterless Dispenser Refill Bottle 1% / 61% Strength CHG (Chlorhexidine Gluconate) / Ethyl Alcohol NonSterile"],
+                    ["3M™ Avagard™",
+                    "Surgical Scrub",
+                    "16oz",
+                    "Waterless Dispenser Refill Bottle"],
+                    ["3M™ Avagard™",
+                    "Surgical Scrub",
+                    "Bottle 1% / 61% Strength CHG (Chlorhexidine Gluconate) / Ethyl Alcohol NonSterile"]
                 ]
 
                 //clean data
                 for (const row of uploadedData) {
-                    let formattedCompDesc = compDescriptions[Math.floor(Math.random() * 3)]
+                    let formattedCompDesc = compDescriptions[Math.floor(Math.random() * 6)]
+                    console.log("formattedCompDesc:", formattedCompDesc);
                     row.comp_description = formattedCompDesc;
                     // row.comp_description = row["'comp_description'"];
                     row.item_code = row["'item_code'"];
@@ -98,11 +110,10 @@ export default function FileBanner(props: {
                             bestMatch: false,
                         })
                     });
-                    // allDescriptions.sort((a, b) => {
-                    //     return (a.value > b.value) ? a : b;
-                    // })
-                    row.our_descriptions = allDescriptions.filter((desc) => {if ( desc.match > 4) return desc})
-                    console.log("row.our_descriptions:", row.our_descriptions);
+                    allDescriptions.sort((a, b) => {
+                        return (a.match > b.match) ? -1 : 1;
+                    })
+                    row.our_descriptions = allDescriptions.slice(0, 4)
                     // row.our_descriptions = [
                     //     {
                     //         text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
@@ -122,7 +133,6 @@ export default function FileBanner(props: {
 
                 //process data
                 for (const data of uploadedData) {
-                    console.log("data:", data);
                     //find best match
                     let currentBest = 0;
                     for (const description of data.our_descriptions) {
@@ -133,7 +143,6 @@ export default function FileBanner(props: {
                     let bestMatch = data.our_descriptions.find(
                         (desc: { match: number }) => desc.match === currentBest
                     );
-                    console.log("bestMatch:", bestMatch);
                     bestMatch.selected = false;
                     bestMatch.bestMatch = true;
                     //set true if a match is 7 or higher
