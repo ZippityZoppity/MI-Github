@@ -83,3 +83,8 @@
         transition: var(--default-click-time);
     }
 }
+
+.loading-container {
+    display: inline-flex;
+    height: 100%;
+}

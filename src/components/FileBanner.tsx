@@ -14,8 +14,11 @@ export default function FileBanner(props: {
     setUploadedData: Function;
     uploadedData: Array<any>;
     uploadedFile: any;
+    ourDescriptions: any;
+    getFormattedData: Function;
+    isSearching: boolean;
+    updateIsSearching: Function;
 }) {
-    const [isSearching, updateIsSearching] = useState(false);
 
     /**
      * Updates file with user upload on drag and drop
@@ -36,12 +39,11 @@ export default function FileBanner(props: {
      * file into a JSON object and updates state variables
      */
     const uploadCSV = (acceptedFile: any) => {
-        updateIsSearching(true);
         let uploadedData: Array<any> = [];
 
         Papa.parse(acceptedFile, {
             header: true,
-            complete: (results) => {
+            complete: async (results) => {
                 uploadedData = results.data;
 
                 //add id
@@ -51,24 +53,42 @@ export default function FileBanner(props: {
 
                 //clean data
                 for (const row of uploadedData) {
-                    row.comp_description = row["'comp_description'"];
+                    if (!row.comp_description || !row.item_code || !row.manufacturer) {
+                        alert('CSV file formatted incorrectly! Please try again');
+                        return;
+                    }                    // call openai model //
+                    props.updateIsSearching(true)
+                    let response = await props.getFormattedData(row.comp_description);
+                    props.updateIsSearching(false)
+                    //                   //
+                    let formattedCompDesc = JSON.parse(response);
+                    row.comp_description = formattedCompDesc;
                     row.item_code = row["'item_code'"];
                     row.manufacturer = row["'manufacturer'"];
-                    //temp add data to rows
-                    row.our_descriptions = [
-                        {
-                            text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
-                            match: Math.floor(Math.random() * 10),
-                        },
-                        {
-                            text: "McKesson Sterilization Wrap Blue 48 X 48 Inch Single Layer Cellulose Steam / EO Gas",
-                            match: Math.floor(Math.random() * 10),
-                        },
-                        {
-                            text: "McKesson Sterilization Wrap Blue 128 X 128 Inch Single Layer Cellulose Steam / EO Gas",
-                            match: Math.floor(Math.random() * 10),
-                        },
-                    ];
+                    row.our_descriptions = []; 
+                    let allDescriptions: any[] = [];
+
+                    //parse our data
+                    props.ourDescriptions.forEach((description: Array<String>) => {
+                        let matches = 0;
+                        let total = description.length;
+                        description.forEach(ourAttr => {
+                            formattedCompDesc.forEach((compAttr: any) => {
+                                if (compAttr == ourAttr) matches++;
+                            })
+                        })
+                        let newNumerator = Math.floor(matches * (10 / total));
+                        allDescriptions.push({
+                            text: description,
+                            match: newNumerator,
+                            selected: false,
+                            bestMatch: false,
+                        })
+                    });
+                    allDescriptions.sort((a, b) => {
+                        return (a.match > b.match) ? -1 : 1;
+                    })
+                    row.our_descriptions = allDescriptions.slice(0, 4)
                 }
 
                 //process data
@@ -98,7 +118,6 @@ export default function FileBanner(props: {
                 props.setUploadedData(uploadedData);
             },
         });
-        updateIsSearching(false);
     };
 
     return (
@@ -134,7 +153,7 @@ export default function FileBanner(props: {
                     />
                 </div>
             </div>
-            <div>{!isSearching ? <></> : <Loading />}</div>
+            <div>{!props.isSearching ? <></> : <Loading />}</div>
             {props.uploadedData.length === 0 ? (
                 <div className="results-text">Upload a File to Identify Items</div>
             ) : (

@@ -8,6 +8,10 @@ export default function ResultsTable(props: {
     setUploadedData: Function;
     uploadedData: Array<any>;
     uploadedFile: any;
+    ourDescriptions: Array<any>;
+    getFormattedData: Function;
+    isSearching: boolean;
+    updateIsSearching: Function;
 }) {
 
     const [rowSelected, updateRowSelected] = useState(-1);
@@ -26,18 +30,42 @@ export default function ResultsTable(props: {
         props.setUploadedData([...newData]);
     };
 
-    const addNewRowClick = (description: String) => {
-        //temp add data to rows
-        let our_descriptions = [
-            {
-                text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
-                match: Math.floor(Math.random() * 10),
-            }
-        ];
+    const addNewRowClick = async (description: String) => {
+
+        let our_descriptions: Array<any> = [];
+        let allDescriptions: any[] = [];
+
+        props.updateIsSearching(true)
+        let response = await props.getFormattedData(description);
+        props.updateIsSearching(false)
+        let formattedCompDesc = JSON.parse(response);
+
+        props.ourDescriptions.forEach((desc: Array<String>) => {
+            let matches = 0;
+            let total = formattedCompDesc.length;
+            desc.forEach(ourAttr => {
+                formattedCompDesc.forEach((compAttr: any) => {
+                    if (compAttr == ourAttr) matches++;
+                })
+            })
+            let newNumerator = Math.floor(matches * (10 / total));
+            allDescriptions.push({
+                text: desc,
+                match: newNumerator,
+                selected: false,
+                bestMatch: false,
+            })
+        });
+        allDescriptions.sort((a, b) => {
+            return (a.match > b.match) ? -1 : 1;
+        })
+        our_descriptions = allDescriptions.slice(0, 4)
+        //          DONE CALLING MODEL      //
+
         let currentBest = 0;
-        for (const description of our_descriptions) {
-            if (description.match > currentBest) {
-                currentBest = description.match;
+        for (const desc of our_descriptions) {
+            if (desc.match > currentBest) {
+                currentBest = desc.match;
             }
         }
         let bestMatch: any = our_descriptions.find(
