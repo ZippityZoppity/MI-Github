@@ -19,20 +19,20 @@ export default function MainApp() {
             method: "GET",
             mode: "cors",
             headers: {
-                "Content-Type": "application/json",
-                "Access-Control-Allow-Origin": "*"
+                "Content-Type": "text/plain",
             },
         })
+        console.log("response:", response);
         if (response.status == 200) {
             const data = await response.json();
             console.log("data:", data);
         } else {
-            console.log(response.text())
+            console.log('error', response.status)
         }
 
     }
 
-    // get_our_descriptions();
+    get_our_descriptions();
 
     const ourDescriptions = formattedDescriptions;
 
