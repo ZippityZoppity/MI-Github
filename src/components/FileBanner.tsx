@@ -16,8 +16,9 @@ export default function FileBanner(props: {
     uploadedFile: any;
     ourDescriptions: any;
     getFormattedData: Function;
+    isSearching: boolean;
+    updateIsSearching: Function;
 }) {
-    const [isSearching, updateIsSearching] = useState(false);
 
     /**
      * Updates file with user upload on drag and drop
@@ -52,10 +53,13 @@ export default function FileBanner(props: {
 
                 //clean data
                 for (const row of uploadedData) {
-                    // call openai model //
-                    updateIsSearching(true)
+                    if (!row.comp_description || !row.item_code || !row.manufacturer) {
+                        alert('CSV file formatted incorrectly! Please try again');
+                        return;
+                    }                    // call openai model //
+                    props.updateIsSearching(true)
                     let response = await props.getFormattedData(row.comp_description);
-                    updateIsSearching(false)
+                    props.updateIsSearching(false)
                     //                   //
                     let formattedCompDesc = JSON.parse(response);
                     row.comp_description = formattedCompDesc;
@@ -149,7 +153,7 @@ export default function FileBanner(props: {
                     />
                 </div>
             </div>
-            <div>{!isSearching ? <></> : <Loading />}</div>
+            <div>{!props.isSearching ? <></> : <Loading />}</div>
             {props.uploadedData.length === 0 ? (
                 <div className="results-text">Upload a File to Identify Items</div>
             ) : (

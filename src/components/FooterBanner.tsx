@@ -10,19 +10,16 @@ export default function FooterBanner(props: {
 }) {
     const getSelectedData = () => {
         let data: {
-            manufacturer: any;
-            item_code: any;
             our_description: any;
-            best_match: any;
         }[] = [];
         props.uploadedData.forEach((item) => {
-            if (item.selection) {
-                data.push({
-                    manufacturer: item.manufacturer,
-                    item_code: item.item_code,
-                    our_description: item.our_description,
-                    best_match: item.best_match,
-                });
+            console.log("item:", item);
+            for (const desc of item.our_descriptions) {
+                if (desc.selected) {
+                    data.push({
+                        our_description: desc.text
+                    });
+                }
             }
         });
         return data;
@@ -48,9 +45,13 @@ export default function FooterBanner(props: {
                 <p className={messageClass}>{footerMessage}</p>
                 <img src={showErrorIcon ? errIcon : checkIcon} className="footer-icon" />
             </div>
+            {/* <button 
+                className={props.allRowsSelected ? "footer-button" : "footer-button-disabled"}
+                onClick={getSelectedData}
+            /> */}
             <CsvDownloader
                 filename="Selected_items"
-                columns={CSV_COLUMNS}
+                columns={[{id: "our_description", displayName: "Item Selections"}]}
                 datas={getSelectedData}
                 extension=".csv"
                 separator=";"

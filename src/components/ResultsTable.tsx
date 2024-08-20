@@ -9,6 +9,9 @@ export default function ResultsTable(props: {
     uploadedData: Array<any>;
     uploadedFile: any;
     ourDescriptions: Array<any>;
+    getFormattedData: Function;
+    isSearching: boolean;
+    updateIsSearching: Function;
 }) {
 
     const [rowSelected, updateRowSelected] = useState(-1);
@@ -27,23 +30,27 @@ export default function ResultsTable(props: {
         props.setUploadedData([...newData]);
     };
 
-    const addNewRowClick = (description: String) => {
+    const addNewRowClick = async (description: String) => {
 
-        //          CALL OUR MODEL          //
         let our_descriptions: Array<any> = [];
         let allDescriptions: any[] = [];
 
-        props.ourDescriptions.forEach((description: Array<String>) => {
+        props.updateIsSearching(true)
+        let response = await props.getFormattedData(description);
+        props.updateIsSearching(false)
+        let formattedCompDesc = JSON.parse(response);
+
+        props.ourDescriptions.forEach((desc: Array<String>) => {
             let matches = 0;
-            let total = description.length;
-            description.forEach(ourAttr => {
-                description.forEach((compAttr: any) => {
+            let total = formattedCompDesc.length;
+            desc.forEach(ourAttr => {
+                formattedCompDesc.forEach((compAttr: any) => {
                     if (compAttr == ourAttr) matches++;
                 })
             })
             let newNumerator = Math.floor(matches * (10 / total));
             allDescriptions.push({
-                text: description,
+                text: desc,
                 match: newNumerator,
                 selected: false,
                 bestMatch: false,
@@ -56,9 +63,9 @@ export default function ResultsTable(props: {
         //          DONE CALLING MODEL      //
 
         let currentBest = 0;
-        for (const description of our_descriptions) {
-            if (description.match > currentBest) {
-                currentBest = description.match;
+        for (const desc of our_descriptions) {
+            if (desc.match > currentBest) {
+                currentBest = desc.match;
             }
         }
         let bestMatch: any = our_descriptions.find(
