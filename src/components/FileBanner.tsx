@@ -50,7 +50,6 @@ export default function FileBanner(props: {
                 uploadedData.forEach((item, index) => {
                     item.id = index;
                 });
-
                 //clean data
                 for (const row of uploadedData) {
                     if (!row.comp_description || !row.item_code || !row.manufacturer) {
@@ -63,8 +62,6 @@ export default function FileBanner(props: {
                     //                   //
                     let formattedCompDesc = JSON.parse(response);
                     row.comp_description = formattedCompDesc;
-                    row.item_code = row["'item_code'"];
-                    row.manufacturer = row["'manufacturer'"];
                     row.our_descriptions = []; 
                     let allDescriptions: any[] = [];
 
@@ -147,7 +144,7 @@ export default function FileBanner(props: {
                         datas={data}
                         extension=".csv"
                         separator=";"
-                        wrapColumnChar="'"
+                        wrapColumnChar=""
                         className="temp-button"
                         text="Download Template File"
                     />
