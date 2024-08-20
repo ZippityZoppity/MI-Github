@@ -32,7 +32,7 @@ export default function MainApp() {
 
     }
 
-    get_our_descriptions();
+    // get_our_descriptions();
 
     const ourDescriptions = formattedDescriptions;
 

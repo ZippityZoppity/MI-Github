@@ -5,6 +5,8 @@
  */
 define(["N/ui/serverWidget"], function (serverWidget) {
     function onRequest(context) {
+        const PCT_APP_URL = '"https://main.dcs39u2ltr5wa.amplifyapp.com/"';
+
         if (context.request.method === "GET") {
             // Add a form
             var form = serverWidget.createForm({
@@ -19,8 +21,7 @@ define(["N/ui/serverWidget"], function (serverWidget) {
             });
             // Add the html
             field.defaultValue =
-            '<iframe scrolling="no" frameborder="0" style="height: 150vh; overflow:scroll; width: 100%" src="https://main.d1l6dhpcrlds15.amplifyapp.com/" title=""></iframe>'
-            // '<div id="root"></div><script id="testid" crossorigin="anonymous" src="https://main.d1l6dhpcrlds15.amplifyapp.com"></script>'
+            '<iframe scrolling="no" frameborder="0" style="height: 150vh; overflow:scroll; width: 100%" src=' + PCT_APP_URL + ' title=""></iframe>'
             context.response.writePage(form);
         }
     }
@@ -28,10 +29,3 @@ define(["N/ui/serverWidget"], function (serverWidget) {
         onRequest: onRequest,
     };
 });
-// fetch('https://main.d1l6dhpcrlds15.amplifyapp.com/', {
-//     method: 'GET',
-//     mode: 'cors',
-//     headers: {
-//         'Accept': 'application/json'
-//     }
-// }).then(res => res.text()).then(data => console.log(data))
