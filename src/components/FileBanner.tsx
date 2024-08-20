@@ -38,12 +38,11 @@ export default function FileBanner(props: {
      * file into a JSON object and updates state variables
      */
     const uploadCSV = (acceptedFile: any) => {
-        updateIsSearching(true);
         let uploadedData: Array<any> = [];
 
         Papa.parse(acceptedFile, {
             header: true,
-            complete: (results) => {
+            complete: async (results) => {
                 uploadedData = results.data;
 
                 //add id
@@ -51,54 +50,26 @@ export default function FileBanner(props: {
                     item.id = index;
                 });
 
-                let compDescriptions = [
-                    ["Medical Tape",
-                    "3M",
-                    "1in",
-                    "10yd",
-                    "Durapore, High Adhesion, Silk-Like, Cloth, NonSterile"],
-                    ["Transpore Surgical Tape",
-                    "1.5yd",
-                    "Single-Use, White"],
-                    ["Micropore",
-                    "1ft",
-                    "10yd",
-                    "With Dispenser, 12 Rolls per Box, 10 Boxes per Case"],
-                    ["Micropore",
-                    "2ft",
-                    "With Dispenser, 6 Rolls per Box, 10 Boxes per Case"],
-                    ["3M™ Avagard™",
-                    "Surgical Scrub",
-                    "16oz",
-                    "Waterless Dispenser Refill Bottle 1% / 61% Strength CHG (Chlorhexidine Gluconate) / Ethyl Alcohol NonSterile"],
-                    ["3M™ Avagard™",
-                    "Surgical Scrub",
-                    "16oz",
-                    "Waterless Dispenser Refill Bottle"],
-                    ["3M™ Avagard™",
-                    "Surgical Scrub",
-                    "Bottle 1% / 61% Strength CHG (Chlorhexidine Gluconate) / Ethyl Alcohol NonSterile"]
-                ]
-
                 //clean data
                 for (const row of uploadedData) {
-                    let formattedCompDesc = compDescriptions[Math.floor(Math.random() * 6)]
-                    console.log("formattedCompDesc:", formattedCompDesc);
+                    // call openai model //
+                    updateIsSearching(true)
+                    let response = await props.getFormattedData(row.comp_description);
+                    updateIsSearching(false)
+                    //                   //
+                    let formattedCompDesc = JSON.parse(response);
                     row.comp_description = formattedCompDesc;
-                    // row.comp_description = row["'comp_description'"];
                     row.item_code = row["'item_code'"];
                     row.manufacturer = row["'manufacturer'"];
                     row.our_descriptions = []; 
                     let allDescriptions: any[] = [];
 
-                    //          CALL OUR MODEL          //
-                    // let formattedCompDesc = props.getFormattedData(row.comp_description)
+                    //parse our data
                     props.ourDescriptions.forEach((description: Array<String>) => {
-                        // let formattedOurDesc = props.getFormattedData(description)
                         let matches = 0;
                         let total = description.length;
                         description.forEach(ourAttr => {
-                            formattedCompDesc.forEach(compAttr => {
+                            formattedCompDesc.forEach((compAttr: any) => {
                                 if (compAttr == ourAttr) matches++;
                             })
                         })
@@ -114,22 +85,7 @@ export default function FileBanner(props: {
                         return (a.match > b.match) ? -1 : 1;
                     })
                     row.our_descriptions = allDescriptions.slice(0, 4)
-                    // row.our_descriptions = [
-                    //     {
-                    //         text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
-                    //         match: Math.floor(Math.random() * 10),
-                    //     },
-                    //     {
-                    //         text: "McKesson Sterilization Wrap Blue 48 X 48 Inch Single Layer Cellulose Steam / EO Gas",
-                    //         match: Math.floor(Math.random() * 10),
-                    //     },
-                    //     {
-                    //         text: "McKesson Sterilization Wrap Blue 128 X 128 Inch Single Layer Cellulose Steam / EO Gas",
-                    //         match: Math.floor(Math.random() * 10),
-                    //     },
-                    // ];
                 }
-                //          DONE CALLING MODEL          //
 
                 //process data
                 for (const data of uploadedData) {
@@ -158,7 +114,6 @@ export default function FileBanner(props: {
                 props.setUploadedData(uploadedData);
             },
         });
-        updateIsSearching(false);
     };
 
     return (

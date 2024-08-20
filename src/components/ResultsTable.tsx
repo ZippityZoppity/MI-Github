@@ -8,6 +8,7 @@ export default function ResultsTable(props: {
     setUploadedData: Function;
     uploadedData: Array<any>;
     uploadedFile: any;
+    ourDescriptions: Array<any>;
 }) {
 
     const [rowSelected, updateRowSelected] = useState(-1);
@@ -27,19 +28,32 @@ export default function ResultsTable(props: {
     };
 
     const addNewRowClick = (description: String) => {
-        
-
 
         //          CALL OUR MODEL          //
-        let our_descriptions = [
-            {
-                text: "McKesson Sterilization Wrap Blue 24 X 24 Inch Single Layer Cellulose Steam / EO Gas",
-                match: Math.floor(Math.random() * 10),
-            }
-        ];
+        let our_descriptions: Array<any> = [];
+        let allDescriptions: any[] = [];
+
+        props.ourDescriptions.forEach((description: Array<String>) => {
+            let matches = 0;
+            let total = description.length;
+            description.forEach(ourAttr => {
+                description.forEach((compAttr: any) => {
+                    if (compAttr == ourAttr) matches++;
+                })
+            })
+            let newNumerator = Math.floor(matches * (10 / total));
+            allDescriptions.push({
+                text: description,
+                match: newNumerator,
+                selected: false,
+                bestMatch: false,
+            })
+        });
+        allDescriptions.sort((a, b) => {
+            return (a.match > b.match) ? -1 : 1;
+        })
+        our_descriptions = allDescriptions.slice(0, 4)
         //          DONE CALLING MODEL      //
-
-
 
         let currentBest = 0;
         for (const description of our_descriptions) {

@@ -65,7 +65,7 @@ export default function Row(props: {
                     }
                     {
                         props.subrows.map((subrow, index) => {
-                            return (<p key={subrow.text + "-" + index}>{subrow.text}</p>);
+                            return (<p key={subrow.text + "-" + index}>{subrow.text.toString()}</p>);
                         })
                     }
                 </div>

@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react";
+import { SetStateAction, useEffect, useState } from "react";
 import "../style/MainTheme.scss";
 import { formattedDescriptions } from "../data/FormattedDesc"
 import FileBanner from "./FileBanner";
@@ -23,36 +23,28 @@ export default function MainApp() {
     //         // ItemDetails = JSON.parse(text)// do something with "text"
     //     })
     //     .catch((e) => console.error(e));
+    //"Micropore","2ft","10yd","With Dispenser, 6 Rolls per Box, 10 Boxes per Case"
     const ourDescriptions = formattedDescriptions;
 
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
 
-    const get_formatted_data = (prompt: any) => {
-        let formatted_data = {};
-        fetch(MEDICAL_INNOVATIONS_ENDPOINT, {
+    const get_formatted_data = async function (prompt: any) {
+        const response = await fetch(MEDICAL_INNOVATIONS_ENDPOINT, {
             method: "POST",
             mode: "cors",
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({
-                "prompts": prompt
-            })
+            body: JSON.stringify({prompts: [prompt]})
         })
-        .then((res) => {
-            console.log("res:", res);
-            return res.json()
-        })
-        .then((data) => {
-            formatted_data = data;
-            console.log('data', data);
-        })
-        .catch((e) => console.log('e', e));
-        return formatted_data;
+        if (response.status == 200) {
+            const data = await response.json();
+            // setDescriptions([...formattedDesc, data.responses[0]])
+            return data.responses[0];
+        } else {
+            console.log(response.text())
+        }
     }
-
-    // get_formatted_data("Micropore w/dispenser 2' x 10yds 12rls/bx 10bx/cs");
-
 
     const [uploadedFile, updateFile] = useState("");
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);
@@ -87,6 +79,7 @@ export default function MainApp() {
             <ResultsTable
                 updateFile={(file: SetStateAction<string>) => updateFile(file)}
                 setUploadedData={(data: SetStateAction<any[]>) => setUploadedData(data)}
+                ourDescriptions={ourDescriptions}
                 uploadedData={uploadedData}
                 uploadedFile={uploadedFile}
             />
