@@ -28,7 +28,7 @@
             });
             // Add the html
             field.defaultValue =
-            '<iframe scrolling="no" frameborder="0" style="height: 150vh; overflow:scroll; width: 100%" src=' + AMPLIFY_ENDPOINT + ' title=""></iframe>'
+            '<iframe scrolling="no" frameborder="0" style="height: 150vh; overflow:scroll; width: 100%" src=' + AMPLIFY_ENDPOINT + '?param1="value1" title=""></iframe>'
             context.response.writePage(form);
         }
     }

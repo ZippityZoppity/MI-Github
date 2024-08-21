@@ -34,6 +34,8 @@ export default function MainApp() {
 
     // get_our_descriptions();
     console.log(window.document);
+    console.log(window.document.location);
+    console.log(window.document.location.href);
 
     const ourDescriptions = formattedDescriptions;
 
