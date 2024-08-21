@@ -1,5 +1,4 @@
 import Row from "./Row";
-
 import "../style/TableTheme.scss";
 import { ReactElement, useState } from "react";
 
@@ -8,7 +7,7 @@ export default function ResultsTable(props: {
     setUploadedData: Function;
     uploadedData: Array<any>;
     uploadedFile: any;
-    ourDescriptions: Array<any>;
+    ourDescriptions: any;
     getFormattedData: Function;
     isSearching: boolean;
     updateIsSearching: Function;
@@ -40,28 +39,27 @@ export default function ResultsTable(props: {
         props.updateIsSearching(false)
         let formattedCompDesc = JSON.parse(response);
 
-        props.ourDescriptions.forEach((desc: Array<String>) => {
+        for (const key in props.ourDescriptions) {
+            let description = props.ourDescriptions[key];
             let matches = 0;
             let total = formattedCompDesc.length;
-            desc.forEach(ourAttr => {
-                formattedCompDesc.forEach((compAttr: any) => {
-                    if (compAttr == ourAttr) matches++;
-                })
-            })
+            for (const attribute of formattedCompDesc) {
+                if (description.includes(attribute)) matches++;
+            }
             let newNumerator = Math.floor(matches * (10 / total));
             allDescriptions.push({
-                text: desc,
+                text: description,
                 match: newNumerator,
                 selected: false,
                 bestMatch: false,
             })
-        });
+        }
+
+        //sort and grab 5 best matches
         allDescriptions.sort((a, b) => {
             return (a.match > b.match) ? -1 : 1;
         })
         our_descriptions = allDescriptions.slice(0, 4)
-        //          DONE CALLING MODEL      //
-
         let currentBest = 0;
         for (const desc of our_descriptions) {
             if (desc.match > currentBest) {

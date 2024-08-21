@@ -1,4 +1,4 @@
-import { useState, useCallback } from "react";
+import { useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import CsvDownloader from "react-csv-downloader";
 import Papa from "papaparse";
@@ -66,14 +66,13 @@ export default function FileBanner(props: {
                     let allDescriptions: any[] = [];
 
                     //parse our data
-                    props.ourDescriptions.forEach((description: Array<String>) => {
+                    for (const key in props.ourDescriptions) {
+                        let description = props.ourDescriptions[key];
                         let matches = 0;
-                        let total = description.length;
-                        description.forEach(ourAttr => {
-                            formattedCompDesc.forEach((compAttr: any) => {
-                                if (compAttr == ourAttr) matches++;
-                            })
-                        })
+                        let total = row.comp_description.length;
+                        for (const attribute of row.comp_description) {
+                            if (description.includes(attribute)) matches++;
+                        }
                         let newNumerator = Math.floor(matches * (10 / total));
                         allDescriptions.push({
                             text: description,
@@ -81,7 +80,7 @@ export default function FileBanner(props: {
                             selected: false,
                             bestMatch: false,
                         })
-                    });
+                    }
                     allDescriptions.sort((a, b) => {
                         return (a.match > b.match) ? -1 : 1;
                     })

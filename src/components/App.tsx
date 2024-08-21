@@ -1,6 +1,6 @@
-import { SetStateAction, useEffect, useState } from "react";
+import { SetStateAction, useState } from "react";
+import { itemDescriptions } from "../data/ItemExports"
 import "../style/MainTheme.scss";
-import { formattedDescriptions } from "../data/FormattedDesc"
 import FileBanner from "./FileBanner";
 import HeaderBanner from "./HeaderBanner";
 import ResultsTable from "./ResultsTable";
@@ -13,6 +13,7 @@ export default function MainApp() {
     const [isSearching, updateIsSearching] = useState(false);
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
     const NETSUITE_ENDPOINT = 'https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json'
+    const ourDescriptions: Record<string, string> = itemDescriptions;
 
     const get_our_descriptions = async function() {
         const response = await fetch(NETSUITE_ENDPOINT, {
@@ -31,13 +32,10 @@ export default function MainApp() {
         }
 
     }
-
+    //  //  //  //  //  //  //
     // get_our_descriptions();
-    console.log(window.document);
-    console.log(window.document.location);
-    console.log(window.document.location.href);
-
-    const ourDescriptions = formattedDescriptions;
+    // TODO: FIX CORS ERROR ON THIS FETCH CALL
+    //  //  //  //  //  //  //
 
     const get_formatted_data = async function (prompt: any) {
         const response = await fetch(MEDICAL_INNOVATIONS_ENDPOINT, {

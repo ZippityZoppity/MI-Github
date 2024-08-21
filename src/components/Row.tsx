@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Button from "./Button";
 export default function Row(props: {
     manufacturer: string;
     item_code: string;
@@ -16,6 +15,7 @@ export default function Row(props: {
     rowSelected: Number;
     updateRowSelected: Function;
 }) {
+    //set row types
     let isNewRow = props.id == 8888;
     let buttonTitle = props.selected ? "Selection" : "Choose";
     let buttonClass = props.selected ? "button-cell" : "button-cell-unset"
@@ -45,8 +45,13 @@ export default function Row(props: {
 
     return (
         <tr>
+            {/* Manufacturer Column */}
             <td colSpan={1}><div className="table-cell-container"><p>{props.manufacturer}</p></div></td>
+
+            {/* Item Code Column */}
             <td colSpan={1}><div className="table-cell-container"><p>{props.item_code}</p></div></td>
+
+            {/* Competitor Descriptions Column */}
             <td colSpan={3} className={comp_desc_class}>
                 <div className={cellContainerClass}>
                     <textarea
@@ -56,6 +61,8 @@ export default function Row(props: {
                     />
                 </div>
             </td>
+
+            {/* Our Descriptions Column */}
             <td colSpan={4}>
                 <div className={cellContainerClass}>
                     {
@@ -70,6 +77,8 @@ export default function Row(props: {
                     }
                 </div>
             </td>
+
+            {/* Best Matches Column */}
             <td colSpan={1}>
                 <div className={cellContainerClass}>
                     {
@@ -84,6 +93,8 @@ export default function Row(props: {
                     }
                 </div>
             </td>
+
+            {/* Selection Column */}
             <td colSpan={1}>
                 <div className={cellContainerClass}>
                 {

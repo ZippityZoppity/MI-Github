@@ -44,10 +44,6 @@ export default function FooterBanner(props: {
                 <p className={messageClass}>{footerMessage}</p>
                 <img src={showErrorIcon ? errIcon : checkIcon} className="footer-icon" />
             </div>
-            {/* <button 
-                className={props.allRowsSelected ? "footer-button" : "footer-button-disabled"}
-                onClick={getSelectedData}
-            /> */}
             <CsvDownloader
                 filename="Selected_items"
                 columns={[{id: "our_description", displayName: "Item Selections"}]}
