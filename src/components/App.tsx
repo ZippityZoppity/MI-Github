@@ -33,6 +33,7 @@ export default function MainApp() {
     }
 
     // get_our_descriptions();
+    console.log(window.document);
 
     const ourDescriptions = formattedDescriptions;
 
