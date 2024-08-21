@@ -1,4 +1,3 @@
-import "../style/Button.scss";
 
 export default function SelectionButton(props: {
     title: string;

@@ -35,25 +35,10 @@
         max-height: 1000px;
         transition: max-height 1s;
     }
-
+    
     td {
         font-size: small;
         overflow: hidden;
-        textarea {
-            border: none;
-            margin-top: 20px;
-            font-family: var(--default-font-family);
-            font-size: small;
-            color: var(--table-header-color);
-            width: 95%;
-            min-height: 100px;
-            text-wrap: wrap;
-            resize: none;
-            align-content: center;
-        }
-    }
-
-    td {
         height: 100px;
         vertical-align: top;
         p {
@@ -61,6 +46,18 @@
             overflow: hidden;
             height: 100px;
             width: 200px;
+            align-content: center;
+        }
+        textarea {
+            border: none;
+            font-family: var(--default-font-family);
+            font-size: small;
+            background-color: var(--default-text-color);
+            color: var(--table-header-color);
+            min-height: 100px;
+            text-wrap: wrap;
+            resize: none;
+            margin-top: 20px;
             align-content: center;
         }
     }

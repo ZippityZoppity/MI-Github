@@ -43,9 +43,9 @@ export default function FileBanner(props: {
 
         Papa.parse(acceptedFile, {
             header: true,
+            delimiter: ';',
             complete: async (results) => {
                 uploadedData = results.data;
-
                 //add id
                 uploadedData.forEach((item, index) => {
                     item.id = index;

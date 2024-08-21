@@ -28,6 +28,7 @@ export default function Row(props: {
     const [newDescription, setDescription] = useState('');
     const onClick = (index: Number) => {
         if (isNewRow) {
+            if (newDescription === '') return;
             props.selectCellClick(newDescription)
         } else if (props.rowSelected !== props.index) {
             props.updateRowSelected(props.index)
@@ -55,6 +56,7 @@ export default function Row(props: {
             <td colSpan={3} className={comp_desc_class}>
                 <div className={cellContainerClass}>
                     <textarea
+                        id="newRowText"
                         placeholder={comp_placeholder}
                         defaultValue={props.comp_description}
                         onChange={(e) => {setDescription(e.target.value)}}    
@@ -100,9 +102,11 @@ export default function Row(props: {
                 {
                     (props.selected || isNewRow) ? 
                     <></> :
-                        <div className="cell-button-container" key={"subrow-button-" + 999}>
+                    <div className="cell-button-container" key={"subrow-button-" + 999}>
                         <div
-                            onClick={() => onClick(-1)}
+                            onClick={() => {
+                                onClick(-1); 
+                            }}
                             className={buttonClass}
                             style={{ cursor: "pointer" }}
                         >
@@ -125,7 +129,9 @@ export default function Row(props: {
                         } else {
                             return <div className="cell-button-container" key={"subrow-button-" + index}>
                                 <div
-                                    onClick={() => onClick(index)}
+                                    onClick={() => {
+                                        onClick(index)
+                                    }}
                                     className={subButtonClass}
                                     style={{ cursor: "pointer" }}
                                 >
