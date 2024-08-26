@@ -1,7 +1,14 @@
 /**
- *@NApiVersion 2.x
- *@NScriptType Suitelet
- *@NAmdConfig ./ReactLibConfig.json
+ * @name AG_SL_RenderAPCTool.js
+ * 
+ * @author Anchor Group : Benjamin Gagliardi <bgagliardi@anchorgroup.tech>
+ * @version 1.0.0
+ * @since 2024-8-23
+ * 
+ * @file file description
+ * @NApiVersion 2.x
+ * @NScriptType Suitelet
+ * @NAmdConfig ./ReactLibConfig.json
  */
  define(["N/ui/serverWidget", "N/https"], function (serverWidget, https) {
     function onRequest(context) {

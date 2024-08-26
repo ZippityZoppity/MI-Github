@@ -67,15 +67,20 @@ export default function FileBanner(props: {
 
                     //parse our data
                     for (const key in props.ourDescriptions) {
-                        let description = props.ourDescriptions[key];
+                        let description = props.ourDescriptions[key].desc;
+                        let formatted_desc = props.ourDescriptions[key].formatted_desc;
                         let matches = 0;
                         let total = row.comp_description.length;
                         for (const attribute of row.comp_description) {
-                            if (description.includes(attribute)) matches++;
+                            for (const value of formatted_desc) {
+                                if (value.includes(attribute)) matches++;
+                            }
                         }
                         let newNumerator = Math.floor(matches * (10 / total));
                         allDescriptions.push({
                             text: description,
+                            formatted_desc: formatted_desc,
+                            id: props.ourDescriptions[key].id,
                             match: newNumerator,
                             selected: false,
                             bestMatch: false,

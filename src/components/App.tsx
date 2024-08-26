@@ -12,23 +12,28 @@ export default function MainApp() {
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);
     const [isSearching, updateIsSearching] = useState(false);
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
-    const NETSUITE_ENDPOINT = 'https://3696995-sb1.app.netsuite.com/core/media/media.nl?id=245503&c=3696995_SB1&h=ek8SfAo9RizheWgaiFfp1iD3gkvP7oXnzau-7HP_hZLnYOj2&_xt=.json'
-    const ourDescriptions: Record<string, string> = itemDescriptions;
+    const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2034&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQeSRiaGFOdDceUSYGX5NvWdJ18iHgoS7KSRwHRMwL6VY'
+    const ourDescriptions: Record<string, Object> = itemDescriptions;
+    console.log("ourDescriptions:", ourDescriptions);
 
     const get_our_descriptions = async function() {
-        const response = await fetch(NETSUITE_ENDPOINT, {
-            method: "GET",
-            mode: "cors",
-            headers: {
-                "Content-Type": "text/plain",
-            },
-        })
-        console.log("response:", response);
-        if (response.status == 200) {
-            const data = await response.json();
-            console.log("data:", data);
-        } else {
-            console.log('error', response.status)
+        try {
+            const response = await fetch(NETSUITE_ENDPOINT, {
+                method: "GET",
+                mode: "cors",
+                headers: {
+                    "Content-Type": "text/plain",
+                },
+            })
+            console.log("response:", response);
+            if (response.status == 200) {
+                const data = await response.json();
+                console.log("data:", data);
+            } else {
+                console.log('status', response.status)
+            }
+        } catch (error) {
+            console.log("error:", error);
         }
 
     }

@@ -54,14 +54,14 @@ export default function Row(props: {
 
             {/* Competitor Descriptions Column */}
             <td colSpan={3} className={comp_desc_class}>
-                <div className={cellContainerClass}>
+                <form className={cellContainerClass}>
                     <textarea
                         id="newRowText"
                         placeholder={comp_placeholder}
                         defaultValue={props.comp_description}
                         onChange={(e) => {setDescription(e.target.value)}}    
                     />
-                </div>
+                </form>
             </td>
 
             {/* Our Descriptions Column */}
