@@ -40,26 +40,30 @@ export default function ResultsTable(props: {
         let formattedCompDesc = JSON.parse(response);
 
         for (const key in props.ourDescriptions) {
-            let description = props.ourDescriptions[key];
+            let description = props.ourDescriptions[key].desc;
+            let formatted_desc = props.ourDescriptions[key].formatted_desc;
             let matches = 0;
             let total = formattedCompDesc.length;
             for (const attribute of formattedCompDesc) {
-                if (description.includes(attribute)) matches++;
+                for (const value of formatted_desc) {
+                    if (value.includes(attribute)) matches++;
+                }
             }
             let newNumerator = Math.floor(matches * (10 / total));
             allDescriptions.push({
                 text: description,
+                formatted_desc: formatted_desc,
+                id: props.ourDescriptions[key].id,
                 match: newNumerator,
                 selected: false,
                 bestMatch: false,
             })
         }
-
-        //sort and grab 5 best matches
         allDescriptions.sort((a, b) => {
             return (a.match > b.match) ? -1 : 1;
         })
         our_descriptions = allDescriptions.slice(0, 4)
+        
         let currentBest = 0;
         for (const desc of our_descriptions) {
             if (desc.match > currentBest) {

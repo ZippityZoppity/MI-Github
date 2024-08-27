@@ -14,7 +14,6 @@ export default function MainApp() {
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
     const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2034&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQeSRiaGFOdDceUSYGX5NvWdJ18iHgoS7KSRwHRMwL6VY'
     const ourDescriptions: Record<string, Object> = itemDescriptions;
-    console.log("ourDescriptions:", ourDescriptions);
 
     const get_our_descriptions = async function() {
         try {
