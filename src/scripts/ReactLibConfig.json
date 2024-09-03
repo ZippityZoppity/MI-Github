@@ -1,0 +1,10 @@
+{
+    "paths": {
+        "react_lib": "SuiteScripts/LLM Assisted Product Conversion Tool/Scripts"
+    },
+    "shim": {
+        "react_lib": {
+            "exports": "logic_react_lib"
+        }
+    }
+}

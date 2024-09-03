@@ -5,10 +5,9 @@
  * @version 1.0.0
  * @since 2024-8-23
  * 
- * @file file description
+ * @file Renders the amplify application in a suitelet for the LLM APC Tool
  * @NApiVersion 2.x
  * @NScriptType Suitelet
- * @NAmdConfig ./ReactLibConfig.json
  */
  define(["N/ui/serverWidget", "N/https"], function (serverWidget, https) {
     function onRequest(context) {
