@@ -8,6 +8,7 @@
 
     tr {
         border: 1px solid var(--table-header-color);
+        position: relative;
     }
 
     th {
@@ -45,7 +46,7 @@
             margin-top: 20px;
             overflow: hidden;
             height: 100px;
-            width: 200px;
+            width: 10vw;
             align-content: center;
         }
         textarea {
@@ -58,6 +59,12 @@
             text-wrap: wrap;
             resize: none;
             margin-top: 20px;
+            align-content: center;
+        }
+        .search-desc-container {
+            margin-top: 20px;
+            height: 100px;
+            width: 10vw;
             align-content: center;
         }
     }
@@ -141,4 +148,26 @@
     &:active {
         background-color: var(--default-alt-active);
     }
+}
+
+.remove-row-button {
+    width: fit-content;
+    position: absolute;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    right: 5px;
+    top: 5px;
+    &:hover {
+        background-color: rgb(233, 109, 109);
+        transition: all 500ms;
+    }
+    &:active {
+        background-color: rgb(121, 8, 8);
+        transition: all 50ms;
+    }
+}
+
+.remove-icon {
+    height: 20px;
 }

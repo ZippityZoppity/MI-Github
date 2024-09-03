@@ -1,6 +1,6 @@
 import CsvDownloader from "react-csv-downloader";
-import checkIcon from "../assets/icons8-check-48.png";
-import errIcon from "../assets/icons8-error-48.png";
+import checkIcon from "../assets/check-48.png";
+import errIcon from "../assets/error-48.png";
 import "../style/FooterTheme.scss";
 
 export default function FooterBanner(props: {

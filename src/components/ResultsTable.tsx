@@ -13,6 +13,7 @@ export default function ResultsTable(props: {
     updateIsSearching: Function;
 }) {
 
+    let rows: Array<ReactElement> = [];
     const [rowSelected, updateRowSelected] = useState(-1);
 
     const selectCellClick = (id: Number, index: any) => {
@@ -28,6 +29,13 @@ export default function ResultsTable(props: {
 
         props.setUploadedData([...newData]);
     };
+
+    const removeRowClick = (index: any) => {
+        const tempData = props.uploadedData;
+        tempData.splice(index, 1);
+        props.setUploadedData([...tempData])
+        rows.splice(index, 1);
+    }
 
     const addNewRowClick = async (description: String) => {
 
@@ -62,7 +70,7 @@ export default function ResultsTable(props: {
         allDescriptions.sort((a, b) => {
             return (a.match > b.match) ? -1 : 1;
         })
-        our_descriptions = allDescriptions.slice(0, 4)
+        our_descriptions = allDescriptions.slice(0, 3)
         
         let currentBest = 0;
         for (const desc of our_descriptions) {
@@ -73,7 +81,8 @@ export default function ResultsTable(props: {
         let bestMatch: any = our_descriptions.find(
             (desc: { match: number }) => desc.match === currentBest
         );
-        bestMatch.selected = true;
+        bestMatch.selected = false;
+        bestMatch.bestMatch = true;
 
         //set true if a match is 7 or higher
         if (bestMatch.match >= 7) bestMatch.bestMatch = true;
@@ -91,11 +100,9 @@ export default function ResultsTable(props: {
         props.setUploadedData([...tableData]);
     }
 
-
-    let rows: Array<ReactElement> = [];
     props.uploadedData.forEach((data, dataIndex) => {
         let desc = data.our_descriptions[0];
-        let key = data.id + "-0";
+        let key = data.id + dataIndex;
         for (let index = 0; index < data.our_descriptions.length; index++) {
             if (data.our_descriptions[index].selected) {
                 desc = data.our_descriptions[index];
@@ -115,6 +122,7 @@ export default function ResultsTable(props: {
             subrows={data.our_descriptions}
             rowSelected={rowSelected}
             updateRowSelected={updateRowSelected}
+            removeRowClick={removeRowClick}
         />
         rows.push(row);
     });
@@ -132,9 +140,9 @@ export default function ResultsTable(props: {
             key={"add-row"}
             rowSelected={rowSelected}
             updateRowSelected={updateRowSelected}
+            removeRowClick={removeRowClick}
         />
     );
-
     return (
         <table className="item-table">
             <thead>
