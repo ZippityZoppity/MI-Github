@@ -1,4 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { itemDescriptions } from "../data/ItemExports"
+import removeRowIcon from "../assets/trash-128.png"; 
+
 export default function Row(props: {
     manufacturer: string;
     item_code: string;
@@ -14,7 +17,9 @@ export default function Row(props: {
     subrows: Array<any>;
     rowSelected: Number;
     updateRowSelected: Function;
+    removeRowClick: Function;
 }) {
+    const allDescriptions: any = itemDescriptions;
     //set row types
     let isNewRow = props.id == 8888;
     let buttonTitle = props.selected ? "Selection" : "Choose";
@@ -26,6 +31,8 @@ export default function Row(props: {
     let cellContainerClass = (props.rowSelected === props.index) ? "table-cell-container-selected" : "table-cell-container-unselected";
 
     const [newDescription, setDescription] = useState('');
+    const [searchDescription, setSearch] = useState('');
+    const [searchList, setList] = useState<Array<any>>([]);
     const onClick = (index: Number) => {
         if (isNewRow) {
             if (newDescription === '') return;
@@ -37,12 +44,53 @@ export default function Row(props: {
         }
     }
 
+    const removeRow = () => {
+        props.removeRowClick(props.index)
+    }
+
+    const addDescription = () => {
+        let newRow = {
+            bestMatch: false,
+            formatted_desc: [],
+            id: "-1",
+            match: -1,
+            selected: false,
+            text: ""
+        };
+        for (const objDesc in allDescriptions) {
+            if (searchDescription !== "" && allDescriptions[objDesc].desc.startsWith(searchDescription)) {
+                newRow = {
+                    bestMatch: true,
+                    formatted_desc: allDescriptions[objDesc].formatted_desc,
+                    id: objDesc,
+                    match: 10,
+                    selected: true,
+                    text: allDescriptions[objDesc].desc
+                }
+                props.subrows.unshift(newRow);
+                props.updateRowSelected(props.subrows.length - 1);
+                break;
+            }
+        }
+    }
+
     if (isNewRow) {
         subButtonTitle = "Add New";
         subButtonClass = 'button-cell-new'
         comp_desc_class = "comp-desc-cell-new";
         comp_placeholder = 'Enter a Competitor Description to search...'
     }
+
+    useEffect(() => {
+        let listArr: any = [];
+        for (const objDesc in allDescriptions) {
+            if (searchDescription !== "" && allDescriptions[objDesc].desc.toLowerCase().startsWith(searchDescription.toLowerCase())) {
+                listArr.push(allDescriptions[objDesc].desc)
+                if(listArr.length > 5) break;
+            }
+        }
+        setList([...listArr]);
+    }, [searchDescription])
 
     return (
         <tr>
@@ -77,6 +125,27 @@ export default function Row(props: {
                             return (<p key={subrow.text + "-" + index}>{subrow.text.toString()}</p>);
                         })
                     }
+                    {/* Search row */}
+                    <div className="search-desc-container">
+                        <label htmlFor="search-descriptions">Search Descriptions:</label>
+                        <input 
+                            type="search"
+                            list={"our-descriptions-list" + props.index}
+                            className={cellContainerClass}
+                            onChange={(e) => {setSearch(e.target.value)}}
+                            autoComplete="on"
+                        />
+
+                        <datalist id={"our-descriptions-list" + props.index}>
+                            {
+                                searchList.map((searchDesc) => {
+                                    return (
+                                        <option value={searchDesc} key={"options-" + searchDesc}></option>
+                                    )
+                                })
+                            }
+                        </datalist>
+                    </div>
                 </div>
             </td>
 
@@ -112,6 +181,9 @@ export default function Row(props: {
                         >
                             {buttonTitle}
                         </div>
+                        <div className="remove-row-button" onClick={removeRow}>
+                            <img src={removeRowIcon} className="remove-icon" />
+                        </div>
                     </div>
                 }
                 {
@@ -124,6 +196,9 @@ export default function Row(props: {
                                     style={{ cursor: "pointer" }}
                                 >
                                     {buttonTitle}
+                                </div>
+                                <div className="remove-row-button" onClick={removeRow}>
+                                    <img src={removeRowIcon} className="remove-icon" />
                                 </div>
                             </div>
                         } else {
@@ -141,6 +216,22 @@ export default function Row(props: {
                         }
                     })
                 }
+                <div className="cell-button-container" key={"subrow-button-" + props.subrows.length}>
+                    <div
+                        onClick={() => addDescription()}
+                        className={subButtonClass}
+                        style={{ cursor: "pointer" }}
+                    >
+                        {subButtonTitle}
+                    </div>
+                    {
+                        (props.selected || isNewRow) ? 
+                        <></> :
+                        <div className="remove-row-button" onClick={removeRow}>
+                            <img src={removeRowIcon} className="remove-icon" />
+                        </div>
+                    }
+                </div>
                 </div>
             </td>
         </tr>

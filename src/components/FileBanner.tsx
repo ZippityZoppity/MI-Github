@@ -6,7 +6,7 @@ import Button from "./Button";
 import Loading from "./Loading";
 import { columns, data } from "../data/CSVTemplateData";
 
-import resultsIcon from "../assets/icons8-checkmark-96.png";
+import resultsIcon from "../assets/checkmark-96.png";
 import "../style/FileBanner.scss";
 
 export default function FileBanner(props: {
@@ -89,7 +89,7 @@ export default function FileBanner(props: {
                     allDescriptions.sort((a, b) => {
                         return (a.match > b.match) ? -1 : 1;
                     })
-                    row.our_descriptions = allDescriptions.slice(0, 4)
+                    row.our_descriptions = allDescriptions.slice(0, 3);
                 }
 
                 //process data
@@ -116,7 +116,7 @@ export default function FileBanner(props: {
                     data.selection = 0;
                 }
 
-                props.setUploadedData(uploadedData);
+                props.setUploadedData([...props.uploadedData, ...uploadedData]);
             },
         });
     };
