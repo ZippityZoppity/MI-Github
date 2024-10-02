@@ -34,7 +34,7 @@
             });
             // Add the html
             field.defaultValue =
-            '<iframe scrolling="no" frameborder="0" style="height: 150vh; overflow:scroll; width: 100%" src=' + AMPLIFY_ENDPOINT + '?param1="value1" title=""></iframe>'
+            '<iframe marginheight="0px" marginwidth="0px" scrolling="auto" frameborder="0" style="height: calc(100vh - 55px); overflow:hidden; width: 100%" src=' + AMPLIFY_ENDPOINT + '?param1="value1" title=""></iframe>'
             context.response.writePage(form);
         }
     }

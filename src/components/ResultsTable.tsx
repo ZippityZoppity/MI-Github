@@ -147,9 +147,11 @@ export default function ResultsTable(props: {
         <table className="item-table">
             <thead>
                 <tr>
-                    <th colSpan={1}>Manufacturer</th>
-                    <th colSpan={1}>Item Code</th>
+                    <th colSpan={1}>Competitor Manufacturer</th>
+                    <th colSpan={1}>Competitor Item Code</th>
                     <th colSpan={3}>Competitor Description</th>
+                    <th colSpan={1}>Our Manufacturer</th>
+                    <th colSpan={1}>Our Item Code</th>
                     <th colSpan={4}>Our Description</th>
                     <th colSpan={1}>Best Match</th>
                     <th colSpan={1}>Selection</th>

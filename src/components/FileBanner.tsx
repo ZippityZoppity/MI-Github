@@ -92,7 +92,7 @@ export default function FileBanner(props: {
                     row.our_descriptions = allDescriptions.slice(0, 3);
                 }
 
-                //process data
+                // process data
                 for (const data of uploadedData) {
                     //find best match
                     let currentBest = 0;
