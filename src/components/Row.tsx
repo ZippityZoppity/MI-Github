@@ -84,9 +84,14 @@ export default function Row(props: {
     useEffect(() => {
         let listArr: any = [];
         for (const objDesc in allDescriptions) {
-            if (searchDescription !== "" && allDescriptions[objDesc].desc.toLowerCase().startsWith(searchDescription.toLowerCase())) {
-                listArr.push(allDescriptions[objDesc].desc)
-                if(listArr.length > 5) break;
+            if (searchDescription !== "") {
+                if (allDescriptions[objDesc].desc.toLowerCase().startsWith(searchDescription.toLowerCase())) {
+                    listArr.push(allDescriptions[objDesc].desc)
+                    if(listArr.length > 5) break;
+                } else if (allDescriptions[objDesc].desc.toLowerCase().includes(searchDescription.toLowerCase())) {
+                    listArr.push(allDescriptions[objDesc].desc)
+                    if(listArr.length > 5) break;
+                }
             }
         }
         setList([...listArr]);
