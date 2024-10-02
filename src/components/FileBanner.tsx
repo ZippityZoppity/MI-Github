@@ -81,6 +81,7 @@ export default function FileBanner(props: {
                             text: description,
                             formatted_desc: formatted_desc,
                             id: props.ourDescriptions[key].id,
+                            manufacturer: props.ourDescriptions[key].manufacturer,
                             match: newNumerator,
                             selected: false,
                             bestMatch: false,
@@ -90,6 +91,7 @@ export default function FileBanner(props: {
                         return (a.match > b.match) ? -1 : 1;
                     })
                     row.our_descriptions = allDescriptions.slice(0, 3);
+                    console.log("row:", row);
                 }
 
                 // process data

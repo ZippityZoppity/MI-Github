@@ -94,10 +94,10 @@ export default function Row(props: {
 
     return (
         <tr>
-            {/* Manufacturer Column */}
+            {/* Competitor Manufacturer Column */}
             <td colSpan={1}><div className="table-cell-container"><p>{props.manufacturer}</p></div></td>
 
-            {/* Item Code Column */}
+            {/* Competitor Item Code Column */}
             <td colSpan={1}><div className="table-cell-container"><p>{props.item_code}</p></div></td>
 
             {/* Competitor Descriptions Column */}
@@ -111,6 +111,34 @@ export default function Row(props: {
                     />
                 </form>
             </td>
+
+            {/* Our Manufacturer Column */}
+            <td colSpan={1}><div className={cellContainerClass}>
+                {
+                    props.selected ? 
+                    <></> :
+                    (<p></p>)
+                }
+                {
+                    props.subrows.map((subrow, index) => {
+                        return (<p key={subrow.manufacturer + "-subrow" + index}>{subrow.manufacturer}</p>);
+                    })
+                }
+            </div></td>
+
+            {/* Our Item Code Column */}
+            <td colSpan={1}><div className={cellContainerClass}>
+                {
+                    props.selected ? 
+                    <></> :
+                    (<p></p>)
+                }
+                {
+                    props.subrows.map((subrow, index) => {
+                        return (<p key={subrow.id + "-subrow" + index}>{subrow.id}</p>);
+                    })
+                }
+            </div></td>
 
             {/* Our Descriptions Column */}
             <td colSpan={4}>
