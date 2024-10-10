@@ -51,10 +51,12 @@ export default function ResultsTable(props: {
             let description = props.ourDescriptions[key].desc;
             let formatted_desc = props.ourDescriptions[key].formatted_desc;
             let matches = 0;
-            let total = formattedCompDesc.length;
+            let total = (formattedCompDesc.length > formatted_desc.length) ? formattedCompDesc.length : formatted_desc.length;
             for (const attribute of formattedCompDesc) {
                 for (const value of formatted_desc) {
-                    if (value.includes(attribute)) matches++;
+                    if (value == attribute) {
+                        matches++;
+                    } 
                 }
             }
             let newNumerator = Math.floor(matches * (10 / total));
@@ -62,6 +64,10 @@ export default function ResultsTable(props: {
                 text: description,
                 formatted_desc: formatted_desc,
                 id: props.ourDescriptions[key].id,
+                manufacturer: props.ourDescriptions[key].manufacturer,
+                uom: props.ourDescriptions[key].uom,
+                unitprice: props.ourDescriptions[key].unitprice,
+                pricelevel: props.ourDescriptions[key].pricelevel,
                 match: newNumerator,
                 selected: false,
                 bestMatch: false,
@@ -70,7 +76,11 @@ export default function ResultsTable(props: {
         allDescriptions.sort((a, b) => {
             return (a.match > b.match) ? -1 : 1;
         })
-        our_descriptions = allDescriptions.slice(0, 3)
+
+        for (let i = 0; i < allDescriptions.length - 1; i++) {
+            if (our_descriptions.length >= 3) break;
+            if (allDescriptions[i].match > 0) our_descriptions.push(allDescriptions[i])
+        }
         
         let currentBest = 0;
         for (const desc of our_descriptions) {
@@ -101,7 +111,12 @@ export default function ResultsTable(props: {
     }
 
     props.uploadedData.forEach((data, dataIndex) => {
-        let desc = data.our_descriptions[0];
+        let desc;
+        if (data.our_descriptions <= 1) {
+            desc = {selected: false, bestMatch: false}
+        } else {
+            desc = data.our_descriptions[0]
+        }
         let key = data.id + dataIndex;
         for (let index = 0; index < data.our_descriptions.length; index++) {
             if (data.our_descriptions[index].selected) {
@@ -148,13 +163,15 @@ export default function ResultsTable(props: {
             <thead>
                 <tr>
                     <th colSpan={1}>Competitor Manufacturer</th>
-                    <th colSpan={1}>Competitor Item Code</th>
+                    <th id="table-primary-column" colSpan={1}>Competitor Item Code</th>
                     <th colSpan={3}>Competitor Description</th>
-                    <th colSpan={1}>Our Manufacturer</th>
+                    <th id="table-primary-column" colSpan={1}>Our Manufacturer</th>
                     <th colSpan={1}>Our Item Code</th>
-                    <th colSpan={4}>Our Description</th>
+                    <th id="table-primary-column" colSpan={4}>Our Description</th>
+                    <th colSpan={1}>UoM</th>
+                    <th id="table-primary-column" colSpan={1}>Price</th>
                     <th colSpan={1}>Best Match</th>
-                    <th colSpan={1}>Selection</th>
+                    <th id="table-primary-column" colSpan={1}>Selection</th>
                 </tr>
             </thead>
             <tbody>{rows}</tbody>

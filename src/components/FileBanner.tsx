@@ -70,10 +70,11 @@ export default function FileBanner(props: {
                         let description = props.ourDescriptions[key].desc;
                         let formatted_desc = props.ourDescriptions[key].formatted_desc;
                         let matches = 0;
-                        let total = row.comp_description.length;
+                        //calculate best matches out of bigger prompt
+                        let total = (row.comp_description.length > formatted_desc.length) ? row.comp_description.length: formatted_desc.length;
                         for (const attribute of row.comp_description) {
                             for (const value of formatted_desc) {
-                                if (value.includes(attribute)) matches++;
+                                if (value == attribute) matches++;
                             }
                         }
                         let newNumerator = Math.floor(matches * (10 / total));
@@ -82,6 +83,9 @@ export default function FileBanner(props: {
                             formatted_desc: formatted_desc,
                             id: props.ourDescriptions[key].id,
                             manufacturer: props.ourDescriptions[key].manufacturer,
+                            uom: props.ourDescriptions[key].uom,
+                            unitprice: props.ourDescriptions[key].unitprice,
+                            pricelevel: props.ourDescriptions[key].pricelevel,
                             match: newNumerator,
                             selected: false,
                             bestMatch: false,
@@ -90,12 +94,16 @@ export default function FileBanner(props: {
                     allDescriptions.sort((a, b) => {
                         return (a.match > b.match) ? -1 : 1;
                     })
-                    row.our_descriptions = allDescriptions.slice(0, 3);
+                    for (let i = 0; i < allDescriptions.length - 1; i++) {
+                        if (row.our_descriptions.length >= 3) break;
+                        if (allDescriptions[i].match > 0) row.our_descriptions.push(allDescriptions[i])
+                    }
                     console.log("row:", row);
                 }
 
                 // process data
                 for (const data of uploadedData) {
+                    if (data.our_descriptions.length >= 0) continue;
                     //find best match
                     let currentBest = 0;
                     for (const description of data.our_descriptions) {

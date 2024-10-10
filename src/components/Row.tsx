@@ -53,6 +53,10 @@ export default function Row(props: {
             bestMatch: false,
             formatted_desc: [],
             id: "-1",
+            manufacturer: "",
+            uom: "",
+            unitprice: "",
+            pricelevel: [],
             match: -1,
             selected: false,
             text: ""
@@ -63,6 +67,10 @@ export default function Row(props: {
                     bestMatch: true,
                     formatted_desc: allDescriptions[objDesc].formatted_desc,
                     id: objDesc,
+                    manufacturer: allDescriptions[objDesc].manufacturer,
+                    uom: allDescriptions[objDesc].uom,
+                    unitprice: allDescriptions[objDesc].unitprice,
+                    pricelevel: allDescriptions[objDesc].pricelevel,
                     match: 10,
                     selected: true,
                     text: allDescriptions[objDesc].desc
@@ -103,7 +111,7 @@ export default function Row(props: {
             <td colSpan={1}><div className="table-cell-container"><p>{props.manufacturer}</p></div></td>
 
             {/* Competitor Item Code Column */}
-            <td colSpan={1}><div className="table-cell-container"><p>{props.item_code}</p></div></td>
+            <td id="table-primary-column" colSpan={1}><div className="table-cell-container"><p>{props.item_code}</p></div></td>
 
             {/* Competitor Descriptions Column */}
             <td colSpan={3} className={comp_desc_class}>
@@ -118,7 +126,7 @@ export default function Row(props: {
             </td>
 
             {/* Our Manufacturer Column */}
-            <td colSpan={1}><div className={cellContainerClass}>
+            <td id="table-primary-column" colSpan={1}><div className={cellContainerClass}>
                 {
                     props.selected ? 
                     <></> :
@@ -146,7 +154,7 @@ export default function Row(props: {
             </div></td>
 
             {/* Our Descriptions Column */}
-            <td colSpan={4}>
+            <td id="table-primary-column" colSpan={4}>
                 <div className={cellContainerClass}>
                     {
                         props.selected ? 
@@ -182,6 +190,61 @@ export default function Row(props: {
                 </div>
             </td>
 
+            {/* UOM Column */}
+            <td colSpan={1}>
+                <div className={cellContainerClass}>
+                    {
+                        props.selected ? 
+                        <></> :
+                        (<p></p>)
+                    }
+                    {
+                        props.subrows.map((subrow, index) => {
+                            return (<p key={subrow.uom + '-uomcol-' + index}>{subrow.uom}</p>);
+                        })
+                    }
+                </div>
+            </td>
+
+            {/*Price Level Column */}
+            <td id="table-primary-column" colSpan={1}>
+                <div className={cellContainerClass}>
+                    {
+                        props.selected ? 
+                        <></> :
+                        (<p></p>)
+                    }
+                    {
+                        props.subrows.map((subrow, index) => {
+                            if (subrow.pricelevel) {
+                                return (
+                                    <div className="pricelevel-selection-col">
+                                        <select name="pricelevel" id="pricelevel">
+                                        {
+                                            subrow.pricelevel?.map((level: any, ind: any) => {
+                                                return (<option value={level} key={'pricelevel-options' + ind}>
+                                                    {level}
+                                                </option>);
+                                                
+                                            })
+                                        }
+                                        </select>
+                                        <p className="unitprice-text-box" key={subrow.pricelevel + '-pricelevel-' + index}>
+                                            ${
+                                                subrow.unitprice
+                                            }
+                                        </p>
+                                    </div>
+                                );
+                            } else {
+                                return <></>
+                            }
+                            
+                        })
+                    }
+                </div>
+            </td>
+
             {/* Best Matches Column */}
             <td colSpan={1}>
                 <div className={cellContainerClass}>
@@ -199,7 +262,7 @@ export default function Row(props: {
             </td>
 
             {/* Selection Column */}
-            <td colSpan={1}>
+            <td id="table-primary-column" colSpan={1}>
                 <div className={cellContainerClass}>
                 {
                     (props.selected || isNewRow) ? 

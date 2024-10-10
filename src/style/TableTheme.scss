@@ -13,14 +13,21 @@
 
     th {
         font-weight: bold;
-        font-size: large;
+        font-size: medium;
         text-wrap: nowrap;
+    }
+
+    #table-primary-column {
+        background-color: var(--default-light-color);
     }
 
     td,
     th {
         color: var(--dark-alt-color);
         padding: 10px 20px;
+        // &:hover {
+        //     background-color: lightgray;
+        // }
     }
 
     .table-cell-container-unselected {
@@ -50,6 +57,15 @@
             width: 10vw;
             align-content: center;
         }
+        .unitprice-text-box {
+            margin: auto;
+            width: 5vw;
+        }
+        select {
+            margin: auto;
+            height: 40px;
+            width: 5vw;
+        }
         textarea {
             border: none;
             font-family: var(--default-font-family);
@@ -68,6 +84,14 @@
             width: 10vw;
             align-content: center;
         }
+    }
+    .pricelevel-selection-col {
+        display: flex;
+        margin-top: 20px;
+        overflow: hidden;
+        height: 100px;
+        width: 10vw;
+        align-content: center;
     }
 }
 

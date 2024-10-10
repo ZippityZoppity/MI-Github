@@ -1,1 +1,2714 @@
-export const itemDescriptions = {"1211":{"desc":"Transpore Tape Porous Plastic 1/2 Inch X 10 Yard Transparent NonSterile","formatted_desc":["Transpore Tape","0.5in","10yd","Porous, Plastic, Transparent, NonSterile"],"id":"1211"},"1212":{"desc":"Transpore tape-1'","formatted_desc":["Transpore tape","1in",""],"id":"1212"},"1213":{"desc":"Transpore tape-2'","formatted_desc":["Transpore tape","2in"],"id":"1213"},"1214":{"desc":"Transpore Surgical Tape, Single-Use, White, 1\" x 1.5 yd","formatted_desc":["Transpore Surgical Tape","1in","1.5yd","Single-Use, White"],"id":"1214"},"1215":{"desc":"Micropore tape 1/2'","formatted_desc":["Micropore tape","0.5ft",""],"id":"1215"},"1216":{"desc":"Micropore tape-1'","formatted_desc":["Micropore Tape","1in",""],"id":"1216"},"1217":{"desc":"Micropore tape-2'","formatted_desc":["Micropore","2in"],"id":"1217"},"1218":{"desc":"Micropore tape- 3'","formatted_desc":["Micropore","3ft","Tape"],"id":"1218"},"1219":{"desc":"Micropore w/dispenser 1' x 10yds 12rls/bx 10bx/cs","formatted_desc":["Micropore","1ft","10yd","With Dispenser, 6 Rolls per Box, 10 Boxes per Case"],"id":"1219"},"1220":{"desc":"Micropore w/dispenser 2' x 10yds 6rls/bx 10bx/cs","formatted_desc":["Micropore","2ft","10yd","With Dispenser, 6 Rolls per Box, 10 Boxes per Case"],"id":"1220"},"1221":{"desc":"Medical Tape 3M Durapore High Adhesion Silk-Like Cloth 1 Inch X 10 Yard White NonSterile","formatted_desc":["Medical Tape","3M","1in","10yd","Durapore, High Adhesion, Silk-Like, Cloth, White, NonSterile"],"id":"1221"},"1222":{"desc":"Durapore Tape 2'","formatted_desc":["Durapore Tape","2ft",""],"id":"1222"},"1223":{"desc":"Durapore tape 3'","formatted_desc":["Durapore tape","3ft",""],"id":"1223"},"1224":{"desc":"NEXCARE REUSABLE COLD/HOT PACK","formatted_desc":["NEXCARE","COLD/HOT PACK","REUSABLE"],"id":"1224"},"1225":{"desc":"Coban Self-Adherent Wrap, Nonsterile, Blue, 2\" x 5 yd. (5.1 cm x 4.6 m)","formatted_desc":["Coban Self-Adherent Wrap","2in","5yd","Nonsterile, Blue"],"id":"1225"},"1226":{"desc":"Coban 3' 24/bx","formatted_desc":["Coban","3in","24units per Box"],"id":"1226"},"1227":{"desc":"Coban 4'","formatted_desc":["Coban","4ft"],"id":"1227"},"1228":{"desc":"Tegaderm- 2-3/8 x 2-3/4, 400/cs, 100/bx:ea","formatted_desc":["Tegaderm","2.375in","2.75in","400 units per case, 100 units per box"],"id":"1228"},"1229":{"desc":"Procedure Mask 3M Pleated Earloops One Size Fits Most Blue NonSterile","formatted_desc":["Procedure Mask","3M","Pleated Earloops, One Size Fits Most, Blue, NonSterile"],"id":"1229"},"1230":{"desc":"Coban Latex Free Self-Adherent Wrap with Hand Tear, 2in x 5yd","formatted_desc":["Coban","2in","5yd","Latex, Free, Self-Adherent, Wrap with Hand Tear"],"id":"1230"},"1231":{"desc":"Coban NL Non-Latex Self-Adherent Wrap with Hand Tear, 2083, 3 in x 5 yd, 24 Rolls/Case","formatted_desc":["Coban","3in","5yd","NL, Non-Latex, Self-Adherent, Wrap with Hand Tear, 24 Rolls per Case"],"id":"1231"},"1232":{"desc":"One step skin prep 36/cs","formatted_desc":["One Step Skin Prep","36 units per Case"],"id":"1232"},"1233":{"desc":"ECG Snap Electrode Red Dot Monitoring Radiolucent Foam Backing","formatted_desc":["ECG Snap Electrode","Red Dot, Monitoring, Radiolucent, Foam Backing"],"id":"1233"},"1234":{"desc":"Red dot electrodes","formatted_desc":["Red Dot Electrodes"],"id":"1234"},"1235":{"desc":"Steri-strip 1/8' x 3'","formatted_desc":["Steri-strip","0.125ft","3ft",""],"id":"1235"},"1236":{"desc":"Steri-strip 1/4' x 3'","formatted_desc":["Steri-strip","0.25ft","3ft",""],"id":"1236"},"1237":{"desc":"Steri-strip 1/4' x 1'","formatted_desc":["Steri-strip","0.25ft","1ft",""],"id":"1237"},"1238":{"desc":"Steri-strip 1/4' x 4'","formatted_desc":["Steri-strip","0.25ft","4ft",""],"id":"1238"},"1239":{"desc":"3M Steri-strip 1/2' x 4'","formatted_desc":["3M Steri-strip","0.5ft","4ft",""],"id":"1239"},"1241":{"desc":"Hi-Torque Balance Middleweight..(BMW) Guide Wire, Hydrophilic..0.014\" x 190cm","formatted_desc":["Hi-Torque Balance Middleweight","0.014in","190cm","Guide Wire, Hydrophilic"],"id":"1241"},"1242":{"desc":"HI-TORQUE BALANCE..MIDDLEWEIGHT (BMW)..UNIVERSAL GUIDE WIRE,..STRAIGHT: 0.014\" X 190CM,..W/MARKER","formatted_desc":["Hi-Torque Balance Middleweight","0.014in","190cm","Universal Guide Wire, Straight, with Marker"],"id":"1242"},"1243":{"desc":"HI-TORQUE PILOT 50 G.WIRE..HYDROCAT 0.014 190","formatted_desc":["Hi-Torque Guide Wire","0.014in","190cm","Pilot 50, Hydrocat"],"id":"1243"},"1244":{"desc":"HI-TORQUE PILOT 200 Guidwire 3 cm Straight Hydrophilic 190 cm","formatted_desc":["Hi-Torque Guide Wire","3cm","190cm","Pilot 200, Straight, Hydrophilic"],"id":"1244"},"1245":{"desc":"HI-TORQUE PILOT 200 Guidwire 3 cm Straight Hydrophilic 300 cm","formatted_desc":["Hi-Torque Guide Wire","3cm","300cm","Pilot 200, Straight, Hydrophilic"],"id":"1245"},"1246":{"desc":"Hi-Torque Command Guide Wire:..0.014\" x 300cm","formatted_desc":["Hi-Torque Guide Wire","0.014in","300cm","Command"],"id":"1246"},"1248":{"desc":"ScalpFix Scalp Clips, Box of 20 cartridges with 10 scalp clips","formatted_desc":["Scalp Clips","ScalpFix","Cartridges: 20; Clips per Cartridge: 10"],"id":"1248"},"1249":{"desc":"Caspar Self-Drilling Distraction Pin, 14 mm","formatted_desc":["Caspar Distraction Pin","14mm","Self-Drilling"],"id":"1249"},"1251":{"desc":"IV Admin Set, 15 Drops Per mL, 78\" Length, 16 mL Priming Volume, Vented/Non-Vented, 1 Slide Clam...","formatted_desc":["IV Admin Set","16mL","78in","16 Drops Per mL, Vented/Non-Vented, 1 Slide Clam"],"id":"1251"},"1252":{"desc":"Connecting Tube, 3/16\" x 10 ft, Sterile, 50/cs","formatted_desc":["Connecting Tube","3/16in","10ft","Sterile, 50 units per Case"],"id":"1252"},"1253":{"desc":"Infrared Forehead Thermometer","formatted_desc":["Infrared Forehead Thermometer"],"id":"1253"},"1255":{"desc":"Cohesive Bandage CoFlex NL 2 Inch X 5 Yard 12 lbs. Tensile Strength Self-adherent","formatted_desc":["Cohesive Bandage CoFlex","12lbs","2in","5yd","NL, Tensile, Strength, Self-adherent"],"id":"1255"},"1256":{"desc":"Cohesive Bandage CoFlex NL 3 Inch X 5 Yard","formatted_desc":["Cohesive Bandage CoFlex","3in","5yd","NL"],"id":"1256"},"1258":{"desc":"B. Braun Medical IV Administration Set with 2 Y-sites, 15 Drops/Ml, 84in","formatted_desc":["B. Braun Medical IV Administration Set","84in","with 2 Y-sites, 15 Drops per Ml"],"id":"1258"},"1260":{"desc":"Ventralex Hernia Patch Small Circle with Strap, 1.7\" (4.3cm) diameter 2/cs, 2/bx:ea","formatted_desc":["Hernia Patch","Ventralex","1.7in","Small, Circle with Strap, 2 units per Box"],"id":"1260"},"1261":{"desc":"Ventralex Hernia Patch Medium Circle with Strap, 2.5\" (6.4cm) diameter","formatted_desc":["Hernia Patch","Ventralex","2.5in","Medium, Circle with Strap"],"id":"1261"},"1262":{"desc":"Ventralex Hernia Patch Large Circle with Strap, 3.2\" (8.0cm) diameter","formatted_desc":["Hernia Patch","Ventralex","3.2in","Large, Circle with Strap"],"id":"1262"},"1263":{"desc":"Bard Mesh Flat Sheets 1\" x 4\" (2.5cm x 10cm)","formatted_desc":["Mesh Flat Sheets","Bard","4in","1in",""],"id":"1263"},"1264":{"desc":"Bard Mesh Flat Sheets 2\" x 4\" (5cm x 10cm)","formatted_desc":["Mesh Flat Sheets","Bard","4in","2in",""],"id":"1264"},"1265":{"desc":"Bard Mesh Flat Sheets 10\" x 14\" (25cm x 35.5cm)","formatted_desc":["Mesh Flat Sheets","Bard","14in","10in",""],"id":"1265"},"1266":{"desc":"Bard Mesh Flat Sheets 2\" x 12\" (5cm x 30.5cm)","formatted_desc":["Mesh Flat Sheets","Bard","12in","2in",""],"id":"1266"},"1267":{"desc":"Bard Mesh Flat Sheets 3\" x 6\" (7.5cm x 15cm)","formatted_desc":["Mesh Flat Sheets","Bard","6in","3in",""],"id":"1267"},"1268":{"desc":"Bard Mesh Pre-shaped, 1.8\" x 4\" (4.5cm x 10cm)","formatted_desc":["Mesh Pre-shaped","Bard","4in","1.8in",""],"id":"1268"},"1269":{"desc":"Bard Mesh Pre-shape with Keyhole, 1.8\" x 4\" (4.5cm x 10cm)","formatted_desc":["Mesh Pre-shape","Bard","4in","1.8in","with Keyhole"],"id":"1269"},"1270":{"desc":"Bard Mesh Flat Sheets 6\" x 6\" (15cm x 15cm)","formatted_desc":["Mesh Flat Sheets","Bard","6in","6in",""],"id":"1270"},"1271":{"desc":"Small PerFix Plug, 1.0\" x 1.35\" (2.5cm x 3.4cm)  2/cs, 2/bx:ea","formatted_desc":["PerFix Plug","1.35in","1in","Small, 2 units per box, 2 boxes per Case"],"id":"1271"},"1272":{"desc":"Medium PerFix Plug, 1.3\" x 1.55\" (3.3cm x 3.9cm) 2/bx","formatted_desc":["PerFix Plug","1.55in","1.3in","Medium, 2 units per Box"],"id":"1272"},"1273":{"desc":"Large PerFix Plug, 1.6\" x 1.90\" (4.1cm x 4.8cm)","formatted_desc":["PerFix Plug","1.9in","1.6in","Large"],"id":"1273"},"1274":{"desc":"Extra Large PerFix Plug, 1.6\" x 2.0\" (4.1cm x 5.0cm) 2/cs, 2/bx","formatted_desc":["Extra Large PerFix Plug","2in","1.6in","2 boxes per case, 2 units per box"],"id":"1274"},"1275":{"desc":"Large Pre-shaped Mesh with Keyhole, 2.4\" x 5.4\" (6cm x 13.7cm)","formatted_desc":["Pre-shaped Mesh","5.4in","2.4in","Large, with Keyhole"],"id":"1275"},"1276":{"desc":"3DMax Mesh, Medium, Left 3DMax Mesh, 3\" x 5\" (8.5cm x 13.7cm)","formatted_desc":["Mesh","3DMax","5in","3in","Medium, Left 3DMax Mesh"],"id":"1276"},"1277":{"desc":"Large, Left 3DMax Mesh, 4\" x 6\" (10.8cm x 16.0cm)","formatted_desc":["Mesh","3DMax","6in","4in","Large, Left 3DMax Mesh"],"id":"1277"},"1278":{"desc":"X-Large Left 3DMax 5\"x7\" Mesh, Box of 1","formatted_desc":["Mesh","3DMax","7in","5in","X-Large, Left 3DMax, 1 unit per Box"],"id":"1278"},"1279":{"desc":"3DMax Mesh, Medium, Right 3DMax Mesh, 3\" x 5\" (8.5cm x 13.7cm)","formatted_desc":["3DMax Mesh","5in","3in","Medium, Right 3DMax Mesh"],"id":"1279"},"1280":{"desc":"Large, Right 3DMax Mesh, 4\" x 6\" (10.8cm x 16.0cm) 1/cs, 1/bx:ea","formatted_desc":["Mesh","3DMax","6in","4in","Large, Right 3DMax Mesh, 1 Box per Case and 1 Unit per Box"],"id":"1280"},"1281":{"desc":"X'Large Right 3DMax 5\"x7\" Mesh, Box of 1","formatted_desc":["Mesh","3DMax","7in","5in","X-Large, Right 3DMax, 1 unit per Box"],"id":"1281"},"1282":{"desc":"Bard Soft Mesh 4\" x 6\" Large pore monofilament polypropylene","formatted_desc":["Bard Soft Mesh","4in","6in","Large pore monofilament polypropylene"],"id":"1282"},"1283":{"desc":"Small PerFix Light Plug, 1.0\" x 1.4\" (2.5cm x 3.4cm)","formatted_desc":["Light Plug","PerFix","1in","1.4in","Small"],"id":"1283"},"1284":{"desc":"Medium PerFix Light Plug, 1.3\" x 1.6\" (3.3cm x 3.9cm)","formatted_desc":["Light Plug","PerFix","1.6in","1.3in","Medium"],"id":"1284"},"1285":{"desc":"PerFix Light Plug Large PerFix Light Plug, 1.6\" x 1.9\" (4.1cm x 4.8cm","formatted_desc":["PerFix Light Plug","1.9in","1.6in","Large"],"id":"1285"},"1286":{"desc":"Extra Large PerFix Light Plug, 1.5\" x 2.0\" (3.8cm x 5.0cm)","formatted_desc":["Light Plug","PerFix","2in","1.5in","Extra Large"],"id":"1286"},"1287":{"desc":"Left, Medium 3DMaxÃ¯Â¿Â½ Light Mesh, 3.1\" x 5.3\" (7.9 cm x 13.4 cm)","formatted_desc":["Mesh","3DMax","5.3in","31.in","Left, Medium 3DMax Light"],"id":"1287"},"1288":{"desc":"Bard 3DMax Light Mesh Left Large 4.1\" x 6.2\" (Each)","formatted_desc":["Mesh","Bard, 3DMax","6.2in","4.1in","Light, Left, Large"],"id":"1288"},"1289":{"desc":"3DMax Light MeshRight, Medium 3.1\" x 5.3\"","formatted_desc":["Mesh","3DMax","5.3in","31in","Light, Medium"],"id":"1289"},"1290":{"desc":"3DMax Light Mesh Right, 4.1\" x 6.2\"","formatted_desc":["Mesh","3DMax","6.2in","4.1in","Light, Right"],"id":"1290"},"1291":{"desc":"Right, Extra-Large 3DMax Light Mesh, 4.8\" x 6.7\" (12.2 cm x 17.0 cm)","formatted_desc":["Mesh","3DMax","6.7in","4.8in","Right, Extra-Large 3DMax Light Mesh"],"id":"1291"},"1292":{"desc":"Foley Catheter Bardia 2-Way Standard Tip 5 cc Balloon 18 Fr. Silicone Coated Latex","formatted_desc":["Foley Catheter","Bardia, 2-Way, Standard Tip, 5cc, 18Fr, Silicone Coated, Latex"],"id":"1292"},"1293":{"desc":"Foley Catheter Bardia 2-Way Standard Tip 5 cc Balloon 20 Fr. Silicone Coated Latex","formatted_desc":["Foley Catheter","Bardia, 2-Way, Standard Tip, 5cc, 20Fr, Silicone Coated, Latex"],"id":"1293"},"1294":{"desc":"Ventralex ST Hernia Patch Small Circle with Strap, 1.7\" (4.3cm) diameter","formatted_desc":["Hernia Patch","Ventralex ST","1.7in","Small, Circle with Strap"],"id":"1294"},"1295":{"desc":"Ventralex ST Hernia Patch Medium Circle with Strap, 2.5\" (6.4cm) diameter","formatted_desc":["Hernia Patch","Ventralex ST","2.5in","Medium, Circle with Strap"],"id":"1295"},"1296":{"desc":"VentralexÃ¯Â¿Â½ ST Hernia Patch Large Circle with Strap, 3.2\" (8.0cm) diameter","formatted_desc":["Hernia Patch","Ventralex ST","3.2in","Large, Circle with Strap"],"id":"1296"},"1297":{"desc":"Ventrio ST Hernia Patch Small Circle 3.0\" (7.6cm) diameter","formatted_desc":["Hernia Patch","Ventrio","3.0in","ST, Small, Circle"],"id":"1297"},"1298":{"desc":"Ventrio ST Hernia Patch Large Circle 4.5\" (11.4cm) diameter","formatted_desc":["Ventrio ST Hernia Patch","4.5in","Large, Circle"],"id":"1298"},"1299":{"desc":"Bard Ventralex ST Hernia Patch Small Oval 3.1\" x 4.7\"","formatted_desc":["Hernia Patch","Bard","4.7in","3.1in","Ventralex ST, Small, Oval"],"id":"1299"},"1300":{"desc":"Ventrio ST Hernia Patch Medium Oval 4.3\" x 5.5\" (11.0cm x 14.0cm)","formatted_desc":["Hernia Patch","Ventrio","5.5in","4.3in","ST, Medium, Oval"],"id":"1300"},"1301":{"desc":"Ventrio ST Hernia Patch Large Oval 5.4\" x 7.0\" (13.8cm x 17.8cm)","formatted_desc":["Hernia Patch","Ventrio ST","7in","5.4in","Large, Oval"],"id":"1301"},"1302":{"desc":"Ventrio ST Hernia Patch Midline 6.1\" x 10.1\" (15.5cm x 25.7cm)","formatted_desc":["Hernia Patch","Ventrio ST","10.1in","6.1in","Midline"],"id":"1302"},"1303":{"desc":"Ventrio ST Hernia Patch, Extra Large Oval 8.7\" x 10.7\" (22.1cm x 27.1cm)","formatted_desc":["Ventrio ST Hernia Patch","10.7in","8.7in","Extra Large, Oval"],"id":"1303"},"1304":{"desc":"Ventralight ST Mesh 7\" x 9\" (17.8cm x 22.9cm) Ellipse","formatted_desc":["Ventralight ST Mesh","9in","7in","Ellipse"],"id":"1304"},"1306":{"desc":"Baxter Interlink Basic set","formatted_desc":["Baxter Interlink Basic Set"],"id":"1306"},"1307":{"desc":"Basic Solution Set 60 drop/ml","formatted_desc":["Basic Solution","60 drop/ml"],"id":"1307"},"1308":{"desc":"Baxter Interlink basic set","formatted_desc":["Baxter Interlink","Basic Set"],"id":"1308"},"1309":{"desc":"Baxter Interlink Continu-Flo set","formatted_desc":["Baxter Interlink Continu-Flo Set"],"id":"1309"},"1310":{"desc":"113' Continue Flo Set","formatted_desc":["Flo Set","113'","Continue"],"id":"1310"},"1311":{"desc":"Interlink extension set 60'","formatted_desc":["Interlink Extension Set","60in",""],"id":"1311"},"1312":{"desc":"Interlink IV catheter extension set","formatted_desc":["Interlink IV Catheter Extension Set"],"id":"1312"},"1313":{"desc":"Interlink injection site 200/box","formatted_desc":["Interlink Injection Site","200 units per Box"],"id":"1313"},"1315":{"desc":"BD Alaris Pump Module set Syringe Adapter Smallbore Slide Clamp(s) 2-piece Male Luer Lock","formatted_desc":["BD Alaris Pump Module","Syringe Adapter, Smallbore, Slide Clamp, 2-piece, Male, Luer Lock"],"id":"1315"},"1316":{"desc":"Alaris Pump Module set Check Valve Roller Clamp(s) 2 SmartSite needle-free valve(s) 6\", 81\" (1 a...","formatted_desc":["Alaris Pump Module","Check Valve, Roller Clamp, 2 units, SmartSite, 6in, 81in, Needle-free"],"id":"1316"},"1317":{"desc":"Plastipak Syringes with Luer-Lok Tip 50mL","formatted_desc":["Plastipak Syringes","50mL","with Luer-Lok Tip"],"id":"1317"},"1318":{"desc":"Extension set 2 pinch clamp(s) 2 SmartSite needle-free valve(s) 32\", 8\" from spin male luer lock...","formatted_desc":["Extension Set","32in","8in from spin, 2 Pinch Clamps and 2 SmartSite Needle-Free Valves, Male Luer Lock"],"id":"1318"},"1319":{"desc":"30CC Syringe, L/L","formatted_desc":["30CC","Syringe, L/L"],"id":"1319"},"1320":{"desc":"10mL Luer-Lok Tip Syringe, Disposable, No needle","formatted_desc":["10mL","Luer-Lok Tip Syringe","Disposable, No needle"],"id":"1320"},"1321":{"desc":"Blunt Plastic Cannula 100/bx 10bx/case","formatted_desc":["Blunt Plastic Cannula","10 units per Box, 100 Boxes per Case"],"id":"1321"},"1322":{"desc":"3cc syringe w/blunt fill needle 100/bx 8 boxes/cs","formatted_desc":["3cc Syringe","with Blunt Fill Needle, 100 units per Box, 8 Boxes per Case"],"id":"1322"},"1323":{"desc":"BD needle 25GA x 1' 1000/case","formatted_desc":["BD Needle","25GA","1ft","1000 per Case"],"id":"1323"},"1324":{"desc":"BD needle 30GA x 1' 1000/cs","formatted_desc":["BD Needle","30GA","1in","1000 units per Case"],"id":"1324"},"1325":{"desc":"BD needle 27GA x 1-1/4' 1000/cs","formatted_desc":["BD Needle","27GA","1.25in","1000 units per Case"],"id":"1325"},"1326":{"desc":"BD needle 23GA x 1' 1000/case","formatted_desc":["BD Needle","23GA","1in","1000 units per Case"],"id":"1326"},"1327":{"desc":"BD needle 22GA x 1' 1000/case","formatted_desc":["BD needle","22GA","1in","1000 per case"],"id":"1327"},"1328":{"desc":"BD needle 20GA x 1-1/2' 1000/case","formatted_desc":["BD Needle","20GA","1.5in","1000 units per Case"],"id":"1328"},"1329":{"desc":"Blunt fill needle 18G x 1-1/2'","formatted_desc":["Blunt Fill Needle","18G","1.5in",""],"id":"1329"},"1330":{"desc":"19G X 1.5'' GENERAL USE HYPODERMIC NEEDLE (100/BX)","formatted_desc":["19G","1.5in","General Use Hypodermic Needle","100 per Box"],"id":"1330"},"1331":{"desc":"BD needle 23GA x 1-1/2' IM 1000/case","formatted_desc":["BD Needle","23GA","1.5in","IM 1000 per Case"],"id":"1331"},"1332":{"desc":"BD needle 18GA x 1-1/2'  1000/case","formatted_desc":["BD Needle","18GA","1.5in","per Case, 1000 units"],"id":"1332"},"1333":{"desc":"3 mL Syringe with Tip Cap - CLEAR","formatted_desc":["3 mL Syringe","with Tip Cap, CLEAR"],"id":"1333"},"1334":{"desc":"5.4 qt  Sharps Collector, Red with horizontal entry, Counter balanced doors","formatted_desc":["5.4 qt","Sharps Collector","Red, with horizontal entry and counter balanced doors"],"id":"1334"},"1335":{"desc":"3cc Syringe 23G x 1'","formatted_desc":["3cc","Syringe, 23G, 1in"],"id":"1335"},"1336":{"desc":"3cc Syringe 21G x 1Ã¯Â¿Â½ '","formatted_desc":["3cc Syringe","21G","1in",""],"id":"1336"},"1337":{"desc":"3cc Syringe 20G X1-1/2'","formatted_desc":["3cc","20G","1.5in","Syringe"],"id":"1337"},"1338":{"desc":"3cc Syringe 25G x 1'","formatted_desc":["3cc Syringe","25G","1in"],"id":"1338"},"1339":{"desc":"3cc syringe 25G x 1-1/2'","formatted_desc":["3cc","syringe","25G","1.5in",""],"id":"1339"},"1340":{"desc":"3 ml syringe with 26 G x 5/8\"","formatted_desc":["3ml","Syringe","26G","5/8in",""],"id":"1340"},"1341":{"desc":"3cc 23g x 1-1/2 needle 100ea/bx 8bx/cs","formatted_desc":["3cc","23g","1.5in","100 units per box, 8 boxes per case"],"id":"1341"},"1342":{"desc":"TB Syringe 27G x 1/2'","formatted_desc":["TB Syringe","27G","0.5in",""],"id":"1342"},"1343":{"desc":"5 ml syringe with 22 G x 1\"","formatted_desc":["5ml","Syringe","22G","1in",""],"id":"1343"},"1344":{"desc":"5cc syringe 22G x 1-1/2'","formatted_desc":["5cc","22G","1.5in","Syringe"],"id":"1344"},"1345":{"desc":"5cc syringe 21G x 1'","formatted_desc":["5cc","syringe","21G","1in"],"id":"1345"},"1346":{"desc":"5cc LL syringe 125/bx 4bx/cs","formatted_desc":["5cc","LL Syringe","125 units per Box, 4 Boxes per Case"],"id":"1346"},"1347":{"desc":"50 mL BD Luer-Lok Syringe sterile, single use","formatted_desc":["50 mL","BD Luer-Lok Syringe","sterile, single use"],"id":"1347"},"1348":{"desc":"32 G x 4 mm BD Ultra Fine insulin pen needle MEA","formatted_desc":["32G","4mm","BD Ultra Fine","Insulin Pen Needle, MEA"],"id":"1348"},"1349":{"desc":"31 G x 5 mm BD Ultra Fine insulin pen needle MEA","formatted_desc":["31G","5mm","BD Ultra Fine insulin pen needle, MEA"],"id":"1349"},"1350":{"desc":"Insulin syringe 31GA x 5/16' 500/cs","formatted_desc":["Insulin Syringe","31GA","0.3125in","500 units per Case"],"id":"1350"},"1351":{"desc":"Insulin syringe 1/2cc 31G x 5/16'","formatted_desc":["Insulin Syringe","0.5cc","31G","5/16in",""],"id":"1351"},"1352":{"desc":"Angiocath 24GA x 3/4'","formatted_desc":["Angiocath","24GA","3/4in"],"id":"1352"},"1353":{"desc":"Angiocath. 22GA x 1'","formatted_desc":["Angiocath","22GA","1ft",""],"id":"1353"},"1354":{"desc":"Angiocath. 20GA x 1 1/4'","formatted_desc":["Angiocath","20GA","1.25in",""],"id":"1354"},"1355":{"desc":"Angiocath. 18GA x 11/4'","formatted_desc":["Angiocath","18GA","1.25in",""],"id":"1355"},"1356":{"desc":"Angiocath 18GA  x 2'","formatted_desc":["Angiocath","18GA","2ft"],"id":"1356"},"1357":{"desc":"Angiocath 16GA x 2'","formatted_desc":["Angiocath","16GA","2ft",""],"id":"1357"},"1358":{"desc":"Angiocath 14GA x 1.16'","formatted_desc":["Angiocath","14GA","1.16ft",""],"id":"1358"},"1359":{"desc":"Angiocath 14GA x 2'","formatted_desc":["Angiocath","14GA","2ft",""],"id":"1359"},"1360":{"desc":"Insyte 22GA x 1'","formatted_desc":["Insyte","22GA","1ft",""],"id":"1360"},"1361":{"desc":"CATH INSYTE IV WING 24GX.75IN","formatted_desc":["CATH INSYTE IV WING","24G","0.75in"],"id":"1361"},"1362":{"desc":"Autoguard 22GA x 1' 200/cs","formatted_desc":["Autoguard","22GA","1ft","200 per case"],"id":"1362"},"1363":{"desc":"Autoguard 20GA x 1'","formatted_desc":["Autoguard","20GA","1ft",""],"id":"1363"},"1364":{"desc":"Autoguard 18GA x 1 1/4' 200/cs","formatted_desc":["Autoguard","18GA","1.25in","200 units per Case"],"id":"1364"},"1365":{"desc":"BD Insyte Autoguard Shielded IV Catheter 20G x 1 1/4","formatted_desc":["BD Insyte Autoguard Shielded IV Catheter","20G","1.25in",""],"id":"1365"},"1366":{"desc":"BD Insyte Autoguard Shielded IV Catheter 18G x 1 1/4","formatted_desc":["BD Insyte Autoguard","1.25in","18G","Shielded IV Catheter"],"id":"1366"},"1367":{"desc":"Insyte Autoguard Shielded IV Catheter 16G x 1.16\" Grey","formatted_desc":["Insyte Autoguard Shielded IV Catheter","16G","1.16in","Grey"],"id":"1367"},"1368":{"desc":"Angiocath 16GA x 3-3/4' 50/cs","formatted_desc":["Angiocath","16GA","3.75ft","50 units per Case"],"id":"1368"},"1369":{"desc":"Angiocath 16GA x 5-1/4' 50/cs","formatted_desc":["Angiocath","16GA","5.25in","50 units per case"],"id":"1369"},"1370":{"desc":"Angiocath 14GA x 3.25' 10/bx 5/case","formatted_desc":["Angiocath","14GA","3.25ft","10 units per box, 5 boxes per case"],"id":"1370"},"1371":{"desc":"Angiocath 14GA x 5-1/4' 50/cs","formatted_desc":["Angiocath","14GA","5.25ft","50 units per case"],"id":"1371"},"1372":{"desc":"Angiocath 12GA x 3' 10/bx 5/case","formatted_desc":["Angiocath","12GA","3ft","10 units per box, 5 boxes per case"],"id":"1372"},"1373":{"desc":"Angiocath 10GA x 3' 10/bx  5/case","formatted_desc":["Angiocath","10GA","3ft","10 units per Box, 5 Boxes per Case"],"id":"1373"},"1374":{"desc":"Venflon IV Catheter 22G x .98 Inch (Blue)","formatted_desc":["Venflon IV Catheter","22G","0.98in",""],"id":"1374"},"1375":{"desc":"Venflon IV Catheter 20G x 1.26 Inch (Pink)","formatted_desc":["Venflon IV Catheter","20G","1.26in",""],"id":"1375"},"1376":{"desc":"Venflon IV Catheter 18G x 1.77..Inch (Green)","formatted_desc":["Venflon IV Catheter","18G","1.77in",""],"id":"1376"},"1377":{"desc":"Meconium Suction Devices MBO-DEVICE, Kurtis MSD, 3.5MM","formatted_desc":["Meconium Suction Devices","Kurtis","3.5MM","MBO-DEVICE, MSD"],"id":"1377"},"1378":{"desc":"BabySafe Anesthesia Transport System","formatted_desc":["BabySafe Anesthesia Transport System"],"id":"1378"},"1379":{"desc":"Pediatric 2 Limb Exp&able Circuits","formatted_desc":["Pediatrics","2","Limb Expandable Circuits"],"id":"1379"},"1381":{"desc":"PRO-SIL 4.25g Silicone Gel Scar Treatment","formatted_desc":["PRO-SIL","4.25g","Silicone Gel Scar Treatment"],"id":"1381"},"1383":{"desc":"FloSwitch HP Control Device","formatted_desc":["FloSwitch","HP Control Device"],"id":"1383"},"1384":{"desc":"Benston Starter Guidewires PTFE Coated, 0.035in x 150cm x 15cm, Straight","formatted_desc":["Benston Guidewires","0.035in","150cm","Starter, PTFE Coated, 15cm, Straight"],"id":"1384"},"1385":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 2.0mm, 60mm, 150cm","formatted_desc":["Coyote Balloon Dilatation Catheter","2.0mm","60mm","150cm","Over-the-Wire,"],"id":"1385"},"1386":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 2.0mm, 100mm, 150cm","formatted_desc":["Coyote Balloon Dilatation Catheter","2.0mm","100mm","150cm","Over-the-Wire"],"id":"1386"},"1387":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 3.0mm, 80mm, 150cm","formatted_desc":["Coyote Balloon Dilatation Catheter","3.0mm","80mm","150cm","Over-the-Wire"],"id":"1387"},"1388":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 3.0mm, 100mm, 150cm","formatted_desc":["Coyote Balloon Dilatation Catheter","3.0mm","100mm","Over-the-Wire, 150cm"],"id":"1388"},"1389":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 3.0mm, 150mm, 150cm","formatted_desc":["Coyote Balloon Dilatation","3.0mm","150mm","Catheter Over-the-Wire, 150cm"],"id":"1389"},"1390":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 4.0mm, 80mm, 150cm","formatted_desc":["Coyote Balloon Dilatation Catheter","4.0mm","80mm","Over-the-Wire, 150cm"],"id":"1390"},"1391":{"desc":"Coyote Balloon Dilatation ..Catheter Over-the-Wire, 4.0mm, 120mm, 150cm","formatted_desc":["Coyote Balloon Dilatation Catheter","4.0mm","120mm","Over-the-Wire, 150cm"],"id":"1391"},"1392":{"desc":"Promus PREMIER Select  Coronary Stent 2.75 x 16","formatted_desc":["Promus PREMIER Select Coronary Stent","2.75in","16in",""],"id":"1392"},"1393":{"desc":"Promus PREMIER Select  Coronary Stent 3.0 x 16","formatted_desc":["Promus PREMIER Select Coronary Stent","3.0mm","16mm",""],"id":"1393"},"1394":{"desc":"Promus PREMIER Select  Coronary Stent 3.5 x 16","formatted_desc":["Promus PREMIER Select Coronary Stent","3.5mm","16mm"],"id":"1394"},"1395":{"desc":"Promus PREMIER Select  Coronary Stent 2.5 x 20","formatted_desc":["Promus PREMIER Select Coronary Stent","2.5mm","20mm",""],"id":"1395"},"1396":{"desc":"Promus PREMIER Select  Coronary Stent 2.75 x 20","formatted_desc":["Promus PREMIER Select Coronary Stent","2.75in","20mm"],"id":"1396"},"1397":{"desc":"Promus PREMIER Select  Coronary Stent 3.0 x 20","formatted_desc":["Promus PREMIER Select Coronary Stent","3.0mm","20mm"],"id":"1397"},"1398":{"desc":"Promus PREMIER Select  Coronary Stent 3.5 x 20","formatted_desc":["Promus PREMIER Select Coronary Stent","3.5mm","20mm",""],"id":"1398"},"1399":{"desc":"Promus PREMIER Select  Coronary Stent 4.0 x 20","formatted_desc":["Promus PREMIER Select Coronary Stent","4.0mm","20mm",""],"id":"1399"},"1400":{"desc":"Promus PREMIER Select  Coronary Stent 2.5 x 24","formatted_desc":["Promus PREMIER Select Coronary Stent","2.5mm","24mm"],"id":"1400"},"1401":{"desc":"Promus PREMIER Select  Coronary Stent 2.75 x 24","formatted_desc":["Promus PREMIER Select Coronary Stent","2.75in","24mm"],"id":"1401"},"1402":{"desc":"Promus PREMIER Select  Coronary Stent 3.0 x 24","formatted_desc":["Promus PREMIER Select Coronary Stent","3.0mm","24mm"],"id":"1402"},"1403":{"desc":"Promus PREMIER Select  Coronary Stent 3.5 x 24","formatted_desc":["Promus PREMIER Select Coronary Stent","3.5mm","24mm"],"id":"1403"},"1404":{"desc":"Promus PREMIER Select  Coronary Stent 2.5 x 28","formatted_desc":["Promus PREMIER Select Coronary Stent","2.5mm","28mm",""],"id":"1404"},"1405":{"desc":"Promus PREMIER Select  Coronary Stent 3.0 x 28","formatted_desc":["Promus PREMIER Select Coronary Stent","3.0mm","28mm"],"id":"1405"},"1406":{"desc":"Promus PREMIER Select  Coronary Stent 3.5 x 28","formatted_desc":["Promus PREMIER Select Coronary Stent","3.5mm","28mm"],"id":"1406"},"1407":{"desc":"Promus PREMIER Select  Coronary Stent 4.0 x 28","formatted_desc":["Promus PREMIER Select Coronary Stent","4.0mm","28mm",""],"id":"1407"},"1408":{"desc":"Promus PREMIER Select  Coronary Stent 2.75 x 32","formatted_desc":["Promus Coronary Stent","2.75in","32mm","PREMIER Select"],"id":"1408"},"1409":{"desc":"Promus PREMIER Select  Coronary Stent 3.0 x 32","formatted_desc":["Promus PREMIER Select Coronary Stent","3.0mm","32mm"],"id":"1409"},"1410":{"desc":"Promus PREMIER Select  Coronary Stent 3.5 x 32","formatted_desc":["Promus PREMIER Select Coronary Stent","3.5mm","32mm"],"id":"1410"},"1411":{"desc":"Promus PREMIER Select  Coronary Stent 2.5 x 38","formatted_desc":["Promus PREMIER Select Coronary Stent","2.5mm","38mm",""],"id":"1411"},"1412":{"desc":"Promus PREMIER Select  Coronary Stent 2.75 x 38","formatted_desc":["Coronary Stent","Promus PREMIER Select","2.75in","38mm",""],"id":"1412"},"1413":{"desc":"Promus PREMIER Select  Coronary Stent 3.0 x 38","formatted_desc":["Promus PREMIER Select Coronary Stent","3.0mm","38mm"],"id":"1413"},"1414":{"desc":"Promus PREMIER Select  Coronary Stent 3.5 x 38","formatted_desc":["Coronary Stent","Promus PREMIER Select","3.5in","38in"],"id":"1414"},"1415":{"desc":"Gateway Advantage Y-Adapter 3 mm ID, Provides a Leak-Resistant Seal Around Guidewires","formatted_desc":["Gateway Advantage Y-Adapter","3mm","Provides a Leak-Resistant Seal Around Guidewires"],"id":"1415"},"1416":{"desc":"V-18 ControlWire Guidewire 150cm","formatted_desc":["V-18 ControlWire Guidewire","150cm",""],"id":"1416"},"1417":{"desc":"Contour PVA Embolization..Particles, 500-710 micron,..5pcs/box","formatted_desc":["Contour PVA Embolization","Particles","500-710micron, 5 units per Box"],"id":"1417"},"1418":{"desc":"Resolution 360 Clip 235cm 11mm clip","formatted_desc":["Clip","Resolution","235cm","11mm"],"id":"1418"},"1419":{"desc":"Resolution 360 Clip 235cm 11mm clip","formatted_desc":["Resolution 360","Clip","235cm","11mm"],"id":"1419"},"1420":{"desc":"Resolution Clip 235cm 11mm clip","formatted_desc":["Resolution Clip","235cm","11mm"],"id":"1420"},"1421":{"desc":"CRE Fixed Wire Balloon Dilators15-18MM 8CM F/G","formatted_desc":["CRE Fixed Wire Balloon Dilators","15-18MM, 8CM, F/G"],"id":"1421"},"1422":{"desc":"Percuflex Plus Ureteral Stent \t4.8F x 22cm","formatted_desc":["Percuflex Plus Ureteral Stent","4.8F","22cm"],"id":"1422"},"1423":{"desc":"Percuflex Plus Ureteral Stent \t4.8F x 24cm","formatted_desc":["Percuflex Plus Ureteral Stent","4.8F","24cm"],"id":"1423"},"1424":{"desc":"Percuflex Plus Ureteral Stent 4.8F x 26cm","formatted_desc":["Percuflex Plus Ureteral Stent","4.8F","26cm"],"id":"1424"},"1425":{"desc":"Percuflex Plus Ureteral Stent \t6F x 26cm","formatted_desc":["Percuflex Plus Ureteral Stent","6F","26cm"],"id":"1425"},"1426":{"desc":"Segura Hemisphere Retrieval Basket 2.4F x 120cm x 16mm OD x Ã¯Â¿Â½0Ã¯Â¿Â½ Tip","formatted_desc":["Segura Hemisphere Retrieval Basket","2.4in","120cm","16mm OD, Tip"],"id":"1426"},"1427":{"desc":"Escape Nitinol Retrieval Basket \t1.9F x 120cm","formatted_desc":["Escape Nitinol Retrieval Basket","1.9F","120cm"],"id":"1427"},"1428":{"desc":"Sensor Dual-Flex PTFE-Nitinol Guidewire with Hydrophilic Tip 0.035in 150cm Straight 3cm","formatted_desc":["Sensor Dual-Flex Guidewire","0.035in","150cm","PTFE-Nitinol, with Hydrophilic Tip, Straight, 3cm"],"id":"1428"},"1429":{"desc":"Transvaginal Mid-Urethral Sling Advantage System","formatted_desc":["Transvaginal Mid-Urethral Sling","Advantage System"],"id":"1429"},"1430":{"desc":"Advantage Fit System 1 Delivery Device and 1 Mesh Assembly","formatted_desc":["Advantage Fit System","1 Delivery Device, 1 Mesh Assembly"],"id":"1430"},"1431":{"desc":"Obtryx Curved Transobturator Mid-Urethral Sling System","formatted_desc":["Obtryx Curved Transobturator Mid-Urethral Sling System"],"id":"1431"},"1432":{"desc":"Obtryx Halo Transobturator Mid-Urethral Sling System","formatted_desc":["Obtryx Halo","Transobturator Mid-Urethral Sling System"],"id":"1432"},"1433":{"desc":"Solyx SIS System","formatted_desc":["Solyx","SIS System"],"id":"1433"},"1435":{"desc":"Perineal cold pack 24/cs","formatted_desc":["Perineal Cold Pack","24 units per Case"],"id":"1435"},"1436":{"desc":"Yankauer w/o vent 50/cs","formatted_desc":["Yankauer","without vent, 50 units per Case"],"id":"1436"},"1438":{"desc":"AirLife Adult Medium Concentration Oxygen Mask","formatted_desc":["AirLife","Oxygen Mask","Adult, Medium Concentration"],"id":"1438"},"1439":{"desc":"AirLife Adult Medium Concentration O2 Mask w 7Ft Tubing","formatted_desc":["AirLife","Adult, Medium Concentration O2 Mask","7ft Tubing"],"id":"1439"},"1440":{"desc":"ADULT NON-REBREATHER MASKS (UNDER-THE CHIN STYLE) MASKS 3-IN-1 MASK WITH SAFETY VENT.","formatted_desc":["ADULT NON-REBREATHER MASK","3-IN-1, UNDER-THE-CHIN STYLE WITH SAFETY VENT"],"id":"1440"},"1441":{"desc":"AirLife Adult Aerosol Mask Under-the-Chin","formatted_desc":["AirLife Adult Aerosol Mask","Under-the-Chin"],"id":"1441"},"1442":{"desc":"AirLife Adult High-Concentration Aerosol Mask","formatted_desc":["AirLife Adult High-Concentration Aerosol Mask"],"id":"1442"},"1443":{"desc":"Adult Non-Rebreather Masks 3-in-1 mask with 2.1m crush-resistant tubing","formatted_desc":["Adult Non-Rebreather Masks","3-in-1, 2.1m, Crush-Resistant Tubing"],"id":"1443"},"1444":{"desc":"AirLife Oxygen Masks by BD MBO-MASK, NON-REBREATH, ADLT, W/SAFETY VENT","formatted_desc":["AirLife Oxygen Masks","BD","MBO-MASK, NON-REBREATH, ADLT, W/SAFETY VENT"],"id":"1444"},"1445":{"desc":"Pediatric trach mask","formatted_desc":["Pediatric Trach Mask"],"id":"1445"},"1446":{"desc":"AirLife Adult Large Trach Mask","formatted_desc":["AirLife","Trach Mask","Adult, Large"],"id":"1446"},"1447":{"desc":"AirLife Tracheostomy Masks by BD..TEE, TRACH, VENTURI, 7'TUBING, 6 DILUTERS","formatted_desc":["AirLife Tracheostomy Masks","BD","7in Tubing, 6 Diluters, Tee, Trach, Venturi"],"id":"1447"},"1448":{"desc":"AirLife Tracheostomy Masks by BD MASKS, TRACH, VENTURI, 7'TUBING, 6 DILUTERS","formatted_desc":["AirLife Tracheostomy Masks","BD","6 Diluters, 7in Tubing, Venturi"],"id":"1448"},"1449":{"desc":"Adult mask","formatted_desc":["Adult mask"],"id":"1449"},"1450":{"desc":"AirLife Pediatric Rebreather Mask with 7Ft Tubing","formatted_desc":["AirLife Pediatric Rebreather Mask","7ft Tubing"],"id":"1450"},"1451":{"desc":"AirLife Pediatric Rebreather Mask w/7Ft Tbg","formatted_desc":["AirLife Pediatric Rebreather Mask","7ft","with Tbg"],"id":"1451"},"1452":{"desc":"AirLife Oxygen Masks by BD..MASK, NON-REBREATHER, PED, W/SAFETY VENT","formatted_desc":["AirLife Oxygen Masks","BD","Non-Rebreather, Pediatric, with Safety Vent"],"id":"1452"},"1453":{"desc":"Oxygen tubing, 25', 25/cs...","formatted_desc":["Oxygen Tubing","25ft","25 units per case"],"id":"1453"},"1454":{"desc":"Airlife oxygen supply tubing","formatted_desc":["Airlife","Oxygen Supply Tubing"],"id":"1454"},"1455":{"desc":"AirLife Cannula Non-Flare Tip w/21Ft Crush Resistant Tbg","formatted_desc":["AirLife Cannula","Non-Flare Tip, 21Ft, Crush Resistant"],"id":"1455"},"1456":{"desc":"TUBING CORRUGATED NONSEG BL 5FT  . 50 EA/1CS..","formatted_desc":["Corrugated Tubing","0.5ft","Non-Segmented, 1 unit per Case"],"id":"1456"},"1457":{"desc":"AirLife Blue 22mm Corrugated Tubing 6 Inch","formatted_desc":["AirLife Blue Corrugated Tubing","22mm","6in",""],"id":"1457"},"1458":{"desc":"AirLife Blue 22mm Corrugated Tubing Segmented 100Ft Roll","formatted_desc":["AirLife Blue Corrugated Tubing","22mm","Segmented, 100Ft Roll"],"id":"1458"},"1459":{"desc":"AirLife Blue 22mm Corrugated Tubing Segmented 6Ft","formatted_desc":["AirLife Blue Corrugated Tubing","22mm","Segmented, 6Ft Long"],"id":"1459"},"1460":{"desc":"AirLife Trach Tee Adapters by Carefusion..TRAY, TRACH, T-ADAP / SML NEBULZ 22MM","formatted_desc":["AirLife Trach Tee Adapters","Carefusion","22mm, SML, Nebulizer"],"id":"1460"},"1461":{"desc":"AirLife Elbow Adapters by BD..ADAPTER ELBOW, W/SUCTION PORT & CAP","formatted_desc":["AirLife Elbow Adapters","BD","With Suction Port and Cap"],"id":"1461"},"1462":{"desc":"TRACH DRAIN CONTAINER WITH Y SITE 2L AIRLIFE (50/CS)","formatted_desc":["TRACH DRAIN CONTAINER","Airlife","2L, Y Site, 50 units per Case"],"id":"1462"},"1463":{"desc":"Quick Nebulizer with Manifold IPPB Circ","formatted_desc":["Quick Nebulizer","with Manifold, IPPB, Circ"],"id":"1463"},"1464":{"desc":"Adult Dual-Limb Circuits by BD CIRCUIT, VENT, DUAL LIMB","formatted_desc":["Adult Dual-Limb Circuits","BD","CIRCUIT, VENT, DUAL LIMB"],"id":"1464"},"1465":{"desc":"Incentive spirometer 20/cs","formatted_desc":["Incentive Spirometer","20 units per Case"],"id":"1465"},"1466":{"desc":"Tubing Connector 22mm, I.D. both ends","formatted_desc":["Tubing Connector","22mm","I.D. both ends"],"id":"1466"},"1467":{"desc":"AirLife Tubing Connectors by BD CONNECTOR, CORRUGATED TUBING","formatted_desc":["AirLife Tubing Connectors","BD","CONNECTOR, CORRUGATED TUBING"],"id":"1467"},"1468":{"desc":"AirLife Tubing Connectors by BD ADAPTER, UNIVERSAL, 7/8\" TUBING CONNECTOR","formatted_desc":["AirLife Tubing Connectors","BD","ADAPTER, UNIVERSAL, 7/8in TUBING CONNECTOR"],"id":"1468"},"1469":{"desc":"Airlife Patient Y And Elbow Connector, 22mm","formatted_desc":["Airlife Patient Y","22mm, Elbow Connector"],"id":"1469"},"1470":{"desc":"AirLife Disposable Ventilator Circuit Hanger","formatted_desc":["AirLife Disposable Ventilator Circuit Hanger"],"id":"1470"},"1471":{"desc":"AirLife O2 Swivel Connector Male/Female","formatted_desc":["AirLife","O2 Swivel Connector","Male, Female"],"id":"1471"},"1472":{"desc":"Bacterial filter 50/cs","formatted_desc":["Bacterial Filter","50 units per Case"],"id":"1472"},"1473":{"desc":"AirLife high-efficiency respiratory filter","formatted_desc":["AirLife","Respiratory Filter, High-Efficiency"],"id":"1473"},"1474":{"desc":"OXYGEN HUMIDIFIER BOTTLES EMPTY W/6 PSI 370ML (50/CS)","formatted_desc":["OXYGEN HUMIDIFIER BOTTLES","370ML","EMPTY, WITH 6 PSI, 50 units per Case"],"id":"1474"},"1475":{"desc":"Cannula with ear covers","formatted_desc":["Cannula","with ear covers"],"id":"1475"},"1476":{"desc":"AirLife Adapter Valved Tee 22 Mm Od/Id 30/Cs","formatted_desc":["AirLife Adapter","22mm","Valved Tee, 30 units per Case"],"id":"1476"},"1477":{"desc":"AsthmaCheck Peak Flow Meter by BD ASTHMA CHECK, W/ZONE MANAGEMENT","formatted_desc":["AsthmaCheck Peak Flow Meter","BD","with Zone Management"],"id":"1477"},"1478":{"desc":"Misty Max 10 Small Volume Neb","formatted_desc":["Misty Max 10","Small Volume Nebulizer"],"id":"1478"},"1479":{"desc":"AirLife Misty Max 10 Nebulizer Kit Small Volume 10 mL","formatted_desc":["AirLife Misty Max 10 Nebulizer Kit","10mL","Small Volume"],"id":"1479"},"1480":{"desc":"NEBULIZER WITH ADULT AEROSOL MASK AND 7 FT TUBING 50/CS MISTY MAX 10","formatted_desc":["NEBULIZER","with Adult Aerosol Mask, 7ft Tubing, 50 units per Case, Model: MISTY MAX 10"],"id":"1480"},"1481":{"desc":"Nebulizer w/ Pediatric Aerosol Mask","formatted_desc":["Nebulizer","with Pediatric Aerosol Mask"],"id":"1481"},"1482":{"desc":"NEBULIZER,MSTY FNTY,MD VL LO-FLO W/TB..","formatted_desc":["NEBULIZER","MSTY FNTY,MD VL LO-FLO W/TB"],"id":"1482"},"1483":{"desc":"Misty nebulizer  25/cs","formatted_desc":["Misty Nebulizer","25 units per Case"],"id":"1483"},"1484":{"desc":"Medium volume nebulizer 25/cs","formatted_desc":["Medium Volume Nebulizer","25 units per Case"],"id":"1484"},"1485":{"desc":"Pediatric nasal cannula tubing 50/cs","formatted_desc":["Pediatric Nasal Cannula","50 units per case"],"id":"1485"},"1486":{"desc":"AirLife Demand Cannulas by BD CANNULA, NASAL, ADULT, DEMAND, 7' TUBE","formatted_desc":["AirLife Demand Cannulas","BD","7ft","Nasal, Adult, Demand"],"id":"1486"},"1487":{"desc":"Hygroscopic condenser humidifier 50/cs","formatted_desc":["Hygroscopic Condenser Humidifier","50 units per Case"],"id":"1487"},"1488":{"desc":"AirLife Hygroscopic Condenser Humidifier..","formatted_desc":["AirLife","Hygroscopic Condenser Humidifier"],"id":"1488"},"1489":{"desc":"AirLife HME for Tracheostomy","formatted_desc":["AirLife","HME for Tracheostomy"],"id":"1489"},"1490":{"desc":"CIRCUIT VENT F/LIFECARE 3/16 15/CS LIFECARE VENTS. 15EA/CS","formatted_desc":["CIRCUIT VENT","LIFECARE","3/16in","15 units per Case"],"id":"1490"},"1491":{"desc":"15cm patient tube, 4mm and 7mm I.D. pressure lines, silicone diaphragm","formatted_desc":["15cm","Patient Tube, 4mm and 7mm I.D","Pressure Lines, Silicone Diaphragm"],"id":"1491"},"1492":{"desc":"22mm O.D. on both ends, Open Oxygen Monitor Stem","formatted_desc":["22mm","O.D.","Open Oxygen Monitor Stem"],"id":"1492"},"1493":{"desc":"K Dissector sponge , sterile","formatted_desc":["K Dissector Sponge","Sterile"],"id":"1493"},"1494":{"desc":"Tonsil Sponges Double strung. 1-1/4in (3.2cm)","formatted_desc":["Tonsil Sponges","1.25in","Double Strung"],"id":"1494"},"1495":{"desc":"ENZY-CLEAN ENZYMATIC CLEANER LO-FOAM 1GL. 1CS=4GL 1EA=1GL","formatted_desc":["ENZY-CLEAN ENZYMATIC CLEANER","1GL","LO-FOAM, 4 units per Case, 1 unit per Each"],"id":"1495"},"1496":{"desc":"Instrument Lubricant, 1gal bottles","formatted_desc":["Instrument Lubricant","1gal","bottles"],"id":"1496"},"1497":{"desc":"AirLife Nebulizer Heater","formatted_desc":["AirLife Nebulizer Heater"],"id":"1497"},"1498":{"desc":"Pediatric omniflex connector 50/cs","formatted_desc":["Pediatric Omniflex Connector","50 units per Case"],"id":"1498"},"1499":{"desc":"AirLife Omniflex Adult Adapter 5 to 5.5 cm","formatted_desc":["AirLife Omniflex Adult Adapter","5cm","5.5cm",""],"id":"1499"},"1500":{"desc":"ADAPTER,NEBULIZER,1000ML..","formatted_desc":["ADAPTER","NEBULIZER","1000ML",""],"id":"1500"},"1501":{"desc":"Vital View Laryngoscope Blades by BD..BLADE, LARNYGOSCOPE, MACINTOSH, #3, DISP","formatted_desc":["Vital View Laryngoscope Blades","BD","Macintosh, #3, Disposable"],"id":"1501"},"1502":{"desc":"Misty Ox Nebulizers by BD NEBULIZER, GAS INJECTION, MISTY OX","formatted_desc":["Misty Ox Nebulizers","BD","NEBULIZER, GAS INJECTION, MISTY OX"],"id":"1502"},"1503":{"desc":"Laryngoscope Blade, Plastic, High Visability Curvature, MAC 4, Disposable","formatted_desc":["Laryngoscope Blade","Plastic, High Visibility, Curvature, MAC 4, Disposable"],"id":"1503"},"1504":{"desc":"Blade, laryngoscope, plastic, Mil 2","formatted_desc":["Blade","Laryngoscope","Plastic, Mil 2"],"id":"1504"},"1505":{"desc":"Handle, Laryn, VS, Standard","formatted_desc":["Handle","Laryn","VS","Standard"],"id":"1505"},"1506":{"desc":"Airlife Kit","formatted_desc":["Airlife Kit"],"id":"1506"},"1507":{"desc":"Tracheostomy Cleaning Tray","formatted_desc":["Tracheostomy Cleaning Tray"],"id":"1507"},"1508":{"desc":"Jackson Rees Circuit, 2 L","formatted_desc":["Jackson Rees Circuit","2 L"],"id":"1508"},"1509":{"desc":"BabySafe Anesthesia Transport System 0 - 60 cm H2O APL","formatted_desc":["BabySafe Anesthesia Transport System","60cm","0cm","H2O, APL"],"id":"1509"},"1510":{"desc":"Surigal Clipper Handle","formatted_desc":["Surigal Clipper Handle"],"id":"1510"},"1511":{"desc":"ADAPTER,CHARGING ADAPTER FOR 5513E","formatted_desc":["CHARGING ADAPTER","5513E"],"id":"1511"},"1512":{"desc":"Infant respirator assembly tubing 30/cs","formatted_desc":["Infant Respirator Assembly","30 units per Case","Tubing"],"id":"1512"},"1513":{"desc":"Gas Sampling Line Kit, 0.8 micron filter, CO2 line with male/male connectors","formatted_desc":["Gas Sampling Line Kit","0.8 micron","CO2 line with male/male connectors"],"id":"1513"},"1514":{"desc":"Interface Gas Sampling Line, CO2, Male/Male, 10'","formatted_desc":["Gas Sampling Line","Interface","10ft","CO2, Male/Male"],"id":"1514"},"1515":{"desc":"Specimen short sock w/o stick 10/cs..","formatted_desc":["Specimen","Short Sock, without Stick, 10 units per Case"],"id":"1515"},"1516":{"desc":"Sample Line 3M/10FT","formatted_desc":["Sample Line","3M","10FT"],"id":"1516"},"1517":{"desc":"GRASPER SLIDE LOCK SNGL 5MM","formatted_desc":["GRASPER","5mm","SLIDE LOCK SNGL"],"id":"1517"},"1518":{"desc":"Chiba FNA Needles only 22G x 6cm","formatted_desc":["Chiba FNA Needles","22G","6cm","Only"],"id":"1518"},"1519":{"desc":"Airlife Sterile Water for Inhalation by BD..WATER, STERILE FOR INHALATION, USP 500M","formatted_desc":["Airlife Sterile Water","0.5L","For Inhalation, USP"],"id":"1519"},"1520":{"desc":"Solution 0.45% Saline Usp 1000 mL by BD MBO-SOLUTION, 0.45% SALINE USP 1000ML","formatted_desc":["Solution","0.45%","Saline, USP, 1000mL","BD MBO-SOLUTION"],"id":"1520"},"1521":{"desc":"Adapter airway access, 20/bx..","formatted_desc":["Adapter","Airway Access, 20 units per Box"],"id":"1521"},"1522":{"desc":"Bone Marrow biopsy needle (IO)","formatted_desc":["Bone Marrow Biopsy Needle","Interosseous",""],"id":"1522"},"1523":{"desc":"Bone Marrow biopsy needle (IO) 18GA","formatted_desc":["Bone Marrow Biopsy Needle","18GA","for Intraosseous Use"],"id":"1523"},"1524":{"desc":"Jamshidi bone marrow needle, 13g x 2' 10/cs","formatted_desc":["Jamshidi Bone Marrow Needle","13g","2in","10 units per Case"],"id":"1524"},"1525":{"desc":"Jamshidi biopsy needle","formatted_desc":["Jamshidi Biopsy Needle"],"id":"1525"},"1526":{"desc":"Jamshidi biopsy needle 11GA x 4' 10/cs","formatted_desc":["Jamshidi biopsy needle","11GA","4ft","10 units per case"],"id":"1526"},"1527":{"desc":"Misty Max Nebulizers by Carefusion MBO-MISTY FAST SVN W/BAF MP 6\"FLEX 7' O2","formatted_desc":["Misty Max Nebulizers","Carefusion","6in","7ft","MBO-MISTY, FAST, SVN, W/BAF, MP, 6in, FLEX, 7ft, O2"],"id":"1527"},"1528":{"desc":"Pressure Infusor 1000CC","formatted_desc":["Pressure Infusor","1000CC"],"id":"1528"},"1529":{"desc":"LA8302","formatted_desc":["LA8302"],"id":"1529"},"1530":{"desc":"Circumcision tray 5/cs","formatted_desc":["Circumcision tray","5 units per Case"],"id":"1530"},"1531":{"desc":"Ultra Slip Stylet, Pediatric, Sizes 4 - 6.5, Blue, Single Patient Use","formatted_desc":["Ultra Slip Stylet","4in","6.5in","Pediatric, Blue, Single Patient Use"],"id":"1531"},"1532":{"desc":"14Fr open suction catheter","formatted_desc":["14Fr","Open Suction Catheter"],"id":"1532"},"1533":{"desc":"Airlife Tri-FloÃ¯Â¿Â½ Ã¯Â¿Â½No TouchÃ¯Â¿Â½ Single","formatted_desc":["Airlife Tri-Flo","No Touch, Single"],"id":"1533"},"1534":{"desc":"Temno biopsy needle , 18ga X 9CM 5/BX","formatted_desc":["Temno biopsy needle","18ga","9CM","5 units per Box"],"id":"1534"},"1535":{"desc":"Jamshidi bone marrow needle 8G x 6\" 10/cs..","formatted_desc":["Jamshidi Bone Marrow Needle","8G","6in","10 units per case"],"id":"1535"},"1536":{"desc":"Jamshidi biopsy needle, 11ga x 6\" 10/cs","formatted_desc":["Jamshidi Biopsy Needle","11ga","6in","10 units per Case"],"id":"1536"},"1537":{"desc":"Jamshidi Bone Marrow Biopsy / Aspiration Needle T-Handle 11G x 6\"","formatted_desc":["Jamshidi Bone Marrow Biopsy","11G","6in","Aspiration, Needle T-Handle"],"id":"1537"},"1539":{"desc":"ThyroChek Thyroid Stimulating Hormone Test Rapid","formatted_desc":["ThyroChek","Thyroid Stimulating Hormone Test, Rapid"],"id":"1539"},"1541":{"desc":"Marked Spring Tip Guidewire","formatted_desc":["Spring Tip Guidewire","Marked"],"id":"1541"},"1542":{"desc":"Endoscopic Cleaning Brush, Single End","formatted_desc":["Endoscopic Cleaning Brush","Single End"],"id":"1542"},"1543":{"desc":"DetachaTip Handle, with ratchet","formatted_desc":["DetachaTip Handle","with ratchet"],"id":"1543"},"1544":{"desc":"Scope Saver Disposable Plastic Bite Block","formatted_desc":["Scope Saver","Bite Block","Disposable, Plastic"],"id":"1544"},"1545":{"desc":"Electrosurgical Pencil, Ultraclean, Rocker Switch, 1\" Blade, Sterile","formatted_desc":["Electrosurgical Pencil","1in","Ultraclean, Rocker Switch, Sterile"],"id":"1545"},"1546":{"desc":"Bend-A-Beam Hand Control Handpiece, 3\"","formatted_desc":["Bend-A-Beam Hand Control Handpiece","3in"],"id":"1546"},"1547":{"desc":"Ultraclean 1' Blade 50/cs","formatted_desc":["Ultraclean","1ft","Blade, 50 units per Case"],"id":"1547"},"1548":{"desc":"PadPro Defib Electrode Adult, Radiotranslucent Pads with Medtronic Connector","formatted_desc":["PadPro Defib Electrode","Adult, Radiotranslucent, Pads with Medtronic Connector"],"id":"1548"},"1549":{"desc":"Macrolyte Dispersive Grounding Electrode Pad, Size Adult, Regular","formatted_desc":["Macrolyte Dispersive Grounding Electrode Pad","Regular, Size Adult"],"id":"1549"},"1551":{"desc":"Universal Button Handle, Straight Pencil Grip with Rocker Switch, 10' Tubing","formatted_desc":["Universal Button Handle","10ft","Straight, Pencil Grip, with Rocker Switch, Tubing"],"id":"1551"},"1552":{"desc":"Pneumoperitoneum Insufflation needle, 14GA","formatted_desc":["Pneumoperitoneum Insufflation needle","14GA"],"id":"1552"},"1553":{"desc":"Disposable Insufflation Tubing (10.00ft Length) with Luer Lock Connector","formatted_desc":["Disposable Insufflation Tubing","10.00ft","with Luer Lock Connector"],"id":"1553"},"1554":{"desc":"ElectrolaseÃ¯Â¿Â½disposable hyfrecator electrodes -blunt","formatted_desc":["Electrolase","disposable hyfrecator electrodes","blunt"],"id":"1554"},"1555":{"desc":"ThermoGard Plus ABCÃ¯Â¿Â½ Adult Dual Dispersive Electrode with 10.00' Cable","formatted_desc":["ThermoGard Plus ABC","Adult Dual Dispersive Electrode","10.00ft Cable"],"id":"1555"},"1556":{"desc":"Sterile Sheath for electrosurgical reusable pencils","formatted_desc":["Sterile Sheath","for Electrosurgical Reusable Pencils"],"id":"1556"},"1557":{"desc":"Pencil Sheath, Hyfrecator, Sterile","formatted_desc":["Pencil Sheath","Hyfrecator","Sterile"],"id":"1557"},"1558":{"desc":"Conmed Veni-Gard IV Stabilization Dressing","formatted_desc":["Conmed","Veni-Gard IV Stabilization Dressing"],"id":"1558"},"1559":{"desc":"Veni-Gard  Jr. IV Stabilization Dressing","formatted_desc":["Veni-Gard Jr. IV Stabilization Dressing"],"id":"1559"},"1560":{"desc":"Tri-Lumen Filtered Tube Set for use with iFS AirSeal Mode","formatted_desc":["Tri-Lumen Filtered Tube Set","iFS AirSeal Mode"],"id":"1560"},"1561":{"desc":"Hemostasis Reposition Clip, 235cm x 11mm","formatted_desc":["Hemostasis Reposition Clip","11mm","235cm",""],"id":"1561"},"1562":{"desc":"Airseal Access Port with Obturator, 12/120 mm","formatted_desc":["Airseal Access Port","12mm","120mm","with Obturator"],"id":"1562"},"1563":{"desc":"PlumePen Surgical Smoke Evacuation Pencil with Stainless Steel ESU Blade","formatted_desc":["PlumePen Surgical Smoke Evacuation Pencil","with Stainless Steel ESU Blade"],"id":"1563"},"1564":{"desc":"PlumePen Elite includes 3/8 in (9.5 mm) x 10 ft (3 m) tubing with adapter to 7/8 in (22 mm) port","formatted_desc":["PlumePen Elite","0.375in","10ft","includes tubing with adapter to 0.875in port"],"id":"1564"},"1565":{"desc":"PlumePen Elite Smoke Evacuation Pencil, 3/8\" x 15' Tubing with Adapter to 22 mm Port","formatted_desc":["PlumePen Elite Smoke Evacuation Pencil","0.375in","15ft","with Adapter to 22mm Port"],"id":"1565"},"1566":{"desc":"PlumePen Pro 3/8 in (9.5 mm) x 10 ft (3 m) tubing with adapter to 7/8 in (22 mm) port","formatted_desc":["PlumePen Pro","0.375in","10ft","Tubing with adapter to 0.875in port"],"id":"1566"},"1567":{"desc":"PlumePen Ultra Smoke Evac Pencil, Nonstick, Sterile","formatted_desc":["PlumePen Ultra","Smoke Evac Pencil, Nonstick, Sterile"],"id":"1567"},"1568":{"desc":"PlumePort ActiV Laparoscopic Smoke Filtration Device","formatted_desc":["PlumePort ActiV","Laparoscopic Smoke Filtration Device"],"id":"1568"},"1570":{"desc":"Aquacel Hydrofiber Dressing with Strengthening Fiber - 0.75\" x 18\" rope, Sterile, 5/bx","formatted_desc":["Aquacel Hydrofiber Dressing","0.75in","18in","with Strengthening Fiber, Sterile, 5 units per Box"],"id":"1570"},"1571":{"desc":"Sur-fit Natura Durahesive Moldable Convex Wafer with Flexible Tape Collar 1/2\"-7/8\" opening","formatted_desc":["Sur-fit Natura","0.625in","1in","Durahesive, Moldable, Convex, Wafer with Flexible Tape Collar"],"id":"1571"},"1572":{"desc":"Esteem + One Piece Drainable Pouch with InvisiClose Tail Closure and Filter","formatted_desc":["Esteem","One Piece Drainable Pouch","InvisiClose Tail Closure, Filter"],"id":"1572"},"1574":{"desc":"Vista BriteTip 6F Guiding Catheter ..100cm, XB3","formatted_desc":["Vista BriteTip Guiding Catheter","6F","100cm","XB3"],"id":"1574"},"1575":{"desc":"Vista Britetip 6F Guiding Catheter ..100cm, JR 4.0","formatted_desc":["Vista Britetip","6F","100cm","Guiding Catheter, JR 4.0"],"id":"1575"},"1577":{"desc":"10CN10A 10.0MM TRACH TUBE W TG CUFFX1","formatted_desc":["10CN10A","10.0MM","TRACH TUBE W TG CUFFX1"],"id":"1577"},"1578":{"desc":"TB syringe 1cc x 25G softpack","formatted_desc":["TB syringe","1cc","25G, softpack"],"id":"1578"},"1579":{"desc":"Syringe, 1cc 27 x 1/2, T.B. , 100/bx","formatted_desc":["Syringe","1cc","27mm","1/2in","T.B., 100 units per box"],"id":"1579"},"1580":{"desc":"Monoject 3mL Syringe Luer Lock Tip 8bx/cs 100/ea..","formatted_desc":["Monoject","3mL","Syringe Luer Lock Tip, 8 boxes per Case, 100 units per Box"],"id":"1580"},"1581":{"desc":"3mL Syringe with Hypodermic Needle, 21G x 1-1/2\"..","formatted_desc":["3mL Syringe","with Hypodermic Needle, 21G","1.5in",""],"id":"1581"},"1582":{"desc":"3mL Syringe w/ Hypodermic Needle 22G x 1\" (2.5cm)","formatted_desc":["3mL Syringe","22G","1in","Hypodermic Needle"],"id":"1582"},"1583":{"desc":"SYRINGE,3CC 22 X 1 1/2\",L/L,100/BX","formatted_desc":["SYRINGE","3CC","22in","1.5in","L/L, 100 units per Box"],"id":"1583"},"1584":{"desc":"SYRINGE,20CC LUER SLIP,40/BX","formatted_desc":["SYRINGE","20CC","LUER SLIP, 40 Units per Box"],"id":"1584"},"1585":{"desc":"SYRINGE,60CC LUER LOCK, 30/BX","formatted_desc":["SYRINGE","60CC","LUER LOCK, 30 units per Box"],"id":"1585"},"1586":{"desc":"Hypodermic Needle Polypropylene Hub 18G x 1 1/2\"","formatted_desc":["Hypodermic Needle","18G","1.5in","Polypropylene Hub"],"id":"1586"},"1587":{"desc":"NEEDLE,19 X 1,SOFT PACK,MONOJECT,100/BX","formatted_desc":["NEEDLE","19","1in","SOFT PACK MONOJECT, 100 Units per Box"],"id":"1587"},"1588":{"desc":"Hypodermic Needle Polypropylene Hub 23G x 1\"..","formatted_desc":["Hypodermic Needle","23G","1in","Polypropylene Hub"],"id":"1588"},"1589":{"desc":"NEEDLE,25 X 1,100/BX","formatted_desc":["NEEDLE","1in","25","100 units per Box"],"id":"1589"},"1590":{"desc":"MONOJECT Needles, Soft Pack, 25 x 1 1/2, 100/bx","formatted_desc":["MONOJECT Needles","25mm","38.1mm","Soft Pack, 100 units per Box"],"id":"1590"},"1591":{"desc":"NEEDLE,26 X 1 1/2,MONOJECT,100/BX..","formatted_desc":["NEEDLE","1.5in","26GA","MONOJECT, 100 units per Box"],"id":"1591"},"1592":{"desc":"MONOJECT Needle, softPak 27 x 1/2 100/bx","formatted_desc":["MONOJECT","27in","0.5in","Needle, softPak 100 units per Box"],"id":"1592"},"1593":{"desc":"Needle, 30 x 3/4, soft pack, monoject, 100/bx","formatted_desc":["Needle","30mm","19.05mm","Soft Pack, Monoject, 100 units per Box"],"id":"1593"},"1594":{"desc":"SURGICLIP Clip Applier PREMIUM, III, 9.0","formatted_desc":["SURGICLIP Clip Applier","9.0in","PREMIUM, III"],"id":"1594"},"1595":{"desc":"Clip Applier Premium Surgiclip II M 9.75","formatted_desc":["Clip Applier Premium Surgiclip II","9.75in","M"],"id":"1595"},"1596":{"desc":"NEEDLE,SURGINEEDLE,  120MM INSTRUMENT","formatted_desc":["NEEDLE","SURGINEEDLE","120MM","INSTRUMENT"],"id":"1596"},"1597":{"desc":"Surgineedle 150mm long","formatted_desc":["Surgineedle","150mm",""],"id":"1597"},"1598":{"desc":"Endo Stitch 10 mm Suturing Device","formatted_desc":["Endo Stitch","10mm","Suturing Device"],"id":"1598"},"1599":{"desc":"Endocatch endoscopic specimen pouch 15mm","formatted_desc":["Endocatch","15mm","Endoscopic Specimen Pouch"],"id":"1599"},"1600":{"desc":"Specimen Retrieval Pouch Endo Catch Gold 10 mm 34.5 cm","formatted_desc":["Specimen Retrieval Pouch","Endo Catch Gold, 10mm, 34.5cm"],"id":"1600"},"1601":{"desc":"Protrack Fixation Device 5mm Titanium Single Use","formatted_desc":["Protrack Fixation Device","5mm","Titanium, Single Use"],"id":"1601"},"1602":{"desc":"Laparoscopic Grasper Endo Clinch II 31 cm","formatted_desc":["Laparoscopic Grasper","Endo Clinch II","31cm"],"id":"1602"},"1603":{"desc":"DERMALON 5-0 CE-4 18 (36/BX)","formatted_desc":["DERMALON","5-0","CE-4in","18in","36 units per Box"],"id":"1603"},"1604":{"desc":"DERMALON 4-0 C-13 18 (36/BX)","formatted_desc":["DERMALON","4-0","C-13","18in, 36 units per Box"],"id":"1604"},"1605":{"desc":"DERMALON 2-0 C-13 18 (36/BX)","formatted_desc":["DERMALON","2-0","C-13, 18, 36 units per Box"],"id":"1605"},"1606":{"desc":"Endo Shears 5 mm single use Instrument with Monopolar Cautery - 31 cm Length","formatted_desc":["Endo Shears","5mm","Single Use, 31cm Length, Instrument with Monopolar Cautery"],"id":"1606"},"1607":{"desc":"Webril cast pad 3' 12/bx","formatted_desc":["Webril","Cast Pad","3in","12units per Box"],"id":"1607"},"1608":{"desc":"Conform gauze 3' non-sterile","formatted_desc":["Conform Gauze","3in","Non-Sterile"],"id":"1608"},"1609":{"desc":"3.5PEF 3.5MM ID PAED SML CUFFLESS X1","formatted_desc":["3.5MM","PAED SML CUFFLESS","1"],"id":"1609"},"1610":{"desc":"2 Gallon Red Multi-Purpose Sharps Container with Slide Lid","formatted_desc":["2 Gallon","Red, Multi-Purpose, Sharps Container with Slide Lid"],"id":"1610"},"1611":{"desc":"Sharps container, 10gal","formatted_desc":["Sharps container","10gal",""],"id":"1611"},"1612":{"desc":"Webril cast padding 4' 12/bx","formatted_desc":["Webril Cast Padding","4in","12 units per Box"],"id":"1612"},"1613":{"desc":"4.0PEF 4.0MM ID PAED MED CUFFLESS X1","formatted_desc":["4.0PEF","4.0MM","ID","PAED","MED","CUFFLESS","X1"],"id":"1613"},"1614":{"desc":"4.5PEF 4.5MM ID PAED MED CUFFLESS X1","formatted_desc":["4.5PEF","4.5MM","ID PAED MED CUFFLESS X1"],"id":"1614"},"1615":{"desc":"4CN65R 6.5MM ADT FLEX TRACH W TG CUFF X1","formatted_desc":["4CN65R","6.5MM ADT FLEX TRACH W TG CUFF","X1"],"id":"1615"},"1616":{"desc":"4IC65 6.5MM TRACH DISPOS INNER CANNX10","formatted_desc":["Tracheostomy Cannula","4IC65","6.5mm","Disposable, Inner Cannula, 10 units per Box"],"id":"1616"},"1617":{"desc":"5.0PEF 5.0MM ID PAED MED CUFFLESS X1","formatted_desc":["5.0","PEF","5.0MM","ID, PAED, MED, CUFFLESS, X1"],"id":"1617"},"1618":{"desc":"5.0PLCF 5.0MM ID PAED LNG MED CUFFEDX1","formatted_desc":["5.0PLCF","5.0MM","ID, PAED, LNG, MED, CUFFED, X1"],"id":"1618"},"1619":{"desc":"5.5PCF 5.5MM ID PAED LGE CUFFED X1","formatted_desc":["5.5MM","PCF, 5.5MM ID, PAED LGE CUFFED, X1"],"id":"1619"},"1620":{"desc":"5.5PEF 5.5MM ID PAED LGE CUFFLESS X1","formatted_desc":["5.5mm","PEF, PAED, LGE, CUFFLESS, 1 unit"],"id":"1620"},"1621":{"desc":"5.5PELF 5.5MM ID PAED LNG LGECUFFLESSX1","formatted_desc":["5.5in","PELF","5.5mm","ID, PAED, LNG, LGECUFF, LESSX1"],"id":"1621"},"1622":{"desc":"50XLTIN 5.0MM XLT TRACH INNER CANNULA","formatted_desc":["Trach Inner Cannula","50","5.0mm","XLT, IN"],"id":"1622"},"1623":{"desc":"5CN70R 7.0MM ADT FLEX TRACH W TG CUFF X1","formatted_desc":["5CN","70R","7.0MM","ADT FLEX TRACH W TG CUFF X1"],"id":"1623"},"1624":{"desc":"5IC70 7.0MM TRACH DISPOS INNER CANNX10","formatted_desc":["5IC70","7.0MM","TRACH DISPOS INNER CANNX10"],"id":"1624"},"1625":{"desc":"6.0PELF 6.0MM ID PAED LNG LGECUFFLESSX1","formatted_desc":["6.0","PELF","6.0MM","ID, PAED, LNG, LGECUFFLESS, X1"],"id":"1625"},"1626":{"desc":"6.0PLCF 6.0MM ID PAED LNG LGE CUFFEDX1","formatted_desc":["6.0PLCF","6.0MM","ID, PAED, LNG, LGE, CUFFED, X1"],"id":"1626"},"1627":{"desc":"6.5PELF 6.5MM ID PAED LNG LGECUFFLESSX1","formatted_desc":["6.5mm","PELF, 6.5mm, ID, PAED, LNG, LGEC, CUFFLESS, 1 unit"],"id":"1627"},"1628":{"desc":"60XLTCD 6.0MM XLT TRACH CUFF DIST X1","formatted_desc":["60XLTCD","6.0MM","Cuff, Tracheostomy, Distal, XLT"],"id":"1628"},"1629":{"desc":"60XLTCP 6.0MM XLT TRACH CUFF PROX X1","formatted_desc":["60XLTCP","6.0MM","1","Cuff Prox X1"],"id":"1629"},"1630":{"desc":"60XLTIN 6.0MM XLT TRACH INNER CANNULA","formatted_desc":["60XLTIN","6.0MM","XLT TRACH INNER CANNULA"],"id":"1630"},"1631":{"desc":"60XLTUD 6.0MM XLT TRACH UNCUFFED DIST X1","formatted_desc":["60XLTUD","6.0MM","XLT TRACH UNCUFFED DIST X1"],"id":"1631"},"1632":{"desc":"60XLTUP 6.0MM XLT TRACH UNCUFFED PROX X1","formatted_desc":["60XLTUP","6.0MM","XLT TRACH UNCUFFED PROX X1"],"id":"1632"},"1633":{"desc":"6CN75R 7.5MM ADT FLEX TRACH W TG CUFF X1","formatted_desc":["6CN75R","7.5MM","FLEX TRACH W TG CUFF X1"],"id":"1633"},"1634":{"desc":"6DCT 6 CUFF TRACH CANN W DISP IC X1","formatted_desc":["6DCT","6in","Cuff Trach Cannula with Dispenser, Inner Cannula, X1"],"id":"1634"},"1635":{"desc":"6IC75 7.5MM TRACH DISPOS INNER CANNX10","formatted_desc":["6IC75","Tracheostomy, 7.5mm, Disposable, Inner Cannula, 10 per Box"],"id":"1635"},"1636":{"desc":"Telfa Adhesive Island Dressing, 4\" x 10\"","formatted_desc":["Telfa Adhesive Island Dressing","4in","10in",""],"id":"1636"},"1637":{"desc":"7CN80R 8.0MM ADT FLEX TRACH W TG CUFF X1","formatted_desc":["7CN80R","8.0MM","ADT FLEX TRACH W TG CUFF X1"],"id":"1637"},"1638":{"desc":"7IC80 8.0MM TRACH DISPOS INNER CANNX10","formatted_desc":["8.0MM","TRACH","DISPOS INNER CANNX10","7IC80"],"id":"1638"},"1639":{"desc":"80XLTIN 8.0MM XLT TRACH INNER CANNULA","formatted_desc":["80XLTIN","8.0MM","XLT TRACH INNER CANNULA"],"id":"1639"},"1640":{"desc":"Monoject 10mL Oral Syringe Clear","formatted_desc":["Monoject","10mL","Oral Syringe, Clear"],"id":"1640"},"1641":{"desc":"Vaseline Petrolatum Gauze, 3\" x 9\", 200/CS","formatted_desc":["Vaseline","3in","9in","Petrolatum Gauze, 200 units per Case"],"id":"1641"},"1642":{"desc":"8CN85R 8.5MM ADT FLEX TRACH W TG CUFF X1","formatted_desc":["8CN85R","8.5MM","ADT FLEX TRACH W TG CUFF X1"],"id":"1642"},"1643":{"desc":"8DCT 8 CUFF TRACH CANN W DISP IC X1","formatted_desc":["8DCT","8in","Cuff Trach Cannula, With Dispersible, Inner C"],"id":"1643"},"1644":{"desc":"8IC85 8.5MM TRACH DISPOS INNER CANNX10","formatted_desc":["Trach","8IC85","8.5MM","DISPOSABLE, INNER CAN, 10 units per Box"],"id":"1644"},"1645":{"desc":"9CN90R 9.0MM ADT FLEX TRACH W TG CUFF X1","formatted_desc":["9CN90R","9.0MM","ADT FLEX TRACH W TG CUFF X1"],"id":"1645"},"1646":{"desc":"9IC90 9.0MM TRACH DISPOS INNER CANNX10","formatted_desc":["9IC90","9.0MM","Tracheostomy, Disposable, Inner Cannula, 10 units per Case"],"id":"1646"},"1647":{"desc":"AbsorbaTack Fixation Device, 5 mm, single use, 15 tacks","formatted_desc":["AbsorbaTack Fixation Device","5mm","Single use, 15 tacks"],"id":"1647"},"1648":{"desc":"AbsorbaTack Fixation Device, 5 mm, single use, 20 tacks, short","formatted_desc":["AbsorbaTack Fixation Device","5mm","Single Use, 20 Tacks, Short"],"id":"1648"},"1649":{"desc":"Fixation Device AbsorbaTack Squeeze Handle","formatted_desc":["Fixation Device","AbsorbaTack, Squeeze Handle"],"id":"1649"},"1650":{"desc":"TROCAR VERSONE 5MM STD BLADED","formatted_desc":["TROCAR","5MM","VERSONE, STD BLADED"],"id":"1650"},"1651":{"desc":"TROCAR,BLADED 5MM STD SMOOTH","formatted_desc":["TROCAR","5MM","BLENDED, STANDARD, SMOOTH"],"id":"1651"},"1652":{"desc":"Wound Stapler Endo GIA Ultra Universal Pistol Grip","formatted_desc":["Wound Stapler","Endo GIA, Ultra, Universal, Pistol Grip"],"id":"1652"},"1653":{"desc":"Laparoscopic Sealer/Divider Ligasure Maryland 44 cm","formatted_desc":["Laparoscopic Sealer/Divider","Ligasure Maryland","44cm"],"id":"1653"},"1654":{"desc":"ProGrip Laparoscopic Self-Fixating Mesh, Flat sheet 10x15cm","formatted_desc":["ProGrip Laparoscopic Self-Fixating Mesh","15cm","10cm","Flat sheet"],"id":"1654"},"1655":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, Left Anatomical","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","Left Anatomical"],"id":"1655"},"1656":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, Right Anatomical","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","Right Anatomical"],"id":"1656"},"1657":{"desc":"Oximax sensor , infant","formatted_desc":["Oximax Sensor","Infant"],"id":"1657"},"1658":{"desc":"Balloon Dissector Spacemaker PDB Large Round","formatted_desc":["Balloon Dissector","Spacemaker","PDB, Large, Round"],"id":"1658"},"1659":{"desc":"TROCAR VERSAONE 12MM STD OPTICAL","formatted_desc":["TROCAR VERSAONE","12MM","STD OPTICAL"],"id":"1659"},"1660":{"desc":"Bladeless Optical Trocar Versaport V2 100 mm 5 mm","formatted_desc":["Bladeless Optical Trocar","Versaport V2","100mm","5mm"],"id":"1660"},"1661":{"desc":"Parietene Macroporous Nonabsorbable Knitted Polypropylene 30 X 30 cm Square Style","formatted_desc":["Parietene","30cm","30cm","Macroporous, Nonabsorbable, Knitted Polypropylene Square Style"],"id":"1661"},"1662":{"desc":"Parietene Macroporous Mesh \t45x30 cm","formatted_desc":["Parietene Macroporous Mesh","45cm","30cm",""],"id":"1662"},"1663":{"desc":"Parietex Hydrophilic Anatomical Mesh, Left Side, Polyester, 15 x 10 cm","formatted_desc":["Parietex Hydrophilic Anatomical Mesh","15cm","10cm","Left Side, Polyester"],"id":"1663"},"1664":{"desc":"Parietex Hydrophilic Anatomical Mesh, Right Side, Polyester, 15 x 10 cm","formatted_desc":["Parietex Hydrophilic Anatomical Mesh","15cm","10cm","Right Side, Polyester"],"id":"1664"},"1665":{"desc":"Progrip parietex precut mesh , right flap","formatted_desc":["Progrip Parietex Precut Mesh","Right Flap"],"id":"1665"},"1666":{"desc":"Parietex ProGrip Rectangular Mesh, 15 x 15 cm (6Ã¯Â¿Â½x 6Ã¯Â¿Â½)","formatted_desc":["Parietex ProGrip Rectangular Mesh","15cm","15cm",""],"id":"1666"},"1668":{"desc":"Intermediary Tubing without One-Way Valve","formatted_desc":["Intermediary Tubing","without One-Way Valve"],"id":"1668"},"1670":{"desc":"Double-Strung Tonsil Sponges, Large 1\"","formatted_desc":["Double-Strung Tonsil Sponges","1in","Large"],"id":"1670"},"1671":{"desc":"BANDAGE,DRESSING,KLING,STERILE,1\"X5YD","formatted_desc":["Bandage Dressing Kling Sterile","1in","5yd",""],"id":"1671"},"1672":{"desc":"Composite Dressing Covaderm Plus 4 X 4 Inch Fabric 1 X 1 Inch Pad Sterile","formatted_desc":["Composite Dressing","Covaderm Plus","4in","4in","Fabric, 1in Pad, Sterile"],"id":"1672"},"1673":{"desc":"TraceCart - System, Waste Transport, Lid-32","formatted_desc":["TraceCart","System","Waste Transport, Lid-32"],"id":"1673"},"1674":{"desc":"Jackson Frame Kit, Surgical Positioners, Table System","formatted_desc":["Jackson Frame Kit","Surgical Positioners, Table System"],"id":"1674"},"1676":{"desc":"Cotton Balls, Medium, 2000/bg, 2 bg/cs","formatted_desc":["Cotton Balls","Medium","2000 units per Bag, 2 Bags per Case"],"id":"1676"},"1677":{"desc":"Cotton Balls, Large, 2000/PK","formatted_desc":["Cotton Balls","Large","2000 units per Pack"],"id":"1677"},"1678":{"desc":"Beauty Wipes, 4\" x 4\", 4-Ply, 200/bg, 10 bg/cs (45 cs/plt)","formatted_desc":["Beauty Wipes","4in","4in","4-Ply, 200 per Bag, 10 Bags per Case, 45 Cases per Pallet"],"id":"1678"},"1680":{"desc":"Disposable Tattoo Arm Sleeve Cover Barrier 100/bx, 5bx/cs","formatted_desc":["Disposable Tattoo Arm Sleeve","Barrier, 100 units per Box, 5 Boxes per Case"],"id":"1680"},"1681":{"desc":"Plastic Cord Covers 24\" x 2\" 12/250/Cs","formatted_desc":["Plastic Cord Covers","2in","24in","12 units per Box, 250 Boxes per Case"],"id":"1681"},"1682":{"desc":"Machine Bag 5\" x 5\" 16/500/Cs","formatted_desc":["Machine Bag","5in","5in","16 units per Pack, 500 Packs per Case"],"id":"1682"},"1683":{"desc":"Bottle Cover -Medium 6\" x 8\" 20/500/Cs","formatted_desc":["Bottle Cover","6in","8in","Medium, 20 units per Pack, 500 units per Case"],"id":"1683"},"1684":{"desc":"Bottle Covers - Large 6\" x 10\" 20/500/Cs","formatted_desc":["Bottle Covers","6in","10in","Large, 500 units per Case, 20 units per Box"],"id":"1684"},"1685":{"desc":"Black Rubber Bands 1lb bag 25 bags/Cs","formatted_desc":["Black Rubber Bands","1lb","25 bags per Case"],"id":"1685"},"1686":{"desc":"Soaker Pads 4\" x 7\"  Black 500 pcs/bag  4 bag/Cs","formatted_desc":["Soaker Pads","4in","7in","Black, 500 pieces per bag, 4 bags per Case"],"id":"1686"},"1687":{"desc":"Soaker Pads - 6.25\" x 7\" Black","formatted_desc":["Soaker Pads","7in","6.25in","Black"],"id":"1687"},"1688":{"desc":"Ink Cups - Flat bottom 11 mm - Small 10/1000/cs","formatted_desc":["Ink Cups","11mm","Flat bottom, Small 10 units per Box, 1000 units per Case"],"id":"1688"},"1689":{"desc":"Ink Cups - Flat bottom 14 mm - Medium 10/1000/cs","formatted_desc":["Ink Cups","14mm","Flat bottom, Medium, 10 units per box, 1000 boxes per case"],"id":"1689"},"1690":{"desc":"Ink Cups - Flat bottom 17mm- Large 10/1000/cs","formatted_desc":["Ink Cups","17mm","Flat, Large, 10 units per Pack, 1000 units per Case"],"id":"1690"},"1691":{"desc":"Ink Cups - Flat bottom 20mm - XLarge 10/500/cs","formatted_desc":["Ink Cups","20mm","Flat, Bottom XLarge, 500 units per Case"],"id":"1691"},"1692":{"desc":"Grommet Nipples - Black","formatted_desc":["Grommet Nipples","Black"],"id":"1692"},"1693":{"desc":"Advantage Surgical Sponges 8 Ply Economy 4\"x 4\"","formatted_desc":["Advantage Surgical Sponges","4in","4in","8 Ply Economy"],"id":"1693"},"1694":{"desc":"Cloth Surgical Tape 1\" x 10 yds","formatted_desc":["Cloth Surgical Tape","1in","10yds",""],"id":"1694"},"1695":{"desc":"Cotton Tipped Wood Applicators Sterile 6\"","formatted_desc":["Cotton Tipped Wood Applicators","Sterile, 6in"],"id":"1695"},"1696":{"desc":"Tongue Depressors Wood, Non-sterile - Senior 6\"","formatted_desc":["Tongue Depressors","Wood, Non-sterile - Senior 6in"],"id":"1696"},"1697":{"desc":"Polyethelene Aprons - 24\" x 42\"","formatted_desc":["Polyethylene Aprons","42in","24in",""],"id":"1697"},"1698":{"desc":"Sterilization Pouches - 3.5\" x 5.25\"","formatted_desc":["Sterilization Pouches","5.25in","3.5in",""],"id":"1698"},"1699":{"desc":"Sterilization Pouches - 3.5\" x 9\"","formatted_desc":["Sterilization Pouches","3.5in","9in"],"id":"1699"},"1700":{"desc":"Sterilization Pouches 5.25\" x 10\"","formatted_desc":["Sterilization Pouches","10in","5.25in",""],"id":"1700"},"1701":{"desc":"Sterilization Pouches 7.5\" x 13\"","formatted_desc":["Sterilization Pouches","13in","7.5in",""],"id":"1701"},"1702":{"desc":"Table Paper Smooth, 18\" x 225 ft","formatted_desc":["Table Paper","18in","225ft","Smooth"],"id":"1702"},"1703":{"desc":"Table Paper Smooth, 21\" x 225 ft","formatted_desc":["Table Paper","21in","225ft","Smooth"],"id":"1703"},"1704":{"desc":"Black Bibs - 17 3/4\" x 12 7/8\"","formatted_desc":["Black Bibs","17.75in","12.875in",""],"id":"1704"},"1705":{"desc":"Sharps Containers, 2gal.","formatted_desc":["Sharps Containers","2gal"],"id":"1705"},"1707":{"desc":"ETHICON ETHILON 4-0 FS-1 18","formatted_desc":["ETHICON","ETHILON","4-0, FS-1 18in"],"id":"1707"},"1708":{"desc":"5-0 ETHILON BLACK 1X18\" PS-4","formatted_desc":["Ethilon","5-0","18in","Black, PS-4"],"id":"1708"},"1709":{"desc":"4/0 18 ethilon black","formatted_desc":["Ethilon","4/0","18in","Black"],"id":"1709"},"1710":{"desc":"ETHICON ETHILON 2-0 FSLX 30 (36/CT)","formatted_desc":["ETHICON ETHILON","2-0","FSLX, 30 units per pack, 36 packs per Case"],"id":"1710"},"1711":{"desc":"4-0 PERMA HAND BLACK 1X18\" PS-2","formatted_desc":["4-0","Perma Hand","Black","1in","18in","PS-2"],"id":"1711"},"1712":{"desc":"6/0 18 ethilon black","formatted_desc":["6in","0.18in","Ethilon Black"],"id":"1712"},"1713":{"desc":"8-0 Ethilon Black 1X12'' TG100-8 Double Armed","formatted_desc":["Ethilon","8in","12in","Black, TG100-8, Double Armed"],"id":"1713"},"1714":{"desc":"ETHICON ETHILON 2 LR 20 (24/ CT)","formatted_desc":["ETHICON ETHILON","2","LR 20 (24 units per CT)"],"id":"1714"},"1715":{"desc":"Suture, Straight Cutting Needles, KS, 30\", Size 3-0, 36/bx","formatted_desc":["Suture","Straight Cutting Needles, KS, 30in, Size 3-0, 36 units per Box"],"id":"1715"},"1716":{"desc":"Ethilon 2.0 suture","formatted_desc":["Ethilon","2.0","suture"],"id":"1716"},"1717":{"desc":"3-0 CHROMIC GUT 27\" FS-2 CUTTING","formatted_desc":["3-0 CHROMIC GUT","27in","FS-2, CUTTING"],"id":"1717"},"1718":{"desc":"6-0 Perma Hand Silk Black 1X18'' P-1","formatted_desc":["Perma Hand Silk","Black","1in","18in","6-0, P-1"],"id":"1718"},"1719":{"desc":"5-0 18' silk suture","formatted_desc":["5-0","Silk Suture","18in"],"id":"1719"},"1720":{"desc":"5.0 Ethilon 18'","formatted_desc":["Ethilon","5.0in","18ft",""],"id":"1720"},"1721":{"desc":"4.0 Ethilon 18'","formatted_desc":["Ethilon","4.0in","18ft",""],"id":"1721"},"1722":{"desc":"663H: 3-0 ETHILON BLACK 18\" FS-1 CUTTING","formatted_desc":["663H","ETHILON","18in","3-0, FS-1, CUTTING, BLACK"],"id":"1722"},"1723":{"desc":"2-0 ETHILON BLACK 1X18\" FS","formatted_desc":["Ethilon","2","0","Black, 1in, 18in, FS"],"id":"1723"},"1724":{"desc":"2-0 ETHILON BLACK 18\" FS CUTTING 36/bx","formatted_desc":["Ethilon","2.0","18in","Black, FS, Cutting, 36 per Box"],"id":"1724"},"1725":{"desc":"6-0 Ethilon Black 1X18'' C-2","formatted_desc":["Ethilon","6-0","1in","18in","Black, C-2"],"id":"1725"},"1726":{"desc":"Ethilon Non Absorbable Suture, 3-0, FS-1 24mm, 3/8 Circle, Black Monofilament","formatted_desc":["Ethilon Non Absorbable Suture","3-0","FS-1, 24mm, 3/8 Circle, Black Monofilament"],"id":"1726"},"1727":{"desc":"PERMA-HAND Reverse Cutting, 5-0 Silk, FS-2 19mm","formatted_desc":["PERMA-HAND","5-0","Silk, FS-2, 19mm","Reverse Cutting"],"id":"1727"},"1728":{"desc":"4-0 silk FS-2 suture","formatted_desc":["Silk Suture","4-0","FS-2"],"id":"1728"},"1729":{"desc":"PERMA-HAND Suture, Reverse Cutting, FS, 18\", Size 2-0","formatted_desc":["PERMA-HAND Suture","18in","Reverse Cutting, FS, Size 2-0"],"id":"1729"},"1730":{"desc":"6/0 18 ethilon black","formatted_desc":["6in","0","18ethilon","black"],"id":"1730"},"1731":{"desc":"Ethilon 5/0 18 black","formatted_desc":["Ethilon","5","0","18","black"],"id":"1731"},"1732":{"desc":"4/0 18 ethilon black","formatted_desc":["4-0","18in","Ethilon, Black"],"id":"1732"},"1733":{"desc":"Reverse Cutting 4-0 C-3 13mm 3/8 Circle Black Braided","formatted_desc":["Cutting","4-0","13mm","C-3 3/8 Circle, Black, Braided, Reverse"],"id":"1733"},"1734":{"desc":"MERSILENE Suture, 5-0, RD-1  8.0mm, Green Braided","formatted_desc":["MERSILENE Suture","5-0","8.0mm","RD-1, Green Braided"],"id":"1734"},"1735":{"desc":"6-0 PERMA HAND BLACK 1X18\" G-6 DOUBLE ARMED","formatted_desc":["6in","0in","PERMA HAND","BLACK, 1in width, 18in long, G-6 Double Armed"],"id":"1735"},"1736":{"desc":"PERMA-HAND Suture, 4-0, MICROPOINT-Reverse Cutting, 18\" Ã¯Â¿Â½ 45cm","formatted_desc":["PERMA-HAND Suture","4-0","MICROPOINT-Reverse Cutting, 18in"],"id":"1736"},"1737":{"desc":"6-0 PERMA HAND BLACK 1X18\" G-1","formatted_desc":["6in","0in","PERMA HAND","BLACK 1X18in, G-1"],"id":"1737"},"1738":{"desc":"3-0 GUT CHROMIC Naturally BROWN 1X27\" CT-1","formatted_desc":["3-0","GUT CHROMIC","27in","Naturally BROWN, 1unit per Package"],"id":"1738"},"1739":{"desc":"2-0 27IN GUT CHROMIC UND MONO SA CT-1 36/BX","formatted_desc":["2-0","27in","GUT CHROMIC UND MONO SA CT-1, 36 units per Box"],"id":"1739"},"1740":{"desc":"2-0 27IN GUT CHROMIC UND MONO SA CP-1 36/BX","formatted_desc":["2-0","27in","Gut Chromic, Und Mono, SA, CP-1, 36 units per Box"],"id":"1740"},"1741":{"desc":"2-0 PROLENE BLUE 30\" CT-2 TAPER","formatted_desc":["Prolene","2","0","30in","Blue, CT-2 Taper"],"id":"1741"},"1742":{"desc":"0 PROLENE BLUE 30\" CT-1 PLUS","formatted_desc":["PROLENE","30in","CT-1 PLUS, BLUE"],"id":"1742"},"1743":{"desc":"1 PROLENE BLUE 30\" CT-1 TAPER","formatted_desc":["PROLENE","30in","CT-1 TAPER, BLUE"],"id":"1743"},"1744":{"desc":"4-0 PROLENE BLUE 36\" SH TAPER, DOUBLE ARMED","formatted_desc":["Prolene","0.04in","36in","Blue, SH Taper, Double Armed"],"id":"1744"},"1745":{"desc":"5-0 prolene blue 18' FS-2 12/bx","formatted_desc":["0.5","Prolene","18in","Blue, FS-2, 12 units per Box"],"id":"1745"},"1746":{"desc":"PROLENE Polypropylene Suture, 3-0 PROLENE BLUE 1X18\" PS-1","formatted_desc":["PROLENE Polypropylene Suture","3-0","1in","18in","BLUE, PS-1"],"id":"1746"},"1747":{"desc":"3-0 prolene FS-2 suture","formatted_desc":["Prolene","3-0","FS-2 Suture"],"id":"1747"},"1748":{"desc":"3-0 PROLENE BLUE 30\" FSL CUTTING","formatted_desc":["Prolene","3-0","30in","Blue, FSL Cutting"],"id":"1748"},"1749":{"desc":"4-0 PROLENE Suture, Reverse Cutting, FS-2, 18\"","formatted_desc":["4-0 PROLENE Suture","Reverse Cutting, FS-2, 18in"],"id":"1749"},"1750":{"desc":"Reverse Cutting FS 26mm 3/8 Circle 2-0 Blue Monofilament..","formatted_desc":["Cutting FS","26mm","3/8in","Circle, 2-0, Blue, Monofilament"],"id":"1750"},"1751":{"desc":"3-0 PROLENE BLUE 1X18\" PS-2","formatted_desc":["Prolene","3","0","Blue, 1in, 18in, PS-2"],"id":"1751"},"1752":{"desc":"Reverse Cutting FSLX 40mm 3/8 Circle 0 Blue Monofilament..","formatted_desc":["FSLX","40mm","3/8in","Cutting, Reverse, 0 Blue Monofilament"],"id":"1752"},"1753":{"desc":"6-0 prolene blue 18' P-1 12/bx","formatted_desc":["6-0","Prolene","18ft","Blue, 12 units per Box"],"id":"1753"},"1754":{"desc":"Precision Point - Reverse Cutting 5-0 P-3 13mm 3/8 Circle..","formatted_desc":["Precision Point","5","0","P-3 13mm 3/8 Circle, Reverse Cutting"],"id":"1754"},"1755":{"desc":"Prolene suture, TPI","formatted_desc":["Prolene suture","TPI",""],"id":"1755"},"1756":{"desc":"3-0 27IN GUT CHROMIC UND MONO SA CT-2 36/BX","formatted_desc":["3-0","27in","Gut Chromic","Undyed, Monofilament, Surgical, CT-2, 36 units per Box"],"id":"1756"},"1757":{"desc":"ETHICON PROLENE 3-0 SH 30 (36/CT)","formatted_desc":["ETHICON PROLENE","3-0 SH","30 units per CT, 36 CT per box"],"id":"1757"},"1758":{"desc":"2/0 30 Prolene mono","formatted_desc":["Prolene","30mm","Mono",""],"id":"1758"},"1759":{"desc":"SUTURE, 0 30in BLUE PROLENE, 36/BX","formatted_desc":["SUTURE","0.3in","BLUE PROLENE, 36 units per BOX"],"id":"1759"},"1760":{"desc":"5-0 PROLENE BLUE 1X30\" RB-1","formatted_desc":["5-0","PROLENE","1in","30in","BLUE, RB-1"],"id":"1760"},"1761":{"desc":"ETHICON PROLENE 4-0 RB-1 30 (36/CT)","formatted_desc":["ETHICON PROLENE","4-0","RB-1, 30 units per Ct, 36 units per Box"],"id":"1761"},"1762":{"desc":"8-0 Ethilon Black 1X12'' CS175-8 Double Armed Suture","formatted_desc":["Ethilon","0.8in","Double Armed Suture, Black 1X12in CS175-8"],"id":"1762"},"1763":{"desc":"2-0 36IN GUT CHROMIC UND MONO SA CT 36/BX","formatted_desc":["Gut Chromic","36in","2-0, Undyed, Monofilament, Surgical, CT, 36 units per Box"],"id":"1763"},"1764":{"desc":"DERMABOND ADVANCED 0.7 ml","formatted_desc":["DERMABOND ADVANCED","0.7ml",""],"id":"1764"},"1765":{"desc":"Ligamax 5 Endoscopic Multiple Clip Applier","formatted_desc":["Ligamax 5","Endoscopic Multiple Clip Applier"],"id":"1765"},"1766":{"desc":"4-0 27IN GUT CHROMIC UND MONO SA SH 36/BX","formatted_desc":["27IN","GUT CHROMIC, UNSPECIFIED","4-0","36 units per Box","MONO SA, SH"],"id":"1766"},"1767":{"desc":"3.0 Chromic gut 27'","formatted_desc":["Chromic gut","3.0","27in"],"id":"1767"},"1768":{"desc":"2.0 Chromic gut 27'","formatted_desc":["2.0","Chromic gut","27ft",""],"id":"1768"},"1769":{"desc":"5-0 ETHILON GREEN 1X18\" P-1","formatted_desc":["Ethilon","0.5in","1in","Green, 18in, P-1"],"id":"1769"},"1770":{"desc":"PDS II 4-0 RB-1 27","formatted_desc":["PDS","II","4","0","RB-1","27"],"id":"1770"},"1771":{"desc":"PDS suture CT-1 PLUS 27' size 0","formatted_desc":["PDS Suture","27ft","CT-1 PLUS, Size 0"],"id":"1771"},"1772":{"desc":"1-0 27' PDS II monocryl SA CT-1 PLUS 36/bx","formatted_desc":["PDS II","0.5mm","27cm","Monocryl, SA, CT-1 PLUS, 36 units per Box"],"id":"1772"},"1773":{"desc":"3-0 27IN COATED VICRYL UND BRD SA CT-2 36/BX","formatted_desc":["3-0","27in","Coated Vicryl, Undyed, Braided, Size CT-2, 36 units per Box"],"id":"1773"},"1774":{"desc":"3-0 COATED VICRYL UNDYED 1X27\" CT-1","formatted_desc":["3-0","COATED VICRYL UNDYED, CT-1","27in","1in",""],"id":"1774"},"1775":{"desc":"2-0 27IN COATED VICRYL UND BRD SA CT-2 36/BX","formatted_desc":["2-0","27in","Coated Vicryl, Undyed, Broad, Straight","36 units per Box"],"id":"1775"},"1776":{"desc":"Vicryl suture","formatted_desc":["Vicryl Suture",""],"id":"1776"},"1777":{"desc":"SUTURE,VICRYL,4-0,SH-1,36/BX","formatted_desc":["SUTURE","VICRYL","4-0","SH-1","36 units per Box"],"id":"1777"},"1778":{"desc":"4-0 27in Coated VICRYL VIO BRD SA SH","formatted_desc":["4-0","27in","Coated VICRYL, VIO, BRD, SA, SH"],"id":"1778"},"1779":{"desc":"3-0 Coated Vicryl Violet 1X27'' CT-2","formatted_desc":["Coated Vicryl","3-0","1in","27in","Violet, CT-2"],"id":"1779"},"1780":{"desc":"Coated VICRYL Suture, Taper Point, CT-2, 27\", Size 2-0, 36/bx","formatted_desc":["Coated VICRYL Suture","27in","Size 2-0, Taper Point, CT-2, 36 units per box"],"id":"1780"},"1781":{"desc":"2-0 27' vicryl violet SA CT-1 36/bx","formatted_desc":["Vicryl","2-0","36 units per Box, Violet, SA, CT-1"],"id":"1781"},"1782":{"desc":"0 vicryl violet 27'  CT-1 taper 36/bx","formatted_desc":["vicryl","27in","CT-1 Taper, 36 units per Box","Violet"],"id":"1782"},"1783":{"desc":"3-0 COATED VICRYL VIOLET 1X36\" CT-1","formatted_desc":["Coated Vicryl","3-0","36in","Violet, CT-1"],"id":"1783"},"1784":{"desc":"3-0 COATED VICRYL VIOLET 1X36\" CT","formatted_desc":["3-0 COATED VICRYL","1in","36in","VIOLET, CT"],"id":"1784"},"1785":{"desc":"4-0 COATED VICRYL VIOLET 1X18\" FS-2","formatted_desc":["Coated Vicryl","0.4in","1in","Violet, 18in, FS-2"],"id":"1785"},"1786":{"desc":"Vicryl suture","formatted_desc":["Vicryl suture"],"id":"1786"},"1787":{"desc":"Suture, Precision Point Reverse Cutting, Size 5-0, 18\", Violet Braided, Needle P-3, 3/8 Circle","formatted_desc":["Suture","Precision Point Reverse Cutting, Size 5-0, 18in","Violet Braided, Needle P-3, 3/8 Circle"],"id":"1787"},"1788":{"desc":"4-0 COATED VICRYL VIOLET 1X18\" P-3","formatted_desc":["Coated Vicryl","0.04in","18in","Violet, P-3"],"id":"1788"},"1789":{"desc":"0 VICRYL VIOLET 27\" CP-1 CUTTING","formatted_desc":["VICRYL","0in","27in","VIOLET, CP-1, CUTTING"],"id":"1789"},"1790":{"desc":"Suture, Vicryl, 7-0, P-1, 12/bx","formatted_desc":["Suture","Vicryl, 7-0, P-1, 12 units per Box"],"id":"1790"},"1791":{"desc":"6-0 18in Coated VICRYL UND BRD SA P-1","formatted_desc":["Coated VICRYL","6in","0in","18in","UND","BRD SA P-1"],"id":"1791"},"1792":{"desc":"6-0 COATED VICRYL UNDYED 1X18\" P-3","formatted_desc":["Coated Vicryl","6-0","1in","18in","Undyed, P-3"],"id":"1792"},"1793":{"desc":"6/0 Vicryl br P-3","formatted_desc":["Vicryl","6","0","Br, P-3"],"id":"1793"},"1794":{"desc":"5-0 COATED VICRYL UNDYED 1X18\" P-3","formatted_desc":["Coated Vicryl","5-0","1in","18in","Undyed, P-3"],"id":"1794"},"1795":{"desc":"5-0 COATED VICRYL UNDYED 1X18\" P-2","formatted_desc":["5-0","COATED VICRYL UNDYED","1in","18in","P-2"],"id":"1795"},"1796":{"desc":"6-0 COATED VICRYL UNDYED 1X18\" PS-6","formatted_desc":["6in","0in","Coated Vicryl Undyed, 1in wide, 18in long, PS-6"],"id":"1796"},"1797":{"desc":"6-0 Vicryl/Double Suture 12/bx.","formatted_desc":["Vicryl","6-0","12 units per box, Double Suture"],"id":"1797"},"1798":{"desc":"7/0 vicryl br tg1","formatted_desc":["7-0","Vicryl","Braided, Undyed"],"id":"1798"},"1799":{"desc":"Vicryl suture, 8-0 1 2\"","formatted_desc":["Vicryl suture","8-0","1.5in",""],"id":"1799"},"1800":{"desc":"6-0 COATED VICRYL VIOLET 1X18\" G-6 DOUBLE ARMED","formatted_desc":["Coated Vicryl","6","0","Violet, 1in, 18in, G-6, Double Armed"],"id":"1800"},"1801":{"desc":"6-0 Vicryl, Violet, S-28 Spatula, Double armed, 18\"","formatted_desc":["Vicryl","6-0","Double armed, Spatula, 18in, Violet"],"id":"1801"},"1802":{"desc":"Coated VICRYL Suture, 8-0, Violet..Braided, 8\" Ã¯Â¿Â½ 20cm","formatted_desc":["Coated VICRYL Suture","8-0","Violet, Braided, 8in."],"id":"1802"},"1803":{"desc":"MICROPOINT - Spatula 8-0 Violet Braided Needle TG140-8..","formatted_desc":["MICROPOINT","Spatula","8","0.012in","Violet, Braided, Needle TG140-8"],"id":"1803"},"1804":{"desc":"3-0 COATED VICRYL UNDYED 1X36\" CT-1","formatted_desc":["Coated Vicryl","3-0","36in","Undyed, CT-1"],"id":"1804"},"1805":{"desc":"2-0 COATED VICRYL UNDYED 1X36\" CT-1","formatted_desc":["Coated Vicryl","1in","36in","Undyed, CT-1, 2-0"],"id":"1805"},"1806":{"desc":"MICROPOINT - Spatula 8-0 Violet Braided Needle TG160-6 ..","formatted_desc":["MICROPOINT Spatula","8-0","Violet, Braided, Needle TG160-6"],"id":"1806"},"1807":{"desc":"ETHICON ETHILON 0 CT 96 (24/ CT)","formatted_desc":["ETHILON","ETHICON","0","CT","96 units per Case, 24 units per Box"],"id":"1807"},"1808":{"desc":"MONOCRYL Plus Suture Violet Monofilament 3-0 27\" Ã¯Â¿Â½ 70cm","formatted_desc":["MONOCRYL Plus Suture","3-0","27in","Violet, Monofilament"],"id":"1808"},"1809":{"desc":"SUTURE, 2-0 36in VIOLET MONOCRYL, 36/BX","formatted_desc":["SUTURE","2-0","36in","VIOLET MONOCRYL, 36 units per BOX"],"id":"1809"},"1810":{"desc":"MONOCRYL PLUS UND 45CM M1.5","formatted_desc":["MONOCRYL","45cm","Plus Und, M1.5"],"id":"1810"},"1811":{"desc":"PDS Plus Suture Violet..Monofilament 3-0 27\" Ã¯Â¿Â½ 70cm","formatted_desc":["PDS Plus Suture","Monofilament, 3-0, 27in"],"id":"1811"},"1812":{"desc":"PDS Plus Suture Violet..Monofilament 2-0 27\" Ã¯Â¿Â½ 70cm","formatted_desc":["PDS Plus Suture","2-0","27in","Violet, Monofilament"],"id":"1812"},"1813":{"desc":"SUTURE, 2-0 27in VIOLET CT-1 TAPE, 36/BX","formatted_desc":["SUTURE","2-0","27in","VIOLET CT-1 TAPE, 36 per Box"],"id":"1813"},"1814":{"desc":"Prolene Hernia system extend 3/bx","formatted_desc":["Prolene Hernia System","3 units per Box"],"id":"1814"},"1815":{"desc":"PROXIMATE Plus MD Skin Staple","formatted_desc":["Proximate","Plus MD Skin Staple"],"id":"1815"},"1816":{"desc":"SECURESTRAP Absorbable Strap Fixation 5mm single use device w/ 25 absorbable straps","formatted_desc":["SECURESTRAP","5mm","Absorbable, Strap Fitxation, 25 units per pack, Single Use"],"id":"1816"},"1817":{"desc":"SPIRAL UNI PDO 30CM","formatted_desc":["SPIRAL UNI","30CM","PDO"],"id":"1817"},"1818":{"desc":"Suture 1-0 PDO/Trclsn CT Stratafix Symmetric PDS Plus Vio 18\" Mnflmnt Abs 12/Bx","formatted_desc":["Suture","1-0","PDO/Trclsn CT Stratafix Symmetric PDS Plus Vio, 18in, Mnflmnt, Abs","12 units per Box"],"id":"1818"},"1819":{"desc":"9/0 12 Vicryl Mono CS160","formatted_desc":["Vicryl","12mm","Mono, CS160"],"id":"1819"},"1820":{"desc":"10-0 Vicryl Violet 1X12'' CS160-8 Double Armed","formatted_desc":["Vicryl","10","0","Violet, 1in, 12in, CS160-8, Double Armed"],"id":"1820"},"1821":{"desc":"VICRYL RAP CT UD 45CM M1","formatted_desc":["VICRYL","45cm","RAP, CT, UD, M1"],"id":"1821"},"1822":{"desc":"9-0 VICRYL VIOLET 1X12\" TG140-8 Double Armed","formatted_desc":["9in","12in","VICRYL VIOLET, Double Armed, TG140-8"],"id":"1822"},"1823":{"desc":"Coated VICRYL Plus Suture Violet..Braided 3-0 27\" Ã¯Â¿Â½ 70cm","formatted_desc":["Coated VICRYL Plus Suture","3-0","27in","Braided, Violet"],"id":"1823"},"1824":{"desc":"4-0 COATED VICRYL Plus Antibacterial UNDYED 1X27\" FS-2 Suture","formatted_desc":["4-0","COATED VICRYL Plus Antibacterial UNDYED 1X27in FS-2 Suture"],"id":"1824"},"1825":{"desc":"SUTURE, 5-0 18in UNDYED VICRYL P3, 12/BX","formatted_desc":["SUTURE","5-0","18in","UNDYED VICRYL P3, 12 units per Box"],"id":"1825"},"1826":{"desc":"3-0 27IN VICRYL RAPIDE UND BRD SA SH 12/BX","formatted_desc":["VICRYL RAPIDE","27in","3-0, Undyed, Braided, 12 units per Box"],"id":"1826"},"1827":{"desc":"5-0 Vicryl Rapide Suture, Precision Point - Reverse Cutting, P-1, 18\"","formatted_desc":["5-0 Vicryl Rapide Suture","18in","Precision Point, Reverse Cutting, P-1"],"id":"1827"},"1828":{"desc":"5-0 Vicryl Rapide Undyed 1X18'' P-3","formatted_desc":["5-0","Vicryl","Rapide, Undyed, 1in, 18in, P-3"],"id":"1828"},"1829":{"desc":"VICRYL RAPIDE Suture, 4-0, Precision Point - Reverse Cutting, 18\" Ã¯Â¿Â½ 45cm","formatted_desc":["VICRYL RAPIDE Suture","4-0","18in","Precision Point - Reverse Cutting"],"id":"1829"},"1830":{"desc":"5-0 Vicryl Rapide Undyed 1X18'' PC-1","formatted_desc":["Vicryl","5","0","Rapide, Undyed, 1in, 18in, PC-1"],"id":"1830"},"1831":{"desc":"VICRYL RAPIDE Suture, 4-0, Precision Cosmetic - Conventional Cutting PRIME","formatted_desc":["VICRYL RAPIDE Suture","4-0","Precision Cosmetic - Conventional Cutting PRIME"],"id":"1831"},"1832":{"desc":"3-0 36IN VICRYL RAPIDE UND BRD SA CT-1 12/BX","formatted_desc":["3-0","36in","VICRYL RAPIDE, Undyed, Sterile, CT-1, 12 units per Box"],"id":"1832"},"1833":{"desc":"2-0 36IN VICRYL RAPIDE UND BRD SA CT-1 12/BX","formatted_desc":["2-0","36IN","VICRYL RAPIDE, UNDIST","SA, CT-1, 12 units per Box"],"id":"1833"},"1834":{"desc":"PROLENE BLU 75CM M1","formatted_desc":["PROLENE","75CM","BLU, M1"],"id":"1834"},"1835":{"desc":"PROLENE BLU 75CM M1","formatted_desc":["PROLENE","75cm","BLU","M1"],"id":"1835"},"1836":{"desc":"VICRYL RAP UND 75CM M1.5","formatted_desc":["VICRYL","75cm","RAP UND 1.5mm"],"id":"1836"},"1837":{"desc":"Vicryl Rapide 2/0 1/2 Circle Tapercut 36mm 12pk","formatted_desc":["Vicryl Rapide","2/0","12 units per pack","1/2 Circle, Tapered, 36mm in length"],"id":"1837"},"1838":{"desc":"75cm vicryl rapide absorbable coated braided undyed 3/0 22mm 1/2 circle taper point plus needle ...","formatted_desc":["75cm","Vicryl","3/0","Absorbable, Coated, Braided, Undyed, 22mm, 1/2 Circle, Taper Point, Plus Needle"],"id":"1838"},"1839":{"desc":"5-0 MONOCRYL VIOLET 27\" RB-1 TAPER","formatted_desc":["Monocryl","0.5in","27in","Violet, RB-1 Taper"],"id":"1839"},"1840":{"desc":"4-0 27in MONOCRYL VIO MONO SA RB-1","formatted_desc":["Monocryl","27in","4-0, VIO, MONO, SA, RB-1"],"id":"1840"},"1841":{"desc":"Monocryl suture 27' 4-0","formatted_desc":["Monocryl suture","27ft","4-0"],"id":"1841"},"1842":{"desc":"Monocryl suture 27' 3-0","formatted_desc":["Monocryl suture","27ft","3-0"],"id":"1842"},"1843":{"desc":"Monocryl suture 27' 2-0","formatted_desc":["Monocryl suture","27ft","2-0"],"id":"1843"},"1844":{"desc":"3-0 MONOCRYL VIOLET 36\" CT-1 TAPER","formatted_desc":["MONOCRYL","3","0","VIOLET 36in CT-1 TAPER"],"id":"1844"},"1845":{"desc":"2-0 36in MONOCRYL VIO MONO SA CT-1","formatted_desc":["2-0","36in","MONOCRYL VIO MONO SA CT-1"],"id":"1845"},"1846":{"desc":"0 MONOCRYL VIOLET 36\" CT-1 TAPER","formatted_desc":["MONOCRYL","36in","VIOLET, CT-1, TAPER"],"id":"1846"},"1847":{"desc":"3-0 MONOCRYL UNDYED 1X27\" SH","formatted_desc":["3-0","MONOCRYL","1in","27in","UNDYED, SH"],"id":"1847"},"1848":{"desc":"5-0 MONOCRYL VIOLET 18\" P-3 CUTTING","formatted_desc":["MONOCRYL","5-0","VIOLET","18in","P-3,CUTTING"],"id":"1848"},"1849":{"desc":"4-0 MONOCRYL VIOLET 18\" P-3 CUTTING","formatted_desc":["MONOCRYL","0.04in","18in","VIOLET, P-3, CUTTING"],"id":"1849"},"1850":{"desc":"5-0 18in monocryl suture SA P-3","formatted_desc":["5-0","18in","Monocryl Suture, SA, P-3"],"id":"1850"},"1851":{"desc":"3/0 18' monocryl suture","formatted_desc":["Monocryl Suture","18in","3-0",""],"id":"1851"},"1852":{"desc":"4-0 monocryl PS-2 suture","formatted_desc":["Monocryl","4-0","PS-2, Suture"],"id":"1852"},"1853":{"desc":"ETHICON MONOCRYL 2-0 SH 36","formatted_desc":["ETHICON MONOCRYL","2-0","SH 36"],"id":"1853"},"1854":{"desc":"2-0 MONOCRYL VIOLET 36\" CT-2 TAPER","formatted_desc":["MONOCRYL","VIOLET","36in","CT-2 TAPER",""],"id":"1854"},"1855":{"desc":"2-0 MONOCRYL VIOLET 36\" FS-1 CUTTING","formatted_desc":["Monocryl","36in","0in","2in","Violet, FS-1, Cutting"],"id":"1855"},"1856":{"desc":"Suture, PDS II 5-0","formatted_desc":["Suture","PDS II","5-0"],"id":"1856"},"1857":{"desc":"4-0  27' PDS monocryl SA RB-1 36/bx","formatted_desc":["4-0","27in","PDS monocryl, SA, RB-1, 36 units per Box"],"id":"1857"},"1858":{"desc":"Monocryl 3/0 PDS rb","formatted_desc":["Monocryl","3.0","PDS, rb"],"id":"1858"},"1859":{"desc":"3-0 27' PDS II monocryl SA SH 36/bx","formatted_desc":["PDS II","3-0","Monocryl, SA, SH, 36 units per Box"],"id":"1859"},"1860":{"desc":"4-0 PDS II violet 27' SH taper 36/bx","formatted_desc":["PDS II","4in","27ft","Violet, 36 units per Box"],"id":"1860"},"1861":{"desc":"3-0  27' PDS II  monocryl SA SH 36/bx","formatted_desc":["3-0","Monocryl","PDS II, SA, SH, 36 units per Box"],"id":"1861"},"1862":{"desc":"2-0  27' PDS II  monocryl SA SH 36/bx","formatted_desc":["PDS II","0mm","Monocryl, SA, SH, 36 units per Box"],"id":"1862"},"1863":{"desc":"3-0 PDS II VIOLET 1X27\" CT-2","formatted_desc":["3-0","PDS II","VIOLET","1in","27in","CT-2"],"id":"1863"},"1864":{"desc":"2/0 27 PDS II VIO MONO CT","formatted_desc":["PDS","2","27mm","VIO MONO CT"],"id":"1864"},"1865":{"desc":"0 PDS II VIOLET 1X27\" CT-2 36/bx","formatted_desc":["PDS II","VIOLET, 1in, 27in, CT-2, 36 units per box"],"id":"1865"},"1866":{"desc":"3-0 PDS II violet 27' CT-1 taper 36/bx","formatted_desc":["3-0 PDS II","27in","Violet, CT-1, Tapered, 36 units per Box"],"id":"1866"},"1867":{"desc":"2-0 PDS II violet 27' CT-1 taper 36/bx","formatted_desc":["2-0 PDS II","36 units per Box","Violet, 27 in, CT-1 Taper"],"id":"1867"},"1868":{"desc":"PDS suture CT-1 27' size 0","formatted_desc":["PDS suture","CT-1, 27in, size 0"],"id":"1868"},"1869":{"desc":"1-0 27' PDS II monocryl SA CT-1 36/bx","formatted_desc":["1-0","27in","PDS II Monocryl, SA, CT-1, 36 units per Box"],"id":"1869"},"1870":{"desc":"Suture 0.36\" PDS II Vio Mono SA","formatted_desc":["Suture","0.36in","PDS II Vio Mono SA"],"id":"1870"},"1871":{"desc":"PDS II 2/0 VIOLET FS-1 REV CUT 27\" 12/bx","formatted_desc":["PDS II","2in","0in","Violet, FS-1, Rev Cut, 27in, 12 Units per Box"],"id":"1871"},"1872":{"desc":"5-0 PDS II VIOLET 18\" P-3 CUTTING","formatted_desc":["5-0","PDS II VIOLET 18in","P-3, CUTTING"],"id":"1872"},"1873":{"desc":"2-0 PDS II violet 27' CP-1 taper 36/bx","formatted_desc":["PDS II","0.2in","27in","Violet, CP-1, Tapered, 36 units per Box"],"id":"1873"},"1874":{"desc":"0 PDS II VIOLET 27\" CP-1 CUTTING","formatted_desc":["0","PDS II VIOLET","27in","CP-1, CUTTING"],"id":"1874"},"1875":{"desc":"1 PDS II VIOLET 27\" CP-1 CUTTING","formatted_desc":["PDS II VIOLET","27in","CP-1,CUTTING"],"id":"1875"},"1876":{"desc":"4-0 PDS II UNDYED 1X18\" P-3","formatted_desc":["4-0","PDS II","UNDYED","1in","18in","P-3"],"id":"1876"},"1877":{"desc":"4-0 18in PDS II VIO MONO SA PS-2","formatted_desc":["18in","PDS II VIO MONO SA PS-2","4-0  "],"id":"1877"},"1878":{"desc":"3-0 PDS II clear 18' PS-1 cutting 12/bx","formatted_desc":["PDS II","3in","0in","Clear, 18in PS-1, Cutting 12 units per Box"],"id":"1878"},"1879":{"desc":"PDS II Suture Reverse Cutting Violet..Monofilament 3-0 27\" Ã¯Â¿Â½ 70cm","formatted_desc":["PDS II Suture","3-0in","27in","Reverse Cutting,Violet,Monofilament"],"id":"1879"},"1880":{"desc":"Suture Pds Mono Vio Cp2 2-0 27\"","formatted_desc":["Suture","Pds Mono Vio Cp2","2-0","27in"],"id":"1880"},"1881":{"desc":"0 PDS II Violet 1X27'' CP-2","formatted_desc":["PDS II","Violet","1in","27in","CP-2"],"id":"1881"},"1884":{"desc":"Medium Jetstream Spray, 3Ã¯Â¿Â½ fl oz, Plastisol Coated Amber Glass Bottle","formatted_desc":["Jetstream Spray","3.5oz","Medium, Plastisol Coated, Amber Glass Bottle"],"id":"1884"},"1886":{"desc":"Fluidshield Level 3 FogFree Procedure Mask, Wraparound Visor","formatted_desc":["Fluidshield Level 3 Procedure Mask","FogFree, Wraparound Visor"],"id":"1886"},"1888":{"desc":"Elastic Bandage EZe-Band LF 3 Inch X 5 Yard Standard Compression","formatted_desc":["Elastic Bandage EZe-Band","3in","5yd","LF, Standard Compression"],"id":"1888"},"1891":{"desc":"FlexWear Skin Barrier with Adhesive Border, Convex, Stoma Size: 13-51mm","formatted_desc":["FlexWear Skin Barrier","13mm","51mm","with Adhesive Border, Convex"],"id":"1891"},"1892":{"desc":"Urostomy Drain Tube Adapter","formatted_desc":["Urostomy Drain Tube Adapter"],"id":"1892"},"1893":{"desc":"Adapt Convex Barrier Rings 40-mm ID (1-9/16\")","formatted_desc":["Convex Barrier Rings","40mm","ID"],"id":"1893"},"1894":{"desc":"SoftFlex Skin Barrier","formatted_desc":["SoftFlex Skin Barrier"],"id":"1894"},"1896":{"desc":"Micro-clave connector 100/cs","formatted_desc":["Micro-clave connector","100 units per Case"],"id":"1896"},"1898":{"desc":"Gloves, Surgical, Size 7, Nitrile, Sterile, PF, Textured, 25 pr/bx, 4 bx/cs","formatted_desc":["Gloves","Surgical, Size 7, Nitrile, Sterile, PF, Textured, 25 pr/bx, 4 bx/cs"],"id":"1898"},"1900":{"desc":"4.5mm neonate trach tube 1/bx","formatted_desc":["Neonate Tracheostomy Tube","4.5mm","1 unit per Box"],"id":"1900"},"1901":{"desc":"Low pressure Shiley trach tube size 8.0 ea.","formatted_desc":["Low pressure Shiley trach tube","8.0","ea"],"id":"1901"},"1903":{"desc":"Medi-Pak Triangular Bandage 40\" x 40\" x 56\"","formatted_desc":["Medi-Pak Triangular Bandage","40in","40in","56in",""],"id":"1903"},"1904":{"desc":"Non-Safety Scalpel with Blade General Purpose Size 15 Stainless Steel Blade Disposable","formatted_desc":["Non-Safety Scalpel","General Purpose, Size 15, Stainless Steel, Blade Disposable"],"id":"1904"},"1905":{"desc":"Silver Nitrate Applicator Silver Nitrate / Potassium Nitrate 75% - 25% Vial 100 Applicators, 100/bx","formatted_desc":["Silver Nitrate Applicator","Silver Nitrate, Potassium Nitrate","75%, 25%","Vial, 100 Applicators per Box"],"id":"1905"},"1907":{"desc":"Protect IV catheter 16GA x 1-1/4'","formatted_desc":["Protect IV catheter","16GA","1.25in",""],"id":"1907"},"1908":{"desc":"Protect IV catheter  22GA x 1'","formatted_desc":["Protect IV catheter","22GA","1ft"],"id":"1908"},"1909":{"desc":"Protect IV catheter 24GA x 3/4'","formatted_desc":["IV catheter","24GA","0.75in","Protect"],"id":"1909"},"1910":{"desc":"Protect IV catheter 18GA x 1Ã¯Â¿Â½'","formatted_desc":["Protect IV catheter","18G","0.5ft",""],"id":"1910"},"1911":{"desc":"Protect IV catheter 20GA x 1-1Ã¯Â¿Â½'","formatted_desc":["Protect IV catheter","20GA","1.5in",""],"id":"1911"},"1912":{"desc":"Protect IV catheter 20G x 1'","formatted_desc":["Protect IV catheter","20G","1ft",""],"id":"1912"},"1913":{"desc":"Protect+ IV catheter 22G x 1'","formatted_desc":["Protect+ IV catheter","22G","1ft",""],"id":"1913"},"1914":{"desc":"Protect+ IV catheter 16G x 1-1/4'","formatted_desc":["Protect+ IV catheter","16G","1.25in",""],"id":"1914"},"1915":{"desc":"Protect+ IV catheter 18G x 1-1/4'","formatted_desc":["Protect+ IV catheter","18G","1.25in",""],"id":"1915"},"1916":{"desc":"Protect+ IV catheter 20G x 1-1/4'","formatted_desc":["Protect+ IV catheter","20G","1.25in",""],"id":"1916"},"1917":{"desc":"Protect+ IV catheter 14G x 1-3/4'","formatted_desc":["Protect+ IV catheter","14G","1.75ft",""],"id":"1917"},"1919":{"desc":"Swiftwrap elastic bandage 3' x 5 yds 20/cs","formatted_desc":["Swiftwrap Elastic Bandage","3ft","5yd","20 units per Case"],"id":"1919"},"1920":{"desc":"Medsource LLC","formatted_desc":["Medsource LLC"],"id":"1920"},"1921":{"desc":"ClearSafe Safety IV Catheter (PTFE) 20g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","20g","1.25in","PTFE"],"id":"1921"},"1922":{"desc":"ClearSafe Safety IV Catheter (PTFE) 20g x 1\"","formatted_desc":["ClearSafe Safety IV Catheter","20g","1in","PTFE"],"id":"1922"},"1923":{"desc":"ClearSafe Safety IV Catheter (PTFE) 22g x 1\"","formatted_desc":["ClearSafe Safety IV Catheter","22g","1in","PTFE"],"id":"1923"},"1924":{"desc":"ClearSafe Safety IV Catheter (PTFE) 24g x 0.75\"","formatted_desc":["ClearSafe Safety IV Catheter","24g","0.75in","PTFE"],"id":"1924"},"1925":{"desc":"True Safe IV Catheter 20G x 1.88","formatted_desc":["True Safe IV Catheter","20G","1.88in",""],"id":"1925"},"1926":{"desc":"True Safe IV Catheter 20G x 1.16","formatted_desc":["True Safe IV Catheter","20G","1.16in",""],"id":"1926"},"1927":{"desc":"True Safe IV Catheter 22G x 1","formatted_desc":["True Safe IV Catheter","22G","1in"],"id":"1927"},"1928":{"desc":"True Safe IV Catheter 24G x .75","formatted_desc":["True Safe IV Catheter","24G","0.75in",""],"id":"1928"},"1930":{"desc":"Collar Button, Sheehy-Type, 1.27 mm ID, Blue, FLPL, Single-Use","formatted_desc":["Collar Button","Sheehy-Type","1.27mm","Blue, FLPL, Single-Use"],"id":"1930"},"1931":{"desc":"MR8 Match head Ã¯Â¿Â½ diamond 10cm small bore","formatted_desc":["MR8","Match head, 10cm, Small, Bore, Diamond"],"id":"1931"},"1932":{"desc":"Legend 10 cm, 3 mm Match Head Tool","formatted_desc":["Legend","10cm","3mm","Match Head Tool"],"id":"1932"},"1933":{"desc":"Midas Rex Legend Tool, Oval - 4 mm head, small bore, 10 cm shaft","formatted_desc":["Midas Rex Legend Tool","4mm","10cm","Oval, small bore"],"id":"1933"},"1934":{"desc":"Midas Rex Fluted Head Tool 14cm x 3mm","formatted_desc":["Midas Rex Fluted Head Tool","14cm","3mm",""],"id":"1934"},"1935":{"desc":"Doyle II Intranasal Airway Splints, 5 pairs","formatted_desc":["Doyle II Intranasal Airway Splints","5 pairs"],"id":"1935"},"1936":{"desc":"Doyle II Intranasal Airway Septal Splint, Silicon","formatted_desc":["Doyle II Intranasal Airway","Septal Splint, Silicon"],"id":"1936"},"1937":{"desc":"Reuter Splint Thin 0.25 mm 5 pairs","formatted_desc":["Reuter Splint","0.25mm","Thin, 5 pairs per unit"],"id":"1937"},"1938":{"desc":"Epistat Nasal Catheter, Silicon","formatted_desc":["Epistat Nasal Catheter","Silicon"],"id":"1938"},"1939":{"desc":"External Nasal Splints Single, Large","formatted_desc":["External Nasal Splints","Single, Large"],"id":"1939"},"1940":{"desc":"Midas Rex Legend Tool, Fluted - 4mm head, small bore, 15cm shaft","formatted_desc":["Midas Rex Legend Tool","4mm","Fluted, Small Bore, 15cm Shaft"],"id":"1940"},"1941":{"desc":"NuVent EM Sinus Dilation System 70 Degree Balloon 6.0mm x 17.0mm","formatted_desc":["NuVent EM Sinus Dilation System","6.0mm","17.0mm","70 Degree, Balloon"],"id":"1941"},"1942":{"desc":"NuVent EM Sinus Dilation System 70 Degree Balloon 7.0mm x 17.0mm","formatted_desc":["NuVent EM Sinus Dilation System","7.0mm","17.0mm","70 Degree, Balloon"],"id":"1942"},"1943":{"desc":"Straight Sinus Blades Non-Rotatable 2.0 mm Inferior Turbinate Blade","formatted_desc":["Straight Sinus Blades","2.0mm","Non-Rotatable, Inferior Turbinate Blade"],"id":"1943"},"1944":{"desc":"Straight Sinus Blades M4-Rotatable 2.0 mm Inferior Turbinate Blade","formatted_desc":["Sinus Blade","2mm","M4, Rotatable, Straight, Inferior Turbinate"],"id":"1944"},"1945":{"desc":"Straight Sinus Blades Non-Rotatable 2.9 mm Inferior Turbinate Blade","formatted_desc":["Sinus Blades","2.9mm","Straight, Non-Rotatable, Inferior Turbinate"],"id":"1945"},"1946":{"desc":"Straight Sinus Blades M4-Rotatable 2.9 mm Inferior Turbinate Blade","formatted_desc":["Straight Sinus Blades","2.9mm","M4, Rotatable, Inferior Turbinate Blade"],"id":"1946"},"1947":{"desc":"Tricut blade / 4.0 mm diameter / 11.0 cm long / straight / rotatable","formatted_desc":["Tricut blade","4mm","11cm","Straight, Rotatable"],"id":"1947"},"1948":{"desc":"Straight Sinus Blades M4-Rotatable 4.0 mm Tricut Blade","formatted_desc":["Straight Sinus Blades","4.0mm","M4, Rotatable, Tricut Blade"],"id":"1948"},"1949":{"desc":"RAD blade, 4.0 mm diameter, 11.0 cm long, 40Ã¯Â¿Â½ curved","formatted_desc":["RAD blade","4mm","11cm","40 degrees, curved"],"id":"1949"},"1950":{"desc":"4.0 mm Tricut Straight Rotatable Blade with Automated EM Tracking","formatted_desc":["4.0mm","Tricut Straight Rotatable Blade","with Automated EM Tracking"],"id":"1950"},"1951":{"desc":"Straightshot M4 4.3 mm Rotatable Fusion Blade EM Tracking","formatted_desc":["Straightshot","M4","4.3mm","Rotatable, Fusion Blade, EM Tracking"],"id":"1951"},"1952":{"desc":"Straightshot M4 4.3 mm Quadcut Blade","formatted_desc":["Straightshot M4","4.3mm","Quadcut Blade"],"id":"1952"},"1953":{"desc":"Irrigation Tubing for Blades and Burs","formatted_desc":["Irrigation Tubing","for Blades and Burs"],"id":"1953"},"1954":{"desc":"Endo-ScrubÃ¯Â¿Â½ 2 sheaths size 4 mm angle 0 Ã¯Â¿Â½","formatted_desc":["Endo-Scrub","4mm","2 sheaths, angle 0"],"id":"1954"},"1955":{"desc":"Clearify Visualization System","formatted_desc":["Clearify Visualization System"],"id":"1955"},"1956":{"desc":"Aquamantys 6.0 Bipolar Sealer","formatted_desc":["Aquamantys","6.0in","Bipolar Sealer"],"id":"1956"},"1957":{"desc":"Aquamantys 2.3 Bipolar Sealer","formatted_desc":["Aquamantys","2.3","Bipolar Sealer"],"id":"1957"},"1958":{"desc":"Aquamantys Malleable Bipolar Sealer with Light","formatted_desc":["Aquamantys","Malleable Bipolar Sealer with Light"],"id":"1958"},"1959":{"desc":"Aquamantys 9.5 XL Bipolar Sealer","formatted_desc":["Aquamantys","9.5in","XL Bipolar Sealer"],"id":"1959"},"1960":{"desc":"Disposable Suture Holder Insert for OctoBase Sternal Retractors","formatted_desc":["Disposable Suture Holder","Insert for OctoBase Sternal Retractors"],"id":"1960"},"1961":{"desc":"InterStimTM II System Recharge-Free Neurostimulator for Bladder and Bowel Control","formatted_desc":["InterStim II System","Recharge-Free Neurostimulator for Bladder and Bowel Control"],"id":"1961"},"1962":{"desc":"Merocel Standard Dressing Without String, 8cm x 1.5cm  x 2cm","formatted_desc":["Merocel Standard Dressing","8cm","1.5cm","2cm","Without String"],"id":"1962"},"1963":{"desc":"Contoured High Pressure CSF-Flow Control Valve","formatted_desc":["Contoured High Pressure CSF","Flow Control Valve"],"id":"1963"},"1964":{"desc":"Strata II Valve, Regular 16mm x 47mm","formatted_desc":["Strata II Valve","16mm","47mm","Regular"],"id":"1964"},"1965":{"desc":"Merocel Standard Nasal Dressing","formatted_desc":["Merocel","Standard Nasal Dressing"],"id":"1965"},"1966":{"desc":"Merocel Pope Epistaxis Packing With String 10 cm","formatted_desc":["Merocel","Pope Epistaxis Packing","10cm","With String"],"id":"1966"},"1967":{"desc":"Strata NSC Lumboperitoneal Shunt Kit, Closed Tip","formatted_desc":["Strata NSC Lumboperitoneal Shunt Kit","Closed Tip"],"id":"1967"},"1968":{"desc":"Strata II Shunt Assembly, Regular, 120 cm Distal Catheter","formatted_desc":["Strata II Shunt Assembly","120cm","Distal Catheter, Regular"],"id":"1968"},"1969":{"desc":"Duet External Drainage Bag, DEHP-Free","formatted_desc":["Duet External Drainage Bag","DEHP-Free"],"id":"1969"},"1970":{"desc":"Standard Prass Flush-Tip Monopolar Stimulator Probes","formatted_desc":["Standard Prass Flush-Tip Monopolar Stimulator Probes"],"id":"1970"},"1971":{"desc":"Paired Subdermal Electrodes 2-Channel, 12 mm","formatted_desc":["Paired Subdermal Electrodes","2-Channel, 12mm"],"id":"1971"},"1972":{"desc":"Paired Subdermal Electrodes with Subdermal Ground Electrode and Subdermal Stim Return, 4 Channel","formatted_desc":["Paired Subdermal Electrodes","Subdermal Ground Electrode, Subdermal Stim Return, 4 Channel"],"id":"1972"},"1973":{"desc":"NIM TriVantage Endotracheal Tube 6.0mm ID x 8.2mm OD","formatted_desc":["NIM TriVantage Endotracheal Tube","6.0mm","8.2mm",""],"id":"1973"},"1974":{"desc":"NIM TriVantage Endotracheal Tube 7.0mm ID x 9.5mm OD","formatted_desc":["NIM TriVantage Endotracheal Tube","7.0mm","9.5mm",""],"id":"1974"},"1975":{"desc":"NIM TriVantage Endotracheal Tube 8.0mm ID x 10.7 mm OD","formatted_desc":["NIM TriVantage Endotracheal Tube","8.0mm","10.7mm","ID, 8.0mm, OD, 10.7mm"],"id":"1975"},"1976":{"desc":"Vari-STIM III Nerve Stimulator","formatted_desc":["Vari-STIM III Nerve Stimulator",""],"id":"1976"},"1977":{"desc":"NDI Passive Sphere, 5/Tray, 12/Pack","formatted_desc":["NDI Passive Sphere","12 units per Pack, 5 units per Tray"],"id":"1977"},"1978":{"desc":"Single Use Instrument Tracker, Fusion ENT","formatted_desc":["Single Use Instrument Tracker","Fusion ENT"],"id":"1978"},"1979":{"desc":"Export Advance Aspiration..Catheter 6F min. guide I.D. 0.070\"","formatted_desc":["Advance Aspiration Catheter","6F","0.070in","Export"],"id":"1979"},"1980":{"desc":"7F ClosureFAST catheter 100cm, 7 cm, 0.025\"","formatted_desc":["ClosureFAST catheter","7F","100cm","7cm, 0.025in"],"id":"1980"},"1981":{"desc":"7F ClosureFAST catheter 60cm, 7cm, 0.025Ã¯Â¿Â½","formatted_desc":["7F","ClosureFAST catheter","60cm","7cm","0.025in"],"id":"1981"},"1982":{"desc":"Launcher Coronary Guide Catheter 6F Left Curve 100cm","formatted_desc":["Coronary Guide Catheter","6F","Left Curve, 100cm"],"id":"1982"},"1983":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, 10 x 15 cm, Bilateral Anatomical","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","15cm","10cm","Bilateral Anatomical"],"id":"1983"},"1984":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, 10 x 15 cm, Flat Sheet","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","15cm","10cm","Flat Sheet"],"id":"1984"},"1985":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, 12 x 16 cm, Flat Sheet","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","16cm","12cm","Flat Sheet"],"id":"1985"},"1986":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, 12 x 16 cm, Left Anatomical","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","16cm","12cm","Left Anatomical"],"id":"1986"},"1987":{"desc":"ProGrip Laparoscopic Self-fixating Mesh, 12 x 16 cm, Right Anatomical","formatted_desc":["ProGrip Laparoscopic Self-fixating Mesh","16cm","12cm","Right Anatomical"],"id":"1987"},"1988":{"desc":"LigaSure Atlas Tissue Fusion Open Instrument, 20 cm","formatted_desc":["LigaSure Atlas Tissue Fusion Open Instrument","20cm"],"id":"1988"},"1989":{"desc":"Built-in Converters, Sizes 5 mm and 7/8 mm","formatted_desc":["Built-in Converters","0.625in","7mm",""],"id":"1989"},"1990":{"desc":"Midas REx Legend Lubricant Diffuser Cartridge","formatted_desc":["Midas REx","Legend Lubricant Diffuser Cartridge"],"id":"1990"},"1991":{"desc":"Midas Rex MR7 Lubricant/Diffuser Cartridge","formatted_desc":["Midas Rex MR7","Lubricant/Diffuser Cartridge"],"id":"1991"},"1992":{"desc":"Polyester with Absorbable Collagen Film and Pre-placed Sutures, 12 cm Round","formatted_desc":["Polyester","12cm","Round, with Absorbable Collagen Film and Pre-placed Sutures"],"id":"1992"},"1993":{"desc":"PEAK Plasmablade 4.0mm","formatted_desc":["PEAK Plasmablade","4.0mm"],"id":"1993"},"1994":{"desc":"Peak Plasmablade 3.0 S","formatted_desc":["Plasmablade","Peak","3.0","S"],"id":"1994"},"1995":{"desc":"Resolute Onyx DES 2.00 mm x 8mm","formatted_desc":["Resolute Onyx","DES","2.00mm","8mm"],"id":"1995"},"1996":{"desc":"Resolute Onyx DES 2.00 mm x 15mm","formatted_desc":["Resolute Onyx","2.00mm","15mm","DES"],"id":"1996"},"1997":{"desc":"Resolute Onyx DES 2.50 mm x 8mm","formatted_desc":["Resolute Onyx","2.5mm","8mm","DES"],"id":"1997"},"1998":{"desc":"Resolute Onyx DES 2.50 mm x 18mm","formatted_desc":["Resolute Onyx DES","2.5mm","18mm",""],"id":"1998"},"1999":{"desc":"Resolute Onyx DES 2.50 mm x 22mm","formatted_desc":["Resolute Onyx","22mm","2.50mm","DES"],"id":"1999"},"2000":{"desc":"Resolute Onyx DES 2.50 mm x 26mm","formatted_desc":["Resolute Onyx DES","2.5mm","26mm"],"id":"2000"},"2001":{"desc":"Resolute Onyx DES 2.50 mm x30mm","formatted_desc":["Resolute Onyx DES","2.5mm","30mm"],"id":"2001"},"2002":{"desc":"Resolute Onyx DES 2.50 mm x 38mm","formatted_desc":["Resolute Onyx","38mm","2.50mm","DES"],"id":"2002"},"2003":{"desc":"Resolute Onyx DES 2.75 mm x 8mm","formatted_desc":["Resolute Onyx","2.75mm","8mm","DES"],"id":"2003"},"2004":{"desc":"Resolute Onyx DES 2.75 mm x 30mm","formatted_desc":["Resolute Onyx DES","2.75mm","30mm"],"id":"2004"},"2005":{"desc":"Resolute Onyx DES 2.75 mm x 34mm","formatted_desc":["Resolute Onyx","34mm","2.75mm","DES"],"id":"2005"},"2006":{"desc":"Resolute Onyx DES 2.75 mm x 38mm","formatted_desc":["Resolute Onyx DES","2.75mm","38mm"],"id":"2006"},"2007":{"desc":"Resolute Onyx DES 3.00 mm x 8mm","formatted_desc":["Resolute Onyx","3mm","8mm","DES"],"id":"2007"},"2008":{"desc":"Resolute Onyx DES 3.00 mm x 22mm","formatted_desc":["Resolute Onyx","3.00mm","22mm","DES"],"id":"2008"},"2009":{"desc":"Resolute Onyx DES 3.00 mm x 30mm","formatted_desc":["Resolute Onyx DES","3.00mm","30mm"],"id":"2009"},"2010":{"desc":"Resolute Onyx DES 3.00 mm x 38mm","formatted_desc":["Resolute Onyx","3.00mm","38mm","DES"],"id":"2010"},"2011":{"desc":"Resolute Onyx DES 3.50 mm x 8mm","formatted_desc":["Resolute Onyx","3.5mm","8mm","DES"],"id":"2011"},"2012":{"desc":"Resolute Onyx DES 3.50 mm x 18mm","formatted_desc":["Resolute Onyx DES","3.50mm","18mm"],"id":"2012"},"2013":{"desc":"Resolute Onyx DES 3.50 mm x 22mm","formatted_desc":["Resolute Onyx","3.5mm","22mm","DES"],"id":"2013"},"2014":{"desc":"Resolute Onyx DES 3.50 mm x 30mm","formatted_desc":["Resolute Onyx DES","3.5mm","30mm"],"id":"2014"},"2016":{"desc":"Tru-cut biopsy needle 14G x 4.5' 10/cs","formatted_desc":["Tru-cut biopsy needle","14G","4.5ft","10 units per Case"],"id":"2016"},"2017":{"desc":"Soft tissue biopsy needles 10/bx","formatted_desc":["Soft tissue biopsy needles","10 units per Box"],"id":"2017"},"2018":{"desc":"CAREFLOWTM TRIPLE LUMEN..SETS, WITHOUT FLOSWITCH,..7Fr,16G,","formatted_desc":["CAREFLOW Triple Lumen Set","7Fr","16G","without Floswitch"],"id":"2018"},"2019":{"desc":"Soft Tissue Biopsy Needle Achieve 14 Gauge 15 cm White","formatted_desc":["Soft Tissue Biopsy Needle","14 Gauge","15 cm","Achieve, White"],"id":"2019"},"2020":{"desc":"Biopsy Needles 14ga x 6cm 5/cs","formatted_desc":["Biopsy Needles","14ga","6cm","5 units per Case"],"id":"2020"},"2021":{"desc":"Tenmo biopsy needle, 18G X15cm 5/bx","formatted_desc":["Tenmo Biopsy Needle","18G","15cm","5 units per Box"],"id":"2021"},"2022":{"desc":"Biopsy needle 18GA x 20CM","formatted_desc":["Biopsy Needle","18GA","20CM"],"id":"2022"},"2023":{"desc":"Biopsy needle 20GA x 11Cm","formatted_desc":["Biopsy Needle","20GA","11cm",""],"id":"2023"},"2024":{"desc":"Biopsy needle 20GA x 12CM 5/bx","formatted_desc":["Biopsy Needle","20GA","12CM","5 units per Box"],"id":"2024"},"2025":{"desc":"Tenmo biopsy needle","formatted_desc":["Biopsy Needle","Tenmo"],"id":"2025"},"2026":{"desc":"Achieve Biopsy Needle Only, 14G x 11cm","formatted_desc":["Achieve Biopsy Needle","14G","11cm","Only"],"id":"2026"},"2027":{"desc":"Achieve Biopsy Needle 14G x 11cm","formatted_desc":["Achieve Biopsy Needle","14G","11cm",""],"id":"2027"},"2028":{"desc":"Achieve biopsy needle 5/cs","formatted_desc":["Achieve Biopsy Needle","5 units per Case"],"id":"2028"},"2029":{"desc":"Biopsy needle 5/bx","formatted_desc":["Biopsy Needle","5 Units per Box"],"id":"2029"},"2030":{"desc":"NEEDLE,ACHIEVE,SFT,TIS,BIOPSY","formatted_desc":["NEEDLE","ACHIEVE","SFT","TIS","BIOPSY"],"id":"2030"},"2031":{"desc":"Achieve coaxial biopsy systems 16G x 15cmÃ¯Â¿Â½ 5/cs..","formatted_desc":["Coaxial Biopsy Systems","16G","15cm","5 units per Case"],"id":"2031"},"2032":{"desc":"Biopsy needle 18GA x 15cm  5/cs","formatted_desc":["Biopsy Needle","18GA","15cm","5 units per Case"],"id":"2032"},"2033":{"desc":"COAXIAL ACHIEVE BIOPSY NEEDLE, 20GA X 15CM W/19GA X 10CM INTRODUCER","formatted_desc":["COAXIAL ACHIEVE BIOPSY NEEDLE","20GA","15CM","WITH 19GA X 10CM INTRODUCER"],"id":"2033"},"2034":{"desc":"Temno Biopsy Systems NEEDLE, BIOPSY, 14GX11CM, W/INTRODCR, TE","formatted_desc":["Temno Biopsy Systems","Biopsy Needle, 14G, 11cm, with Introducer, TE"],"id":"2034"},"2035":{"desc":"Tenmo Biopsy needle with introducer cat. no. 15G x 6cm x 5cm","formatted_desc":["Tenmo Biopsy Needle","15G","6cm","with introducer, Cat. No. 5cm"],"id":"2035"},"2036":{"desc":"Tenmo Biopsy Needle With Introducer 16 G x 15 cm","formatted_desc":["Tenmo Biopsy Needle","16G","15cm","With Introducer"],"id":"2036"},"2037":{"desc":"Tenmo biopsy system, 18G x 11cm 5/bx","formatted_desc":["Tenmo biopsy system","18G","11cm","5 units per box"],"id":"2037"},"2038":{"desc":"Biopsy needle, 18GA x 15CM 5/bx","formatted_desc":["Biopsy needle","18GA","15CM","5 units per box"],"id":"2038"},"2039":{"desc":"Tenmo Biopsy needle with introducer 7G x 15cm, 14cm usable","formatted_desc":["Tenmo Biopsy Needle","7G","15cm","with Introducer, 14cm Usable"],"id":"2039"},"2040":{"desc":"Biopsy needle 20GS x 11CM 5/bx","formatted_desc":["Biopsy needle","20Ga","11cm","5 units per Box"],"id":"2040"},"2041":{"desc":"Tenmo Biopsy needle","formatted_desc":["Biopsy Needle","Tenmo"],"id":"2041"},"2042":{"desc":"Biopsy needle with introducer 15G x 6cm","formatted_desc":["Biopsy Needle","15G","6cm","with Introducer"],"id":"2042"},"2043":{"desc":"Biopsy needle 18GA x 11CM","formatted_desc":["Biopsy Needle","18GA","11CM"],"id":"2043"},"2044":{"desc":"Evolution coaxial needle","formatted_desc":["Evolution Coaxial Needle"],"id":"2044"},"2045":{"desc":"Evolution coaxial needle","formatted_desc":["coaxial needle","Evolution"],"id":"2045"},"2046":{"desc":"Drainage Connecting Tube 12\" Large Bore Tubing 1-Way Stopcock","formatted_desc":["Drainage Connecting Tube","12in","Large Bore, 1-Way, Stopcock"],"id":"2046"},"2047":{"desc":"Universal Coaxial Introducer Needles, 19G x 10cm","formatted_desc":["Coaxial Introducer Needles","Universal","19G","10cm",""],"id":"2047"},"2048":{"desc":"Tenmo Biopsy needle cat. no 16G x 20cm","formatted_desc":["Tenmo Biopsy Needle","16G","20cm","Cat. No"],"id":"2048"},"2049":{"desc":"Original Tenmo Biopsy Device 18G  x 11 cm","formatted_desc":["Tenmo Biopsy Device","18G","11cm","Original"],"id":"2049"},"2050":{"desc":"TEMNO BIOPSY NEEDLE, 20GA X 11CM","formatted_desc":["TEMNO BIOPSY NEEDLE","20GA","11CM"],"id":"2050"},"2051":{"desc":"Temno Evolution Biopsy Needles 16G x 11cm","formatted_desc":["Temno Evolution Biopsy Needles","16G","11cm",""],"id":"2051"},"2052":{"desc":"Tenmo biopsy device","formatted_desc":["Tenmo","Biopsy Device"],"id":"2052"},"2053":{"desc":"TEMNO Evolution 18GA X 11CM 5/cs...","formatted_desc":["TEMNO Evolution","18GA","11CM","5 units per Case"],"id":"2053"},"2054":{"desc":"Tenmo biopsy device","formatted_desc":["Tenmo","biopsy device"],"id":"2054"},"2055":{"desc":"TEMNO Evolution 20GA X 11CM 5/cs...","formatted_desc":["TEMNO Evolution","20GA","11CM","5 units per Case"],"id":"2055"},"2056":{"desc":"Temno evolution needle 20GA x 6cm 5/bx","formatted_desc":["Temno Evolution Needle","20GA","6cm","5 units per Box"],"id":"2056"},"2058":{"desc":"Camera cover, 5 x 96 100/cs","formatted_desc":["Camera cover","5in","96in","100 units per Case"],"id":"2058"},"2059":{"desc":"Ultrasound probe cover 6 x 48 100/cs","formatted_desc":["Ultrasound Probe Cover","6in","48in","100 units per Case"],"id":"2059"},"2061":{"desc":"Tubigrip natural E roll 10cm 1/bx","formatted_desc":["Tubigrip","10cm","Natural E, 1 unit per Box"],"id":"2061"},"2062":{"desc":"Tubigrip natural, size 'A' 1/bx","formatted_desc":["Tubigrip","A","Natural, 1 unit per Box"],"id":"2062"},"2063":{"desc":"Tubigrip natural B 10 meter 1/bx","formatted_desc":["Tubigrip","B","10m","Natural, 1 unit per Box"],"id":"2063"},"2064":{"desc":"Tubigrip natural D roll 10cm 1/bx","formatted_desc":["Tubigrip","10cm","Natural, D Roll, 1 per Box"],"id":"2064"},"2065":{"desc":"Tubigrip natural F roll 10cm 1/bx","formatted_desc":["Tubigrip","10cm","Natural F, 1 unit per Box"],"id":"2065"},"2066":{"desc":"Tubigrip natural G roll 10cm 1/bx","formatted_desc":["Tubigrip","10cm","Natural, G Roll, 1 unit per Box"],"id":"2066"},"2067":{"desc":"Tubigrip natural C 10 meter 1/bx","formatted_desc":["Tubigrip","C","10m","Natural, 1 Box per Unit"],"id":"2067"},"2068":{"desc":"Tubigrip flesh D roll 10cm 1/bx","formatted_desc":["Tubigrip","10cm","Flesh, D Roll, 1 unit per Box"],"id":"2068"},"2069":{"desc":"Mepore dressing 3.6' x 4' 50/bx 8bx/cs","formatted_desc":["Mepore Dressing","3.6ft","4ft","50 units per box, 8 boxes per case"],"id":"2069"},"2070":{"desc":"Mepore island dressing 9 x 20cm 30/bx 6bx/cs","formatted_desc":["Mepore","20cm","9cm","Island dressing, 30 units per Box, 6 Boxes per Case"],"id":"2070"},"2072":{"desc":"AEROECLIPSE II Breath Actuated Nebulizer (BAN)","formatted_desc":["AEROECLIPSE II","Breath Actuated Nebulizer (BAN)",""],"id":"2072"},"2074":{"desc":"Defend Tatto Hustle Butter Deluxe 1oz Tub","formatted_desc":["Tatto Hustle Butter Deluxe","1oz","Tub","Defend"],"id":"2074"},"2075":{"desc":"Self-Seal Sterilization Pouch, 2\" x 7.75\", 200/bx, 20 bx/cs","formatted_desc":["Self-Seal Sterilization Pouch","2in","7.75in","200 units per box, 20 boxes per case"],"id":"2075"},"2076":{"desc":"Self-Seal Sterilization Pouch, 3.5\" x 10\", 200/bx, 20 bx/cs","formatted_desc":["Self-Seal Sterilization Pouch","10in","3.5in","200 units per Box, 20 Boxes per Case"],"id":"2076"},"2078":{"desc":"Instrument Wipe ACMI Gyrus 3-1/2 X 3-1/2 Inch","formatted_desc":["Instrument Wipe ACMI Gyrus","3.5in","3.5in",""],"id":"2078"},"2079":{"desc":"Nasal Packing Expandacell Slimline PVA Foam XL","formatted_desc":["Nasal Packing","Expandacell, Slimline, PVA, Foam, XL"],"id":"2079"},"2080":{"desc":"Everest Bipolar Cutting Forceps with Cord 5mm x 33cm","formatted_desc":["Everest Bipolar Cutting Forceps","5mm","33cm","With Cord"],"id":"2080"},"2082":{"desc":"BIORCI 1.5 mm x 12 inch (30 cm) Guide Wire","formatted_desc":["BIORCI","1.5mm","12in","Guide Wire"],"id":"2082"},"2083":{"desc":"Acticoat Silver-Coated Antimicrobial Barrier Dressing 4' x 8'","formatted_desc":["Acticoat","4ft","8in","Silver-Coated Antimicrobial Barrier Dressing"],"id":"2083"},"2084":{"desc":"Acticoat 7 6' x 6'","formatted_desc":["Acticoat","6ft","6ft","7"],"id":"2084"},"2085":{"desc":"ACTICOAT Silver-Coated Antimicrobial Barrier Dressing 8\" x 16\"","formatted_desc":["ACTICOAT","16in","8in","Silver-Coated, Antimicrobial, Barrier Dressing"],"id":"2085"},"2086":{"desc":"Dress Surg Adhs. Opsite Drape","formatted_desc":["Dress Surg Adhs","Opsite Drape"],"id":"2086"},"2087":{"desc":"Opsite dressing 11' x 11.7'","formatted_desc":["Opsite dressing","11.7ft","11ft",""],"id":"2087"},"2088":{"desc":"PRIMAPORE Post-Operative Dressings 13.75\"x4\"","formatted_desc":["PRIMAPORE Post-Operative Dressings","4in","13.75in",""],"id":"2088"},"2089":{"desc":"Cica-care 5' x 6' 10/bx","formatted_desc":["Cica-care","6ft","5ft","10 units per box"],"id":"2089"},"2090":{"desc":"OPSITE Post-Op Visible Barriers 11 3/4\" x 4","formatted_desc":["OPSITE Post-Op Visible Barriers","11.75in","4in",""],"id":"2090"},"2091":{"desc":"Allevyn gentle border dressing AG  3Ã¯Â¿Â½ x 3Ã¯Â¿Â½ 40/case","formatted_desc":["Allevyn Gentle Border Dressing","3.5in","3.5in","40 units per case"],"id":"2091"},"2092":{"desc":"ALLEVYN Gentle Border Advanced Foam Wound Dressings   6 5/8Ã¯Â¿Â½Ã¯Â¿Â½ x 6 3/4Ã¯Â¿Â½Ã¯Â¿Â½/16.8cm x 17.1cm","formatted_desc":["ALLEVYN Gentle Border Advanced Foam Wound Dressings","6.625in","6.75in",""],"id":"2092"},"2093":{"desc":"Internal Hex Captured Screw, 5 dia. x 30 mm Length","formatted_desc":["Internal Hex Captured Screw","5mm","30mm",""],"id":"2093"},"2094":{"desc":"Internal Captured Screw, 5 dia. x 70 mm Length, Gold","formatted_desc":["Internal Captured Screw","5mm","70mm","Gold"],"id":"2094"},"2095":{"desc":"Internal Captured Screw, 5 dia. x 75 mm Length, Gold","formatted_desc":["Internal Captured Screw","5mm","75mm","Gold"],"id":"2095"},"2096":{"desc":"Internal Captured Screw, 5 dia. x 80 mm Length, Gold","formatted_desc":["Internal Captured Screw","0.5cm","8cm","Gold"],"id":"2096"},"2097":{"desc":"Gold Internal Captured Screw, 5 dia. x 85 mm Length","formatted_desc":["Gold Internal Captured Screw","5mm","85mm",""],"id":"2097"},"2098":{"desc":"Endoscopic Cannulated Drill Bit 4.5mm, single use","formatted_desc":["Endoscopic Cannulated Drill Bit","4.5mm","single use"],"id":"2098"},"2099":{"desc":"BIORCI HA Screw System Implants 8 x 25mm","formatted_desc":["BIORCI HA Screw System","8mm","25mm","Implants"],"id":"2099"},"2100":{"desc":"BIORCI HA Screw System Implants 8 x 30mm","formatted_desc":["BIORCI HA Screw System Implants","30mm","8mm",""],"id":"2100"},"2101":{"desc":"BIORCI HA Screw System Implants 9 x 25mm","formatted_desc":["BIORCI HA Screw System","9mm","25mm","Implants"],"id":"2101"},"2102":{"desc":"Laser-marked Passing Pins 2.4 mm Drill Tip Passing Pin","formatted_desc":["Laser-marked Passing Pins","2.4mm","Drill Tip Passing Pin"],"id":"2102"},"2103":{"desc":"BIORCI HA Screw System Implants 11 x 30mm","formatted_desc":["BIORCI HA Screw System","11mm","30mm","Implants"],"id":"2103"},"2104":{"desc":"BIORCI HA Screw System Implants 10 x 25mm","formatted_desc":["HA Screw System Implants","BIORCI","25mm","10mm",""],"id":"2104"},"2105":{"desc":"BIORCI HA Screw System Implants 10 x 30mm","formatted_desc":["BIORCI HA Screw System","10mm","30mm","Implants"],"id":"2105"},"2106":{"desc":"Disposable Hip Pac; sterile, includes 3 guidewires and 2 arthroscopic needles","formatted_desc":["Disposable Hip Pac","3 guidewires, 2 arthroscopic needles, Sterile,"],"id":"2106"},"2107":{"desc":"TwinFix Suture Anchor with Two #2 Preloaded Ultrabraid Suture","formatted_desc":["TwinFix Suture Anchor","Preloaded with Two #2 Ultrabraid Sutures"],"id":"2107"},"2108":{"desc":"Disposable cannula with disposable obturator, 8.5 mm x 72 mm, threaded, green","formatted_desc":["Disposable cannula","8.5mm","72mm","with disposable obturator, threaded, green"],"id":"2108"},"2109":{"desc":"Disposable cannula with disposable obturator 7.0 mm x 72 mm, threaded, grey","formatted_desc":["Cannula","7.0mm","72mm","Disposable, with Disposable Obturator, Threaded, Grey"],"id":"2109"},"2110":{"desc":"BIOSURE HA Interference Screw 7mm x 20mm","formatted_desc":["BIOSURE HA Interference Screw","20mm","7mm",""],"id":"2110"},"2111":{"desc":"BIOSURE HA Interference Screw 8mm x 20mm","formatted_desc":["BIOSURE HA Interference Screw","8mm","20mm",""],"id":"2111"},"2112":{"desc":"Interference Screw, Non-Absorbable, 8 dia. x 25 mm Length, PEEK, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use","formatted_desc":["Interference Screw","8mm","25mm","Non-Absorbable, PEEK, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use"],"id":"2112"},"2113":{"desc":"FAST-FIX? 360 straight needle Meniscal Repair System","formatted_desc":["FAST-FIX","Meniscal Repair System, 360mm, Straight Needle"],"id":"2113"},"2114":{"desc":"FAST-FIX 360 curved needle Meniscal Repair System","formatted_desc":["FAST-FIX 360","Curved Needle Meniscal Repair System"],"id":"2114"},"2115":{"desc":"FAST-FIX 360 reverse curved needle Meniscal Repair System","formatted_desc":["FAST-FIX 360","reverse curved needle, Meniscal Repair System"],"id":"2115"},"2116":{"desc":"HEALICOIL PK 4.5mm Suture Anchor with..two #2 ULTRABRAID Sutures","formatted_desc":["HEALICOIL","4.5mm","Suture Anchor with two #2 ULTRABRAID Sutures"],"id":"2116"},"2117":{"desc":"5.5 mm HEALICOIL PK Suture Anchor with three ULTRABRAID (#2) Sutures","formatted_desc":["5.5mm","HEALICOIL PK Suture Anchor","with three ULTRABRAID (#2) Sutures"],"id":"2117"},"2118":{"desc":"HEALICOIL REGENESORB 4.75mm Suture Anchor with one ULTRATAPE Suture (Cobraid Blue) and one #2 UL...","formatted_desc":["HEALICOIL REGENESORB","4.75mm","Suture Anchor with one ULTRATAPE Suture (Cobraid Blue) and one #2 UL"],"id":"2118"},"2119":{"desc":"HEALICOIL REGENESORB 4.75 mm Suture Anchor with one ULTRATAPE Suture and one ULTRABRAID Suture","formatted_desc":["HEALICOIL REGENESORB","4.75mm","Suture Anchor with one ULTRATAPE Suture and one ULTRABRAID Suture"],"id":"2119"},"2120":{"desc":"HEALICOIL REGENESORB 5.5mm Suture..Anchor with three #2 ULTRABRAID sutures","formatted_desc":["HEALICOIL REGENESORB","5.5mm","Suture, Anchor with three #2 ULTRABRAID sutures"],"id":"2120"},"2121":{"desc":"SUTUREFIX ULTRA Anchor 1.7 mm S Solid Blue","formatted_desc":["SUTUREFIX ULTRA Anchor","1.7mm","Solid, Blue"],"id":"2121"},"2122":{"desc":"SUTUREFIX ULTRA Anchor 1.7 mm S Cobraid Blue","formatted_desc":["SUTUREFIX","1.7mm","ULTRA Anchor, Cobraid, Blue"],"id":"2122"},"2123":{"desc":"SUTUREFIX ULTRA Anchor 1.9 mm S Cobraid Blue/Blue","formatted_desc":["SUTUREFIX ULTRA Anchor","1.9mm","Cobraid, Blue/Blue"],"id":"2123"},"2124":{"desc":"HEALICOIL PK 4.5 mm Suture Anchor with one ULTRATAPE Suture (Cobraid Blue)","formatted_desc":["HEALICOIL PK","4.5mm","Suture Anchor with one ULTRATAPE Suture, Cobraid Blue"],"id":"2124"},"2125":{"desc":"HEALICOIL PK 5.5 mm Suture Anchor with one ULTRATAPE Suture (Blue) and one ULTRABRAIDÃ¯Â¿Â½ Suture (#2)","formatted_desc":["HEALICOIL","5.5mm","Suture Anchor","with one ULTRATAPE Suture (Blue) and one ULTRABRAID Suture (#2)"],"id":"2125"},"2126":{"desc":"HEALICOIL PK 5.5 mm Suture Anchor with one ULTRATAPE Suture","formatted_desc":["HEALICOIL Suture Anchor","5.5mm","PK 1, with one ULTRATAPE Suture"],"id":"2126"},"2127":{"desc":"SUPER TURBOVAC 90 with integrated finger switches (IFS)","formatted_desc":["SUPER TURBOVAC 90","with integrated finger switches (IFS)"],"id":"2127"},"2129":{"desc":"acapella DM blue with mouthpiece","formatted_desc":["acapella","DM","blue","with mouthpiece"],"id":"2129"},"2130":{"desc":"Acapella DH Green w/mouthpiece","formatted_desc":["Acapella DH Green","with mouthpiece"],"id":"2130"},"2131":{"desc":"Protect Plus IV catheter w/wings 18GA x 1-1/4\"","formatted_desc":["Protect Plus IV catheter","18GA","1.25in","with wings"],"id":"2131"},"2133":{"desc":"Interpulse Handpiece with Coaxial High Flow Tip","formatted_desc":["Interpulse Handpiece","Coaxial High Flow Tip"],"id":"2133"},"2134":{"desc":"Sternum Saw, Cut Edge 32mm, Thickness .79mm, FPT 3.56mm, Height 6.27mm","formatted_desc":["Sternum Saw","32mm","0.79mm","3.56mm","6.27mm","Cut Edge"],"id":"2134"},"2135":{"desc":"CrossFlow Intergrated Cassette Tubing","formatted_desc":["CrossFlow Integrated Cassette Tubing"],"id":"2135"},"2136":{"desc":"Neptune 4-Port Manifold w/ Specimen Collection","formatted_desc":["Neptune 4-Port Manifold","with Specimen Collection"],"id":"2136"},"2137":{"desc":"Stryker Sagittal Blade, 25mm cut edge","formatted_desc":["Stryker Sagittal Blade","25mm","cut edge"],"id":"2137"},"2138":{"desc":"2108 Series Sagital Blade, No Offset","formatted_desc":["2108 Series Sagital Blade","No Offset"],"id":"2138"},"2139":{"desc":"RemB Accessories TPS Standard Handpiece Cable","formatted_desc":["RemB Accessories","TPS Standard Handpiece Cable"],"id":"2139"},"2140":{"desc":"BIT DRILL RND COURSE DIAMOND 3.0 MM","formatted_desc":["BIT","3.0MM","DRILL RND COURSE DIAMOND"],"id":"2140"},"2142":{"desc":"Hudson RCI Voldyne spirometer, 5000ml 12/cs","formatted_desc":["Hudson RCI Voldyne Spirometer","5000ml","12 units per Case"],"id":"2142"},"2144":{"desc":"Infusion Set, 25G x Ã¯Â¿Â½\", 12\" Tubing, 50/bx, 10 bx/cs","formatted_desc":["Infusion Set","25G","0.5in","12in Tubing, 50 units per Box, 10 Boxes per Case"],"id":"2144"},"2145":{"desc":"Microvention SOFIA Plus Intermediate Catheter 6Fr, 131cm Length","formatted_desc":["Microvention SOFIA Plus Intermediate Catheter","6Fr","131cm",""],"id":"2145"},"2146":{"desc":"Terumo 22GA x 1-1/2' needle 100/bx 10bx/cs","formatted_desc":["Terumo","22GA","1.5in","Needle, 100 units per Box, 10 Boxes per Case"],"id":"2146"},"2147":{"desc":"Radifocus Guide Wire M Standard 0.035\" (0.89 mm + 0.01 mm)* 150 cm 3 cm Angled","formatted_desc":["Radifocus Guide Wire","0.035in","150cm","M Standard, 3cm Angled"],"id":"2147"},"2148":{"desc":"Catheter Radifocus Optitorque 5F x..100 cm Tiger","formatted_desc":["Catheter","Radifocus Optitorque","5F","100cm","Tiger"],"id":"2148"},"2149":{"desc":"Radifocus Introducer II Transradial Kit M Coat R, 5Fr, 10cm Sheath","formatted_desc":["Radifocus Introducer II","5Fr","10cm, Transradial Kit M Coat R, Sheath"],"id":"2149"},"2150":{"desc":"6FR RADIAL INTRODUCER","formatted_desc":["6FR","Radial Introducer"],"id":"2150"},"2151":{"desc":"Infusion Set, 21G x Ã¯Â¿Â½\", 12\" Tubing, 50/bx, 10 bx/cs","formatted_desc":["Infusion Set","21G","0.5in","12in Tubing, 50 units per Box, 10 Boxes per Case"],"id":"2151"},"2152":{"desc":"0.014'' Runthough NS PTCA Guide..Wire - FLOPPY","formatted_desc":["0.014in","Runthrough NS PTCA Guide Wire","Floppy"],"id":"2152"},"2153":{"desc":"Radial artery compression device,..large size - 29 cm","formatted_desc":["Radial artery compression device","29cm","Large"],"id":"2153"},"2155":{"desc":"ADAPTER,VALVED,TEE,15 MM OD X15MM ID","formatted_desc":["ADAPTER","VALVED,TEE,15MM OD,15MM ID"],"id":"2155"},"2156":{"desc":"NEBULIZER,MSTY FNTY DCONNECT LRG VOL","formatted_desc":["NEBULIZER","MSTY FNTY DCONNECT LRG VOL"],"id":"2156"},"2157":{"desc":"NEBULIZER,MSTY FNTY,SM","formatted_desc":["NEBULIZER","MSTY FNTY","SM"],"id":"2157"},"2158":{"desc":"CIRCUIT,RESP,PED,15FT,10/CS","formatted_desc":["CIRCUIT","RESP","15FT","10 units per Case"],"id":"2158"},"2159":{"desc":"ADAPTER,CABLE,PRESSUR,DUAL,INVASIVE,","formatted_desc":["ADAPTER","CABLE","PRESSUR","DUAL","INVASIVE"],"id":"2159"},"2160":{"desc":"CABLE SINGLE IP 12FT X 3.6M","formatted_desc":["CABLE","12FT","SINGLE, IP, 3.6M"],"id":"2160"},"2161":{"desc":"CABLE,DIRECT CONNECT,3.6M/12FT","formatted_desc":["CABLE","DIRECT CONNECT","3.6M","12FT",""],"id":"2161"},"2162":{"desc":"CABLE,MULTI,ECG,3/5 LD ESU,AAMI/AHA,12'","formatted_desc":["CABLE","MULTI,ECG,3/5","LD ESU,AAMI/AHA,12'"],"id":"2162"},"2163":{"desc":"AirLife Respiratory Therapy Solution Sterile Water Solution Flexible Bag 1,000 mL","formatted_desc":["AirLife Respiratory Therapy Solution","Sterile Water Solution, Flexible Bag, 1,000 mL"],"id":"2163"},"2164":{"desc":"LEADWIRE, APEXPRO FH, 5-LEAD, GRAB, AHA","formatted_desc":["LEADWIRE","APEXPRO FH, 5-LEAD, GRAB, AHA"],"id":"2164"},"2165":{"desc":"LEADWIRE,APEXPRO FH,5-LEAD","formatted_desc":["LEADWIRE","APEXPRO FH","5-LEAD"],"id":"2165"},"2166":{"desc":"SET 5-LEAD WIRE SNAP SYTLE 29","formatted_desc":["5-Lead Wire Snap Style","29in"],"id":"2166"},"2167":{"desc":"SET,ECG,5 LEAD SNAP,AHA,51IN,130CM","formatted_desc":["ECG 5 LEAD SNAP","AHA","51in","130cm","SET"],"id":"2167"},"2168":{"desc":"SET,ECG,3 LEAD SNAP,AHA,51IN,130CM","formatted_desc":["ECG","3 LEAD SNAP, AHA, 51in, 130cm"],"id":"2168"},"2169":{"desc":"LEADWIRE MULTILINK 3-LEAD GRAB AHA SET S","formatted_desc":["LEADWIRE","MULTILINK 3-LEAD GRAB AHA SET S",""],"id":"2169"},"2170":{"desc":"LEADWIRE AHA 3 LEAD GRAB LARGE MOLDED","formatted_desc":["LEADWIRE","AHA 3, GRAB, LARGE, MOLDED"],"id":"2170"},"2171":{"desc":"SET 5-LEAD WIRE GRABBER AHA 29","formatted_desc":["5-Lead Wire Grabber","AHA","29mm"],"id":"2171"},"2172":{"desc":"LEADWIRE SET,MULTI-LINK 5-LD AHA 51","formatted_desc":["LEADWIRE","MULTI-LINK 5-LD AHA 51","SET"],"id":"2172"},"2173":{"desc":"SET 5-LEAD WIRE GRABBER AHA V2-V6 51","formatted_desc":["5-Lead Wire Grabber","AHA V2-V6, 51mm"],"id":"2173"},"2174":{"desc":"SET 5-LEAD WIRE GRABBER AHA V-LEADS","formatted_desc":["5-Lead Wire Grabber","AHA V-Leads"],"id":"2174"},"2175":{"desc":"SET 6-LEAD WIRE GRABBER AHA 29","formatted_desc":["6-Leads Wire Grabber","AHA","29in"],"id":"2175"},"2176":{"desc":"RESUSCITATOR,INFANT,10\"TUBING,HYPERI","formatted_desc":["RESUSCITATOR","Infant","10in","Tubing, Hyperi"],"id":"2176"},"2177":{"desc":"BabySafe Resuscitator","formatted_desc":["BabySafe Resuscitator"],"id":"2177"},"2178":{"desc":"EXCHANGER,HEAT/MOIST,HCH,HEPA,PORT","formatted_desc":["Exchanger","Heat","Moist, HCH, HEPA, Port"],"id":"2178"},"2179":{"desc":"Pediatric Nonheated Respiratory Circuit, 12'","formatted_desc":["Pediatric Nonheated Respiratory Circuit","12ft",""],"id":"2179"},"2180":{"desc":"ADAPTER,TEE,STRT,GAS AIRWAY,15-22 MM","formatted_desc":["ADAPTER","TEE","STRT","GAS AIRWAY, 15-22MM"],"id":"2180"},"2181":{"desc":"ANES CIRCUIT, ADULT, 72 IN LIMBO, 3L BAG","formatted_desc":["ANES CIRCUIT","72in","ADULT, IN LIMBO, 3L BAG"],"id":"2181"},"2182":{"desc":"KIT,DEVICE,PAP,NASAL,SUPERNO2VA,ADLT,MED","formatted_desc":["KIT","DEVICE,PAP,NASAL,SUPERNO2VA,ADLT,MED"],"id":"2182"},"2184":{"desc":"Welch Allyn 2.5 V Vacuum Lamp for Standard Laryngoscope Blades","formatted_desc":["Welch Allyn","2.5V, Vacuum, Lamp for Standard Laryngoscope Blades"],"id":"2184"},"2186":{"desc":"Vacuum Quick-Vac Mixing Bowl","formatted_desc":["Vacuum Quick-Vac Mixing Bowl"],"id":"2186"},"2187":{"desc":"Bone Cement Mixing Systems Quik-Use Curette","formatted_desc":["Bone Cement Mixing Systems","Quik-Use Curette"],"id":"2187"},"2188":{"desc":"Pulsavac Plus Fan Kit","formatted_desc":["Pulsavac","Plus Fan Kit"],"id":"2188"},"2189":{"desc":"Accessories Zimmer Dermatome Blades","formatted_desc":["Zimmer","Dermatome Blades, Accessories"],"id":"2189"},"2210":{"desc":"'3/10CC Insulin 30Gx5/16\"","formatted_desc":["3/10 CC","Insulin 30Gauge","5/16in"],"id":"2210"},"2211":{"desc":"'1/2CC Insulin 29GX1/2\"","formatted_desc":["Insulin","1/2cc","29G","1/2in"],"id":"2211"},"2212":{"desc":"'1CC Insulin 29GX1/2\"","formatted_desc":["1CC Insulin","29G","0.5in",""],"id":"2212"},"2213":{"desc":"1cc TB syringe with detachable needle, Luer-slip 27G x 1/2\"","formatted_desc":["1cc","TB syringe","with detachable needle, Luer-slip 27G, 1/2in"],"id":"2213"},"2214":{"desc":"1cc TB syringe with detachable needle, Luer-slip 25G x 5/8\"","formatted_desc":["1cc","TB Syringe","with detachable needle, Luer-slip, 25G, 5/8in"],"id":"2214"},"2215":{"desc":"3cc Syringe/Needle Combination 23G x 1\"","formatted_desc":["3cc","Syringe/Needle Combination, 23G, 1in"],"id":"2215"},"2216":{"desc":"3cc Syringe/Needle Combination 22G x 1\"","formatted_desc":["3cc Syringe","22G","1in","Needle Combination"],"id":"2216"},"2217":{"desc":"3cc Syringe/Needle Combination 20G x 1 1/2\"","formatted_desc":["3cc Syringe","20G","1.5in","Needle Combination"],"id":"2217"},"2218":{"desc":"3cc Syringe/Needle Combination 25G x 1\"","formatted_desc":["3cc Syringe","25G","1in","Needle Combination"],"id":"2218"},"2219":{"desc":"3cc Syringe/Needle Combination 25G x 1 1/2\"","formatted_desc":["3cc","Syringe","Needle Combination, 25G, 1.5in"],"id":"2219"},"2220":{"desc":"3cc Syringe/Needle Combination 23G x 1 1/2\"","formatted_desc":["3cc Syringe","23G","1.5in","Needle Combination"],"id":"2220"},"2221":{"desc":"5cc Syringe/Needle Combination LUER Ã¯Â¿Â½ LOCK TIP 22G x 1 1/2\"","formatted_desc":["5cc Syringe","22G","1.5in","Needle/Comb, LUER-LOCK TIP"],"id":"2221"},"2222":{"desc":"Hypodermic needle Regular Bevel 25G x 1\"","formatted_desc":["Hypodermic needle","25G","1in","Regular Bevel"],"id":"2222"},"2223":{"desc":"Hypodermic Needles 23G x 3/4\"","formatted_desc":["Hypodermic Needles","23G","3/4in",""],"id":"2223"},"2224":{"desc":"Hypodermic needle Regular Bevel 23G x 1\"","formatted_desc":["Hypodermic Needle","23G","1in","Regular Bevel"],"id":"2224"},"2225":{"desc":"Hypodermic needle Regular Bevel 23G x 1 1/2\"","formatted_desc":["Hypodermic Needle","23G","1.5in","Regular Bevel"],"id":"2225"},"2226":{"desc":"Hypodermic Needle, 22G x Ã¯Â¿Â½\"","formatted_desc":["Hypodermic Needle","22G","0.5in"],"id":"2226"},"2227":{"desc":"Hypodermic needle Regular Bevel 22G x 1\"","formatted_desc":["Hypodermic needle","22G","1in","Regular, Bevel"],"id":"2227"},"2228":{"desc":"Hypodermic needle Regular Bevel 18G x 1\"","formatted_desc":["Hypodermic Needle","Regular Bevel, 18G, 1in"],"id":"2228"},"2229":{"desc":"SPECIALTY USE HYPODERMIC NEEDLES 30G x 1/2\"","formatted_desc":["Hypodermic Needles","30G","0.5in","Specialty Use"],"id":"2229"},"2230":{"desc":"DEFEND+PLUS Sterilization Pouches Ã¯Â¿Â½ with Built-in Internal Indicator 2.25? X 4?","formatted_desc":["DEFEND+PLUS Sterilization Pouches","4in","2.25in","with Built-in Internal Indicator"],"id":"2230"},"2231":{"desc":"DEFEND+PLUS Sterilization Pouches Ã¯Â¿Â½ with Built-in Internal Indicator 3.5? X 5.25?","formatted_desc":["DEFEND+PLUS Sterilization Pouches","5.25in","3.5in","with Built-in Internal Indicator"],"id":"2231"},"2324":{"desc":"Micropore tape, tan 1' x 10yds 12rls/bx 10bx/cs","formatted_desc":["Micropore","1ft","10yd","Tan, 6 Rolls per Box, 10 Boxes per Case"],"id":"2324"},"2325":{"desc":"ECG Electrode with Leadwire 3Mï¿½ Red Dotï¿½ Pre-Wired Radiolucent Tape Backing 3 per Pack","formatted_desc":["ECG Electrode","3M, Red Dot, Pre-Wired, Radiolucent, Tape Backing, 3 units per Pack"],"id":"2325"},"2326":{"desc":"Littmann Lightweight II S. E. Stethoscope Black Tube","formatted_desc":["Littmann Lightweight II S. E. Stethoscope","Black Tube"],"id":"2326"},"2327":{"desc":"ECG Snap Electrode 3M Red Dot Monitoring Non-Radiolucent Foam Backing","formatted_desc":["ECG Snap Electrode","3M","Red Dot Monitoring, Non-Radiolucent, Foam Backing"],"id":"2327"},"2328":{"desc":"Medipore tape 1 x 10 yd 24/cs","formatted_desc":["Medipore tape","1in","10yd","24 units per case"],"id":"2328"},"2329":{"desc":"3M Scotchcast Plus Casting Tape 2 inch x 4 yard White","formatted_desc":["3M Scotchcast Plus Casting Tape","2in","4yd","White"],"id":"2329"},"2330":{"desc":"3M Scotchcast Plus Casting Tape 3 inch x 4 yard white","formatted_desc":["3M Scotchcast Plus","4yd","3in","Casting Tape, White"],"id":"2330"},"2331":{"desc":"3M Scotchcast Plus Casting Tape 4 inch x 4 yard white","formatted_desc":["3M","Scotchcast Plus Casting Tape","4in","4yd","white"],"id":"2331"},"2332":{"desc":"3M Scotchcast Plus Casting Tape 5 inch x 12 foot white","formatted_desc":["3M Scotchcast Plus Casting Tape","5in","12ft","white"],"id":"2332"},"2334":{"desc":"Hi-Torque Whisper MS Guide Wire..0.014\" x 190cm, Straight","formatted_desc":["Hi-Torque Whisper MS Guide Wire","0.014in","190cm","Straight"],"id":"2334"},"2335":{"desc":"HI-TORQUE BALANCE MIDDLEWEIGHT UNIVERSAL II Guide Wire 3cm Straight Hydrophilic 190cm","formatted_desc":["Hi-Torque Balance Middleweight Universal II Guide Wire","3cm","190cm","Straight, Hydrophilic"],"id":"2335"},"2336":{"desc":"Hi-Torque Whisper ES Guide Wire..0.014\" x 190cm","formatted_desc":["Hi-Torque Whisper ES Guide Wire","0.014in","190cm",""],"id":"2336"},"2337":{"desc":"Mini Trek RX Coronary Dilatation Catheters 1,20x6mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","1.20mm","6mm",""],"id":"2337"},"2338":{"desc":"MINI TREK Coronary Dilatation Catheter 1.20x12 mm","formatted_desc":["MINI TREK Coronary Dilatation Catheter","1.2mm","12mm",""],"id":"2338"},"2339":{"desc":"MINI TREK Coronary Dilatation Catheter 1.20x15 mm","formatted_desc":["MINI TREK Coronary Dilatation Catheter","1.2mm","15mm",""],"id":"2339"},"2340":{"desc":"Mini Trek RX Coronary Dilatation Catheters 1,50x6mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","6mm","1.5mm"],"id":"2340"},"2341":{"desc":"Mini Trek RX Coronary Dilatation Catheters 1,50x6mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","1.5mm","6mm"],"id":"2341"},"2342":{"desc":"Mini Trek RX Coronary Dilatation Catheters 1,50x12mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","1.5mm","12mm",""],"id":"2342"},"2343":{"desc":"Mini Trek RX Coronary Dilatation Catheters 1,50x15mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","1.5mm","15mm",""],"id":"2343"},"2344":{"desc":"Mini Trek RX Coronary Dilatation Catheters 1,50x20mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","1.5mm","20mm",""],"id":"2344"},"2345":{"desc":"MINI TREK Coronary Dilatation Catheter 2x15 mm","formatted_desc":["MINI TREK Coronary Dilatation Catheter","2mm","15mm",""],"id":"2345"},"2346":{"desc":"Mini Trek Rx Coronary Dilation Catheter: 2mm x 20mm","formatted_desc":["Mini Trek Rx Coronary Dilation Catheter","2mm","20mm"],"id":"2346"},"2347":{"desc":"Mini Trek RX Coronary Dilatation Catheters 2,00x30mm","formatted_desc":["Mini Trek RX Coronary Dilatation Catheters","2.00mm","30mm",""],"id":"2347"},"2348":{"desc":"Trek RX Coronary Dilatation Catheters 2,25x12mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","2.25mm","12mm",""],"id":"2348"},"2349":{"desc":"Trek RX Coronary Dilatation Catheters 2,25x15mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","2.25mm","15mm",""],"id":"2349"},"2350":{"desc":"Trek RX Coronary Dilatation Catheters 2,25x20mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","2.25mm","20mm",""],"id":"2350"},"2351":{"desc":"Trek RX Coronary Dilatation Catheters 2,50x12mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","2.5mm","12mm",""],"id":"2351"},"2352":{"desc":"Trek RX Coronary Dilatation Catheters 2,50x15mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","2.50mm","15mm",""],"id":"2352"},"2353":{"desc":"Trek RX Coronary Dilatation Catheters 2,50x20mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","2.5mm","20mm"],"id":"2353"},"2354":{"desc":"Trek RX Coronary Dilatation Catheters 3,00x8mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","3mm","8mm",""],"id":"2354"},"2355":{"desc":"Trek RX Coronary Dilatation Catheters 3,00x12mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","3.00mm","12mm",""],"id":"2355"},"2356":{"desc":"Trek RX Coronary Dilatation Catheters 3,00x15mm","formatted_desc":["Trek RX Coronary Dilatation Catheters","3mm","15mm",""],"id":"2356"},"2357":{"desc":"NC Trek RX Coronary Dilatation Catheters 2,25x8mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","2.25mm","8mm",""],"id":"2357"},"2358":{"desc":"NC Trek RX Coronary Dilatation Catheters 2,25x12mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","2.25mm","12mm",""],"id":"2358"},"2359":{"desc":"NC Trek RX Coronary Dilatation Catheters 2,25x15mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","2.25mm","15mm",""],"id":"2359"},"2360":{"desc":"NC Trek RX Coronary Dilatation Catheters 2,25x20mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","2.25mm","20mm",""],"id":"2360"},"2361":{"desc":"NC Trek RX Coronary Dilatation Catheters 3,00x8mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","3.00mm","8mm",""],"id":"2361"},"2362":{"desc":"NC Trek RX Coronary Dilatation Catheters 3,00x12mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","3mm","12mm",""],"id":"2362"},"2363":{"desc":"NC Trek RX Coronary Dilatation Catheters 3,00x15mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","3.00mm","15mm",""],"id":"2363"},"2364":{"desc":"NC Trek RX Coronary Dilatation Catheters 3,00x20mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","3.00mm","20mm",""],"id":"2364"},"2365":{"desc":"NC Trek RX Coronary Dilatation Catheters 4,00x12mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","4mm","12mm",""],"id":"2365"},"2366":{"desc":"NC Trek RX Coronary Dilatation Catheters 4,00x15mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","4.00mm","15mm",""],"id":"2366"},"2367":{"desc":"NC Trek RX Coronary Dilatation Catheters 4,00x20mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","4.00mm","20mm",""],"id":"2367"},"2368":{"desc":"NC Trek RX Coronary Dilatation Catheters 4,50x12mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","4.5mm","12mm",""],"id":"2368"},"2369":{"desc":"NC Trek RX Coronary Dilatation Catheters 4,50x15mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","4.5mm","15mm",""],"id":"2369"},"2370":{"desc":"NC Trek RX Coronary Dilatation Catheters 4,50x20mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","4.5mm","20mm",""],"id":"2370"},"2371":{"desc":"NC Trek RX Coronary Dilatation Catheters 5,00x12mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","5.00mm","12mm",""],"id":"2371"},"2372":{"desc":"NC Trek RX Coronary Dilatation Catheters 5,00x15mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","5.00mm","15mm",""],"id":"2372"},"2373":{"desc":"NC Trek RX Coronary Dilatation Catheters 5,00x20mm","formatted_desc":["NC Trek RX Coronary Dilatation Catheters","5.00mm","20mm",""],"id":"2373"},"2374":{"desc":"Pacel Bipolar Ventricular Pacing..Catheter, 5 Fr Size, 110 cm Usable..Length","formatted_desc":["Pacel Catheter","5 Fr","110 cm","Bipolar Ventricular Pacing, Usable"],"id":"2374"},"2375":{"desc":"Urethral Catheter Bardï¿½ Robinson / Nelaton Tip Red Rubber 16 Fr. 16 Inch","formatted_desc":["Urethral Catheter","Bard, Robinson/Nelaton Tip, Red Rubber, 16 Fr, 16 Inch"],"id":"2375"},"2376":{"desc":"Bardiaï¿½ Closed System Foley Tray, 18FR, Latex","formatted_desc":["Bardia","Closed System Foley Tray","18FR","Latex"],"id":"2376"},"2377":{"desc":"Baxter Continu-Flo set","formatted_desc":["Baxter","Continu-Flo set",""],"id":"2377"},"2378":{"desc":"20cc LL syringe 48.bx 4 bx/cs","formatted_desc":["20cc","LL Syringe","48 units per Box, 4 Boxes per Case"],"id":"2378"},"2379":{"desc":"Guidezilla II Guide Extension Catheter 6F","formatted_desc":["Guidezilla II Guide Extension Catheter","6F",""],"id":"2379"},"2380":{"desc":"Large volume nebulizer adult mask and 8' 22 mm corrugated tubing","formatted_desc":["Large Volume Nebulizer","Adult Mask, 8in, 22mm Corrugated Tubing"],"id":"2380"},"2381":{"desc":"Genorator kit  20/cs","formatted_desc":["Generator Kit","20 units per Case"],"id":"2381"},"2382":{"desc":"Bifurcated Smoke Evac Filtered Tube Set for use with AirSeal iFS","formatted_desc":["Bifurcated Smoke Evac Filtered Tube Set","for use with AirSeal iFS"],"id":"2382"},"2383":{"desc":"TEMPO 4F Catheters,Guidewire..Acceptance 0.035ï¿½, Universal..Flush 65 CM","formatted_desc":["TEMPO 4F Catheters","0.035in","Universal, Flush 65CM"],"id":"2383"},"2384":{"desc":"TEMPO 4F & 5F Catheters,Cobra I, 65 cm","formatted_desc":["TEMPO Catheters","4F, 5F, Cobra I, 65cm"],"id":"2384"},"2385":{"desc":"TEMPO 4 , Guidewire Acceptance..0.038, Cobra II, 65 cm","formatted_desc":["TEMPO 4","Guidewire","Acceptance","0.038in","Cobra II, 65cm"],"id":"2385"},"2386":{"desc":"TEMPO 4F & 5F Catheters, Sidewinder I, 100cm","formatted_desc":["TEMPO Catheters","4F, 5F, Sidewinder I, 100cm"],"id":"2386"},"2387":{"desc":"5.2F SUPER TORQUE Plus..Diagnostic Catheters Right..Coronary Bypass, RCB","formatted_desc":["5.2F","SUPER TORQUE Plus, Diagnostic, Catheters, Right, Coronary Bypass, RCB"],"id":"2387"},"2388":{"desc":"5.2F SUPER TORQUE Plus..Diagnostic Catheters Left Coronary..Bypass, LCB","formatted_desc":["5.2F","SUPER TORQUE Plus, Diagnostic Catheters, Left Coronary, Bypass, LCB"],"id":"2388"},"2389":{"desc":"5.2F SUPER TORQUE Plus..Diagnostic Catheters Multipurpose..A Cournand, 100 cm, MPA 1","formatted_desc":["5.2F","SUPER TORQUE Plus, Diagnostic Catheters, Multipurpose, A Cournand, 100cm, MPA 1"],"id":"2389"},"2390":{"desc":"5.2F SUPER TORQUE Plus..Diagnostic Catheters Internal..Mammary, IM","formatted_desc":["5.2F","SUPER TORQUE Plus..Diagnostic Catheters Internal..Mammary, IM"],"id":"2390"},"2391":{"desc":"Webril cast padding 2' 24/bx","formatted_desc":["Webril Cast Padding","2in","24 units per Box"],"id":"2391"},"2392":{"desc":"Endo Clip II Titanium Clip Applier, 10 mm","formatted_desc":["Endo Clip II","10mm","Titanium Clip Applier"],"id":"2392"},"2393":{"desc":"Kendall Waterproof Cloth 1 Inch X 10 Yard White NonSterile","formatted_desc":["Kendall Waterproof Cloth","1in","10yd","White, NonSterile"],"id":"2393"},"2394":{"desc":"5.5PDL 5.5MM PAED LGE UNCUFF TRACH CANN","formatted_desc":["5.5in","PDL, 5.5mm, Paed, LGE, Uncuffed, Trach Cann"],"id":"2394"},"2395":{"desc":"50XLTUD 5.0MM XLT TRACH UNCUFFED DIST X1","formatted_desc":["50XLTUD","5.0MM","XLT TRACH UNCUFFED, DIST, X1"],"id":"2395"},"2396":{"desc":"70XLTUP 7.0MM XLT TRACH UNCUFFED PROX X1","formatted_desc":["70XLTUP","7.0MM","XLT TRACH UNCUFFED PROX X1"],"id":"2396"},"2397":{"desc":"Monoject 3 mL Syringe with Standard Hypodermic Needle, 21 G x 1-1/2\" (0.813 mm x 3.8 cm)","formatted_desc":["Monoject","3mL","21G","1.5in","Syringe with Standard Hypodermic Needle"],"id":"2397"},"2398":{"desc":"Kangaroo Pump Sets Non-sterile 500 mL Bag with Easy-Cap Closure","formatted_desc":["Kangaroo Pump Sets","500mL","Non-sterile, Bag with Easy-Cap Closure"],"id":"2398"},"2399":{"desc":"AbsorbaTack Fixation Device, 5 mm, single use,  30 tacks","formatted_desc":["AbsorbaTack Fixation Device","5mm","Single Use, 30 Tacks"],"id":"2399"},"2400":{"desc":"Endo GIA Ultra 12mm Universal Short Single Use Stapler","formatted_desc":["Endo GIA Ultra","12mm","Universal, Short, Single Use Stapler"],"id":"2400"},"2401":{"desc":"LigaSure Blunt Tip Laparoscopic Sealer/Divider, Nano-coated 37 cm","formatted_desc":["LigaSure","37cm","Blunt Tip Laparoscopic Sealer/Divider, Nano-coated"],"id":"2401"},"2402":{"desc":"LigaSure Blunt Tip Laparoscopic Sealer/Divider, Nano-coated 44 cm","formatted_desc":["LigaSure","44cm","Blunt, Tip Laparoscopic Sealer/Divider, Nano-coated"],"id":"2402"},"2403":{"desc":"LigaSure Impact Vessel Sealer / Divider LigaSure Impact Single Use 7.1 Inch Shaft","formatted_desc":["LigaSure Impact Vessel Sealer","7.1in","Single Use, Divider"],"id":"2403"},"2404":{"desc":"LigaSure Impact Curved, Large Jaw, Open Sealer/Divider with Nano-coating","formatted_desc":["LigaSure","Impact, Curved, Large Jaw, Open Sealer/Divider, with Nano-coating"],"id":"2404"},"2405":{"desc":"LigaSure Retractable L-hook Laparoscopic Sealer/Divider, 37 cm","formatted_desc":["LigaSure Retractable L-hook Laparoscopic Sealer","37cm",""],"id":"2405"},"2406":{"desc":"LigaSure Retractable L-hook Laparoscopic Sealer/Divider, 44 cm","formatted_desc":["LigaSure Retractable L-hook Laparoscopic Sealer","44cm","Divider"],"id":"2406"},"2407":{"desc":"Parietex Polyester & Polyglycolic-Lactic Acid Composite Ventral Patch, 8.6 cm dia.","formatted_desc":["Parietex","8.6cm","Polyester & Polyglycolic-Lactic Acid Composite Ventral Patch"],"id":"2407"},"2408":{"desc":"Signia Tri-Staple 2.0 Intelligent reload 30mm Vascular Medium","formatted_desc":["Signia Tri-Staple","2.0in","30mm","Intelligent reload, Vascular Medium"],"id":"2408"},"2409":{"desc":"Symbotex Monofilament Composite Mesh with Absorbable Collagen Film and Marking, 9 cm dia.","formatted_desc":["Symbotex Monofilament Composite Mesh","9cm","With Absorbable Collagen Film and Marking"],"id":"2409"},"2410":{"desc":"Symbotex Monofilament Composite Mesh with Absorbable Collagen Film and Marking, 9 cm dia.","formatted_desc":["Symbotex Monofilament Composite Mesh","9cm","Absorbable Collagen Film and Marking"],"id":"2410"},"2411":{"desc":"PROGRIP,PARIETEX,PRECUT,LEFT FLAP","formatted_desc":["PROGRIP","PARIETEX","PRECUT, LEFT FLAP"],"id":"2411"},"2412":{"desc":"ProGrip Self-Gripping Polyester Mesh Left Anatomical, Polyester with Polylactic Acid Grips, 14 ï¿½...","formatted_desc":["ProGrip","Self-Gripping, Polyester Mesh, Left Anatomical"],"id":"2412"},"2413":{"desc":"ProGrip Self-Gripping Polyester Mesh Right Anatomical, Polyester with Polylactic Acid Grips, 14 ...","formatted_desc":["ProGrip Self-Gripping Polyester Mesh","Right Anatomical, Polyester with Polylactic Acid Grips, 14"],"id":"2413"},"2414":{"desc":"Parietex ProGrip Rectangular Mesh, 15 x 9 cm (6ï¿½x 3.5ï¿½)","formatted_desc":["Parietex ProGrip Rectangular Mesh","15cm","9cm",""],"id":"2414"},"2415":{"desc":"Parietex ProGrip Self-Fixating Rectangular Mesh, 15 x 20 cm","formatted_desc":["Parietex ProGrip","20cm","15cm","Self-Fixating Rectangular Mesh"],"id":"2415"},"2416":{"desc":"Covidien Parietex ProGrip Mesh: 30cm x 15cm, Rectangle","formatted_desc":["Covidien Parietex ProGrip Mesh","30cm","15cm","Rectangle"],"id":"2416"},"2417":{"desc":"BIOPATCH Protective Disk with CHG 1\" (2.5 cm) disk with 4.0 mm center hole","formatted_desc":["BIOPATCH Protective Disk","1in","with CHG 4mm center hole"],"id":"2417"},"2418":{"desc":"BIOPATCH Protective Disk with CHG 3/4in &lt;6Fr","formatted_desc":["BIOPATCH Protective Disk","0.75in","with CHG, less than 6Fr"],"id":"2418"},"2419":{"desc":"4/0 18  Ethilon Black","formatted_desc":["Ethilon","Black","4/0in","18in"],"id":"2419"},"2420":{"desc":"1 ETHILON BLACK 1X60\" TP-1","formatted_desc":["ETHILON","1in","60in","BLACK, TP-1"],"id":"2420"},"2421":{"desc":"7-0 PROLENE BLUE 1X30\" C-1 DOUBLE ARMED","formatted_desc":["Prolene","0.7in","30in","Blue, C-1, Double Armed"],"id":"2421"},"2422":{"desc":"Chromic suture 4-0","formatted_desc":["Chromic suture","4-0",""],"id":"2422"},"2423":{"desc":"Vicryl Violet 75cm Absor Coated..Braided 2/0 31mm 1/2 Circle M3..Taper Point Ethalloy Needle","formatted_desc":["Vicryl","2/0","75cm","Violet, Absor Coated, Braided, 31mm, 1/2 Circle M3, Taper Point, Ethalloy Needle"],"id":"2423"},"2424":{"desc":"3-0 vicryl violet, 27' Sh taper 36/bx","formatted_desc":["Vicryl","3-0","27in","Violet, Sh, Taper, 36 units per Box"],"id":"2424"},"2425":{"desc":"3-0 COATED VICRYL VIOLET 1X18\" FS-2\t..","formatted_desc":["Coated Vicryl","3-0","1in","18in","Violet, FS-2"],"id":"2425"},"2426":{"desc":"6-0 COATED VICRYL UNDYED 1X18\" PC-1","formatted_desc":["6-0 COATED VICRYL","1in","18in","UNDYED PC-1"],"id":"2426"},"2427":{"desc":"75cm vicryl absorbable coated..braided violet 4/0 17mm 1/2 circle..taper point plus needle Vicryl","formatted_desc":["75cm","Vicryl, Absorbable, Coated, Braided, Violet, 4-0","17mm","0.5, Circle, Tapered, Point plus Needle"],"id":"2427"},"2428":{"desc":"90cm vicryl absorbable coated..braided violet 0 40mm 1/2 circle..taper point needle Vicryl","formatted_desc":["90cm","Vicryl","Absorbable, Coated, Braided, Violet, 0.40mm, 1/2 Circle, Taper Point Needle"],"id":"2428"},"2429":{"desc":"VICRYL CT VIO 90CM M4","formatted_desc":["VICRYL","CT, VIO, 90CM, M4"],"id":"2429"},"2430":{"desc":"VICRYL RAPIDE 45cm 3/8 R/C 6-0","formatted_desc":["VICRYL RAPIDE","45cm","3/8in","R/C, 6-0"],"id":"2430"},"2431":{"desc":"ETHICON MONOCRYL 3-0 FS-2 36","formatted_desc":["ETHICON MONOCRYL","3-0","FS-2 36in"],"id":"2431"},"2432":{"desc":"ETHICON MONOCRYL 6-0 18","formatted_desc":["ETHICON MONOCRYL","6-0","18in"],"id":"2432"},"2433":{"desc":"4-0 PDS II VIOLET 1X27\" SH-1","formatted_desc":["PDS II VIOLET","1in","27in","4-0, SH-1"],"id":"2433"},"2434":{"desc":"1 36in PDS II VIO MONO SA CTX","formatted_desc":["1 unit","36in","PDS II VIO MONO SA CTX"],"id":"2434"},"2435":{"desc":"PDS II 3/0 VIOLET FS-1 REV CUT 27\" 12/bx","formatted_desc":["PDS II","3.0in","VIOLET, FS-1, REV CUT 27in, 12 units per Box"],"id":"2435"},"2436":{"desc":"Suture USP 5-0 PDS II Undyed 1X18'' P-3","formatted_desc":["Suture","5-0","PDS II, Undyed, 1in, 18in, P-3"],"id":"2436"},"2437":{"desc":"Hypodermic needle Regular Bevel 20G x 1 1/2\"","formatted_desc":["Hypodermic needle","20G","1.5in","Regular Bevel"],"id":"2437"},"2438":{"desc":"Protect IV catheter 14GA x 1-3/4'","formatted_desc":["IV catheter","14GA","1.75ft","Protect"],"id":"2438"},"2439":{"desc":"CVR31125BX-SHUNT,..CLEARVIEW INTRACORONARY..1.25MM 5/BX","formatted_desc":["CVR31125BX","SHUNT, CLEARVIEW INTRACORONARY, 1.25MM, 5 units per Box"],"id":"2439"},"2440":{"desc":"CVR31150BX-SHUNT,..CLEARVIEW INTRACORONARY..1.50MM","formatted_desc":["CVR31150BX-SHUNT","CLEARVIEW INTRACORONARY","1.50MM"],"id":"2440"},"2441":{"desc":"CVR31175BX-SHUNT,..CLEARVIEW INTRACORONARY..1.75MM 5/BX","formatted_desc":["CVR31175BX-SHUNT","CLEARVIEW INTRACORONARY","1.75MM","5 units per Box"],"id":"2441"},"2442":{"desc":"CVR31200BX-SHUNT,..CLEARVIEW INTRACORONARY..2.00MM","formatted_desc":["CVR31200BX-SHUNT","CLEARVIEW INTRACORONARY","2.00MM"],"id":"2442"},"2443":{"desc":"CVR31225BX-SHUNT,..CLEARVIEW INTRACORONARY..2.25MM","formatted_desc":["CVR31225BX-SHUNT","CLEARVIEW INTRACORONARY","2.25MM",""],"id":"2443"},"2444":{"desc":"CVR31250BX-SHUNT,..CLEARVIEW INTRACORONARY..2.50MM 5/BX","formatted_desc":["CVR31250BX","SHUNT, CLEARVIEW INTRACORONARY, 2.50MM, 5 units per BOX"],"id":"2444"},"2445":{"desc":"Launcher 6F Coronary Guide..Catheter, 100cm AL .75","formatted_desc":["Launcher 6F","Coronary Guide Catheter","100cm","AL .75"],"id":"2445"},"2446":{"desc":"6F Coronary Guide Catheter,..100cm AR 1.0","formatted_desc":["6F Coronary Guide Catheter","100cm","AR 1.0"],"id":"2446"},"2447":{"desc":"Launcher 6F Coronary Guide..Catheter, 100cm EBU 3.5","formatted_desc":["Launcher 6F Coronary Guide","Catheter, 100cm EBU 3.5"],"id":"2447"},"2448":{"desc":"Launcher 6F Coronary Guide..Catheter, 100cm JL 3.5","formatted_desc":["6F Coronary Guide","Catheter","100cm","JL 3.5"],"id":"2448"},"2449":{"desc":"Polyester with Absorbable Collagen Film and Pre-placed Sutures, 15 cm Round","formatted_desc":["Polyester","15cm","Absorbable Collagen Film, Pre-placed Sutures, Round"],"id":"2449"},"2450":{"desc":"Resolute onyx DES 2.00 mm x18..mm","formatted_desc":["Resolute","Onyx","2.00mm","18mm","DES"],"id":"2450"},"2451":{"desc":"Resolute onyx DES 2.00 mm x22..mm","formatted_desc":["Resolute Onyx","2mm","22mm","DES"],"id":"2451"},"2452":{"desc":"Resolute onyx DES 2.00 mm x26..mm","formatted_desc":["Resolute Onyx","2mm","26mm","DES"],"id":"2452"},"2453":{"desc":"Resolute onyx DES 2.00 mm x30..mm","formatted_desc":["Resolute","Onyx","2mm","30mm","DES"],"id":"2453"},"2454":{"desc":"Resolute onyx DES 2.25 mm x38..mm","formatted_desc":["Resolute Onyx","2.25mm","38mm","DES"],"id":"2454"},"2455":{"desc":"Resolute onyx DES 2.00 mm x30..mm","formatted_desc":["Resolute Onyx","2mm","30mm","DES"],"id":"2455"},"2456":{"desc":"Resolute onyx DES 4.00 mm x22..mm","formatted_desc":["Resolute","Onyx","4.00mm","22mm","DES"],"id":"2456"},"2457":{"desc":"Resolute onyx DES 4.00 mm x26..mm","formatted_desc":["Resolute Onyx","4mm","26mm","DES"],"id":"2457"},"2458":{"desc":"Resolute onyx DES 4.00 mm x30..mm","formatted_desc":["Resolute Onyx","4mm","30mm","DES"],"id":"2458"},"2459":{"desc":"Resolute onyx DES 4.50 mm x18..mm","formatted_desc":["Resolute Onyx","4.5mm","18mm","DES"],"id":"2459"},"2460":{"desc":"Resolute onyx DES 4.50 mm x22..mm","formatted_desc":["Resolute Onyx","4.5mm","22mm","DES"],"id":"2460"},"2461":{"desc":"Resolute onyx DES 4.50 mm x26..mm","formatted_desc":["Resolute Onyx","4.5mm","26mm","DES"],"id":"2461"},"2462":{"desc":"Resolute onyx DES 4.50 mm x30..mm","formatted_desc":["Resolute Onyx","4.5mm","30mm","DES"],"id":"2462"},"2463":{"desc":"Mepilex Bordered Safetac Foam Dressing 3in x 3in","formatted_desc":["Mepilex Bordered Safetac","3in","3in","Foam Dressing"],"id":"2463"},"2464":{"desc":"4 Layer Compression Bandage System Profore Multiple Sizes Standard Compression Self-adherent","formatted_desc":["Compression Bandage","Profore","4 Layer, Multiple Sizes, Standard Compression, Self-adherent"],"id":"2464"},"2465":{"desc":"ALLEVYN Gentle Border Advanced Foam Wound Dressings 5ï¿½ï¿½ x 5ï¿½ï¿½/12.5cm x 12.5cm","formatted_desc":["ALLEVYN Gentle Border Advanced Foam Wound Dressings","5in","5in",""],"id":"2465"},"2466":{"desc":"INTERPULSE HP SUCTION / IRRIGATION..","formatted_desc":["INTERPULSE","HP Suction/Irrigation"],"id":"2466"},"2467":{"desc":"Video drape, 7 x 96 25/cs","formatted_desc":["Video Drape","7in","96in","25 units per Case"],"id":"2467"},"2468":{"desc":"Progreat Micro Catheter System 2.7 Fr Coaxial 130 cm Straight","formatted_desc":["Progreat Micro Catheter System","2.7 Fr","Coaxial, 130 cm, Straight"],"id":"2468"},"2469":{"desc":"Radifocus Guide Wire M-ANGLED..TYPE 0.035'' x 260cm","formatted_desc":["Radifocus Guide Wire","0.035in","260cm","M-ANGLED..TYPE"],"id":"2469"},"2470":{"desc":"Pinnacle Destination Guiding Sheath 6F X 90CM, Touhy-Borst, Straight","formatted_desc":["Pinnacle Destination Guiding Sheath","6F","90CM","Touhy-Borst, Straight"],"id":"2470"},"2471":{"desc":"Pinnacle Destination Guiding Sheath 6F X 65CM, Cross-Cut, Straight","formatted_desc":["Pinnacle Destination Guiding Sheath","6F","65CM","Cross-Cut, Straight"],"id":"2471"},"2472":{"desc":"Radial Artery Compression Device Standard size - 24 cm","formatted_desc":["Radial Artery Compression Device","24cm","Standard size"],"id":"2472"},"2474":{"desc":"Blade, Vital Signs Laryngoscope, Plastic, Mil 0","formatted_desc":["Blade","Laryngoscope","Vital Signs, Plastic, Mil 0"],"id":"2474"},"2475":{"desc":"AirLife Tri-Flo Suction Cath-N-Glove Kit 14 Fr","formatted_desc":["AirLife Tri-Flo Suction Catheter","14 Fr","Included in Glove Kit"],"id":"2475"},"2476":{"desc":"BabySafe Resuscitator","formatted_desc":["BabySafe","Resuscitator"],"id":"2476"},"2477":{"desc":"Anesthesia Mask Vital Signsï¿½ Elongated Style Premature Size 0 Without Hook Ring","formatted_desc":["Anesthesia Mask","Premature, Size 0, Elongated Style, Without Hook Ring"],"id":"2477"},"2478":{"desc":"Tracheostomy Tube Holder AirLife Soft Cotton Neonatal / Pediatric Single Patient Use Hook and Lo...","formatted_desc":["Tracheostomy Tube Holder","AirLife","Soft, Cotton, Neonatal/Pediatric, Single Patient Use, Hook and Loop"],"id":"2478"},"2524":{"desc":"American Diagnostic Corporation","formatted_desc":["American Diagnostic Corporation"],"id":"2524"},"2525":{"desc":"Pediatric Stethoscope, Black","formatted_desc":["Pediatric Stethoscope","Black"],"id":"2525"},"2527":{"desc":"Large bore extension set 100/cs","formatted_desc":["Large Bore Extension Set","100 units per Case"],"id":"2527"},"2528":{"desc":"Blood set, 115' , 20 drop, non-vented","formatted_desc":["Blood set","115ft","20drop, non-vented"],"id":"2528"},"2530":{"desc":"Angiography Syringe, 200 ML CT ..Syringe (for stellant) Single","formatted_desc":["Angiography Syringe","200ML","CT, Syringe (for stellant), Single"],"id":"2530"},"2531":{"desc":"Angiography Syringe, 150 ML Ml ..DSA Syringe (for angiomat illumena) Single","formatted_desc":["Angiography Syringe","150ML","DSA Syringe, Single (for angiomat illumena)"],"id":"2531"},"2533":{"desc":"JOBST RELIEF KNEE 30-40 CT BLACK MD","formatted_desc":["JOBST RELIEF KNEE","30-40 CT","BLACK, MD"],"id":"2533"},"2534":{"desc":"Cover-Roll stretch Non-woven Adhesive Bandage 2\" x 10 yds","formatted_desc":["Cover-Roll","2in","10yd","Stretch, Non-woven, Adhesive Bandage"],"id":"2534"},"2536":{"desc":"Sur-fit convex insert","formatted_desc":["Sur-fit","Convex","Insert"],"id":"2536"},"2537":{"desc":"Disp convex Inser 1 1/2 flange","formatted_desc":["Disp Convex","1.5in, Flange"],"id":"2537"},"2538":{"desc":"Disp convex Inser 1 1/2","formatted_desc":["Disp","Convex","1.5in",""],"id":"2538"},"2539":{"desc":"SUR-FIT Natura Two-Piece Drainable 10\" pouch","formatted_desc":["SUR-FIT Natura","10in","Two-Piece, Drainable"],"id":"2539"},"2541":{"desc":"NTrap Stone Entrapment and Extraction Device 2.8 Fr 145cm 7mm umbrella design (G32724)","formatted_desc":["NTrap Stone Entrapment and Extraction Device","2.8Fr","145cm","7mm, Umbrella Design"],"id":"2541"},"2542":{"desc":"DEFEND+PLUS Sterilization Pouches ï¿½ with Built-in Internal Indicator 5.25? X 10?","formatted_desc":["DEFEND+PLUS Sterilization Pouches","5.25in","10in","with Built-in Internal Indicator"],"id":"2542"},"2544":{"desc":"Chap-Ice Assorted Full-Size Lip Balm Fishbowl, 60 4.25g sticks","formatted_desc":["Chap-Ice Assorted Full-Size Lip Balm","60 sticks","in Fishbowl, each 4.25g"],"id":"2544"},"2545":{"desc":"Professional Disposables","formatted_desc":["Professional Disposables",""],"id":"2545"},"2546":{"desc":"Sani-Cloth AF3 Surface Disinfectant Cleaner Premoistened Germicidal Manual Pull Wipe 50 Count In...","formatted_desc":["Sani-Cloth AF3","Surface Disinfectant Cleaner, Premoistened, Germicidal, Manual Pull Wipe, 50 Count"],"id":"2546"},"2548":{"desc":"AmeriWash Antimicrobial w/ Vitamin E, 1 Gal., 4/CS","formatted_desc":["AmeriWash","1 Gal","Antimicrobial, with Vitamin E, 4 units per Case"],"id":"2548"},"2549":{"desc":"Triple Antibiotic- 1 oz tubes - Indv. boxed - 72/cs.","formatted_desc":["Triple Antibiotic","1oz","Individually Boxed, 72 units per Case"],"id":"2549"},"2550":{"desc":"Sterile Alcohol Prep Pads - Medium","formatted_desc":["Sterile Alcohol Prep Pads","Medium"],"id":"2550"},"2551":{"desc":"Sterile Alcohol Prep Pads - Md  - 20/100/cs.","formatted_desc":["Sterile Alcohol Prep Pads","Md","20 units per Pack, 100 Packs per Case"],"id":"2551"},"2552":{"desc":"Latex Exam Gloves - Md - N/S - Powder Free","formatted_desc":["Latex Exam Gloves","Md, N/S, Powder Free"],"id":"2552"},"2553":{"desc":"Latex Exam Gloves - Lg - N/S -  Powder Free","formatted_desc":["Latex Exam Gloves","Lg","N/S","Powder Free"],"id":"2553"},"2554":{"desc":"Nitrile Exam Glove (non-latex) Lg - N/S -   Powder Free - 100/bx, 1000/cs","formatted_desc":["Nitrile Exam Glove","Non-Latex, Powder Free, 100 units per Box, 1000 units per Case, Large"],"id":"2554"},"2555":{"desc":"Black Nitrile Exam - Sm - N/S - Powder Free - 100/bx, 1000/cs","formatted_desc":["Black Nitrile Exam","Small","Not Sterile, Powder Free, 100 units per Box, 1000 units per Case"],"id":"2555"},"2556":{"desc":"Black Nitrile Exam - Lg - N/S - Powder Free - 100/bx, 1000/cs","formatted_desc":["Black Nitrile Exam","Lg","N/S, Powder Free, 100 units per Box, 1000 units per Case"],"id":"2556"},"2557":{"desc":"Black Nitrile Exam - XL - N/S - Powder Free - 100/bx, 1000/cs","formatted_desc":["Black Nitrile Exam","XL, N/S, Powder Free, 100 units per Box, 1000 units per Case"],"id":"2557"},"2558":{"desc":"Vinyl G.P. Gloves - Md - N/S - Powder Free - 100/bx, 1000/cs","formatted_desc":["Vinyl G.P. Gloves","Medium, Not Sterile, Powder Free, 100 units per box, 1000 units per case"],"id":"2558"},"2559":{"desc":"Vinyl G.P. Gloves - Lg - N/S -  Powder Free - 100/bx, 1000/cs","formatted_desc":["Vinyl G.P. Gloves","Large, Not Sterile, Powder Free, 100 units per Box, 1000 units per Case"],"id":"2559"},"2560":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 7.5","formatted_desc":["Latex Surgeons Gloves","7.5in, Sterile, Powder Free, Pairs"],"id":"2560"},"2561":{"desc":"Stretch Gauze Bandage Roll - Non-sterile - 4\"","formatted_desc":["Stretch Gauze Bandage Roll","4in","Non-sterile"],"id":"2561"},"2562":{"desc":"Non-Woven Sponge - Non-sterile - 2x2 - 4 Ply","formatted_desc":["Non-Woven Sponge","2in","2in","4 Ply, Non-sterile"],"id":"2562"},"2563":{"desc":"Non-Woven Sponge - Non-sterile - 3x3 - 4 Ply","formatted_desc":["Non-Woven Sponge","3in","3in","Non-sterile, 4 Ply"],"id":"2563"},"2564":{"desc":"Non-Woven Sponge - Non-sterile - 4x4 - 4 Ply","formatted_desc":["Non-Woven Sponge","4in","4in","Non-sterile, 4 Ply"],"id":"2564"},"2565":{"desc":"Gauze Pad Sterile - 1's, 4x4 - 12 Ply","formatted_desc":["Gauze Pad","4in","4in","Sterile, 12 Ply"],"id":"2565"},"2566":{"desc":"Non-Adherent Pad - Sterile - 3x4","formatted_desc":["Non-Adherent Pad","3in","4in","Sterile"],"id":"2566"},"2567":{"desc":"Cloth Surgical Tape - 1\" x 10 yds.","formatted_desc":["Cloth Surgical Tape","1in","10yds"],"id":"2567"},"2568":{"desc":"Clear Surgical Tape - 1\" x 10 yds.","formatted_desc":["Clear Surgical Tape","1in","10yd"],"id":"2568"},"2569":{"desc":"Adhesive Bandage, Fabric 3/4\" x 3\", St - 100/bx, 2400/cs","formatted_desc":["Adhesive Bandage","0.75in","3in","Fabric, 100 units per box, 2400 units per case"],"id":"2569"},"2570":{"desc":"Urinary Drainage Bag (Sterile) 1000ml","formatted_desc":["Urinary Drainage Bag","1L","Sterile"],"id":"2570"},"2571":{"desc":"Med. Cups - Graduated - 1oz. - 50/100/cs.","formatted_desc":["Med. Cups","1oz","Graduated, 50 units per 100 units per Case"],"id":"2571"},"2624":{"desc":"Sani-Cloth Bleach Surface Disinfectant Cleaner Premoistened Germicidal Manual Pull Wipe 40 Count","formatted_desc":["Sani-Cloth","Bleach Surface Disinfectant Cleaner Premoistened, Germicidal, 40 Count"],"id":"2624"},"2627":{"desc":"Ensura MRI SureScan dual chamber pacemaker","formatted_desc":["Ensura MRI SureScan","Dual Chamber Pacemaker"],"id":"2627"},"2628":{"desc":"CapsureFix Novus MRI SureScan\r\nTransvenous Lead 52cm","formatted_desc":["CapsureFix Novus","MRI SureScan, Transvenous, 52cm"],"id":"2628"},"2629":{"desc":"CapsureFix Novus MRI SureScan\r\nTransvenous Lead 58cm","formatted_desc":["CapsureFix Novus","MRI SureScan, Transvenous Lead","58cm"],"id":"2629"},"2632":{"desc":"Disposable Tubing Cassette For FloSteady Arthroscopy Pump","formatted_desc":["Disposable Tubing Cassette","FloSteady Arthroscopy Pump"],"id":"2632"},"2633":{"desc":"Disposable Hood For Steri-Shield Flyte Helmet","formatted_desc":["Disposable Hood","Steri-Shield","Flyte Helmet"],"id":"2633"},"2634":{"desc":"Dual Cut Bone Saw Blade 90mm Depth, 1.19mm Material Thickness, 25mm Cut Edge","formatted_desc":["Cut Bone Saw Blade","90mm","1.19mm","25mm","Dual, Material Thickness"],"id":"2634"},"2635":{"desc":"Precision Falcon Oscillating Tip Saw Cartridge","formatted_desc":["Precision Oscillating Tip Saw","Falcon, Cartridge"],"id":"2635"},"2636":{"desc":"Performance Series Sagittal Blade 18.0mm Cut Edge","formatted_desc":["Performance Series","Sagittal Blade","18.0mm","Cut Edge"],"id":"2636"},"2637":{"desc":"T7 Hood with Peel Away Face Shield","formatted_desc":["T7 Hood","with Peel Away Face Shield"],"id":"2637"},"2638":{"desc":"Flyte SurgiCool Peel-Away Hood","formatted_desc":["Flyte SurgiCool Peel-Away Hood"],"id":"2638"},"2639":{"desc":"T7 Plus Hood with Peel Away Face Shield","formatted_desc":["T7 Plus Hood","with Peel Away Face Shield"],"id":"2639"},"2640":{"desc":"4.0mm Round Fluted Aggressive Burr","formatted_desc":["4.0mm","Round, Fluted, Aggressive Burr"],"id":"2640"},"2641":{"desc":"Cylindrical Cuffs 30 x 4.125 in. SPSB Sterile Disposable Cuff PLC","formatted_desc":["Cylindrical Cuffs","30in","4.125in","SPSB, Sterile, Disposable Cuff PLC"],"id":"2641"},"2642":{"desc":"Careflow Central Venous Catheter\r\nKit , Seldinger Technique, 7 Fr, 200\r\nmm, 3 Lumen","formatted_desc":["Careflow Central Venous Catheter","7Fr","200mm","Kit, Seldinger Technique, 3 Lumen"],"id":"2642"},"2643":{"desc":"Careflow Central Venous Catheter\r\nKit , Seldinger Technique, 7 Fr, 200\r\nmm, 2 Lumen","formatted_desc":["Careflow Central Venous Catheter","7Fr, 200mm, 2 Lumen, Kit, Seldinger Technique"],"id":"2643"},"2645":{"desc":"Cohesive Bandage Medi-Rip 2 Inch X 5 Yard Standard Compression Self-adherent","formatted_desc":["Cohesive Bandage","Medi-Rip","2in","5yd","Standard Compression, Self-adherent"],"id":"2645"},"2646":{"desc":"Cohesive Bandage Medi-Rip 4 Inch X 5 Yard Standard Compression Self-adherent","formatted_desc":["Cohesive Bandage","Medi-Rip","4in","5yd","Standard, Compression, Self-adherent"],"id":"2646"},"2647":{"desc":"4-0 MONOCRYL VIOLET 1X36\" FS-2","formatted_desc":["MONOCRYL","4in","0in","VIOLET, 1in, 36in, FS-2"],"id":"2647"},"2648":{"desc":"Neptune 2 4-Port Waste Management Manifold System","formatted_desc":["Neptune 2","4-Port Waste Management Manifold System"],"id":"2648"},"2651":{"desc":"Venflon IV Catheter 18G x 1.77..Inch (Green)","formatted_desc":["Venflon IV Catheter","18G","1.77in",""],"id":"2651"},"2652":{"desc":"Venflon IV Catheter 20G x 1.26 Inch (Pink)","formatted_desc":["Venflon IV Catheter","20G","1.26in",""],"id":"2652"},"2653":{"desc":"Venflon IV Catheter 22G x .98 Inch (Blue)","formatted_desc":["Venflon IV Catheter","0.98 inches","22G",""],"id":"2653"},"2654":{"desc":"Obtryx II System with PrecisionBlue Design Halo","formatted_desc":["Obtryx II System","PrecisionBlue, Design Halo"],"id":"2654"},"2655":{"desc":"Advantage Fit System Transvaginal Blue","formatted_desc":["Advantage Fit System","Transvaginal","Blue"],"id":"2655"},"2656":{"desc":"Dutch Ophthalmic Research Center","formatted_desc":["Dutch Ophthalmic Research Center"],"id":"2656"},"2657":{"desc":"Directional Laser Probe with DORC connector.(23 gauge / 0.6 mm)","formatted_desc":["Directional Laser Probe","0.6mm","with DORC connector, 23 gauge"],"id":"2657"},"2658":{"desc":"Shielded TotalView Endoillumination Probe, including illuminated scleral depressor.(23 gauge / 0.6 mm)","formatted_desc":["Shielded TotalView Endoillumination Probe","0.6mm","23 gauge, including illuminated scleral depressor"],"id":"2658"},"2659":{"desc":"Disposable Eckardt TwinLight Chandelier. (27 gauge / 0.4 mm)","formatted_desc":["Eckardt TwinLight Chandelier","Disposable, 27 gauge, 0.4mm"],"id":"2659"},"2660":{"desc":"Disposable High Speed TDC Cutter 23G / 8000 CPM DORC Continuum range","formatted_desc":["Disposable High Speed TDC Cutter","23G","8000CPM","DORC Continuum range"],"id":"2660"},"2661":{"desc":"Heavy Silicone Oil Extraction Cannula 23G","formatted_desc":["Heavy Silicone Oil Extraction Cannula","23G"],"id":"2661"},"2662":{"desc":"Disposable One step Cannula System.(23 gauge / 0.6 mm)","formatted_desc":["Disposable One Step Cannula System","0.6mm","23 gauge"],"id":"2662"},"2663":{"desc":"5-0 ETHILON BLACK 1X18\" C-3","formatted_desc":["5","0","ETHILON","BLACK","1in","18in","C-3"],"id":"2663"},"2665":{"desc":"Percuflex Ureteral Stents 6Fr x 24 Without\r\nGuidewire","formatted_desc":["Percuflex Ureteral Stents","6Fr","24in","Without Guidewire"],"id":"2665"},"2666":{"desc":"Percuflex Plus Ureteral Stent Sets 4.8Fr x 28 Without Wire","formatted_desc":["Percuflex Plus Ureteral Stent Set","4.8Fr","28in","Without Wire"],"id":"2666"},"2667":{"desc":"WallFlex Single-Use Colonic Stent System Stent Body 25mm x Expanded Length 90mm","formatted_desc":["WallFlex Single-Use Colonic Stent System","25mm","90mm","Stent Body"],"id":"2667"},"2668":{"desc":"Resolute onyx DES 2.75 mm x18 mm","formatted_desc":["Resolute Onyx","2.75mm","18mm","DES"],"id":"2668"},"2669":{"desc":"Resolute onyx DES 2.75 mm x38 mm","formatted_desc":["Resolute Onyx","2.75mm","38mm","DES"],"id":"2669"},"2670":{"desc":"Resolute onyx DES 3.00 mm x34 mm","formatted_desc":["Resolute Onyx","3mm","34mm","DES"],"id":"2670"},"2671":{"desc":"Resolute onyx DES 3.50 mm x26 mm","formatted_desc":["Resolute Onyx","3.5mm","26mm","DES"],"id":"2671"},"2672":{"desc":"Resolute onyx DES 3.50 mm x38 mm","formatted_desc":["Resolute Onyx","3.5mm","38mm","DES"],"id":"2672"},"2673":{"desc":"Resolute onyx DES 4.00 mm x15 mm","formatted_desc":["Resolute Onyx","4mm","15mm","DES"],"id":"2673"},"2674":{"desc":"Resolute onyx DES 4.00 mm x34 mm","formatted_desc":["Resolute Onyx","4mm","34mm","DES"],"id":"2674"},"2675":{"desc":"Resolute onyx DES 2.25 mm x34 mm","formatted_desc":["Resolute Onyx DES","2.25mm","34mm"],"id":"2675"},"2677":{"desc":"GLIDESHEATH SLENDER Introducer Sheath, SS Kit 6Fr 10cm, 0.021\", Flex Straight 0.021\" x 45cm","formatted_desc":["GLIDESHEATH SLENDER Introducer Sheath","6Fr","10cm","SS Kit, Flex Straight 0.021in, 45cm"],"id":"2677"},"2678":{"desc":"3-0 COATED VICRYL UNDYED 12X18\" TIE","formatted_desc":["3-0","Coated Vicryl, Undyed, 12in","18in","Tie"],"id":"2678"},"2679":{"desc":"Durapore High Adhesion Medical Tape Silk-Like Cloth 1/2 Inch X 10 Yard White NonSterile","formatted_desc":["Durapore High Adhesion Medical Tape","0.5in","10yd","Silk-Like, Cloth, White, NonSterile"],"id":"2679"},"2680":{"desc":"2-0 GUT CHROMIC Naturally BROWN 1X27\" CT-2","formatted_desc":["Gut Chromic","2-0","27in","Naturally Brown, CT-2"],"id":"2680"},"2681":{"desc":"Surgicel SNoW 5.1X10.2 cm Absorbable Hemostats","formatted_desc":["Surgicel SNoW","5.1cm","10.2cm","Absorbable Hemostats"],"id":"2681"},"2682":{"desc":"CHOICE PT Floppy Guidewire 182cm Straight .014*in","formatted_desc":["Guidewire","CHOICE PT","0.014in","182cm","Floppy, Straight"],"id":"2682"},"2683":{"desc":"Sahajanand Medical Technologies Ltd.","formatted_desc":["Sahajanand Medical Technologies Ltd."],"id":"2683"},"2684":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.00x16 mm","formatted_desc":["Supraflex Star","2.00mm","16mm","Sirolimus Released Co-Cr, Coronary Stent System"],"id":"2684"},"2685":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.00x24 mm","formatted_desc":["Supraflex Star","2.00mm","24mm","Sirolimus Released Co-Cr Coronary Stent System"],"id":"2685"},"2686":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.25x16 mm","formatted_desc":["Supraflex Star","2.25mm","16mm","Sirolimus Released Co-Cr, Coronary Stent System"],"id":"2686"},"2687":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.25x20 mm","formatted_desc":["Supraflex Star","2.25mm","20mm","Sirolimus Released, Co-Cr, Coronary Stent System"],"id":"2687"},"2688":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.25x24 mm","formatted_desc":["Supraflex Star","2.25mm","24mm","Sirolimus Released, Co-Cr, Coronary Stent System"],"id":"2688"},"2689":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.75x20 mm","formatted_desc":["Supraflex Star","2.75mm","20mm","Sirolimus Released, Co-Cr Coronary Stent System"],"id":"2689"},"2690":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 2.75x24 mm","formatted_desc":["Supraflex Star","Sirolimus Released Co-Cr, Coronary Stent System, 2.75mm, 24mm"],"id":"2690"},"2691":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 3.00x12 mm","formatted_desc":["Supraflex Star","3mm","12mm","Sirolimus Released Co-Cr, Coronary Stent System"],"id":"2691"},"2692":{"desc":"Supraflex Star - Sirolimus Released Co-Cr\r\nCoronary Stent System 3.00x16 mm","formatted_desc":["Supraflex Star","3mm","16mm","Sirolimus Released Co-Cr, Coronary Stent System"],"id":"2692"},"2693":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.00X16mm","formatted_desc":["Supraflex","2mm","16mm","Sirolimus Eluting, Coated, Coronary Stent System"],"id":"2693"},"2694":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.00X24mm","formatted_desc":["Supraflex","2.00mm","24mm","Sirolimus Eluting Co-Cr, Coronary Stent System"],"id":"2694"},"2695":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.25X16mm","formatted_desc":["Supraflex Coronary Stent System","2.25mm","16mm","Sirolimus Eluting Co-Cr"],"id":"2695"},"2696":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.25X20mm","formatted_desc":["Supraflex","2.25mm","20mm","Sirolimus Eluting Co-Cr, Coronary Stent System"],"id":"2696"},"2697":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.25X24mm","formatted_desc":["Supraflex","2.25mm","24mm","(Sirolimus Eluting Co-Cr) Coronary Stent System"],"id":"2697"},"2698":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.75X20mm","formatted_desc":["Supraflex","2.75mm","20mm","Coronary Stent System, Sirolimus Eluting Co-Cr"],"id":"2698"},"2699":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 2.75X24mm","formatted_desc":["Supraflex","2.75mm","24mm","Sirolimus Eluting Co-Cr, Coronary Stent System"],"id":"2699"},"2700":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 3.00X12mm","formatted_desc":["Supraflex","3.0mm","12mm","Co-Cr, Coronary Stent System, Sirolimus Eluting"],"id":"2700"},"2701":{"desc":"Supraflex (Sirolimus Eluting Co-Cr) Coronary\r\nStent System 3.00X16mm","formatted_desc":["Supraflex","3.00mm","16mm","(Sirolimus Eluting Co-Cr) Coronary Stent System"],"id":"2701"},"2703":{"desc":"Transparent Film Dressing OpSite Rectangle 6 X 11 Inch 2 Tab Delivery Without Label Sterile","formatted_desc":["Transparent Film Dressing","OpSite","11in","6in","Rectangle, 2 Tab, Delivery Without Label, Sterile"],"id":"2703"},"2704":{"desc":"Adhesive Dressing Primapore 3-1/8 X 4 Inch Polyester Rectangle White Sterile","formatted_desc":["Adhesive Dressing","Primapore","3.125in","4in","Polyester, Rectangle, White, Sterile"],"id":"2704"},"2705":{"desc":"Adhesive Dressing Primapore 2 X 3 Inch Polyester Rectangle White Sterile","formatted_desc":["Adhesive Dressing Primapore","3in","2in","Polyester, Rectangle, White, Sterile"],"id":"2705"},"2706":{"desc":"Heat and Moisture Exchanger AirLife &gt;29 mg H2O at 31 1.9 @ 60 LPM","formatted_desc":["Heat and Moisture Exchanger","AirLife",">29mg H2O","at 31, 1.9 @ 60 LPM"],"id":"2706"},"2707":{"desc":"Cohesive Bandage CoFlex NL 1-1/2 Inch X 5 Yard 12 lbs. Tensile Strength Self-adherent Closure NonSterile","formatted_desc":["Cohesive Bandage CoFlex","12lbs","1.5in","5yd","NL, Tensile, Strength, Self-adherent, Closure, NonSterile"],"id":"2707"},"2708":{"desc":"Wound Stapler Endo GIA Ultra Generation XL Pistol Grip Handle","formatted_desc":["Wound Stapler","Endo GIA Ultra, Generation XL, Pistol Grip Handle"],"id":"2708"},"2710":{"desc":"Elastomeric Pump Homepump Eclipse* Gravity NonWireless 100 mL Volume Without Display","formatted_desc":["Elastomeric Pump","Homepump Eclipse","100mL, Gravity, NonWireless, Without Display"],"id":"2710"},"2711":{"desc":"Syringe with Hypodermic Needle PrecisionGlide 3 mL 22 Gauge 1-1/2 Inch Regular Wall NonSafety","formatted_desc":["Syringe","3mL","with Hypodermic Needle, PrecisionGlide, 22 Gauge, 1.5in, Regular Wall, NonSafety"],"id":"2711"},"2712":{"desc":"IV Catheter, 24G x ¾\", Yellow, 50/bx, 4 bx/cs","formatted_desc":["IV Catheter","0.75in","24G","Yellow, 50 units per Box, 4 Boxes per Case"],"id":"2712"},"2714":{"desc":"Endoscopy Cysto-Urethroscope Luer Lock Connector","formatted_desc":["Endoscopy Cysto-Urethroscope","Luer Lock Connector"],"id":"2714"},"2715":{"desc":"SUTURE, ETHLON BLK MONO 9-0 5\"V100-3 (12/BX)","formatted_desc":["SUTURE","ETHLON","0.09in","5in","BLACK MONOFILAMENT, 12 units per Box"],"id":"2715"},"2716":{"desc":"Luer-Lok Syringe with attached needle 21 G x 1 1/2 in., sterile, single use, 5 mL","formatted_desc":["Luer-Lok Syringe","5mL","with attached needle, 21 G, 1.5 in, sterile, single use"],"id":"2716"},"2719":{"desc":"Arrow EZ-IO 15mm Needle Set","formatted_desc":["Arrow EZ-IO","15mm","Needle Set"],"id":"2719"},"2720":{"desc":"Arrow EZ-IO 25mm Needle Set","formatted_desc":["Arrow EZ-IO","25mm","Needle Set"],"id":"2720"},"2721":{"desc":"SECURESTRAP Open Absorbable Strap Fixation Device","formatted_desc":["SECURESTRAP","Open, Absorbable, Strap Fixation Device"],"id":"2721"},"2722":{"desc":"PROLENE Soft Polypropylene Mesh 5cm x 10cm Rectangle","formatted_desc":["PROLENE Soft Polypropylene Mesh","10cm","5cm","Rectangle"],"id":"2722"},"2723":{"desc":"PROLENE Soft Polypropylene Mesh 35.6cm x 30cm Rectangle","formatted_desc":["PROLENE Soft Polypropylene Mesh","35.6cm","30cm","Rectangle"],"id":"2723"},"2724":{"desc":"SECURESTRAP Absorbable Strap Fixation Device 5mm single use device w/ 12 absorbable straps","formatted_desc":["SECURESTRAP","5mm","Absorbable, Strap Fixation Device, 12 units per Package, Single Use"],"id":"2724"},"2725":{"desc":"Polypropylene Hernia System Large, Size 4.5cm x 10cm, Connector Size 1.9cm x 1.3cm","formatted_desc":["Polypropylene Hernia System","10cm","4.5cm","Large, Connector Size 1.9cm x 1.3cm"],"id":"2725"},"2726":{"desc":"Polypropylene Hernia System Medium, Size 4.5cm x 10cm, Connector Size 1.9cm x 1.3cm","formatted_desc":["Polypropylene Hernia System","10cm","4.5cm","Medium, Connector Size 1.9cm x 1.3cm"],"id":"2726"},"2727":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System, 2.25x12","formatted_desc":["Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System","2.25in","12in",""],"id":"2727"},"2728":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System, 2.25X16","formatted_desc":["Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System","2.25in","16mm"],"id":"2728"},"2729":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System, 2.25x20","formatted_desc":["Promus PREMIER Select Coronary Stent System","2.25in","20mm","Eluting, Platinum Chromium"],"id":"2729"},"2730":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System, 2.25X24","formatted_desc":["Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System","2.25in","24in"],"id":"2730"},"2731":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System, 2.50x8","formatted_desc":["Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System","2.5mm","8mm"],"id":"2731"},"2732":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System 2,50 X 16","formatted_desc":["Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System","2.5mm","16mm",""],"id":"2732"},"2733":{"desc":"Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System, 2.75x12","formatted_desc":["Promus PREMIER Select Everolimus-Eluting Platinum Chromium Coronary Stent System","2.75","12in"],"id":"2733"},"2734":{"desc":"Vicryl Violet 75cm Absor Coated..Braided 2/0 31mm 1/2 Circle M3..Taper Point Ethalloy Needle","formatted_desc":["Vicryl","2/0","75cm","Violet, Absor Coated, Braided, 31mm, 1/2 Circle, M3, Taper Point Ethalloy Needle"],"id":"2734"},"2735":{"desc":"Mepitel One Non-Adherent Soft Silicone Wound Contact Layer, 2\" x 3\" (5 x 7.5 cm)","formatted_desc":["Mepitel One","2in","3in","Non-Adherent, Soft Silicone, Wound Contact Layer"],"id":"2735"},"2736":{"desc":"Primapore Post-Operative Dressing, 8\" x 4\"","formatted_desc":["Primapore Post-Operative Dressing","4in","8in",""],"id":"2736"},"2737":{"desc":"Tubigrip Bandage, Natural, Size F for Large Knee / Medium Thigh, 10 m","formatted_desc":["Tubigrip Bandage","Natural, Size F for Large Knee, Medium Thigh","10m"],"id":"2737"},"2738":{"desc":"Tubigrip Bandage, Natural, Size G for Large Thigh, 10 m","formatted_desc":["Tubigrip Bandage","Natural, Size G for Large Thigh, 10m"],"id":"2738"},"2739":{"desc":"BD Vacutainer SST II Advance Venous Blood Collection Tube Serum Tube Silica / Separator Gel Additive 13 X 100 mm 5 mL Gold BD Hemogard Closure PET Tube","formatted_desc":["BD Vacutainer SST II Advance","5mL","13mm","100mm","Venous Blood Collection Tube, Serum Tube, Silica / Separator Gel, Additive, Gold, BD Hemogard, Closure, PET Tube"],"id":"2739"},"2740":{"desc":"Coban Self-Adherent Wrap 1581, Tan, 25 mm x 4.5 m","formatted_desc":["Coban Self-Adherent Wrap","4.5m","25mm","Tan"],"id":"2740"},"2849":{"desc":"Big Brand Gloves Small","formatted_desc":["Big Brand Gloves","Small"],"id":"2849"},"2850":{"desc":"Big Brand Gloves Medium","formatted_desc":["Big Brand Gloves","Medium"],"id":"2850"},"2851":{"desc":"Big Brand Gloves Large","formatted_desc":["Big Brand Gloves","L"],"id":"2851"},"2852":{"desc":"Big Brand Gloves XL","formatted_desc":["Big Brand Gloves","XL",""],"id":"2852"},"2853":{"desc":"Big Brand Suture 1","formatted_desc":["Big Brand Suture","1yd"],"id":"2853"},"2854":{"desc":"Big Brand Suture 2","formatted_desc":["Big Brand Suture","2"],"id":"2854"},"2855":{"desc":"Big Brand Suture 3","formatted_desc":["Big Brand Suture","3"],"id":"2855"},"2856":{"desc":"Big Brand Suture 4","formatted_desc":["Big Brand Suture","4in",""],"id":"2856"},"2857":{"desc":"Big Brand Suture 5","formatted_desc":["Big Brand Suture","5"],"id":"2857"},"2858":{"desc":"Big Brand Catheter A","formatted_desc":["Big Brand","Catheter A",""],"id":"2858"},"2859":{"desc":"Big Brand Catheter B","formatted_desc":["Catheter","Big Brand","B"],"id":"2859"},"2860":{"desc":"Big Brand Catheter C","formatted_desc":["Big Brand","Catheter","C"],"id":"2860"},"2861":{"desc":"Big Brand Catheter D","formatted_desc":["Big Brand","Catheter","D"],"id":"2861"},"2862":{"desc":"Innovative Guarantee Gloves Small","formatted_desc":["Innovative Guarantee Gloves","Small"],"id":"2862"},"2863":{"desc":"Innovative Guarantee Gloves Medium","formatted_desc":["Guarantee Gloves","Innovative","Medium"],"id":"2863"},"2864":{"desc":"Innovative Guarantee Gloves Large","formatted_desc":["Innovative Guarantee Gloves","Large"],"id":"2864"},"2865":{"desc":"Innovative Guarantee Gloves XL","formatted_desc":["Innovative Guarantee Gloves","XL"],"id":"2865"},"2866":{"desc":"Innovative Guarantee Suture 1","formatted_desc":["Innovative Guarantee Suture","1"],"id":"2866"},"2867":{"desc":"Innovative Guarantee Suture 2","formatted_desc":["Innovative Guarantee Suture","2in"],"id":"2867"},"2868":{"desc":"Innovative Guarantee Suture 3","formatted_desc":["Innovative Guarantee Suture","3"],"id":"2868"},"2869":{"desc":"Innovative Guarantee Suture 4","formatted_desc":["Innovative Guarantee Suture","4in",""],"id":"2869"},"2870":{"desc":"Innovative Guarantee Suture 5","formatted_desc":["Innovative Guarantee Suture","5"],"id":"2870"},"2871":{"desc":"Innovative Guarantee Catheter A","formatted_desc":["Innovative Guarantee Catheter","A"],"id":"2871"},"2872":{"desc":"Innovative Guarantee Catheter B","formatted_desc":["Innovative Guarantee Catheter","B"],"id":"2872"},"2873":{"desc":"Innovative Guarantee Catheter C","formatted_desc":["Innovative Guarantee Catheter","C"],"id":"2873"},"2874":{"desc":"Innovative Guarantee Catheter D","formatted_desc":["Innovative Guarantee Catheter","D"],"id":"2874"},"2949":{"desc":"PerFix Plug, Small, 1.0\" x 1.35\" (2.5cm x 3.4cm)","formatted_desc":["PerFix Plug","1.35in","1in","Small"],"id":"2949"},"2950":{"desc":"PerFix Plug, Medium, 1.3\" x 1.55\" (3.3cm x 3.9cm)","formatted_desc":["PerFix Plug","1.55in","1.3in","Medium"],"id":"2950"},"2951":{"desc":"PerFix Plug, Large, 1.6\" x 1.90\" (4.1cm x 4.8cm)","formatted_desc":["PerFix Plug","1.9in","1.6in","Large"],"id":"2951"},"2952":{"desc":"PerFix Plug, Extra Large, 1.6\" x 2.0\" (4.1cm x 5.0cm)","formatted_desc":["PerFix Plug","2in","1.6in","Extra Large"],"id":"2952"},"2954":{"desc":"PerFix Light Plug, Small, 2.5 cm x 3.4 cm (1.0\" x 1.4\")","formatted_desc":["Light Plug","PerFix","3.4cm","2.5cm","Small"],"id":"2954"},"2955":{"desc":"PerFix Light Plug, Medium, 3.3 cm x 3.9 cm (1.3\" x 1.6\")","formatted_desc":["Light Plug","PerFix","3.9cm","3.3cm","Medium"],"id":"2955"},"2956":{"desc":"PerFix Light Plug, Large, 4.1 cm x 4.8 cm (1.6\" x 1.9\")","formatted_desc":["PerFix Light Plug","4.1cm","4.8cm","Large"],"id":"2956"},"2957":{"desc":"PerFix Light Plug, Extra Large, 3.8 cm x 5.0 cm (1.5\" x 2.0\")","formatted_desc":["PerFix Light Plug","5cm","3.8cm","Extra Large"],"id":"2957"},"2958":{"desc":"Parietex Composite Ventral Patch 6.6 cm","formatted_desc":["Parietex Composite Ventral Patch","6.6cm",""],"id":"2958"},"2959":{"desc":"Self Gripping Polypropylene Mesh 12x8cm","formatted_desc":["Self Gripping Polypropylene Mesh","8cm","12cm",""],"id":"2959"},"2960":{"desc":"Parietene Macroporous Mesh 15x10 cm","formatted_desc":["Parietene Macroporous Mesh","10cm","15cm",""],"id":"2960"},"2961":{"desc":"Endo Universal Stapler Single Use Loading Unit with 10, 4.8 mm Staples","formatted_desc":["Endo Universal Stapler","4.8mm","Single Use, Loading Unit with 10 Staples"],"id":"2961"},"2962":{"desc":"0 PERMA HAND BLACK 1X18\" FSL","formatted_desc":["PERMA HAND","1in","18in","BLACK, FSL"],"id":"2962"},"2963":{"desc":"Laryngoscope Blade Vital ViewMiller Type Size 3 Medium Adult","formatted_desc":["Laryngoscope Blade","Vital View","Miller Type, Size 3, Medium, Adult"],"id":"2963"},"2964":{"desc":"Delta Valve Small, Performance Level 1.0","formatted_desc":["Delta Valve","Small","Performance Level 1.0"],"id":"2964"},"2965":{"desc":"Delta Valve Small, Performance Level 1.5","formatted_desc":["Delta Valve","Small, Performance Level 1.5"],"id":"2965"},"2966":{"desc":"The Big Easy Piston Platinum/Titanium Straight","formatted_desc":["The Big Easy","Piston, Platinum/Titanium, Straight"],"id":"2966"},"2967":{"desc":"NIM TriVantage EMG endotracheal tube ID 7mm OD 9.5mm","formatted_desc":["NIM TriVantage EMG","7mm","9.5mm","Endotracheal Tube"],"id":"2967"},"2968":{"desc":"NuVent EM Sinus Dilation System Frontal 6x17mm","formatted_desc":["NuVent EM Sinus Dilation System","6mm","17mm","Frontal"],"id":"2968"},"2984":{"desc":"2-0 PROLENE BLUE 1X30\" CT-1","formatted_desc":["Prolene","2-0","30in","Blue, CT-1"],"id":"2984"},"3002":{"desc":"4-0 COATED VICRYL UNDYED 1X18\" P-3","formatted_desc":["Coated Vicryl","4-0","1in","18in","Undyed, P-3"],"id":"3002"},"3008":{"desc":"2-0 PERMA HAND BLACK 1X30\" SH","formatted_desc":["PERMA HAND","1in","30in","Black, 2-0"],"id":"3008"},"3069":{"desc":"Smoke Pencil – push button – Coated 70mm blade electrode","formatted_desc":["Smoke Pencil","0.07m","Coated, 70mm blade electrode, Push Button"],"id":"3069"},"3070":{"desc":"Smoke Pencil – rocker switch – Coated 70mm blade electrode","formatted_desc":["Smoke Pencil","Coated 70mm,with Rocker Switch,Blade Electrode"],"id":"3070"},"3071":{"desc":"3-0 ETHILON BLACK 1X18\" PS-2","formatted_desc":["3-0 ETHILON","BLACK","1in","18in","PS-2"],"id":"3071"},"3072":{"desc":"3.5 mm 90-S SERFAS Energy Suction Probe\r\nAggressive, all-purpose suction probe","formatted_desc":["3.5 mm","SERFAS","Energy Suction Probe, Aggressive, all-purpose"],"id":"3072"},"3073":{"desc":"Dual Cut Sagittal Blade, 18 mm x 90 mm x 1.27 mm","formatted_desc":["Dual Cut Sagittal Blade","18mm","90mm","1.27mm"],"id":"3073"},"3074":{"desc":"Elastic Bandage EZe-Band LF 3 Inch X 5 Yard Standard Compression","formatted_desc":["Elastic Bandage","EZe-Band, LF 3in, 5yd, Standard, Compression"],"id":"3074"},"3075":{"desc":"ECG Snap Electrode 3M Red Dot Monitoring Non-Radiolucent Foam Backing","formatted_desc":["ECG Snap Electrode","3M","Red Dot Monitoring, Non-Radiolucent, Foam Backing"],"id":"3075"},"3076":{"desc":"Expandable Pediatric Anesthesia Circuit with 1 L Bag and Bacterial / Viral Filter , 108\" Tube","formatted_desc":["Expandable Pediatric Anesthesia Circuit","1L","with Bacterial / Viral Filter, 108in Tube"],"id":"3076"},"3077":{"desc":"Flat Blade Electrode with Hex Hub, 6\", 40/Case","formatted_desc":["Flat Blade Electrode","6in","with Hex Hub, 40 units per Case"],"id":"3077"},"3078":{"desc":"Cast Tape 3M Scotchcast Plus 3 Inch X 12 Foot Fiberglass / Resin Blue","formatted_desc":["Cast Tape","3M","3in","12ft","Scotchcast Plus, Fiberglass / Resin, Blue"],"id":"3078"},"3079":{"desc":"Cast Tape 3M Scotchcast Plus 4 Inch X 12 Foot Fiberglass / Resin Blue","formatted_desc":["Cast Tape","3M, Scotchcast Plus","4in","12ft","Fiberglass / Resin, Blue"],"id":"3079"},"3080":{"desc":"Inflow Cassette Tubing, Disposable, For Integrated Arthroscopy Pump","formatted_desc":["Inflow Cassette Tubing","Disposable, For Integrated Arthroscopy Pump"],"id":"3080"},"3081":{"desc":"Flyte SurgiCool Hood w/ PeelAway","formatted_desc":["Flyte SurgiCool Hood","with PeelAway"],"id":"3081"},"3082":{"desc":"2108 Series Sagittal Saw Blade, 105 L x 18.6 mm W, Stainless Steel","formatted_desc":["2108 Series Sagittal Saw Blade","105mm","18.6mm","Stainless Steel"],"id":"3082"},"3083":{"desc":"Long Medium Aggressive Blade 31.0mm x 9.0mm","formatted_desc":["Blade","31.0mm","9.0mm","Long, Medium, Aggressive"],"id":"3083"},"3084":{"desc":"Stryker Dual Cut Bone Saw Blade, 1.27 mm Cut Thickness, 1.14 mm Material Thickness","formatted_desc":["Stryker Dual Cut Bone Saw Blade","1.14mm","1.27mm",""],"id":"3084"},"3086":{"desc":"3DMax Light Mesh, X-Large Left, 4.8 in x 6.7 in (12.2 cm x 17.0 cm)","formatted_desc":["3DMax","Mesh","6.7in","4.8in","Light, X-Large, Left"],"id":"3086"},"3087":{"desc":"Soft Mesh Large Pre-shaped, 2.4\" x 5.4 (6cm x 13.7cm)","formatted_desc":["Soft Mesh","5.4in","2.4in","Pre-shaped, Large"],"id":"3087"},"3088":{"desc":"VICRYL RAPIDE 45cm 3/8 R/C 6-0","formatted_desc":["VICRYL RAPIDE","45cm","3/8in","R/C, 6-0"],"id":"3088"},"3089":{"desc":"Peripheral IV Catheter ViaValve 14 Gauge 1.25 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","14 Gauge","1.25 Inch","ViaValve, Retracting, Safety, Needle"],"id":"3089"},"3090":{"desc":"Peripheral IV Catheter ViaValve 16 Gauge 1.25 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","16 Gauge","1.25 Inch","ViaValve, Retracting, Safety Needle"],"id":"3090"},"3091":{"desc":"Peripheral IV Catheter ViaValve 18 Gauge 1.25 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","18 Gauge","1.25 Inch","ViaValve, Retracting, Safety Needle"],"id":"3091"},"3092":{"desc":"Peripheral IV Catheter ViaValve 20 Gauge 1.25 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","20 Gauge, 1.25 Inch, ViaValve, Retracting, Safety Needle"],"id":"3092"},"3093":{"desc":"Peripheral IV Catheter ViaValve 22 Gauge 1 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","22 Gauge","1 Inch","ViaValve, Retracting, Safety Needle"],"id":"3093"},"3094":{"desc":"Peripheral IV Catheter ViaValve 24 Gauge 0.675 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","24 Gauge","0.675in","ViaValve, Retracting, Safety Needle"],"id":"3094"},"3189":{"desc":"Sani-Cloth AF3 Surface Disinfectant Cleaner Premoistened Germicidal Manual Pull Wipe","formatted_desc":["Sani-Cloth AF3","Surface Disinfectant Cleaner, Premoistened, Germicidal, Manual Pull Wipe"],"id":"3189"},"3190":{"desc":"ASPIRA Drainage Accessories Luer Adapter","formatted_desc":["ASPIRA","Drainage Accessories, Luer Adapter"],"id":"3190"},"3191":{"desc":"DualCap IV Pole Strips For needle-free valves. 35 strips/10 caps per strip","formatted_desc":["DualCap IV Pole","35 strips, 10 caps per strip","For needle-free valves"],"id":"3191"},"3192":{"desc":"High Flow Tip, For Stryker Interpulse System","formatted_desc":["High Flow Tip","For Stryker Interpulse System"],"id":"3192"},"3193":{"desc":"Reciprocating Saw Blade, 77.6 mm Cut Edge, 11.2 mm Cut Depth, 0.77 mm Thickness, Heavy Duty, Long","formatted_desc":["Reciprocating Saw Blade","77.6mm","11.2mm","0.77mm","Cut Edge, Cut Depth, Thickness, Heavy Duty, Long"],"id":"3193"},"3194":{"desc":"Stryker Heavy Duty Thick Diamond Tooth Design Sagittal Saw Blade, 85 L x 25 mm W","formatted_desc":["Stryker","Saw Blade","85mm","25mm","Heavy Duty, Thick, Diamond Tooth Design"],"id":"3194"},"3195":{"desc":"Elite Round Fluted Burr, 5 mm Head Diameter, Aggressive","formatted_desc":["Elite Round Fluted Burr","5mm","Aggressive"],"id":"3195"},"3196":{"desc":"LigaSure Maryland Laparoscopic Sealer/Divider 37 cm","formatted_desc":["LigaSure","Maryland Laparoscopic Sealer/Divider","37cm"],"id":"3196"},"3197":{"desc":"LigaSure Small Jaw Open Sealer/Divider (U.S. Only)","formatted_desc":["LigaSure","Small,Jaw,Open Sealer/Divider"],"id":"3197"},"3198":{"desc":"LigaSure Maryland Laparoscopic Sealer/Divider 23 cm","formatted_desc":["LigaSure","23cm","Maryland Laparoscopic Sealer/Divider"],"id":"3198"},"3199":{"desc":"Horizon Titanium Ligating Clips Medium, 6 clips/cartridge, 30 cartridges/box","formatted_desc":["Horizon Titanium Ligating Clips","Medium, 6 clips per cartridge, 30 cartridges per box"],"id":"3199"},"3200":{"desc":"Horizon Titanium Ligating Clips Medium, 24 clips/cartridge, 25 cartridges/box","formatted_desc":["Horizon Titanium Ligating Clips","Medium, 24 clips per cartridge, 25 cartridges per box"],"id":"3200"},"3201":{"desc":"Horizon Titanium Ligating Clips Medium-large, 6 clips/cartridge, 20 cartridges/box","formatted_desc":["Horizon Titanium Ligating Clips","Medium-Large, 6 Clips per Cartridge, 20 Cartridges per Box"],"id":"3201"},"3202":{"desc":"Horizon Metal ligating clips large 6 clips/cartridge, 20 cartridges/box","formatted_desc":["Horizon Metal Ligating Clips","6","Cartridge","20","Cartridges per Box, Large Size"],"id":"3202"},"3203":{"desc":"Hemoclip Traditional Titanium Ligating Clips Large, 15 clips/cartridge, 10 cartridges/box","formatted_desc":["Hemoclip Traditional Titanium Ligating Clips","15 clips per cartridge, 10 cartridges per box, Large"],"id":"3203"},"3204":{"desc":"Weck Hem-o-lok Polymer Ligating Clips Medium-Large, 6 clips/cartridge, 14 cartridges/box","formatted_desc":["Weck Hem-o-lok Polymer Ligating Clips","Medium-Large, 6 clips per cartridge, 14 cartridges per box"],"id":"3204"},"3205":{"desc":"Weck Hem-o-lok Polymer Ligating Clips Large, 6 clips/cartridge, 14 cartridges/box","formatted_desc":["Weck Hem-o-lok Polymer Ligating Clips","Large, 6 clips per cartridge, 14 cartridges per box"],"id":"3205"},"3299":{"desc":"BIOPATCH Protective Disk with CHG 1in","formatted_desc":["BIOPATCH Protective Disk","1in","with CHG"],"id":"3299"},"3300":{"desc":"VICRYL RAP (polyglactin 910) Suture CT UD 75CM M2","formatted_desc":["VICRYL RAP","75cm","polyglactin 910, Suture, CT, UD, M2"],"id":"3300"},"3301":{"desc":"VICRYL (polyglactin 910) CT VIO 75CM M3","formatted_desc":["VICRYL","75CM","CT, VIO, M3"],"id":"3301"},"3302":{"desc":"0 COATED VICRYL (polyglactin 910) Suture  VIOLET 1X27\" UR-6","formatted_desc":["COATED VICRYL","1in","27in","polyglactin 910, Suture, VIOLET, UR-6"],"id":"3302"},"3303":{"desc":"Polypropylene Suture 4-0 PROLENE BLUE 1X30\" SH","formatted_desc":["Polypropylene Suture","4-0","PROLENE, BLUE, 1X30in, SH"],"id":"3303"},"3304":{"desc":"PROLENE Soft Polypropylene Mesh 15cm x 15cm Square","formatted_desc":["PROLENE Soft Polypropylene Mesh","15cm","15cm","Square"],"id":"3304"},"3305":{"desc":"PROLENE Soft Polypropylene Mesh 50 cm x 50 cm Square","formatted_desc":["PROLENE Soft Polypropylene Mesh","50cm","50cm","Square"],"id":"3305"},"3306":{"desc":"ULTRAPRO ADVANCED Flat Mesh 7.6cm x 15cm Rectangle","formatted_desc":["Mesh","ULTRAPRO ADVANCED","15cm","7.6cm","Flat, Rectangle"],"id":"3306"},"3307":{"desc":"Scotchcast Plus 3 inch x 4 yard (7,5cm x 3,6m) Casting Tape, Black","formatted_desc":["Scotchcast Plus","3in","4yd","Casting Tape, Black"],"id":"3307"},"3315":{"desc":"Advanced Cement Mixing Kit with 206-512 Femoral Breakaway Nozzle","formatted_desc":["Advanced Cement Mixing Kit","206-512","Femoral Breakaway Nozzle"],"id":"3315"},"3316":{"desc":"Sagittal Saw Blade, Wide, Thick","formatted_desc":["Sagittal Saw Blade","Wide, Thick"],"id":"3316"},"3317":{"desc":"Dual Cut Sagittal Saw Blade, 11 mm x 90 mm x 1.27 mm","formatted_desc":["Dual Cut Sagittal Saw Blade","11mm","90mm","1.27mm",""],"id":"3317"},"3318":{"desc":"AirLife Misty Max 10 Small Volume Disposable Nebulizer with Adult Aerosol Mask and Medication Cup","formatted_desc":["AirLife Misty Max 10","Small Volume Disposable Nebulizer with Adult Aerosol Mask and Medication Cup"],"id":"3318"},"3319":{"desc":"Vital Signs BabySafe Hyperinflation System, Bag, 0.5 L","formatted_desc":["Vital Signs BabySafe Hyperinflation System","0.5L","Bag"],"id":"3319"},"3320":{"desc":"SURGICEL Original Hemostat, 2x3 inches","formatted_desc":["SURGICEL Original Hemostat","3in","2in",""],"id":"3320"},"3323":{"desc":"Spine Sealant System DuraSeal Exact 5 mL High Viscosity Spray Tip","formatted_desc":["Spine Sealant System","DuraSeal","5mL","High Viscosity, Spray Tip"],"id":"3323"},"3324":{"desc":"DuraSeal Sealant System Polymer Kit","formatted_desc":["DuraSeal","Sealant System Polymer Kit"],"id":"3324"},"3325":{"desc":"Tubigrip Bandage, Latex, Size G, Large Thighs, 4.5\" x 10 m, Natural","formatted_desc":["Tubigrip Bandage","4.5in","10m","Latex, Size G, Large Thighs, Natural"],"id":"3325"},"3326":{"desc":"70XLTIN 7.0MM XLT TRACH INNER CANNULA","formatted_desc":["70XLTIN","7.0MM","TRACH INNER CANNULA"],"id":"3326"},"3327":{"desc":"Flow Control Switch Blue Slider","formatted_desc":["Flow Control Switch","Blue, Slider"],"id":"3327"},"3328":{"desc":"GYNECARE INTERCEED Absorbable Adhesion Barrier","formatted_desc":["GYNECARE INTERCEED","Absorbable Adhesion Barrier",""],"id":"3328"},"3329":{"desc":"ECHELON ENDOPATH Reload 60mm Gold Reload with Gripping Surface Technology","formatted_desc":["ECHELON ENDOPATH","60mm","Gold, Reload with Gripping Surface Technology"],"id":"3329"},"3330":{"desc":"ECHELON ENDOPATH Reload 60mm Black Reload with Gripping Surface Technology","formatted_desc":["ECHELON ENDOPATH","60mm","Black","Reload with Gripping Surface Technology"],"id":"3330"},"3331":{"desc":"5-0 ETHILON BLACK 1X18\" FS-2","formatted_desc":["ETHILON","0.5in","18in","BLACK, FS-2"],"id":"3331"},"3332":{"desc":"Anthroscopic Shaver Blade 5.mm dia Resector F-Series","formatted_desc":["Anthroscopic Shaver Blade","5mm","Resector F-Series"],"id":"3332"},"3333":{"desc":"9-0 ETHILON BLACK 1X5\" BV100-4","formatted_desc":["ETHILON","0.125in","5in","BLACK, BV100-4"],"id":"3333"},"3335":{"desc":"Cutting Blade, 4 mm dia, Standard Aggressive Plus, Single-Use, For Formula Shaver Hand Piece","formatted_desc":["Cutting Blade","4mm","Standard Aggressive Plus, Single-Use, For Formula Shaver Hand Piece"],"id":"3335"},"3336":{"desc":"2108 Series Sagittal Blade Flared, Ground (25.0 x 1.2 x 95.0mm)","formatted_desc":["2108 Series Sagittal Blade","95mm","1.2mm","Flared, Ground"],"id":"3336"},"3337":{"desc":"Dual Cut Sagittal Blade Cut Edge 18.0mm Cut Depth 100mm Thickness 1.27mm","formatted_desc":["Dual Cut Sagittal Blade","18.0mm","100mm","1.27mm","Cut Edge"],"id":"3337"},"3338":{"desc":"Peripheral IV Catheter ViaValve 20 Gauge 1 Inch Retracting Safety Needle","formatted_desc":["Peripheral IV Catheter","20 Gauge","1 Inch","ViaValve, Retracting, Safety Needle"],"id":"3338"},"3339":{"desc":"3-0 COATED VICRYL UNDYED 1X27\" FS-2","formatted_desc":["3-0","COATED VICRYL UNDYED 1X27in","FS-2"],"id":"3339"},"3340":{"desc":"Adhesive Strip McKesson 3/4 X 3 Inch Fabric Rectangle Tan Sterile","formatted_desc":["Adhesive Strip","McKesson","3in","0.75in","Fabric, Rectangle, Tan, Sterile"],"id":"3340"},"3341":{"desc":"Split Sponges McKesson 2 X 2 Inch Sterile 6-Ply","formatted_desc":["Split Sponges","McKesson","2in","2in","Sterile, 6-Ply"],"id":"3341"},"3342":{"desc":"Personal Wipe StayDry® Soft Pack Aloe / Vitamin E Scented 100 Count","formatted_desc":["Personal Wipe","StayDry","Soft Pack, Aloe, Vitamin E, Scented, 100 Count"],"id":"3342"},"3343":{"desc":"Personal Wipe StayDry® Soft Pack Aloe / Vitamin E Scented 50 Count","formatted_desc":["Personal Wipe StayDry","50 Count","Soft Pack, Aloe, Vitamin E, Scented"],"id":"3343"},"3344":{"desc":"Gauze Sponge McKesson 4 X 4 Inch 10 per Tray Sterile 12-Ply Square","formatted_desc":["Gauze Sponge","McKesson","4in","4in","Sterile, 10 per Tray, 12-Ply, Square"],"id":"3344"},"3345":{"desc":"Wound Packing Strip McKesson Non-impregnated 1/4 Inch X 5 Yard Sterile Plain","formatted_desc":["Wound Packing Strip","McKesson","0.25in","5yd","Non-impregnated, Sterile, Plain"],"id":"3345"},"3346":{"desc":"Antiseptic McKesson Brand Topical Liquid 4 oz. Bottle","formatted_desc":["Antiseptic","McKesson Brand","4oz","Topical, Liquid, 1 Bottle"],"id":"3346"},"3348":{"desc":"Hartman Medical Group","formatted_desc":["Hartman Medical Group"],"id":"3348"},"3349":{"desc":"Bridon Corp","formatted_desc":["Bridon Corp"],"id":"3349"},"3350":{"desc":"Sol-Millennium","formatted_desc":["Sol","Millennium"],"id":"3350"},"3351":{"desc":"TrueCare Biomedix","formatted_desc":["TrueCare Biomedix"],"id":"3351"},"3484":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)16g x 1.77\"","formatted_desc":["TrueSafe Safety IV Catheter","16g","1.77in","with Blood Control (PTFE)"],"id":"3484"},"3752":{"desc":"IV Admin Set, Back Check Valve, 10 Drops per mL, 100\" Length, 19.3 mL Priming Volume, Vented/Non-Vented, Needle-Free Y Site","formatted_desc":["IV Admin Set","19.3mL","100in","Back Check Valve, 10 Drops per mL, Vented/Non-Vented, Needle-Free Y Site"],"id":"3752"},"3753":{"desc":"Pre-Filled Normal Saline Flush Syringe, 10ml 0.9% Sodium Chloride Fill in 10ml Syringe","formatted_desc":["Pre-Filled Normal Saline Flush Syringe","10ml","0.9% Sodium Chloride, Fill in 10ml Syringe"],"id":"3753"},"3754":{"desc":"Bontak Optima Safety IV Catheter 18G x 1 1/4”","formatted_desc":["Bontak Optima Safety IV Catheter","18G","1.25in",""],"id":"3754"},"3755":{"desc":"Bontak Optima Safety IV Catheter 20G x 1”","formatted_desc":["Bontak Optima Safety IV Catheter","20G","1in",""],"id":"3755"},"3756":{"desc":"Bontak Optima Safety IV Catheter 20G x 1 1/4”","formatted_desc":["Bontak Optima Safety IV Catheter","20G","1.25in",""],"id":"3756"},"3757":{"desc":"Bontak Optima Safety IV Catheter 22G x 1”","formatted_desc":["Bontak Optima Safety IV Catheter","22G","1in",""],"id":"3757"},"3758":{"desc":"Bontak Optima Safety IV Catheter 24G x 3/4”","formatted_desc":["Bontak Optima Safety IV Catheter","24G","0.75in",""],"id":"3758"},"3759":{"desc":"7\" IV Extension Set, macro bore with removable needleless valve","formatted_desc":["7in","IV Extension Set","macro bore, with removable needleless valve"],"id":"3759"},"3760":{"desc":"Electrode, Wet Gel 35x40mm, carbon snap","formatted_desc":["Electrode","35mm","40mm","Wet Gel, carbon snap"],"id":"3760"},"3761":{"desc":"Site-Loc Transparent Dressing, 2 3/8\"X2 3/4\"","formatted_desc":["Site-Loc Transparent Dressing","2.375in","2.75in",""],"id":"3761"},"3762":{"desc":"IV Start Kit w/ IV Guard, Latex-free","formatted_desc":["IV Start Kit","with IV Guard, Latex-free"],"id":"3762"},"3763":{"desc":"ClearSafe Safety IV Catheter (PTFE) 14g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","14g","1.25in","(PTFE)"],"id":"3763"},"3764":{"desc":"ClearSafe Safety IV Catheter (PTFE) 16g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","16g","1.25in","PTFE"],"id":"3764"},"3765":{"desc":"ClearSafe Safety IV Catheter (PTFE) 18g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","18g","1.25in","PTFE"],"id":"3765"},"3766":{"desc":"TrueSafe Safety IV Catheter (PTFE)16g x 1.77\"","formatted_desc":["TrueSafe Safety IV Catheter","16g","1.77in","PTFE"],"id":"3766"},"3767":{"desc":"TrueSafe Safety IV Catheter (PTFE) 18g x 1.88\"","formatted_desc":["TrueSafe Safety IV Catheter","18g","1.88in","PTFE"],"id":"3767"},"3768":{"desc":"TrueSafe Safety IV Catheter (PTFE) 18g x 1.16\"","formatted_desc":["TrueSafe Safety IV Catheter","18g","1.16in","PTFE"],"id":"3768"},"3769":{"desc":"TrueSafe Safety IV Catheter (PTFE) 20g x 1.88\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1.88in","PTFE"],"id":"3769"},"3770":{"desc":"TrueSafe Safety IV Catheter (PTFE) 20g x 1.16\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1.16in","PTFE"],"id":"3770"},"3771":{"desc":"TrueSafe Safety IV Catheter (PTFE) 20g x 1.00\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1in","(PTFE)"],"id":"3771"},"3772":{"desc":"TrueSafe Safety IV Catheter (PTFE) 22g x 1.00\"","formatted_desc":["TrueSafe Safety IV Catheter","22g","1.00in","PTFE"],"id":"3772"},"3773":{"desc":"TrueSafe Safety IV Catheter (PTFE) 24g x 0.75\"","formatted_desc":["TrueSafe Safety IV Catheter","24g","0.75in","PTFE"],"id":"3773"},"3774":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 14g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","14g","1.25in","Comfort with Blood Control (PUR)"],"id":"3774"},"3775":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 16g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","16g","1.25in","with Blood Control (PUR), Comfort"],"id":"3775"},"3776":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 18g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","18g","1.25in","Comfort with Blood Control (PUR)"],"id":"3776"},"3777":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1.25\"","formatted_desc":["ClearSafe Safety IV Catheter","20g","1.25in","Comfort with Blood Control (PUR)"],"id":"3777"},"3778":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1\"","formatted_desc":["ClearSafe Safety IV Catheter","20g","1in","Comfort with Blood Control (PUR)"],"id":"3778"},"3779":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 22g x 1\"","formatted_desc":["ClearSafe Safety IV Catheter","22g","1in","Comfort with Blood Control (PUR)"],"id":"3779"},"3780":{"desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 24g x .75\"","formatted_desc":["ClearSafe Safety IV Catheter","24g","0.75in","Comfort with Blood Control (PUR)"],"id":"3780"},"3781":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)16g x 1.77\"","formatted_desc":["TrueSafe Safety IV Catheter","16g","1.77in","with Blood Control (PTFE)"],"id":"3781"},"3782":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)18g x 1.16\"","formatted_desc":["TrueSafe Safety IV Catheter","18g","1.16in","with Blood Control (PTFE)"],"id":"3782"},"3783":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)18g x 1.88\"","formatted_desc":["TrueSafe Safety IV Catheter","18g","1.88in","with Blood Control (PTFE)"],"id":"3783"},"3784":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)20g x 1.16\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1.16in","with Blood Control (PTFE)"],"id":"3784"},"3785":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)20g x 1.88\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1.88in","with Blood Control (PTFE)"],"id":"3785"},"3786":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)20g x 1\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1in","with Blood Control (PTFE)"],"id":"3786"},"3787":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)22g x 1\"","formatted_desc":["TrueSafe Safety IV Catheter","22g","1in","with Blood Control (PTFE)"],"id":"3787"},"3788":{"desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)24g x 0.75\"","formatted_desc":["TrueSafe Safety IV Catheter","24g","0.75in","with Blood Control (PTFE)"],"id":"3788"},"3789":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 16g x 1.77\"","formatted_desc":["TrueSafe Safety IV Catheter","16g","1.77in","Comfort with Blood Control (PUR)"],"id":"3789"},"3790":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 18g x 1.16\"","formatted_desc":["TrueSafe Safety IV Catheter","18g","1.16in","Comfort with Blood Control (PUR)"],"id":"3790"},"3791":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 18g x 1.88\"","formatted_desc":["TrueSafe Safety IV Catheter","1.88in","18g","Comfort with Blood Control (PUR)"],"id":"3791"},"3792":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1.16\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1.16in","Comfort with Blood Control (PUR)"],"id":"3792"},"3793":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1.88\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1.88in","Comfort with Blood Control (PUR)"],"id":"3793"},"3794":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1\"","formatted_desc":["TrueSafe Safety IV Catheter","20g","1in","Comfort with Blood Control (PUR)"],"id":"3794"},"3795":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 22g x 1\"","formatted_desc":["TrueSafe Safety IV Catheter","22g","1in","Comfort with Blood Control (PUR)"],"id":"3795"},"3796":{"desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 24g x 0.75\"","formatted_desc":["TrueSafe Safety IV Catheter","24g","0.75in","Comfort with Blood Control (PUR)"],"id":"3796"},"3797":{"desc":"Sterile Alcohol Prep Pads - Large","formatted_desc":["Sterile Alcohol Prep Pads","Large"],"id":"3797"},"3798":{"desc":"Surgical Blades - Stainless - Sterile #10","formatted_desc":["Surgical Blades","Stainless, Sterile, #10"],"id":"3798"},"3799":{"desc":"Surgical Blades - Stainless - Sterile #11","formatted_desc":["Surgical Blades","Stainless, Sterile, #11"],"id":"3799"},"3800":{"desc":"Surgical Blades - Stainless - Sterile #12","formatted_desc":["Surgical Blades","Stainless, Sterile, #12"],"id":"3800"},"3801":{"desc":"Surgical Blades - Stainless - Sterile #15","formatted_desc":["Surgical Blades","Stainless, Sterile, #15"],"id":"3801"},"3802":{"desc":"Surgical Blades - Stainless - Sterile #20","formatted_desc":["Surgical Blades","Stainless, Sterile, #20"],"id":"3802"},"3803":{"desc":"Surgical Blades - Stainless - Sterile #21","formatted_desc":["Surgical Blades","Stainless, Sterile, #21"],"id":"3803"},"3804":{"desc":"Surgical Blades - Stainless - Sterile #22","formatted_desc":["Surgical Blades","Stainless, Sterile, #22"],"id":"3804"},"3805":{"desc":"Surgical Blades - Stainless - Sterile #23","formatted_desc":["Surgical Blades","Stainless, Sterile, #23"],"id":"3805"},"3806":{"desc":"Disposable Scalpels - Stainless - Sterile #10","formatted_desc":["Disposable Scalpels","Stainless, Sterile","#10"],"id":"3806"},"3807":{"desc":"Disposable Scalpels - Stainless - Sterile #11","formatted_desc":["Disposable Scalpels","Stainless, Sterile, #11"],"id":"3807"},"3808":{"desc":"Disposable Scalpels - Stainless - Sterile #12","formatted_desc":["Disposable Scalpels","Stainless, Sterile",""],"id":"3808"},"3809":{"desc":"Disposable Scalpels - Stainless - Sterile #15","formatted_desc":["Disposable Scalpel","Stainless, Sterile, #15"],"id":"3809"},"3810":{"desc":"Disposable Scalpels - Stainless - Sterile #20","formatted_desc":["Disposable Scalpels","Stainless, Sterile, #20"],"id":"3810"},"3811":{"desc":"Disposable Scalpels - Stainless - Sterile #21","formatted_desc":["Disposable Scalpels","Stainless, Sterile, #21"],"id":"3811"},"3812":{"desc":"Disposable Scalpels - Stainless - Sterile #22","formatted_desc":["Disposable Scalpels","Stainless, Sterile, #22"],"id":"3812"},"3813":{"desc":"Disposable Scalpels - Stainless - Sterile #23","formatted_desc":["Disposable Scalpels","Stainless, Sterile, #23"],"id":"3813"},"3814":{"desc":"Latex Exam Gloves - XS - N/S -  Powder Free","formatted_desc":["Latex Exam Gloves","XS","N/S, Powder Free"],"id":"3814"},"3815":{"desc":"Latex Exam Gloves - Sm - N/S - Powder Free","formatted_desc":["Latex Exam Gloves","Small, N/S, Powder Free"],"id":"3815"},"3816":{"desc":"Latex Exam Gloves - XL - N/S - Powder Free","formatted_desc":["Latex Exam Gloves","XL","N/A","Powder Free"],"id":"3816"},"3817":{"desc":"Nitrile Exam Glove - XS - N/S - Powder Free","formatted_desc":["Nitrile Exam Glove","XS","N/S, Powder Free"],"id":"3817"},"3818":{"desc":"Nitrile Exam Glove - Sm - N/S - Powder Free","formatted_desc":["Nitrile Exam Glove","Sm","N/S, Powder Free"],"id":"3818"},"3819":{"desc":"Nitrile Exam Glove - Md - N/S - Powder Free","formatted_desc":["Nitrile Exam Glove","Md, N/S, Powder Free"],"id":"3819"},"3820":{"desc":"Nitrile Exam Glove - Lg - N/S - Powder Free","formatted_desc":["Nitrile Exam Glove","Large, Non-Sterile, Powder Free"],"id":"3820"},"3821":{"desc":"Nitrile Exam Glove - XL - N/S - Powder Free","formatted_desc":["Nitrile Exam Glove","XL","N/S, Powder Free"],"id":"3821"},"3822":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 6.0","formatted_desc":["Latex Surgeons Gloves","6.0in","Sterile, Powder Free, Pairs"],"id":"3822"},"3823":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 6.5","formatted_desc":["Latex Surgeons Gloves","6.5in","Sterile, Powder Free, Pairs"],"id":"3823"},"3824":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 7.0","formatted_desc":["Latex Surgeons Gloves","7.0in","Sterile, Powder Free, Pairs"],"id":"3824"},"3825":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 8.0","formatted_desc":["Latex Surgeons Gloves","Sterile, Powder Free, Pairs, 8.0in"],"id":"3825"},"3826":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 8.5","formatted_desc":["Latex Surgeons Gloves","Sterile, Powder Free, Pairs, 8.5in"],"id":"3826"},"3827":{"desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 9.0","formatted_desc":["Latex Surgeons Gloves","9.0in","Sterile, Powder Free, Pairs"],"id":"3827"},"3828":{"desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 6.0","formatted_desc":["Nitrile Surgeons Gloves","6.0in","Sterile, Powder Free, Pairs"],"id":"3828"},"3829":{"desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 6.5","formatted_desc":["Nitrile Surgeons Gloves","6.5in","Sterile, Powder Free, Pairs"],"id":"3829"},"3830":{"desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 7.0","formatted_desc":["Nitrile Surgeons Gloves","7.0","Sterile, Powder Free, Pairs"],"id":"3830"},"3831":{"desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 7.5","formatted_desc":["Nitrile Surgeons Gloves","7.5in","Sterile, Powder Free, Pairs"],"id":"3831"},"3832":{"desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 8.0","formatted_desc":["Nitrile Surgeons Gloves","Sterile, Powder Free, Pairs","8.0"],"id":"3832"},"3833":{"desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 8.5","formatted_desc":["Nitrile Surgeons Gloves","8.5in","Sterile, Powder Free, Pairs"],"id":"3833"},"3834":{"desc":"Stretch Gauze Bandage Roll - Non-sterile - 2\"","formatted_desc":["Stretch Gauze Bandage Roll","2in","Non-sterile"],"id":"3834"},"3835":{"desc":"Stretch Gauze Bandage Roll - Non-sterile - 3\"","formatted_desc":["Stretch Gauze Bandage Roll","3in","Non-sterile"],"id":"3835"},"3836":{"desc":"Stretch Gauze Bandage Roll - Non-sterile - 6\"","formatted_desc":["Stretch Gauze Bandage Roll","6in","Non-sterile"],"id":"3836"},"3837":{"desc":"Stretch Gauze Bandage Roll -  Sterile - 2\"","formatted_desc":["Stretch Gauze Bandage Roll","2in","Sterile"],"id":"3837"},"3838":{"desc":"Stretch Gauze Bandage Roll -  Sterile - 3\"","formatted_desc":["Stretch Gauze Bandage Roll","3in","Sterile"],"id":"3838"},"3839":{"desc":"Stretch Gauze Bandage Roll -  Sterile - 4\"","formatted_desc":["Stretch Gauze Bandage Roll","4in","Sterile"],"id":"3839"},"3840":{"desc":"Stretch Gauze Bandage Roll -  Sterile - 6\"","formatted_desc":["Stretch Gauze Bandage Roll","6in","Sterile"],"id":"3840"},"3841":{"desc":"Krinkle Gauze Roll - Non-sterile","formatted_desc":["Krinkle Gauze Roll","Non-sterile"],"id":"3841"},"3842":{"desc":"Krinkle Gauze Roll - Sterile","formatted_desc":["Krinkle Gauze Roll","Sterile"],"id":"3842"},"3843":{"desc":"Gauze Sponge - Non-sterile - 2x2 - 8 Ply","formatted_desc":["Gauze Sponge","2in","2in","Non-sterile, 8 Ply"],"id":"3843"},"3844":{"desc":"Gauze Sponge - Non-sterile - 3x3 -  8 Ply","formatted_desc":["Gauze Sponge","3in","3in","Non-sterile, 8 Ply"],"id":"3844"},"3845":{"desc":"Gauze Sponge - Non-sterile - 3x3 - 12 Ply","formatted_desc":["Gauze Sponge","3in","3in","Non-sterile, 12 Ply"],"id":"3845"},"3846":{"desc":"Gauze Sponge - Non-sterile - 4x4 -  8 Ply","formatted_desc":["Gauze Sponge","4in","4in","Non-sterile, 8 Ply"],"id":"3846"},"3847":{"desc":"Gauze Sponge - Non-sterile - 4x4 - 12 Ply","formatted_desc":["Gauze Sponge","4in","4in","Non-sterile, 12 Ply"],"id":"3847"},"3848":{"desc":"Gauze Sponge - Non-sterile - 4x4 - 16 Ply","formatted_desc":["Gauze Sponge","4in","4in","Non-sterile, 16 Ply"],"id":"3848"},"3849":{"desc":"Gauze Sponge Sterile - 2's, 2x2 - 8 Ply","formatted_desc":["Gauze Sponge","2in","2in","Sterile, 8 Ply"],"id":"3849"},"3850":{"desc":"Gauze Sponge Sterile - 2's, 4x4 - 8 Ply","formatted_desc":["Gauze Sponge","4in","4in","Sterile, 2's per Unit, 8 Ply"],"id":"3850"},"3851":{"desc":"Gauze Sponge Sterile - 2's, 4x4 - 12 Ply","formatted_desc":["Gauze Sponge","4in","4in","Sterile, 2's per Pack, 12 Ply"],"id":"3851"},"3852":{"desc":"Non-Woven Sponge - Sterile - 2's, 2x2 - 4 Ply","formatted_desc":["Non-Woven Sponge","2in","2in","Sterile, 4 Ply, 2 units per Pack"],"id":"3852"},"3853":{"desc":"Non-Woven Sponge - Sterile - 2's, 4x4 - 4 Ply","formatted_desc":["Non-Woven Sponge","4in","4in","Sterile, 2 units per Pack, 4 Ply"],"id":"3853"},"3854":{"desc":"Gauze Pad Sterile - 1's, 2x2 - 12 Ply","formatted_desc":["Gauze Pad Sterile","2in","2in","12Ply, 1 Unit per Pack"],"id":"3854"},"3855":{"desc":"Gauze Pad Sterile - 1's, 3x3 - 12 Ply","formatted_desc":["Gauze Pad","3in","3in","Sterile, 12 Ply"],"id":"3855"},"3856":{"desc":"Non-Adherent Pad - Sterile - 2x3","formatted_desc":["Non-Adherent Pad","2in","3in","Sterile"],"id":"3856"},"3857":{"desc":"Non-Adherent Pad - Sterile - 3x8","formatted_desc":["Non-Adherent Pad","8in","3in","Sterile"],"id":"3857"},"3858":{"desc":"Paper Surgical Tape - 1/2\" x 10 yds.","formatted_desc":["Paper Surgical Tape","0.5in","10yds",""],"id":"3858"},"3859":{"desc":"Paper Surgical Tape - 1\" x 10 yds.","formatted_desc":["Paper Surgical Tape","1in","10yds"],"id":"3859"},"3860":{"desc":"Paper Surgical Tape - 2\" x 10 yds.","formatted_desc":["Surgical Tape","2in","10yds","Paper"],"id":"3860"},"3861":{"desc":"Paper Surgical Tape - 3\" x 10 yds.","formatted_desc":["Surgical Tape","3in","10yd","Paper"],"id":"3861"},"3862":{"desc":"Cloth Surgical Tape - 1/2\" x 10 yds.","formatted_desc":["Cloth Surgical Tape","0.5in","10yds",""],"id":"3862"},"3863":{"desc":"Cloth Surgical Tape - 2\" x 10 yds.","formatted_desc":["Cloth Surgical Tape","2in","10yds",""],"id":"3863"},"3864":{"desc":"Cloth Surgical Tape - 3\" x 10 yds.","formatted_desc":["Cloth Surgical Tape","3in","10yds",""],"id":"3864"},"3865":{"desc":"Clear Surgical Tape - 1/2\" x 10 yds.","formatted_desc":["Clear Surgical Tape","0.5in","10yd"],"id":"3865"},"3866":{"desc":"Clear Surgical Tape - 2\" x 10 yds.","formatted_desc":["Clear Surgical Tape","2in","10yds"],"id":"3866"},"3867":{"desc":"Clear Surgical Tape - 3\" x 10 yds.","formatted_desc":["Clear Surgical Tape","3in","10yds",""],"id":"3867"},"3868":{"desc":"Adhesive Bandage - Fabric 1\" x 3\", Sterile - 24/100/cs.","formatted_desc":["Adhesive Bandage","Fabric, 1in, 3in, Sterile, 24 units per 100 units per Case"],"id":"3868"},"3869":{"desc":"Ear Loop Face Mask - Blue","formatted_desc":["Ear Loop Face Mask","Blue"],"id":"3869"},"3870":{"desc":"Surgical Face Mask - Ear Loop - Level 2 - Blue","formatted_desc":["Surgical Face Mask","Ear Loop, Level 2, Blue"],"id":"3870"},"3871":{"desc":"Exam Table Paper - Smooth - 18\" - 225ft./ roll","formatted_desc":["Exam Table Paper","18in","225ft","Smooth"],"id":"3871"},"3872":{"desc":"Exam Table Paper - Smooth - 21\" - 225ft./ roll","formatted_desc":["Exam Table Paper","21in","Smooth, 225ft per Roll"],"id":"3872"},"3873":{"desc":"Exam Table Paper - Crepe - 18\" - 125ft./ roll","formatted_desc":["Exam Table Paper","Crepe","18in","125ft","Per Roll"],"id":"3873"},"3874":{"desc":"Exam Table Paper - Crepe - 21\" - 125ft./ roll","formatted_desc":["Exam Table Paper","Crepe","21in","125ft","Per Roll"],"id":"3874"},"3875":{"desc":"Medical Exam Nitrile Gloves - ChemoShield - Sm - N/S - Powder Free","formatted_desc":["Medical Exam Nitrile Gloves","ChemoShield","Sm, N/S, Powder Free"],"id":"3875"},"3876":{"desc":"Medical Exam Nitrile Gloves - ChemoShield - Md - N/S - Powder Free","formatted_desc":["Medical Exam Nitrile Gloves","ChemoShield","Md, N/S, Powder Free"],"id":"3876"},"3877":{"desc":"Medical Exam Nitrile Gloves - ChemoShield - Lg - N/S - Powder Free","formatted_desc":["Medical Exam Nitrile Gloves","ChemoShield","Lg, N/S, Powder Free"],"id":"3877"},"3878":{"desc":"Medical Exam Nitrile Gloves - ChemoShield - XL - N/S - Powder Free","formatted_desc":["Medical Exam Nitrile Gloves","ChemoShield","XL, N/S, Powder Free"],"id":"3878"},"3879":{"desc":"Blunt Fill Needle 18G*1\"","formatted_desc":["Blunt Fill Needle","18G","1in",""],"id":"3879"},"3880":{"desc":"Blunt Fill Needle 18G*1 1/2\"","formatted_desc":["Blunt Fill Needle","18G","1.5in",""],"id":"3880"},"3881":{"desc":"Hypodermic Needle 16G x 1\"","formatted_desc":["Hypodermic Needle","16G","1in",""],"id":"3881"},"3882":{"desc":"Hypodermic Needle 16G x 1 1/2\"","formatted_desc":["Hypodermic Needle","16G","1.5in",""],"id":"3882"},"3883":{"desc":"Hypodermic Needle 18G x 1\"","formatted_desc":["Hypodermic Needle","18G","1in",""],"id":"3883"},"3884":{"desc":"Hypodermic Needle 18G x 1 1/2\"","formatted_desc":["Hypodermic Needle","18G","1.5in",""],"id":"3884"},"3885":{"desc":"Hypodermic Needle 19G x 1\"","formatted_desc":["Hypodermic Needle","19G","1in",""],"id":"3885"},"3886":{"desc":"Hypodermic Needle 19G x 1 1/2\"","formatted_desc":["Hypodermic Needle","19G","1.5in",""],"id":"3886"},"3887":{"desc":"Hypodermic Needle 20G x 1\"","formatted_desc":["Hypodermic Needle","20G","1in",""],"id":"3887"},"3888":{"desc":"Hypodermic Needle 20G x 1 1/2\"","formatted_desc":["Hypodermic Needle","20G","1.5in",""],"id":"3888"},"3889":{"desc":"Hypodermic Needle 21G x 1\"","formatted_desc":["Hypodermic Needle","21G","1in",""],"id":"3889"},"3890":{"desc":"Hypodermic Needle 21G x 1 1/2\"","formatted_desc":["Hypodermic Needle","21G","1.5in",""],"id":"3890"},"3891":{"desc":"Hypodermic Needle 22G x 1\"","formatted_desc":["Hypodermic Needle","22G","1in",""],"id":"3891"},"3892":{"desc":"Hypodermic Needle 22G x 1 1/2\"","formatted_desc":["Hypodermic Needle","22G","1.5in",""],"id":"3892"},"3893":{"desc":"Hypodermic Needle 23G x 1\"","formatted_desc":["Hypodermic Needle","23G","1in",""],"id":"3893"},"3894":{"desc":"Hypodermic Needle 23G x 1 1/2\"","formatted_desc":["Hypodermic Needle","23G","1.5in",""],"id":"3894"},"3895":{"desc":"Hypodermic Needle 23G x 5/8\"","formatted_desc":["Hypodermic Needle","23G","5/8in",""],"id":"3895"},"3896":{"desc":"Hypodermic Needle 25G x 5/8\"","formatted_desc":["Hypodermic Needle","25G","0.625in",""],"id":"3896"},"3897":{"desc":"Hypodermic Needle 25G x 1\"","formatted_desc":["Hypodermic Needle","25G","1in"],"id":"3897"},"3898":{"desc":"Hypodermic Needle 25G x 1 1/2\"","formatted_desc":["Hypodermic Needle","25G","1.5in",""],"id":"3898"},"3899":{"desc":"Hypodermic Needle 26G x 1/2\"","formatted_desc":["Hypodermic Needle","26G","0.5in",""],"id":"3899"},"3900":{"desc":"Hypodermic Needle 26G x 3/8\"","formatted_desc":["Hypodermic Needle","26G","3/8in",""],"id":"3900"},"3901":{"desc":"Hypodermic Needle 27G x 1/2\"","formatted_desc":["Hypodermic Needle","27G","0.5in",""],"id":"3901"},"3902":{"desc":"Hypodermic Needle 30G x 1/2\"","formatted_desc":["Hypodermic Needle","30G","0.5in",""],"id":"3902"},"3903":{"desc":"Hypodermic Needle 30G x 1\"","formatted_desc":["Hypodermic Needle","30G","1in"],"id":"3903"},"3904":{"desc":"1ml TB Syringe w/Fixed Needle 25G*5/8''","formatted_desc":["1ml","TB Syringe","with Fixed Needle 25G, 5/8in"],"id":"3904"},"3905":{"desc":"Hypodermic Needle 27G x 1 1/4’’","formatted_desc":["Hypodermic Needle","27G","1.25in",""],"id":"3905"},"3906":{"desc":"10ml Luer Lock Syringe w/Exch Needle 20G*1''","formatted_desc":["10ml","Luer Lock Syringe","with Exchange Needle, 20 Gauge, 1 Inch"],"id":"3906"},"3907":{"desc":"10ml Luer Lock Syringe w/Exch Needle 20G*1 1/2''","formatted_desc":["10ml","Luer Lock Syringe","w/Exch Needle, 20G, 1.5in"],"id":"3907"},"3908":{"desc":"10ml Luer Lock Syringe w/Exch Needle 21G*1''","formatted_desc":["10ml","Luer Lock Syringe, with Exchange Needle, 21G, 1in"],"id":"3908"},"3909":{"desc":"10ml Luer Lock Syringe w/Exch Needle 22G*1''","formatted_desc":["10ml","Luer Lock Syringe","with Exchange Needle, 22 Gauge, 1 Inch"],"id":"3909"},"3910":{"desc":"3ml Luer Lock Syringe w/Exch Needle 20G*1''","formatted_desc":["3ml","Luer Lock Syringe, with Exchange Needle 20G, 1in"],"id":"3910"},"3911":{"desc":"3ml Luer Lock Syringe w/Exch Needle 20G*1 1/2''","formatted_desc":["3ml","Luer Lock Syringe","with Exchange Needle, 20G, 1.5in"],"id":"3911"},"3912":{"desc":"3ml Luer Lock Syringe w/Exch Needle 21G*1''","formatted_desc":["3ml Luer Lock Syringe","21G","1in","with Exchange Needle"],"id":"3912"},"3913":{"desc":"3ml Luer Lock Syringe w/Exch Needle 21G*1 1/2''","formatted_desc":["3ml","Luer Lock Syringe","with Exch Needle, 21G, 1.5in"],"id":"3913"},"3914":{"desc":"3ml Luer Lock Syringe w/Exch Needle 22G*1''","formatted_desc":["3ml","Luer Lock Syringe","with Exchange Needle 22G, 1in"],"id":"3914"},"3915":{"desc":"3ml Luer Lock Syringe w/Exch Needle 22G*1 1/2''","formatted_desc":["3ml","Luer Lock, Syringe","with Exchange Needle, 22G, 1.5in"],"id":"3915"},"3916":{"desc":"3ml Luer Lock Syringe w/Exch Needle 23G*1''","formatted_desc":["3ml Luer Lock Syringe","23G","1in","with Exchange Needle"],"id":"3916"},"3917":{"desc":"3ml Luer Lock Syringe w/Exch Needle 25G*1''","formatted_desc":["3ml","Luer Lock Syringe","with Exchange Needle, 25G, 1in"],"id":"3917"},"3918":{"desc":"3ml Luer Lock Syringe w/Exch Needle 25G*1 1/2''","formatted_desc":["3ml","Luer Lock Syringe","with Exchange Needle, 25G, 1.5in"],"id":"3918"},"3919":{"desc":"3ml Luer Lock Syringe w/Exch Needle 25G*5/8''","formatted_desc":["3ml","Luer Lock Syringe","with Exchange Needle 25G, 5/8in"],"id":"3919"},"3920":{"desc":"5ml Luer Lock Syringe w/Exch Needle 20G*1\"","formatted_desc":["5ml","Luer Lock Syringe","with Exchange Needle, 20G, 1in"],"id":"3920"},"3921":{"desc":"5ml Luer Lock Syringe w/Exch Needle 20G*1 1/2''","formatted_desc":["5ml","Luer Lock Syringe","with Exchange Needle, 20G, 1.5in"],"id":"3921"},"3922":{"desc":"5ml Luer Lock Syringe w/Exch Needle 21G*1\"","formatted_desc":["5ml","Luer Lock Syringe","with Exchange Needle 21G, 1in"],"id":"3922"},"3923":{"desc":"5ml Luer Lock Syringe w/Exch Needle 21G*1 1/2''","formatted_desc":["5ml","Luer Lock Syringe","with Exchange Needle, 21G, 1.5in"],"id":"3923"},"3924":{"desc":"5ml Luer Lock Syringe w/Exch Needle 22G*1 1/2''","formatted_desc":["5ml","Luer Lock Syringe","with Exchange Needle, 22G, 1.5in"],"id":"3924"},"3925":{"desc":"Sol-Care 0.5mL Safety Syringe w/Fixed Needle 23G*1\"","formatted_desc":["Sol-Care Safety Syringe","0.5mL","with Fixed Needle 23G, 1in"],"id":"3925"},"3926":{"desc":"Sol-Care 0.5mL Safety Syringe w/Fixed Needle 25G*1\"","formatted_desc":["Sol-Care","0.5mL","Safety Syringe, w/Fixed Needle, 25G, 1in"],"id":"3926"},"3927":{"desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 25G*5/8","formatted_desc":["Sol-Care","1ml","TB Safety Syringe, with Fixed Needle, 25G, 5/8in"],"id":"3927"},"3928":{"desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 27G*1/2","formatted_desc":["Sol-Care","1ml","Safety Syringe, w/Fixed Needle, 27G, 1/2in"],"id":"3928"},"3929":{"desc":"Sol-Care 1ml Safety Syringe Allergy Tray 27G*1/2''","formatted_desc":["Sol-Care","1ml","Safety Syringe, Allergy Tray, 27G, 0.5in"],"id":"3929"},"3930":{"desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 25G*1","formatted_desc":["Sol-Care","1ml","TB Safety Syringe, w/Fixed Needle, 25G"],"id":"3930"},"3931":{"desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 22G*1 1/2","formatted_desc":["Sol-Care","1ml","TB Safety Syringe, with Fixed Needle, 22G, 1.5in"],"id":"3931"},"3932":{"desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 28G*1/2","formatted_desc":["Sol-Care","1ml","Safety Syringe, w/Fixed Needle, 28G, 1/2in"],"id":"3932"},"3933":{"desc":"Sol-Care 1ml Safety Syringe Allergy Tray 26G*3/8'' IDB","formatted_desc":["Sol-Care Safety Syringe","1ml","26G, 3/8in"],"id":"3933"},"3934":{"desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 26G*3/8 IDB","formatted_desc":["Sol-Care","1ml","TB Safety Syringe, w/Fixed Needle, 26G, 3/8in"],"id":"3934"},"3935":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 21G*1 1/2","formatted_desc":["Sol-Care","3ml","Luer Lock, Safety Syringe, with Exchange Needle, 21 Gauge, 1.5 inches"],"id":"3935"},"3936":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 20G*1","formatted_desc":["Sol-Care","3ml","Luer Lock Safety Syringe, with Exchange Needle, 20G"],"id":"3936"},"3937":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 21G*1","formatted_desc":["Sol-Care","3ml","Luer Lock, Safety Syringe, with Exchange Needle, 21G, 1in"],"id":"3937"},"3938":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 22G*1 1/2","formatted_desc":["Sol-Care","3ml","Luer Lock, Safety Syringe w/Exch Needle, 22G, 1.5in"],"id":"3938"},"3939":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 23G*1","formatted_desc":["Sol-Care Syringe","3ml","Luer Lock, Safety, with Exchange Needle 23G, 1in"],"id":"3939"},"3940":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 25G*5/8","formatted_desc":["Sol-Care Safety Syringe","3ml","Luer Lock, Exch Needle 25G, 5/8in"],"id":"3940"},"3941":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 25G*1","formatted_desc":["Sol-Care","3ml","Luer Lock Safety Syringe with Exchange Needle 25G, 1in"],"id":"3941"},"3942":{"desc":"Sol-Care 1mL Safety Syringe w/Fixed Needle 30G*1/2\"","formatted_desc":["Sol-Care Safety Syringe","1mL","with Fixed Needle, 30G, 1/2in"],"id":"3942"},"3943":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 22G*1","formatted_desc":["Sol-Care","3ml","Luer Lock, Safety Syringe with Exchange Needle, 22G, 1in"],"id":"3943"},"3944":{"desc":"Sol-Care 1ml Safety Syringe w/FixedNeelde 25G*1\"","formatted_desc":["Sol-Care","1ml","Safety Syringe, with Fixed Needle, 25G, 1in"],"id":"3944"},"3945":{"desc":"Sol-Care 0.5mL Safety Syringe w/Fixed Neelde 27G*1/2\"","formatted_desc":["Sol-Care Safety Syringe","0.5mL","27G, 0.5in, with Fixed Needle"],"id":"3945"},"3946":{"desc":"Sol-Care 10ml Luer Lock Syringe w/Safety Needle 21G*1 1/2","formatted_desc":["Sol-Care Syringe","10ml","Luer Lock, with Safety Needle 21G, 1.5in"],"id":"3946"},"3947":{"desc":"Sol-Care 10ml Luer Lock Syringe w/Safety Needle 22G*1 1/2","formatted_desc":["Sol-Care","10ml","Luer Lock Syringe, with Safety Needle 22G, 1.5in"],"id":"3947"},"3948":{"desc":"Blunt Fill Needle w/ filter 18G*1 1/2\"","formatted_desc":["Blunt Fill Needle","18G","1.5in","with filter"],"id":"3948"},"3949":{"desc":"Sol-Care 3ml Luer Lock Safety Syringe w/o Needle","formatted_desc":["Sol-Care","3ml","Luer Lock, Safety Syringe, without Needle"],"id":"3949"},"3950":{"desc":"Sol-Care 5mL Luer Lock Safety Syringe w/o Needle","formatted_desc":["Sol-Care","5mL","Syringe, Luer Lock, Safety, without Needle"],"id":"3950"},"3951":{"desc":"Sol-Care 10ml Luer Lock Safety Syringe w/o Needle","formatted_desc":["Sol-Care","10ml","Syringe","Luer Lock, Safety, without Needle"],"id":"3951"},"3952":{"desc":"Sol-Care 20ml Luer Lock Safety Syringe w/o Needle","formatted_desc":["Sol-Care","20ml","Luer Lock, Safety Syringe, without Needle"],"id":"3952"},"3953":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 23G*1''","formatted_desc":["Sol-Care Syringe","1ml","Luer Lock, w/Safety, 23G, 1in"],"id":"3953"},"3954":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 23G*1 1/2''","formatted_desc":["Sol-Care","1ml","Luer Lock Syringe, w/Safety Needle, 23G, 1.5in"],"id":"3954"},"3955":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1\"?low dead space?","formatted_desc":["Sol-Care Syringe","1ml","Luer Lock, with Safety Needle, 25G, 1in, low dead space"],"id":"3955"},"3956":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1","formatted_desc":["Sol-Care Syringe","1ml, Luer Lock, with Safety Needle, 25G"],"id":"3956"},"3957":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1 1/2''?low dead space?","formatted_desc":["Sol-Care Syringe","1ml","with Safety Needle, 25G, 1.5in, Luer Lock, Low Dead Space"],"id":"3957"},"3958":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1 1/2''","formatted_desc":["Sol-Care Syringe","1ml","Luer Lock, with Safety Needle 25G, 1.5in"],"id":"3958"},"3959":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*5/8\"?low dead space?","formatted_desc":["Sol-Care Syringe","1ml","with Safety Needle, 25G, 5/8in, Luer Lock, Low Dead Space"],"id":"3959"},"3960":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*5/8","formatted_desc":["Sol-Care Syringe","1ml","Luer Lock, Safety Needle 25G, 5/8in"],"id":"3960"},"3961":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 27G*1/2","formatted_desc":["Sol-Care","1ml","Luer Lock Syringe","with Safety Needle 27G, 1/2in"],"id":"3961"},"3962":{"desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 30G*1/2","formatted_desc":["Sol-Care","1ml","Luer Lock Syringe w/Safety Needle, 30G, 1in"],"id":"3962"},"3963":{"desc":"Sol-Care 5ml Luer Lock Safety Syringe w/Exch Needle 21G*1 1/2","formatted_desc":["Sol-Care Safety Syringe","5ml","Luer Lock, with Exchange Needle, 21G, 1.5in"],"id":"3963"},"3964":{"desc":"Sol-Care 5ml Luer Lock Safety Syringe w/Exch Needle 22G*1 1/2","formatted_desc":["Sol-Care Syringe","5ml","Luer Lock, Safety, with Exchange Needle, 22G, 1.5in"],"id":"3964"},"3965":{"desc":"Sol-Care 5ml Luer Lock Safety Syringe w/Exch Needle 23G*1","formatted_desc":["Sol-Care","5ml","Syringe","with Exchange Needle, 23G, 1in Luer Lock Safety Syringe"],"id":"3965"},"3966":{"desc":"Sol-Care 10ml Luer Lock Safety Syringe w/Exch Needle 21G*1 1/2","formatted_desc":["Sol-Care","10ml","Luer Lock, Safety Syringe with Exchange Needle, 21G, 1.5in"],"id":"3966"},"3967":{"desc":"Sol-Care 10ml Luer Lock Safety Syringe w/Exch Needle 22G*1 1/2","formatted_desc":["Sol-Care","10ml","Luer Lock, Safety Syringe with Exchange Needle, 22G, 1.5in"],"id":"3967"},"3968":{"desc":"1ml Standard Insulin Syringe 29G x 1/2\"","formatted_desc":["1ml","Standard Insulin Syringe","29G","0.5in",""],"id":"3968"},"3969":{"desc":"Insulin Syringe, 1ml 31g X 5/16","formatted_desc":["Insulin Syringe","1ml","31g","5/16in",""],"id":"3969"},"3970":{"desc":"0.3ml Standard Insulin Syringe 30G x 1/2\"","formatted_desc":["0.3ml","Standard Insulin Syringe","30G","1/2in",""],"id":"3970"},"3971":{"desc":"Insulin Syringe, .3ml 31g X 5/16","formatted_desc":["Insulin Syringe","0.3ml","31g","5/16in"],"id":"3971"},"3972":{"desc":"0.5ml Standard Insulin Syringe 28G x 1/2\"","formatted_desc":["0.5ml","Standard Insulin Syringe","28G","0.5in",""],"id":"3972"},"3973":{"desc":"Insulin Syringe, .5ml 31g X 5/16","formatted_desc":["Insulin Syringe","0.5ml","31g","5/16in"],"id":"3973"},"3974":{"desc":"60ml Catheter Tip Syringe w/o Needle","formatted_desc":["60ml","Catheter Tip Syringe","without Needle"],"id":"3974"},"3975":{"desc":"1ml Allergy Syringe Tray 26G*3/8'' IDB","formatted_desc":["Allergy Syringe","1mL","26G, 3/8in","Tray, IDB"],"id":"3975"},"3976":{"desc":"1ml Allergy Syringe Tray 26G*1/2''","formatted_desc":["Allergy Syringe","1ml","26G","0.5in","Tray"],"id":"3976"},"3977":{"desc":"1ml Allergy Syringe Tray 27G*3/8'' IDB","formatted_desc":["1ml","Allergy Syringe Tray, 27G, 3/8in, IDB"],"id":"3977"},"3978":{"desc":"1ml Allergy Syringe Tray 27G*1/2''","formatted_desc":["1ml","Allergy Syringe","27G","0.5in","Tray"],"id":"3978"},"3979":{"desc":"1ml Allergy Syringe Tray 26G*1/2'' IDB","formatted_desc":["Allergy Syringe","1ml","26G, 1/2in, Tray Included"],"id":"3979"},"3980":{"desc":"Sol-Guard 1ml TB Safety Syringe w/Fixed Needle 25G*5/8","formatted_desc":["Sol-Guard","1ml","TB Safety Syringe, w/Fixed Needle, 25G, 5/8in"],"id":"3980"},"3981":{"desc":"Sol-Guard 1mL Safety Syringe w/Fixed Needle 25G*1\"","formatted_desc":["Sol-Guard","1mL","Safety Syringe, Fixed Needle, 25G, 1in"],"id":"3981"},"3982":{"desc":"Sol-Guard 1ml TB Safety Syringe w/Fixed Needle 28G*1/2","formatted_desc":["Sol-Guard","1ml","TB Safety Syringe, w/Fixed Needle 28G, Length 0.5in"],"id":"3982"},"3983":{"desc":"Sol-Guard 1mL Safety Syringe w/Fixed Needle 25G*1\" Flu Tray","formatted_desc":["Sol-Guard","1mL","Safety Syringe, Fixed Needle 25G, 1in, Flu Tray"],"id":"3983"},"3984":{"desc":"Sol-Guard 0.3mL Safety syringe w/Fixed Needle 31G*5/16\"","formatted_desc":["Sol-Guard","0.3mL","Safety syringe, with Fixed Needle, 31G, 5/16in"],"id":"3984"},"3985":{"desc":"Sol-Guard 1mL Safety Syringe w/Fixed Needle 31G*5/16\"","formatted_desc":["Sol-Guard Safety Syringe","1mL","31G, 5/16in, with Fixed Needle"],"id":"3985"},"3986":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 21G*1","formatted_desc":["Sol-Care","3ml","Luer Lock,Syringe w/Safety Needle,21G,1in"],"id":"3986"},"3987":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 21G*1 1/2","formatted_desc":["Sol-Care Syringe","3ml","Luer Lock, with Safety Needle, 21G, 1.5in"],"id":"3987"},"3988":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 22G*1","formatted_desc":["Sol-Care Syringe","3ml","Luer Lock, with Safety, Needle 22G, 1 unit"],"id":"3988"},"3989":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 22G*1 1/2","formatted_desc":["Sol-Care Syringe","3ml","Luer Lock, w/Safety Needle 22G, 1.5in"],"id":"3989"},"3990":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 23G*1","formatted_desc":["Sol-Care Syringe","3ml","Luer Lock, with Safety Needle, 23G, 1 unit per Package"],"id":"3990"},"3991":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 25G*1","formatted_desc":["Sol-Care","3ml","Luer Lock Syringe","w/Safety Needle, 25G, 1 unit"],"id":"3991"},"3992":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 25G*1 1/2''","formatted_desc":["Sol-Care Syringe","3ml","Luer Lock, Safety Needle, 25G, 1.5in"],"id":"3992"},"3993":{"desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 25G*5/8","formatted_desc":["Sol-Care","3ml","Luer Lock Syringe with Safety Needle, 25G, 5/8in"],"id":"3993"},"3994":{"desc":"Sol-Care 5ml Luer Lock Syringe w/Safety Needle 21G*1 1/2","formatted_desc":["Sol-Care","5ml","Luer Lock, Syringe with Safety Needle, 21G, 1.5in"],"id":"3994"},"3995":{"desc":"Sol-Care 5ml Luer Lock Syringe w/Safety Needle 22G*1 1/2","formatted_desc":["Sol-Care","5ml","Luer Lock Syringe","with Safety Needle, 22G, 1.5in"],"id":"3995"},"3996":{"desc":"1ml Luer Lock Syringe w/o Needle (PP) (low dead space)","formatted_desc":["1ml","Luer Lock Syringe","without Needle, made of Polypropylene, low dead space"],"id":"3996"},"3997":{"desc":"3ml Luer Lock Syringe w/o Needle","formatted_desc":["3ml","Luer Lock Syringe","without Needle"],"id":"3997"},"3998":{"desc":"3ml Slip Tip Syringe w/o Needle","formatted_desc":["3ml","Slip Tip Syringe, w/o Needle"],"id":"3998"},"3999":{"desc":"5ml Luer Lock Syringe w/o Needle","formatted_desc":["5ml","Luer Lock Syringe","without Needle"],"id":"3999"},"4000":{"desc":"5ml Slip Tip Syringe w/o Needle","formatted_desc":["5ml","Slip Tip Syringe","without Needle"],"id":"4000"},"4001":{"desc":"10ml Luer Lock Syringe w/o Needle","formatted_desc":["10ml","Luer Lock Syringe","without Needle"],"id":"4001"},"4002":{"desc":"10ml Slip Tip Syringe w/o Needle","formatted_desc":["10ml","Slip Tip Syringe","without Needle"],"id":"4002"},"4003":{"desc":"1ml Slip Tip Syringe w/o Needle","formatted_desc":["1ml","Slip Tip Syringe","without Needle"],"id":"4003"},"4004":{"desc":"20ml Luer Lock Syringe w/o Needle","formatted_desc":["20ml","Luer Lock Syringe","without Needle"],"id":"4004"},"4005":{"desc":"20ml Slip Tip Syringe w/o Needle","formatted_desc":["20ml","Slip Tip Syringe","Without Needle"],"id":"4005"},"4006":{"desc":"30ml Luer Lock Syringe w/o Needle","formatted_desc":["30ml","Luer Lock Syringe","without Needle"],"id":"4006"},"4007":{"desc":"30ml Slip Tip Syringe w/o Needle","formatted_desc":["30ml","Slip Tip Syringe","without Needle"],"id":"4007"},"4008":{"desc":"60ml Luer Lock Syringe w/o Needle","formatted_desc":["60ml","Luer Lock Syringe","without Needle"],"id":"4008"},"4009":{"desc":"60ml Slip Tip Syringe w/o Needle","formatted_desc":["60ml","Slip Tip Syringe","without Needle"],"id":"4009"},"4010":{"desc":"Syringe Tip Cap - Blue, Luer Lock","formatted_desc":["Syringe Tip Cap","Blue, Luer Lock"],"id":"4010"},"4011":{"desc":"Latex-Free Tourniquet 1” x 18”","formatted_desc":["Tourniquet","1in","18in","Latex-Free"],"id":"4011"},"4012":{"desc":"IV Ext Set, Minibore, DEHP-Free, 7\"","formatted_desc":["IV Extension Set","7in","Minibore, DEHP-Free"],"id":"4012"},"4013":{"desc":"IV Admin Set, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92\", 20 drop/ml","formatted_desc":["IV Admin Set","15µm Filter in Drip Chamber, Swivel Luer Lock, 92in, 20 drop per ml, DEHP-Free, 1 Y-Site"],"id":"4013"},"4014":{"desc":"IV Admin Set, with GVS EasyDrop® Flow Regulator, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92\", 20 drop/ml - Roller Clamp","formatted_desc":["IV Admin Set","with GVS EasyDrop® Flow Regulator, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92in, 20 drop/ml"],"id":"4014"},"4015":{"desc":"IV Admin Set, with GVS EasyDrop® Flow Regulator, 0.2µ In-Line GVS SpeedFlow® Air-Eliminating Filter, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92\", 20 drop/ml","formatted_desc":["IV Admin Set","with GVS EasyDrop® Flow Regulator, 0.2µ In-Line, GVS SpeedFlow® Air-Eliminating Filter, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92in, 20 drop per ml"],"id":"4015"},"4052":{"desc":"Gauze Sponge - Non-sterile - 2x2 - 12 Ply","formatted_desc":["Gauze Sponge","2in","2in","Non-sterile, 12 Ply"],"id":"4052"},"4053":{"desc":"Self-Adherent Wrap, 2\" x 5 yds. - Tan - Latex Free","formatted_desc":["Self-Adherent Wrap","2in","5yd","Tan, Latex Free"],"id":"4053"},"4054":{"desc":"Self-Adherent Wrap, 3\" x 5 yds. - Tan - Latex Free","formatted_desc":["Self-Adherent Wrap","3in","5yd","Tan, Latex Free"],"id":"4054"},"4055":{"desc":"3-0 PERMA HAND BLACK 1X30\" SH","formatted_desc":["3in","30in","Perma, Hand Black, SH"],"id":"4055"},"4056":{"desc":"SUTURE, ETHILON BLK MONO 10-0 TG160-6 (12/BX)","formatted_desc":["SUTURE","ETHILON, Mono, 10-0, TG160-6, 12 units per Box, Black"],"id":"4056"},"4057":{"desc":"Insyte Autoguard Shielded IV Catheter without Wings Blue 22g x 25mm","formatted_desc":["Insyte Autoguard Shielded IV Catheter","22g","25mm","without Wings, Blue"],"id":"4057"},"4058":{"desc":"Soft Mesh, Square, 12 in x 12 in (30.5 cm x 30.5 cm)","formatted_desc":["Soft Mesh","12in","12in","Square"],"id":"4058"},"4060":{"desc":"5-0 COATED VICRYL UNDYED 1X18\" PS-3","formatted_desc":["5-0","Coated Vicryl Undyed, 1in","18in","PS-3"],"id":"4060"},"4061":{"desc":"PLASMA HF-Resection Electrodes PlasmaLoop 12°, large","formatted_desc":["PLASMA HF-Resection Electrodes","12°","large"],"id":"4061"},"4062":{"desc":"PLASMA HF-Resection Electrodes PlasmaNeedle, 45° angled, 12° and 30°","formatted_desc":["PLASMA HF-Resection Electrodes","PlasmaNeedle, 45° angled, 12° and 30°"],"id":"4062"},"4063":{"desc":"PLASMA HF-Resection Electrodes PlasmaRoller, 12° and 30°","formatted_desc":["PLASMA HF-Resection Electrodes","12°","30°","PlasmaRoller"],"id":"4063"},"4064":{"desc":"PLASMA HF-Resection Electrodes PlasmaLoop, 30°, medium","formatted_desc":["Plasma HF-Resection Electrodes","PlasmaLoop","30deg, medium"],"id":"4064"},"4065":{"desc":"PLASMA HF-Resection Electrodes PlasmaLoop, 12°, medium","formatted_desc":["Plasma HF-Resection Electrodes","12degrees, Medium"],"id":"4065"},"4066":{"desc":"i-Port Advance Injection Port 6 mm, Ped or Small Adult","formatted_desc":["i-Port Advance","6mm","Injection Port, Ped or Small Adult"],"id":"4066"},"4067":{"desc":"MiniMed Paradigm Insulin Reservoir, 1.8 mL","formatted_desc":["MiniMed Paradigm Insulin Reservoir","1.8mL",""],"id":"4067"},"4068":{"desc":"MiniMed Paradigm Insulin Reservoir, 3 mL","formatted_desc":["MiniMed Paradigm Insulin Reservoir","3mL"],"id":"4068"},"4069":{"desc":"MiniMed Quick-Set SilhouetteParadigm 13 mm 23 Inch Tubing Without Port","formatted_desc":["MiniMed Quick-Set","SilhouetteParadigm, 23in","13mm, Tubing Without Port"],"id":"4069"},"4070":{"desc":"MiniMed Sil-Serter Insertion Device","formatted_desc":["Sil-Serter Insertion Device","MiniMed"],"id":"4070"},"4071":{"desc":"MiniMed Quick-set Paradigm 9 mm 23 Inch Tubing Without Port","formatted_desc":["MiniMed Quick-set","9mm","23in","Paradigm, Tubing Without Port"],"id":"4071"},"4072":{"desc":"MiniMed Quick-set Paradigm 9 mm 23 Inch Tubing","formatted_desc":["MiniMed Quick-set","23in","9mm","Paradigm"],"id":"4072"},"4073":{"desc":"MiniMed Quick-set Paradigm 6 mm 43 Inch Tubing Without Port","formatted_desc":["MiniMed Quick-set","6mm","43in","Paradigm, Tubing Without Port"],"id":"4073"},"4074":{"desc":"MiniMed Quick-set Paradigm 6 mm 43 Inch Tubing","formatted_desc":["MiniMed Quick-set","6mm","43in","Paradigm, Tubing"],"id":"4074"},"4075":{"desc":"MiniMed Quick-set Paradigm 25 Gauge 6 mm 23 Inch Tubing Without Port","formatted_desc":["MiniMed Quick-set","25 Gauge","6mm","23in Tubing, Without Port"],"id":"4075"},"4076":{"desc":"MiniMed Quick-set Paradigm 25 Gauge 6 mm 23 Inch Tubing","formatted_desc":["MiniMed Quick-set","Paradigm 25 Gauge, 6mm, 23in Tubing"],"id":"4076"},"4077":{"desc":"Enlite Gluscose Sensors 6 Day, Adult Child","formatted_desc":["Enlite Glucose Sensors","6 Days","Adult, Child"],"id":"4077"},"4078":{"desc":"MiniMed Mio Blue Sub-Q 6 mm 23 Inch Tubing","formatted_desc":["MiniMed Mio","6mm","23in","Blue Sub-Q Tubing"],"id":"4078"},"4160":{"desc":"Nellcor Adult Colorimetric CO2 Detector","formatted_desc":["Nellcor Adult Colorimetric CO2 Detector"],"id":"4160"},"4161":{"desc":"Nellcor Adult Colorimetric CO2 Detector","formatted_desc":["Nellcor","Colorimetric CO2 Detector","Adult"],"id":"4161"},"4162":{"desc":"Nellcor Pediatric Colorimetric CO2 Detector","formatted_desc":["Nellcor Pediatric Colorimetric CO2 Detector",""],"id":"4162"},"4163":{"desc":"Nellcor Pediatric Colorimetric CO2 Detector","formatted_desc":["Nellcor Pediatric Colorimetric CO2 Detector"],"id":"4163"},"4164":{"desc":"HF-Cable Bipolar 4 mm","formatted_desc":["HF-Cable","4mm","Bipolar"],"id":"4164"},"4260":{"desc":"Caloric Agent Dextrose Water, Preservative Free 5% IV Solution Flexible Bag 250 mL","formatted_desc":["Caloric Agent","Dextrose Water, Preservative Free, 5% IV Solution, Flexible Bag, 250 mL"],"id":"4260"},"4261":{"desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 100 mL Fill in 150 mL","formatted_desc":["Replacement Preparation","Sodium Chloride","0.9% IV Solution, Preservative Free, Flexible Bag, 100mL Fill in 150mL"],"id":"4261"},"4262":{"desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 250 mL","formatted_desc":["Sodium Chloride","0.9%","Replacement, Preparation, IV Solution, Flexible Bag 250 mL, Preservative Free"],"id":"4262"},"4263":{"desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 500 mL","formatted_desc":["Replacement Preparation Sodium Chloride","0.9%","IV Solution, Flexible Bag, 500 mL, Preservative Free"],"id":"4263"},"4264":{"desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 1,000 mL","formatted_desc":["Sodium Chloride","0.9%","Replacement Preparation, Preservative Free, IV Solution, Flexible Bag, 1,000 mL"],"id":"4264"},"4360":{"desc":"IV Start Kit, Site-Loc","formatted_desc":["IV Start Kit","Site-Loc"],"id":"4360"},"4461":{"desc":"IV Stand 2-Hooks 4-Leg Chrome Plated Steel with Weights","formatted_desc":["IV Stand","2 Hooks, 4 Legs, Chrome Plated Steel with Weights"],"id":"4461"},"4560":{"desc":"30ml Slip Tip Syringe w/o Needle","formatted_desc":["30ml","Slip Tip Syringe","without Needle"],"id":"4560"},"4661":{"desc":"1 MONOCRYL VIOLET 1X36\" CT","formatted_desc":["MONOCRYL","1in","36in","VIOLET, 1 CT"],"id":"4661"},"4662":{"desc":"Endopath Xcel Bladeless Trocar w Stability Sleeve: 5Mm-100Mm","formatted_desc":["Endopath Xcel Bladeless Trocar","5mm","100mm","with Stability Sleeve"],"id":"4662"},"4663":{"desc":"Absorbable Interference Screw, 8 dia. x 25 mm Length, PLLA, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use","formatted_desc":["Absorbable Interference Screw","8mm","25mm","PLLA, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use"],"id":"4663"},"4664":{"desc":"Absorbable Interference Screw, 8 dia. x 30 mm Length, PLLA, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use","formatted_desc":["Absorbable Interference Screw","8mm","30mm","PLLA, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use"],"id":"4664"},"4665":{"desc":"BIOSURE HA Interference Screws - SCREW, BIOSURE HA, 10MM X 25MM","formatted_desc":["BIOSURE HA Interference Screws","25MM","10MM",""],"id":"4665"},"4666":{"desc":"BIOSURE HA Interference Screws - SCREW, BIOSURE HA , 11 X 25MM","formatted_desc":["BIOSURE HA Interference Screws","11mm","25mm","SCREW, BIOSURE HA"],"id":"4666"},"4668":{"desc":"Interference Screw, Non-Absorbable, 9 dia. x 25 mm Length, PEEK, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use","formatted_desc":["Interference Screw","PEEK","9mm","25mm","Non-Absorbable, Designed to Help Deliver Ideal Graft Fixation in ACL Reconstruction, Sterile, Single-Use"],"id":"4668"},"4669":{"desc":"Suture Anchor, 4.5 mm Size, with Two #2 Suture (White, Cobraid-Blue), Sterile","formatted_desc":["Suture Anchor","4.5mm","with Two #2 Suture (White, Cobraid-Blue), Sterile"],"id":"4669"},"4670":{"desc":"Suture Anchor, 4.75 mm Size, with Two #2 Ultrabraid Suture, Blue, Cobraid Blue","formatted_desc":["Suture Anchor","4.75mm","with Two #2 Ultrabraid Suture, Blue, Cobraid Blue"],"id":"4670"},"4763":{"desc":"3-0 MONOCRYL VIOLET 1X27\" RB-1","formatted_desc":["MONOCRYL","3in","27in","Violet, RB-1"],"id":"4763"},"4764":{"desc":"4-0 COATED VICRYL UNDYED 1X27\" FS-2","formatted_desc":["Coated Vicryl","4-0","1in","27in","Undyed, FS-2"],"id":"4764"},"4766":{"desc":"3.0 mm Disposable Dermal Curette, Sea Green","formatted_desc":["3.0mm","Disposable Dermal Curette, Sea Green"],"id":"4766"},"4767":{"desc":"4.0 mm Disposable Dermal Curette, Pink","formatted_desc":["4.0mm","Disposable, Dermal Curette","Pink"],"id":"4767"},"4866":{"desc":"Iso- Gown - Impervious, Universal - Blue","formatted_desc":["Iso-Gown","Impervious, Universal, Blue"],"id":"4866"},"4867":{"desc":"Tie on Face Mask - Blue","formatted_desc":["Face Mask","Blue","Tie"],"id":"4867"},"4868":{"desc":"Disposable Towel Drapes Plain Sterile, 18\" x 26\"","formatted_desc":["Disposable Towel Drapes","26in","18in","Plain, Sterile"],"id":"4868"},"4869":{"desc":"Extra Absorbent Abdominal Pad - 5x9 - Sterile","formatted_desc":["Extra Absorbent Abdominal Pad","9in","5in","Sterile"],"id":"4869"},"4872":{"desc":"Table Paper Crepe, 18\" x 125 ft","formatted_desc":["Table Paper Crepe","18in","125ft",""],"id":"4872"},"4873":{"desc":"Table Paper Crepe, 21\" x 125 ft","formatted_desc":["Table Paper Crepe","21in","125ft",""],"id":"4873"},"4966":{"desc":"Drape Sheets Blue Poly / Tissue 2ply, 40\" x 90\"","formatted_desc":["Drape Sheets","Poly / Tissue, 2ply, 40in x 90in, Blue"],"id":"4966"},"4967":{"desc":"Sharps Containers, 1qt.","formatted_desc":["Sharps Containers","1qt",""],"id":"4967"},"4968":{"desc":"Sharps Containers, 2qt.","formatted_desc":["Sharps Containers","2qt"],"id":"4968"},"4969":{"desc":"Sharps Containers, 5qt.","formatted_desc":["Sharps Containers","5qt"],"id":"4969"},"4970":{"desc":"Sharps Containers, 5.4qt.","formatted_desc":["Sharps Containers","5.4qt",""],"id":"4970"},"4971":{"desc":"Sharps Containers, 1gal.","formatted_desc":["Sharps Containers","1gal",""],"id":"4971"},"4973":{"desc":"Sharps Containers, 3gal.","formatted_desc":["Sharps Containers","3gal"],"id":"4973"},"4974":{"desc":"Sharps Containers, 6gal.","formatted_desc":["Sharps Containers","6gal"],"id":"4974"},"5066":{"desc":"3-0 PROLENE BLUE 1X30\" KS","formatted_desc":["3-0","PROLENE","30in","BLUE, KNOTLESS"],"id":"5066"},"5067":{"desc":"2-0 VICRYL RAPIDE UNDYED 1X27\" SH","formatted_desc":["VICRYL RAPIDE","2-0","27in","UNDE","SH"],"id":"5067"},"5069":{"desc":"Assura 2 pc. Extra-Extended Wear Skin Barrier  3/8\"-1 3/4\" (10-45mm)","formatted_desc":["Assura","2in","3/8in","Extended Wear, Skin Barrier"],"id":"5069"},"5070":{"desc":"Assura2 , Extended Wear Silicone Based Adhesive 60 mm Flange Blue  Synthetic Resin 3/8 to 2-1/4 Inch","formatted_desc":["Assura","2mm","60mm","Extended Wear, Silicone Based, Adhesive, 3/8 to 2-1/4 Inch, Flange Blue, Synthetic Resin"],"id":"5070"},"5071":{"desc":"SenSura Click Xpro , Extended Wear Double Layer Adhesive 60 mm Flange Blue  3/8 to 2-1/4 Inch","formatted_desc":["SenSura Click Xpro","60mm","Extended Wear, Double Layer Adhesive, 0.375in to 2.25in Flange, Blue"],"id":"5071"},"5072":{"desc":"SenSura Mio Click , 50 mm Flange Red  10 to 45 mm","formatted_desc":["SenSura Mio","Click","50mm","Red, Flange, 10 to 45mm"],"id":"5072"},"5073":{"desc":"SenSura Mio Click , 60 mm Flange Blue  10 to 55 mm","formatted_desc":["SenSura Mio Click","60mm","Flange, Blue, 10 to 55 mm"],"id":"5073"},"5074":{"desc":"SenSura Mio Click , 70 mm Flange Yellow  10 to 65 mm","formatted_desc":["SenSura Mio","Flange, 70mm, Click, Yellow, 10-65mm"],"id":"5074"},"5075":{"desc":"SenSura Flex Xpro , Extended Wear Double Layer Adhesive 60 mm Flange Blue  5/8-1-3/4 Inch","formatted_desc":["SenSura Flex Xpro","60mm","Extended Wear, Double Layer Adhesive, 5/8-1-3/4in Flange, Blue"],"id":"5075"},"5076":{"desc":"Urostomy Pouch SenSura Click Two-Piece System 10-3/8 Inch Length, Maxi 40 mm Stoma Drainable","formatted_desc":["Urostomy Pouch","SenSura","10.375in","Two-Piece, Maxi, 40mm Stoma, Drainable"],"id":"5076"},"5077":{"desc":"Adhesive Remover Spray Brava - 50 ml","formatted_desc":["Adhesive Remover Spray","Brava","50ml"],"id":"5077"},"5078":{"desc":"Paste Brava Sting Free 2 oz.","formatted_desc":["Brava Sting Free","2oz","Paste"],"id":"5078"},"5079":{"desc":"Assura , Extra Extended Wear Spiral Adhesive 50 mm Flange","formatted_desc":["Assura","Spiral Adhesive","50mm","Extra Extended Wear, Flange"],"id":"5079"},"5080":{"desc":"Assura , Extra  Spiral Adhesive 60 mm Flange Blue  Synthetic Resin 5/8 to 1-11/16 Inch","formatted_desc":["Assura","Spiral Adhesive, 60mm, Flange, Blue, Synthetic Resin, 5/8 to 1-11/16 Inch"],"id":"5080"},"5081":{"desc":"SenSura Mio Click , 40 mm Flange Green  3/8 to 3/4 Inch","formatted_desc":["SenSura Mio Click","40mm","Flange, Green, 3/8 to 3/4 Inch"],"id":"5081"},"5082":{"desc":"SenSura Mio Click , 50 mm Flange Red  5/8 to 1-3/16 Inch","formatted_desc":["SenSura Mio Click","0.625in","1.1875in","50mm Flange, Red"],"id":"5082"},"5083":{"desc":"SenSura Mio Click , 60 mm Flange Blue  5/8 to 1-3/16 Inch","formatted_desc":["SenSura Mio","60mm","Click, Flange, Blue 5/8in to 1-3/16in"],"id":"5083"},"5084":{"desc":"SenSura Mio Click , 70 mm Flange Yellow  5/8 to 2-1/16 Inch","formatted_desc":["SenSura Mio","70mm","Click, Flange Yellow, 5/8 to 2-1/16 Inch"],"id":"5084"},"5085":{"desc":"SenSura Mio Click , 50 mm Flange Red  5/8 to 1-3/16 Inch","formatted_desc":["SenSura Mio Click","50mm","Flange, Red, 5/8 to 1-3/16 Inch"],"id":"5085"},"5086":{"desc":"SenSura Mio Click , 60 mm Flange Blue  15 to 40 mm","formatted_desc":["SenSura Mio Click","60mm","Flange, Blue, 15 to 40mm"],"id":"5086"},"5087":{"desc":"SenSura Mio Click , 70 mm Flange Yellow  9/16 to 2 Inch","formatted_desc":["SenSura Mio","70mm","Click, Flange Yellow 9/16 to 2 Inch"],"id":"5087"},"5169":{"desc":"Precision Glide Needle 18G x 1\" Luer Tip, Pink, Single Use, Sterile","formatted_desc":["Precision Glide Needle","18G","1in","Luer Tip, Pink, Single Use, Sterile"],"id":"5169"},"5170":{"desc":"Insyte Autoguard BC Shielded IV Catheter 20G Pink","formatted_desc":["Insyte Autoguard BC","20G, Shielded IV Catheter, Color Pink"],"id":"5170"},"5171":{"desc":"Insyte Autoguard BC Shielded IV Catheter 20G Pink","formatted_desc":["Insyte Autoguard BC Shielded IV Catheter","20G","Pink"],"id":"5171"},"5270":{"desc":"18G Needle Guide Kit angled for 1.5cm, 2.5cm, 3.5cm","formatted_desc":["18G","Needle Guide Kit","angled for 1.5cm, 2.5cm, 3.5cm"],"id":"5270"},"5274":{"desc":"1 Quart Sharps Container - Red","formatted_desc":["1 Quart","Sharps Container","Red"],"id":"5274"},"5275":{"desc":"1 Gallon Sharps Container - Red","formatted_desc":["1 Gallon","Sharps Container","Red"],"id":"5275"},"5276":{"desc":"2 Gallon Sharps Container - Slide - Red","formatted_desc":["2 Gallon Sharps Container","Slide, Red"],"id":"5276"},"5277":{"desc":"3 Gallon Sharps Container - Slide - Red","formatted_desc":["3 Gallon Sharps Container","Slide, Red"],"id":"5277"},"5278":{"desc":"5.4 Quart Sharps Container  - B Style - Red","formatted_desc":["5.4 Quart","Sharps Container","B Style, Red"],"id":"5278"},"5279":{"desc":"5 Quart Sharps Container  - M-Style - Red","formatted_desc":["5 Quart Sharps Container","M-Style, Red"],"id":"5279"},"5280":{"desc":"8 Gallon Sharps Container - Rotary - Red","formatted_desc":["8 Gallon","Sharps Container, Rotary, Red"],"id":"5280"},"5374":{"desc":"Mesh Pre-Shaped, Large, 2.4 in x 5.4 in (6cm x 13.7cm)","formatted_desc":["Mesh Pre-Shaped","5.4in","2.4in","Large"],"id":"5374"},"5474":{"desc":"3-0 ETHILON BLACK 1X18\" PS-1","formatted_desc":["ETHILON","3-0","18in","Black, PS-1"],"id":"5474"},"5475":{"desc":"IV Start Kit w/o Gloves","formatted_desc":["IV Start Kit","without Gloves"],"id":"5475"},"5476":{"desc":"4-0 ETHILON UNDYED 1X18\" PS-2","formatted_desc":["4","0","ETHILON","UNDYED","1in","18in","PS-2"],"id":"5476"},"5477":{"desc":"Absorbable Suture with Needle Coated Vicryl™ Polyglactin 910 SH 1/2 Circle Taper Point Needle Size 3 - 0 Braided","formatted_desc":["Absorbable Suture","Coated Vicryl, Polyglactin 910, SH, 1/2 Circle, Taper Point, Needle Size 3-0, Braided"],"id":"5477"},"5478":{"desc":"Nonabsorbable Suture with Needle Prolene Polypropylene P-3 3/8 Circle Precision Reverse Cutting Needle Size 4 - 0 Monofilament","formatted_desc":["Nonabsorbable Suture","Prolene","3","4-0, 3/8 Circle, Precision Reverse Cutting, Needle Size 4"],"id":"5478"},"5479":{"desc":"Non- Absorbable Suture 3-0 Nylon PC-5 Ethilon Black 18\" Monofilament","formatted_desc":["Non-Absorbable Suture","3-0","Nylon, PC-5, Ethilon, Black, 18in, Monofilament"],"id":"5479"},"5480":{"desc":"Solution Basin Kendall 16 oz. Round Sterile","formatted_desc":["Basin","Kendall","16oz","Round, Sterile"],"id":"5480"},"5481":{"desc":"Antiseptic / Antimicrobial Skin Cleanser Hibiclens 1 gal. Jug 4% Strength CHG (Chlorhexidine Gluconate) NonSterile","formatted_desc":["Antiseptic","4%","Hibiclens, 1 gal, Jug, Antimicrobial Skin Cleanser, CHG (Chlorhexidine Gluconate), NonSterile"],"id":"5481"},"5482":{"desc":"Diluent Sterile Water for Injection, Preservative Free IV Solution Flexible Bag 500 mL","formatted_desc":["Diluent","Sterile Water for Injection, Preservative Free, IV Solution, Flexible Bag, 500mL"],"id":"5482"},"5577":{"desc":"SURGICEL Original Hemostat, 0.5x2 inches","formatted_desc":["SURGICEL Original Hemostat","0.5in","2in",""],"id":"5577"},"5578":{"desc":"Blunt Fill Needle 18 G x 1 in. special packaging","formatted_desc":["Blunt Fill Needle","18G","1in","Special Packaging"],"id":"5578"},"5579":{"desc":"Sensi Wrap, Self-Adherent - Latex Free, 2\" x 5 yds Tan","formatted_desc":["Sensi Wrap","2in","5yds","Self-Adherent, Latex Free, Tan"],"id":"5579"},"5580":{"desc":"Sensi Wrap, Self-Adherent - Latex Free, 3\" x 5 yds Tan","formatted_desc":["Sensi Wrap","3in","5yd","Self-Adherent, Latex Free, Tan"],"id":"5580"},"5679":{"desc":"Anchor Tissue Retrieval System 12mm trocar 250 ml capacity","formatted_desc":["Anchor Tissue Retrieval System","12mm","250ml, Trocar"],"id":"5679"},"5681":{"desc":"Blunt 5 Micron Filter Needle 1 1/2 in. sterile, single use, 18 G","formatted_desc":["Blunt Filter Needle","18G","5 Micron, 1.5in, Sterile, Single Use"],"id":"5681"},"5682":{"desc":"BACTEC Lytic Anaerobic medium in plastic culture vials","formatted_desc":["BACTEC","Lytic Anaerobic medium in plastic culture vials"],"id":"5682"},"5683":{"desc":"Non-flared tip, adult, 21' U/Connect-It tubing","formatted_desc":["Non-flared Tip","21ft","U/Connect-It Tubing, Adult"],"id":"5683"},"5685":{"desc":"Liposuction Tubing Plastic 3/8 Inch I.D. 10 Foot Length Sterile","formatted_desc":["Liposuction Tubing","0.375in","10ft","Plastic, Sterile"],"id":"5685"},"5686":{"desc":"Locking Style Ligating Clip Hem-o-lok Polymer X-Large Gold Clip 6 Clips","formatted_desc":["Locking Style Ligating Clip","Hem-o-lok","Polymer, X-Large, Gold, 6 Clips per Pack"],"id":"5686"},"5687":{"desc":"Jelco IV Catheter, Radiopaque, 14 G x 2\"","formatted_desc":["Jelco IV Catheter","14G","2in","Radiopaque"],"id":"5687"},"5688":{"desc":"Fiber-Optic Swivel Adapter","formatted_desc":["Fiber-Optic Swivel Adapter"],"id":"5688"},"5689":{"desc":"SiteRite 9 Ultrasound System 48 in. Probe Cover","formatted_desc":["SiteRite 9 Ultrasound System","48in","Probe Cover"],"id":"5689"},"5690":{"desc":"Site~Rite Needle Guide Kit 48\" probe cover, 21 G, 1 cm, 1.5 cm, 2 cm depths","formatted_desc":["Site~Rite Needle Guide Kit","48in","21G","1cm, 1.5cm, 2cm depths, probe cover"],"id":"5690"},"5691":{"desc":"Single Use Suction Valve","formatted_desc":["Single Use Suction Valve"],"id":"5691"},"5692":{"desc":"SenSura Mio 1-Piece Drainable Pouch Maxi - Stoma size: 10-55mm | 3/8 - 2 1/8in - with filter, Transparent","formatted_desc":["SenSura Mio","1-Piece Drainable Pouch, Maxi","Stoma size: 10-55mm, 3/8 - 2 1/8in, with filter, Transparent"],"id":"5692"},"5693":{"desc":"SenSura Mio 1-Piece Drainable Pouch Maxi - Stoma size: 10-55mm | 3/8 - 2 1/8in - no filter, Transparent","formatted_desc":["SenSura Mio 1-Piece Drainable Pouch","Maxi, Stoma size: 10-55mm, 3/8in to 2 1/8in, no filter, Transparent"],"id":"5693"},"5694":{"desc":"SenSura Mio Click Drainable Pouch Maxi - Coupling: Red - with filter, Opaque","formatted_desc":["SenSura Mio","Click Drainable Pouch, Maxi - Coupling: Red, with filter, Opaque"],"id":"5694"},"5695":{"desc":"SenSura Mio Convex Soft 1-piece drainable pouch  Maxi (11in / 655mL) - Stoma size: 15-33mm | 5/8 - 1 5/16in - with filter, Transparent","formatted_desc":["SenSura Mio Convex Soft","1piece, drainable, Maxi (11in / 655mL), Stoma size: 15-33mm, with filter, Transparent"],"id":"5695"},"5696":{"desc":"SenSura® Mio Convex Light 1-piece drainable pouch  Maxi (11in / 655mL) - Stoma size: 10-43mm | 3/8 - 1 11/16in - with filter, Transparent","formatted_desc":["SenSura Mio","1-piece, drainable, Convex Light, Maxi 11in / 655mL","with filter, Transparent"],"id":"5696"},"5792":{"desc":"SenSura 1-piece drainable pouch (including Xpro extended wear)","formatted_desc":["SenSura 1-piece drainable pouch","Xpro extended wear"],"id":"5792"},"5793":{"desc":"6-0 COATED VICRYL VIOLET 1X12\" RD-1 DOUBLE ARMED","formatted_desc":["6-0 Coated Vicryl","1in","12in","Violet, RD-1, Double Armed"],"id":"5793"},"5794":{"desc":"Flyte SurgiCool Zippered Toga, Peel-Away 2X Large","formatted_desc":["Flyte SurgiCool Zippered Toga","2X Large, Peel-Away"],"id":"5794"},"5795":{"desc":"Flyte Steri-Shield Hoods","formatted_desc":["Flyte Steri-Shield Hoods"],"id":"5795"},"5796":{"desc":"DRESSING,FOAM,NON-ADH,BIATAIN,8X8,STRL","formatted_desc":["DRESSING","FOAM, NON-ADH, BIATAIN, 8x8, STRL"],"id":"5796"},"5797":{"desc":"POUCH,MIO,1PC,MAXI,TRNS,CTF,3/8-1 3/4","formatted_desc":["POUCH","MIO","1PC","MAXI, TRNS, CTF, 3/8in, 1.75in"],"id":"5797"},"5798":{"desc":"SenSura Mio Flat MAXI 8-1/4\" / 550 mL Closed Pouch, Opaque, Cut-to-Fit, 5/8\"-1-3/4\" (15-45 mm)","formatted_desc":["SenSura Mio Flat","8.25in","550mL","Closed Pouch, Opaque, Cut-to-Fit, 5/8in to 1.75in"],"id":"5798"},"5799":{"desc":"SINGLE USE UROSTOMY KIT,NDS","formatted_desc":["SINGLE USE UROSTOMY KIT","NDS"],"id":"5799"},"5800":{"desc":"POUCH,SNSRA,2PC,MAXI,DRAINABLE,50MM,NDS","formatted_desc":["POUCH","SNSRA","2PC, MAXI, DRAINABLE, 50MM, NDS"],"id":"5800"},"5801":{"desc":"POUCH,SENSURA,MAXI DRN,TRANS BLUE","formatted_desc":["POUCH","SENSURA","MAXI, DRN, TRANS BLUE"],"id":"5801"},"5802":{"desc":"POUCH,SNSURE,CLICK,EC WIDE,DRAIN,MAX,NDS","formatted_desc":["POUCH","SNSURE","CLICK","EC WIDE","DRAIN","MAX","NDS"],"id":"5802"},"5803":{"desc":"POUCH,MIO,FLEX,CLSD,MAXI,INSP WNDW,50MM","formatted_desc":["POUCH","MIO, FLEX, CLSD, MAXI, INSP WNDW, 50MM"],"id":"5803"},"5804":{"desc":"POUCH MIO FLEX CLSD MAXI TRNSP 50MM","formatted_desc":["POUCH","MIO","50mm","FLEX, CLSD, MAXI, TRNSP"],"id":"5804"},"5805":{"desc":"FISTULA,WOUND,4-6 1/4,ORD QUANT 6,NDS","formatted_desc":["FISTULA","WOUND","4-6in","ORD QUANT 6, NDS"],"id":"5805"},"5806":{"desc":"POUCH,OSTOMY,1PC,NON-CNVX,STD,CTF,NDS","formatted_desc":["POUCH","OSTOMY, 1PC, NON-CNVX, STD, CTF, NDS"],"id":"5806"},"5808":{"desc":"POUCH,1PC,SENS,DRNBL,FILT,EZC,5/8-1 3/4","formatted_desc":["POUCH","1PC","SENS, DRNBL, FILT, EZC, 5/8in","1.75in"],"id":"5808"},"5809":{"desc":"BAG,OSTOMY,5/8\" TO 1 11/16\",655ML","formatted_desc":["BAG","OSTOMY","1.6875in","0.625in","655ML"],"id":"5809"},"5810":{"desc":"POUCH,1 PC SENSURA NON CONVEX TRANSPNT","formatted_desc":["POUCH","1PC","SENSURA, NON CONVEX, TRANSPARENT"],"id":"5810"},"5811":{"desc":"POUCH,DRN,CUTFIT,1PC,WD,10-75MM,TRN,NDS","formatted_desc":["POUCH","DRN","CUTFIT","1PC","WD,10-75MM,TRN,NDS"],"id":"5811"},"5812":{"desc":"Assura Flat MAXI 11-1/2\" (29 cm) / 530 mL Drainable Pouch with Filter, Opaque, Cut-to-Fit, 3/8\"-3\" (10-75 mm)","formatted_desc":["Assura Flat MAXI","11.5in","530mL","Drainable Pouch with Filter, Opaque, Cut-to-Fit, 3/8in-3in"],"id":"5812"},"5813":{"desc":"1PC,EASICLOSE,CONVEX,MAXI,CUTOFIT,OPQ","formatted_desc":["1PC","EASICLOSE","CONVEX","MAXI","CUTOFIT","OPQ"],"id":"5813"},"5814":{"desc":"SenSura Mio Convex 1-Piece Drainable Pouch, Maxi, EasiClose Wide Outlet, Opaque, Cut-to-Fit, 3/8\" to 2\" Stoma","formatted_desc":["SenSura Mio","1-Piece, Drainable, Pouch Maxin, Cut-to-Fit, EasiClose Wide Outlet, Opaque, 3/8in to 2in Stoma"],"id":"5814"},"5816":{"desc":"1PC,EASICLOSE,CONVEX,MAXI,CUTOFIT,TR","formatted_desc":["1PC","EASICLOSE","CONVEX, MAXI, CUTOFIT, TR"],"id":"5816"},"5817":{"desc":"POUCH,1PC,MIO CONVX,DRAIN,CUTOFIT,TRNS","formatted_desc":["POUCH","1PC","MIO CONVX","DRAIN,CUTOFIT,TRNS"],"id":"5817"},"5818":{"desc":"POUCH,1PC,MIO CONVX,DRAIN,CUTOFIT,TRNS","formatted_desc":["POUCH","1PC","MIO","CONVX, DRAIN, CUTOFIT, TRNS"],"id":"5818"},"5819":{"desc":"SenSura Mio Convex Light MAXI 10-1/2\" / 400 mL Urostomy Pouch, Transparent, Cut-to-Fit, 5/8\"-1-5/16\" (15-33 mm)","formatted_desc":["SenSura Mio","10.5in","Convex, Light MAXI, 400mL, Urostomy Pouch, Transparent, Cut-to-Fit 5/8in to 1.3125in"],"id":"5819"},"5820":{"desc":"POUCH,1PC,UROSTOMY,CONVDEEP,CUTOFIT,TRNS","formatted_desc":["POUCH","1PC, UROSTOMY, CONVDEEP, CUTOFIT, TRNS"],"id":"5820"},"5821":{"desc":"KIT,SENSURA,MIO,2PIECE,EASICLOSE,RED,MD","formatted_desc":["KIT","SENSURA,MIO,2PIECE,EASICLOSE,RED,MD"],"id":"5821"},"5822":{"desc":"KIT,SENSURA,SINGLE USE,2PC,3/8- 3 1/2","formatted_desc":["KIT,SENSURA,SINGLE USE","2PC,3/8-3.5in"],"id":"5822"},"5823":{"desc":"DRESSING,COMFEEL PLUS,42 SQ IN,9X11 CM","formatted_desc":["DRESSING","COMFEEL PLUS","42 SQ IN, 9X11 CM"],"id":"5823"},"5824":{"desc":"Biatain Silicone Foam Dressing, 6\" x 6\"","formatted_desc":["Biatain Silicone Foam Dressing","6in","6in",""],"id":"5824"},"5825":{"desc":"Biatain Silicone Foam Dressing, 7\" x 7\"","formatted_desc":["Biatain Silicone Foam Dressing","7in","7in",""],"id":"5825"},"5826":{"desc":"DRESSING,BIATAIN,SILICONE,FOAM,4 X 4\"","formatted_desc":["DRESSING","Biatin","Silicone, Foam","4in","4in"],"id":"5826"},"5827":{"desc":"DRESSING,BIATAIN,SILICONE,FOAM,5 X 5\"","formatted_desc":["DRESSING","BIATAIN","5in","5in","SILICONE, FOAM"],"id":"5827"},"5928":{"desc":"YANKAUER,BULB TIP,CTRL VENT,STERILE","formatted_desc":["Yankauer","Bulb Tip, Control Vent, Sterile"],"id":"5928"},"5929":{"desc":"KIT,REPAIR,ASPIRA, F/PLEURAL/ PERITONEAL","formatted_desc":["KIT","REPAIR, ASPIRA, F/PLEURAL, PERITONEAL"],"id":"5929"},"5930":{"desc":"KIT,STARTER,ASPIRA","formatted_desc":["KIT","STARTER","ASPIRA"],"id":"5930"},"5931":{"desc":"NEEDLE,BIOPSY,18GX6CM,TEMNO","formatted_desc":["NEEDLE","BIOPSY","18G","6CM","TEMNO"],"id":"5931"},"5932":{"desc":"DRAPE,LARGE,REVERSE,FOLD,55\"X76\"STERILE","formatted_desc":["DRAPE","LARGE,REVERSE,FOLD,55in","76in","STERILE"],"id":"5932"},"5933":{"desc":"BabySafe Hyperinflation System, Bag, 0.5 L","formatted_desc":["BabySafe Hyperinflation System","0.5L","Bag"],"id":"5933"},"5994":{"desc":"Hand Sanitizer Wipes, 5.9\" x 7.5\"","formatted_desc":["Hand Sanitizer Wipes","7.5in","5.9in",""],"id":"5994"},"5995":{"desc":"Hand Sanitizer, 16 oz - square pump","formatted_desc":["Hand Sanitizer","16oz","Square Pump"],"id":"5995"},"5996":{"desc":"Universal Exam Gown 3 ply (Blue)","formatted_desc":["Universal Exam Gown","3ply, Blue"],"id":"5996"},"6094":{"desc":"Ostomy Barrier Sensura Flex Trim to Fit, Standard Wear Double Layer Adhesive","formatted_desc":["Ostomy Barrier","Sensura Flex","Trim to Fit, Standard Wear, Double Layer, Adhesive"],"id":"6094"},"6095":{"desc":"Ostomy Pouch SenSura Mio One-Piece System","formatted_desc":["Ostomy Pouch","SenSura Mio, One-Piece System"],"id":"6095"},"6096":{"desc":"Ostomy Barrier SenSura Mio Click Trim to Fit, Extended Wear Elastic Adhesive","formatted_desc":["Ostomy Barrier","SenSura Mio, Click, Trim to Fit, Extended Wear, Elastic, Adhesive"],"id":"6096"},"6097":{"desc":"Ostomy Barrier SenSura Mio Flex Trim to Fit, Extended Wear Elastic Adhesive","formatted_desc":["Ostomy Barrier","SenSura Mio","Flex, Trim to Fit, Extended Wear, Elastic Adhesive"],"id":"6097"},"6098":{"desc":"Ostomy Barrier SenSura Mio Flex Trim to Fit, Extended Wear Elastic Adhesive","formatted_desc":["Ostomy Barrier","SenSura Mio ","Flex, Trim to Fit, Extended Wear, Elastic, Adhesive"],"id":"6098"},"6099":{"desc":"Ostomy Barrier SenSura Flex Xpro Trim to Fit, Extended Wear Double Layer Adhesive","formatted_desc":["Ostomy Barrier","SenSura Flex Xpro, Trim to Fit, Extended Wear, Double Layer, Adhesive"],"id":"6099"},"6100":{"desc":"Ostomy Barrier SenSura Flex Xpro Precut, Extended Wear Double Layer Adhesive","formatted_desc":["Ostomy Barrier","SenSura Flex Xpro, Precut, Extended Wear, Double Layer, Adhesive"],"id":"6100"},"6101":{"desc":"Ostomy Barrier SenSura Click Trim to Fit, Standard Wear Double Layer Adhesive","formatted_desc":["Ostomy Barrier","SenSura Click, Trim to Fit, Standard Wear, Double Layer, Adhesive"],"id":"6101"},"6102":{"desc":"Ostomy Pouch SenSura Mio Two-Piece System","formatted_desc":["Ostomy Pouch","SenSura Mio","Two-Piece System"],"id":"6102"},"6103":{"desc":"Ostomy Pouch SenSura Mio Two-Piece System","formatted_desc":["Ostomy Pouch","SenSura Mio","Two-Piece System"],"id":"6103"},"6104":{"desc":"Ostomy Pouch SenSura Mio Flex EasiClose Two-Piece System","formatted_desc":["Ostomy Pouch","SenSura Mio, Flex EasiClose, Two-Piece System"],"id":"6104"},"6105":{"desc":"Ostomy Pouch Assura Inspire Soft Seal One-Piece System","formatted_desc":["Ostomy Pouch","Assura Inspire, Soft Seal, One-Piece System"],"id":"6105"},"6106":{"desc":"Ostomy Pouch SenSura EasiClose One-Piece System","formatted_desc":["Ostomy Pouch","SenSura EasiClose, One-Piece System"],"id":"6106"},"6107":{"desc":"Ostomy Pouch SenSura One-Piece System","formatted_desc":["Ostomy Pouch","SenSura, One-Piece System"],"id":"6107"},"6108":{"desc":"Colostomy Pouch Assura One-Piece System","formatted_desc":["Colostomy Pouch","Assura","One-Piece System"],"id":"6108"},"6109":{"desc":"Ostomy Pouch SenSura Xpro One-Piece System","formatted_desc":["Ostomy Pouch","SenSura Xpro, One-Piece System"],"id":"6109"},"6110":{"desc":"Ostomy Barrier SenSura Mio Flex Trim to Fit, Extended Wear Elastic Adhesive","formatted_desc":["Ostomy Barrier","SenSura Mio Flex","Trim to Fit, Extended Wear, Elastic Adhesive"],"id":"6110"},"6111":{"desc":"Ostomy Pouch SenSura Mio High Output One-Piece System","formatted_desc":["Ostomy Pouch","SenSura Mio, High Output, One-Piece System"],"id":"6111"},"6194":{"desc":"Ostomy Pouch SenSura Click Wide Two-Piece System","formatted_desc":["Ostomy Pouch","SenSura Click Wide Two-Piece System"],"id":"6194"},"6195":{"desc":"Flyte Surgicool Peel-Away Toga, Zippered, Size 2XL","formatted_desc":["Flyte Surgicool Peel-Away Toga","Zippered, Size 2XL"],"id":"6195"},"6196":{"desc":"Flyte Steri-Shield Hoods","formatted_desc":["Flyte Steri-Shield Hoods"],"id":"6196"},"6198":{"desc":"6F Coronary Guide Catheter 100cm EBU 3.0","formatted_desc":["6F","Coronary Guide Catheter","100cm","EBU 3.0"],"id":"6198"},"6199":{"desc":"MEDTRONIC LAUNCHER 6F CORONARY GUIDE CATHETER 100CM AL 2.0","formatted_desc":["MEDTRONIC","LAUNCHER 6F CORONARY GUIDE CATHETER","100cm","AL 2.0"],"id":"6199"},"6200":{"desc":"MEDTRONIC LAUNCHER 6F CORONARY GUIDE CATHETER JR 3.5","formatted_desc":["MEDTRONIC LAUNCHER","6F","CORONARY GUIDE CATHETER, JR 3.5"],"id":"6200"},"6201":{"desc":"MEDTRONIC LAUNCHER 6F CORONARY GUIDE CATHETER 100CM JL 4.0","formatted_desc":["MEDTRONIC LAUNCHER","6F","CORONARY GUIDE CATHETER, 100CM, JL 4.0"],"id":"6201"},"6202":{"desc":"Launcher 6F Coronary Guide Catheter 100cm JL 3.0","formatted_desc":["Launcher 6F","Coronary Guide Catheter","100cm, JL 3.0"],"id":"6202"},"6204":{"desc":"ASAHI SION PTCA GUIDE WIRE 0.014\" X 180CM","formatted_desc":["ASAHI SION PTCA GUIDE WIRE","0.014in","180cm",""],"id":"6204"},"6205":{"desc":"ASAHI SION BLUE PTCA GUIDE WIRE 0.014\" X 180CM STRAIGHT","formatted_desc":["ASAHI SION","0.014in","180cm","BLUE PTCA GUIDE WIRE, STRAIGHT"],"id":"6205"},"6206":{"desc":"FIELDER XT PTCA GUIDE WIRE 0.014\" X 190CM","formatted_desc":["FIELDER XT PTCA GUIDE WIRE","0.014in","190cm",""],"id":"6206"},"6207":{"desc":"ASAHI FIELDER FC GUIDE WIRE 0.014\" X 180CM straight","formatted_desc":["ASAHI FIELDER","FC GUIDE WIRE","0.014in","180cm","Straight"],"id":"6207"},"6208":{"desc":"ASAHI GAIA FIRST PTCA GUIDE WIRE 0.014\" X 190CM 1MM PRE-SHAPE","formatted_desc":["Asahi Gaia First PTCA Guide Wire","0.014in","190cm","1mm Pre-shape"],"id":"6208"},"6209":{"desc":"ASAHI GAIA FIRST PTCA GUIDE WIRE 0.014\" X 190CM 1MM PRE-SHAPE","formatted_desc":["ASAHI GAIA","0.014in","190cm","FIRST PTCA GUIDE WIRE, 1MM, PRE-SHAPE"],"id":"6209"},"6210":{"desc":"CARAVEL MICROCATHETER 135CM","formatted_desc":["CARAVEL MICROCATHETER","135CM",""],"id":"6210"},"6211":{"desc":"CARAVEL MICROCATHETER 150CM","formatted_desc":["CARAVEL MICROCATHETER","150CM"],"id":"6211"},"6298":{"desc":"Non-flared tip, adult, 21' U/Connect-It tubing","formatted_desc":["21ft Connect-It tubing","Non-flared tip, adult"],"id":"6298"},"6299":{"desc":"Mepitel One Safetec Wound Contact Layer Dressing 3? x 4? (7.5 x 10 cm)","formatted_desc":["Mepitel One","4in","3in","Safetec Wound Contact Layer Dressing"],"id":"6299"},"6300":{"desc":"Mepitel One Safetec Wound Contact Layer Dressing 4? x 7? (10 x 18 cm)","formatted_desc":["Mepitel","One Safetec Wound Contact Layer Dressing","7in","4in",""],"id":"6300"},"6301":{"desc":"Mepitel One Safetec Wound Contact Layer Dressing 6.8? x 10? (17 x 25 cm)","formatted_desc":["Mepitel One Safetec Wound Contact Layer Dressing","25cm","17cm",""],"id":"6301"},"6302":{"desc":"Mepitel One Safetec Wound Contact Layer Dressing 10.8? x 20? (27.5 x 50 cm)","formatted_desc":["Mepitel One Safetec Wound Contact Layer Dressing","50cm","27.5cm",""],"id":"6302"},"6303":{"desc":"Mepitel One Safetec Wound Contact Layer Dressing 3.75? x 59? (9.5 x 150 cm)","formatted_desc":["Mepitel One","3.75in","59in","Safetec Wound Contact Layer Dressing"],"id":"6303"},"6304":{"desc":"Non-sterile integrated smoke evacuation pencil Coated 70mm blade, rocker switch","formatted_desc":["Smoke Evacuation Pencil","Non-sterile, Coated 70mm Blade, Rocker Switch"],"id":"6304"},"6398":{"desc":"SenSura Mio Convex Soft 1-piece urostomy pouch 10-50mm, 3/8\" - 1 5 16\", Transparent","formatted_desc":["SenSura Mio","Convex, Soft, 1-piece, Urostomy Pouch, 10-50mm, 3/8in - 1 5/16in, Transparent"],"id":"6398"},"6399":{"desc":"SenSura Mio Click Drainable Pouch Maxi - Coupling: Blue - with filter, Opaque","formatted_desc":["SenSura Mio Click Drainable Pouch","Maxi, Coupling: Blue, with filter, Opaque"],"id":"6399"},"6400":{"desc":"Flyte SurgiCool Hood","formatted_desc":["Flyte SurgiCool","Hood"],"id":"6400"},"6401":{"desc":"Microvention SOFIA 5F Intermediate Catheter 125cm length Straight","formatted_desc":["Microvention SOFIA Intermediate Catheter","5F","125cm","Straight"],"id":"6401"},"6402":{"desc":"Single Use Combination Cleaning Brush 2200mm working length, 2mm~4.2mm channel","formatted_desc":["Single Use Combination Cleaning Brush","2200mm","2mm","4.2mm","working length, channel"],"id":"6402"},"6403":{"desc":"Single Use Biopsy Valve","formatted_desc":["Single Use Biopsy Valve"],"id":"6403"},"6404":{"desc":"Single Use Combination Cleaning Brush 2200mm working length, 2mm~4.2mm channel","formatted_desc":["Single Use Combination Cleaning Brush","2mm","4.2mm","2200mm","Working Length"],"id":"6404"},"6405":{"desc":"4-0 MERSILENE WHITE 1X18\" S-2 DOUBLE ARMED","formatted_desc":["MERSILENE","0.04in","1.5in","WHITE, S-2, DOUBLE ARMED"],"id":"6405"}}
+export const itemDescriptions = 
+{
+    "1214":{
+        "desc":"Transpore Surgical Tape, Single-Use, White, 1\" x 1.5 yd",
+		"id":"3M : 1527S-1",
+		"manufacturer":"3M",
+		"uom":"500/cs","unitprice":"55.38",
+		"formatted_desc":"[\"Transpore Surgical Tape\",\"1in\",\"1.5yd\",\"Single-Use, White\"]",
+		"pricelevel":["Base Price","Website - Free Shipping Over $100","Online Price","Website - Free Shipping Over $350","Website - Free Shipping Over $1000"]
+    },
+    "1227":{
+        "desc":"Coban 4'",
+		"id":"3M : 1584",
+		"manufacturer":"3M",
+		"uom":"18/cs","unitprice":"12.00",
+		"formatted_desc":"[\"Coban\",\"4ft\",\"\"]",
+		"pricelevel":["Website - Free Shipping Over $350","Website - Free Shipping Over $1000","Online Price","Website - Free Shipping Over $100","Website - Free Shipping","Base Price"]
+	},
+	"1228":{
+        "desc":"Tegaderm- 2-3/8 x 2-3/4, 400/cs, 100/bx:ea",
+		"id":"3M : 1624W",
+		"manufacturer":"3M",
+		"uom":"400/cs","unitprice":"140.00",
+		"formatted_desc":"[\"Tegaderm\",\"2.375in\",\"2.75in\",\"400 units per case, 100 units per box\"]",
+		"pricelevel":["Website - Free Shipping Over $1000","Website - Free Shipping Over $350","Online Price","Website - Free Shipping Over $100","Base Price"]
+	},
+	"1702":{
+        "desc":"Table Paper Smooth, 18\" x 225 ft",
+		"id":"Dynarex : 4481",
+		"manufacturer":"Dynarex",
+		"uom":"12/cs","unitprice":"40.00",
+		"formatted_desc":"[\"Table Paper\",\"18in\",\"225ft\",\"Smooth\"]",
+		"pricelevel":["Base Price"]
+	},
+	"1703":{
+        "desc":"Table Paper Smooth, 21\" x 225 ft",
+		"id":"Dynarex : 4482",
+		"manufacturer":"Dynarex",
+		"uom":"12/cs","unitprice":"43.00",
+		"formatted_desc":"[\"Table Paper\",\"21in\",\"225ft\",\"Smooth\"]",
+		"pricelevel":["Base Price"]
+	},
+	"1705":{
+        "desc":"Sharps Containers, 2gal.",
+		"id":"Dynarex : 4627",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":".3125",
+		"formatted_desc":"[\"Sharps Containers\",\"2gal\"]",
+		"pricelevel":["Base Price"]
+	},
+	"1921":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 20g x 1.25\"",
+		"id":"MedSource : MS-84120",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"87.50",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"20g\",\"1.25in\",\"(PTFE)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"1922":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 20g x 1\"",
+		"id":"MedSource : MS-841202",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"3.25",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"20g\",\"1in\",\"PTFE\"]",
+		"pricelevel":["Website - Free Shipping Over $1000","Website - Free Shipping Over $350","Online Price","Base Price","Website - Free Shipping Over $100"]
+	},
+	"1923":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 22g x 1\"",
+		"id":"MedSource : MS-84122",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"87.50",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"22g\",\"1in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"1924":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 24g x 0.75\"",
+		"id":"MedSource : MS-84124",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"87.50",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"24g\",\"0.75in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2550":{
+        "desc":"Sterile Alcohol Prep Pads - Medium",
+		"id":"Shield Line : MPR-41104",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"2.30",
+		"formatted_desc":"[\"Sterile Alcohol Prep Pads\",\"Medium\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2552":{
+        "desc":"Latex Exam Gloves - Md - N/S - Powder Free",
+		"id":"Shield Line : MPR-50104",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"6.67",
+		"formatted_desc":"[\"Latex Exam Gloves\",\"Med\",\"No Scent, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2553":{
+        "desc":"Latex Exam Gloves - Lg - N/S -  Powder Free",
+		"id":"Shield Line : MPR-50105",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"6.67",
+		"formatted_desc":"[\"Latex Exam Gloves\",\"Lg\",\"N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2560":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 7.5",
+		"id":"Shield Line : MPR-51315",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"7.5in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2561":{
+        "desc":"Stretch Gauze Bandage Roll - Non-sterile - 4\"",
+		"id":"Shield Line : MPR-60304",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"2.50",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"4in\",\"Non-sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2562":{
+        "desc":"Non-Woven Sponge - Non-sterile - 2x2 - 4 Ply",
+		"id":"Shield Line : MPR-60582",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":".96",
+		"formatted_desc":"[\"Non-Woven Sponge\",\"2in\",\"2in\",\"Non-sterile, 4 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2563":{
+        "desc":"Non-Woven Sponge - Non-sterile - 3x3 - 4 Ply",
+		"id":"Shield Line : MPR-60583",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"1.83",
+		"formatted_desc":"[\"Non-Woven Sponge\",\"3in\",\"3in\",\"Non-sterile, 4 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2564":{
+        "desc":"Non-Woven Sponge - Non-sterile - 4x4 - 4 Ply",
+		"id":"Shield Line : MPR-60584",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"3.00",
+		"formatted_desc":"[\"Non-Woven Sponge\",\"4in\",\"4in\",\"Non-sterile, 4 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2565":{
+        "desc":"Gauze Pad Sterile - 1's, 4x4 - 12 Ply",
+		"id":"Shield Line : MPR-60684",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"7.64",
+		"formatted_desc":"[\"Gauze Pad Sterile\",\"4in\",\"4in\",\"1's, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2566":{
+        "desc":"Non-Adherent Pad - Sterile - 3x4",
+		"id":"Shield Line : MPR-60733",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"8.06",
+		"formatted_desc":"[\"Non-Adherent Pad\",\"4in\",\"3in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2567":{
+        "desc":"Cloth Surgical Tape - 1\" x 10 yds.",
+		"id":"Shield Line : MPR-62102",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Cloth Surgical Tape\",\"1in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2568":{
+        "desc":"Clear Surgical Tape - 1\" x 10 yds.",
+		"id":"Shield Line : MPR-62202",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"6.39",
+		"formatted_desc":"[\"Clear Surgical Tape\",\"1in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"2865":{
+        "desc":"Innovative Guarantee Gloves XL",
+		"id":"Webstore IG Gloves : IG-GLOVE-XL",
+		"manufacturer":"Webstore IG Gloves",
+		"uom":"1000/cs","unitprice":"9.99",
+		"formatted_desc":"[\"Guarantee Gloves\",\"Innovative\",\"XL\"]",
+		"pricelevel":["Website - Free Shipping"]
+	},
+	"3093":{
+        "desc":"Peripheral IV Catheter ViaValve 22 Gauge 1 Inch Retracting Safety Needle",
+		"id":"Smiths Medical : 3260",
+		"manufacturer":"Smiths Medical",
+		"uom":"50/bx","unitprice":"100.00",
+		"formatted_desc":"[\"Peripheral IV Catheter\",\"22 Gauge\",\"1 Inch\",\"ViaValve, Retracting, Safety, Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3094":{
+        "desc":"Peripheral IV Catheter ViaValve 24 Gauge 0.675 Inch Retracting Safety Needle",
+		"id":"Smiths Medical : 3263",
+		"manufacturer":"Smiths Medical",
+		"uom":"50/bx","unitprice":"100.00",
+		"formatted_desc":"[\"Peripheral IV Catheter\",\"24 Gauge\",\"0.675 Inch\",\"ViaValve, Retracting Safety Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3302":{
+        "desc":"0 COATED VICRYL (polyglactin 910) Suture  VIOLET 1X27\" UR-6",
+		"id":"Ethicon : J603H",
+		"manufacturer":"Ethicon",
+		"uom":"36/bx","unitprice":"58.30",
+		"formatted_desc":"[\"COATED VICRYL\",\"1in\",\"27in\",\"(polyglactin 910) Suture VIOLET UR-6\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3338":{
+        "desc":"Peripheral IV Catheter ViaValve 20 Gauge 1 Inch Retracting Safety Needle",
+		"id":"Smiths Medical : 3267",
+		"manufacturer":"Smiths Medical",
+		"uom":"50/bx","unitprice":"100.00",
+		"formatted_desc":"[\"Peripheral IV Catheter\",\"20Gauge\",\"1in\",\"ViaValve, Retracting, Safety, Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3752":{
+        "desc":"IV Admin Set, Back Check Valve, 10 Drops per mL, 100\" Length, 19.3 mL Priming Volume, Vented/Non-Vented, Needle-Free Y Site",
+		"id":"Amsino : 1010001B",
+		"manufacturer":"Amsino",
+		"uom":"50/cs","unitprice":"214.05",
+		"formatted_desc":"[\"IV Admin Set\",\"19.3mL\",\"100in\",\"Back Check Valve, 10 Drops per mL, Vented/Non-Vented, Needle-Free Y Site\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3753":{
+        "desc":"Pre-Filled Normal Saline Flush Syringe, 10ml 0.9% Sodium Chloride Fill in 10ml Syringe",
+		"id":"Amsino : IVF1010TM",
+		"manufacturer":"Amsino",
+		"uom":"30/bx","unitprice":"17.00",
+		"formatted_desc":"[\"Pre-Filled Normal Saline\",\"10ml\",\"0.9% Sodium Chloride, Fill in 10ml Syringe\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3754":{
+        "desc":"Bontak Optima Safety IV Catheter 18G x 1 1/4”",
+		"id":"Bridon : 1246",
+		"manufacturer":"Bridon",
+		"uom":"50/bx","unitprice":"90.00",
+		"formatted_desc":"[\"Bontak Optima Safety IV Catheter\",\"18G\",\"1.25in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3755":{
+        "desc":"Bontak Optima Safety IV Catheter 20G x 1”",
+		"id":"Bridon : 1247",
+		"manufacturer":"Bridon",
+		"uom":"50/bx","unitprice":"90.00",
+		"formatted_desc":"[\"Bontak Optima Safety IV Catheter\",\"20G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3756":{
+        "desc":"Bontak Optima Safety IV Catheter 20G x 1 1/4”",
+		"id":"Bridon : 1248",
+		"manufacturer":"Bridon",
+		"uom":"50/bx","unitprice":"90.00",
+		"formatted_desc":"[\"Bontak Optima Safety IV Catheter\",\"20G\",\"1.25in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3757":{
+        "desc":"Bontak Optima Safety IV Catheter 22G x 1”",
+		"id":"Bridon : 1249",
+		"manufacturer":"Bridon",
+		"uom":"50/bx","unitprice":"90.00",
+		"formatted_desc":"[\"Bontak Optima Safety IV Catheter\",\"22G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3758":{
+        "desc":"Bontak Optima Safety IV Catheter 24G x 3/4”",
+		"id":"Bridon : 1250",
+		"manufacturer":"Bridon",
+		"uom":"50/bx","unitprice":"90.00",
+		"formatted_desc":"[\"Bontak Optima Safety IV Catheter\",\"24G\",\"0.75in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3759":{
+        "desc":"7\" IV Extension Set, macro bore with removable needleless valve",
+		"id":"Hartman Medical : CV100R",
+		"manufacturer":"Hartman Medical",
+		"uom":"100/cs","unitprice":"153.33",
+		"formatted_desc":"[\"7in\",\"IV Extension Set\",\"macro bore, with removable needleless valve\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3760":{
+        "desc":"Electrode, Wet Gel 35x40mm, carbon snap",
+		"id":"Hartman Medical : EWG3540-5",
+		"manufacturer":"Hartman Medical",
+		"uom":"50/bx","unitprice":"9.83",
+		"formatted_desc":"[\"Electrode\",\"Wet Gel, 35mm, 40mm, carbon, snap\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3761":{
+        "desc":"Site-Loc Transparent Dressing, 2 3/8\"X2 3/4\"",
+		"id":"MedSource : MS-11121",
+		"manufacturer":"Medsource",
+		"uom":"100/bx","unitprice":"28.00",
+		"formatted_desc":"[\"Site-Loc Transparent Dressing\",\"2.375in\",\"2.75in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3762":{
+        "desc":"IV Start Kit w/ IV Guard, Latex-free",
+		"id":"MedSource : MS-80033",
+		"manufacturer":"Medsource",
+		"uom":"100/cs","unitprice":"130.00",
+		"formatted_desc":"[\"IV Start Kit\",\"w/ IV Guard, Latex-free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3763":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 14g x 1.25\"",
+		"id":"MedSource : MS-84114",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"87.50",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"14g\",\"1.25in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3764":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 16g x 1.25\"",
+		"id":"MedSource : MS-84116",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"87.50",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"16g\",\"1.25in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3765":{
+        "desc":"ClearSafe Safety IV Catheter (PTFE) 18g x 1.25\"",
+		"id":"MedSource : MS-84118",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"87.50",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"18g\",\"1.25in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3766":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE)16g x 1.77\"",
+		"id":"MedSource : MS-84416",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"16g\",\"1.77in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3767":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 18g x 1.88\"",
+		"id":"MedSource : MS-84418",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"18g\",\"1.88in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3768":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 18g x 1.16\"",
+		"id":"MedSource : MS-844182",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"18g\",\"1.16in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3769":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 20g x 1.88\"",
+		"id":"MedSource : MS-84420",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1.88in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3770":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 20g x 1.16\"",
+		"id":"MedSource : MS-844202",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"122.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1.16in\",\"PTFE\"]",
+		"pricelevel":["Online Price","Base Price"]
+	},
+	"3771":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 20g x 1.00\"",
+		"id":"MedSource : MS-844203",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3772":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 22g x 1.00\"",
+		"id":"MedSource : MS-84422",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"22g\",\"1.00in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3773":{
+        "desc":"TrueSafe Safety IV Catheter (PTFE) 24g x 0.75\"",
+		"id":"MedSource : MS-84424",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"116.00",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"24g\",\"0.75in\",\"PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3774":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 14g x 1.25\"",
+		"id":"MedSource : MS-86214",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter Comfort\",\"14g\",\"1.25in\",\"with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3775":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 16g x 1.25\"",
+		"id":"MedSource : MS-86216",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"16g\",\"1.25in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3776":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 18g x 1.25\"",
+		"id":"MedSource : MS-86218",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"18g\",\"1.25in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3777":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1.25\"",
+		"id":"MedSource : MS-86220",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"20g\",\"1.25in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3778":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1\"",
+		"id":"MedSource : MS-862202",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"20g\",\"1in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3779":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 22g x 1\"",
+		"id":"MedSource : MS-86222",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"22g, 1in, Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3780":{
+        "desc":"ClearSafe Safety IV Catheter Comfort with Blood Control (PUR) 24g x .75\"",
+		"id":"MedSource : MS-86224",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"95.00",
+		"formatted_desc":"[\"ClearSafe Safety IV Catheter\",\"0.75in\",\"24g, Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3781":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)16g x 1.77\"",
+		"id":"MedSource : MS-86316",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"16g\",\"1.77in\",\"with Blood Control (PTFE)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3782":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)18g x 1.16\"",
+		"id":"MedSource : MS-86318",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"18g\",\"1.16in\",\"with Blood Control (PTFE)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3783":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)18g x 1.88\"",
+		"id":"MedSource : MS-863182",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"18g\",\"1.88in\",\"with Blood Control (PTFE)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3784":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)20g x 1.16\"",
+		"id":"MedSource : MS-86320",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1.16in\",\"with Blood Control, PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3785":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)20g x 1.88\"",
+		"id":"MedSource : MS-863202",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1.88in\",\"with Blood Control (PTFE)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3786":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)20g x 1\"",
+		"id":"MedSource : MS-863203",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1in\",\"with Blood Control (PTFE)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3787":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)22g x 1\"",
+		"id":"MedSource : MS-86322",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"22g\",\"1in\",\"with Blood Control, PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3788":{
+        "desc":"TrueSafe Safety IV Catheter with Blood Control (PTFE)24g x 0.75\"",
+		"id":"MedSource : MS-86324",
+		"manufacturer":"MedSource",
+		"uom":"50/bx","unitprice":"124.17",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"24g\",\"0.75in\",\"With Blood Control, PTFE\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3789":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 16g x 1.77\"",
+		"id":"MedSource : MS-86416",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"16g\",\"1.77in\",\"with Comfort and Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3790":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 18g x 1.16\"",
+		"id":"MedSource : MS-86418",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"18g\",\"1.16in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3791":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 18g x 1.88\"",
+		"id":"MedSource : MS-864182",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"18g\",\"1.88in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3792":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1.16\"",
+		"id":"MedSource : MS-86420",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1.16in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3793":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1.88\"",
+		"id":"MedSource : MS-864202",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"20g\",\"1.88in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3794":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 20g x 1\"",
+		"id":"MedSource : MS-864203",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter Comfort\",\"20g\",\"1in\",\"with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3795":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 22g x 1\"",
+		"id":"MedSource : MS-86422",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"22g\",\"1in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3796":{
+        "desc":"TrueSafe Safety IV Catheter Comfort with Blood Control (PUR) 24g x 0.75\"",
+		"id":"MedSource : MS-86424",
+		"manufacturer":"Medsource",
+		"uom":"50/bx","unitprice":"133.33",
+		"formatted_desc":"[\"TrueSafe Safety IV Catheter\",\"24g\",\"0.75in\",\"Comfort with Blood Control (PUR)\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3797":{
+        "desc":"Sterile Alcohol Prep Pads - Large",
+		"id":"Shield Line : MPR-41105",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"3.09",
+		"formatted_desc":"[\"Sterile Alcohol Prep Pads\",\"Large\"]",
+		"pricelevel":["Base Price","Website - Free Shipping Over $1000","Website - Free Shipping Over $100","Online Price","Website - Free Shipping Over $350"]
+	},
+	"3798":{
+        "desc":"Surgical Blades - Stainless - Sterile #10",
+		"id":"Shield Line : MPR-45101",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"16.04",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #10\"]",
+		"pricelevel":["Website - Free Shipping Over $1000","Website - Free Shipping Over $350","Website - Free Shipping Over $100","Base Price","Online Price"]
+	},
+	"3799":{
+        "desc":"Surgical Blades - Stainless - Sterile #11",
+		"id":"Shield Line : MPR-45111",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #11\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3800":{
+        "desc":"Surgical Blades - Stainless - Sterile #12",
+		"id":"Shield Line : MPR-45121",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #12\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3801":{
+        "desc":"Surgical Blades - Stainless - Sterile #15",
+		"id":"Shield Line : MPR-45151",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #15\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3802":{
+        "desc":"Surgical Blades - Stainless - Sterile #20",
+		"id":"Shield Line : MPR-45201",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #20\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3803":{
+        "desc":"Surgical Blades - Stainless - Sterile #21",
+		"id":"Shield Line : MPR-45211",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #21\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3804":{
+        "desc":"Surgical Blades - Stainless - Sterile #22",
+		"id":"Shield Line : MPR-45221",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #22\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3805":{
+        "desc":"Surgical Blades - Stainless - Sterile #23",
+		"id":"Shield Line : MPR-45231",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Surgical Blades\",\"Stainless, Sterile, #23\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3806":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #10",
+		"id":"Shield Line : MPR-47101",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #10\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3807":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #11 - test",
+		"id":"Shield Line : MPR-47111.",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"60.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #11\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3808":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #12",
+		"id":"Shield Line : MPR-47121",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #12\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3809":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #15",
+		"id":"Shield Line : MPR-47151",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #15\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3810":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #20",
+		"id":"Shield Line : MPR-47201",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless\",\"Sterile, Size #20\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3811":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #21",
+		"id":"Shield Line : MPR-47211",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #21\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3812":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #22",
+		"id":"Shield Line : MPR-47221",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #22\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3813":{
+        "desc":"Disposable Scalpels - Stainless - Sterile #23",
+		"id":"Shield Line : MPR-47231",
+		"manufacturer":"Shield Line",
+		"uom":"10/bx","unitprice":"6.00",
+		"formatted_desc":"[\"Disposable Scalpels\",\"Stainless, Sterile, #23\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3814":{
+        "desc":"Latex Exam Gloves - XS - N/S -  Powder Free",
+		"id":"Shield Line : MPR-50102",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"6.67",
+		"formatted_desc":"[\"Latex Exam Gloves\",\"XS\",\"N/S\",\"Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3815":{
+        "desc":"Latex Exam Gloves - Sm - N/S - Powder Free",
+		"id":"Shield Line : MPR-50103",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"6.67",
+		"formatted_desc":"[\"Latex Exam Gloves\",\"Size: Small, N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3816":{
+        "desc":"Latex Exam Gloves - XL - N/S - Powder Free",
+		"id":"Shield Line : MPR-50106",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"6.67",
+		"formatted_desc":"[\"Latex Exam Gloves\",\"XL\",\"N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3817":{
+        "desc":"Nitrile Exam Glove - XS - N/S - Powder Free",
+		"id":"Shield Line : MPR-50552",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"14.00",
+		"formatted_desc":"[\"Nitrile Exam Glove\",\"XS\",\"N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3818":{
+        "desc":"Nitrile Exam Glove - Sm - N/S - Powder Free",
+		"id":"Shield Line : MPR-50553",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"14.00",
+		"formatted_desc":"[\"Nitrile Exam Glove\",\"Sm\",\"N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3819":{
+        "desc":"Nitrile Exam Glove - Md - N/S - Powder Free",
+		"id":"Shield Line : MPR-50554",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"14.00",
+		"formatted_desc":"[\"Nitrile Exam Glove\",\"MD, N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3820":{
+        "desc":"Nitrile Exam Glove - Lg - N/S - Powder Free",
+		"id":"Shield Line : MPR-50555",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"14.00",
+		"formatted_desc":"[\"Nitrile Exam Glove\",\"Lg, N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3821":{
+        "desc":"Nitrile Exam Glove - XL - N/S - Powder Free",
+		"id":"Shield Line : MPR-50556",
+		"manufacturer":"Shield Line",
+		"uom":"180/bx","unitprice":"14.00",
+		"formatted_desc":"[\"Nitrile Exam Glove\",\"XL\",\"N/S\",\"Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3822":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 6.0",
+		"id":"Shield Line : MPR-51312",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"6.0in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3823":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 6.5",
+		"id":"Shield Line : MPR-51313",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"6.5in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3824":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 7.0",
+		"id":"Shield Line : MPR-51314",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"7.0in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3825":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 8.0",
+		"id":"Shield Line : MPR-51316",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"8.0in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3826":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 8.5",
+		"id":"Shield Line : MPR-51317",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"Sterile, Powder Free, Pairs, Size 8.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3827":{
+        "desc":"Latex Surgeons Gloves - Sterile - Powder Free - Pairs - 9.0",
+		"id":"Shield Line : MPR-51318",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"31.25",
+		"formatted_desc":"[\"Latex Surgeons Gloves\",\"9in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3828":{
+        "desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 6.0",
+		"id":"Shield Line : MPR-51612",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"50.00",
+		"formatted_desc":"[\"Nitrile Surgeons Gloves\",\"6.0in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3829":{
+        "desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 6.5",
+		"id":"Shield Line : MPR-51613",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"50.00",
+		"formatted_desc":"[\"Nitrile Surgeons Gloves\",\"6.5\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3830":{
+        "desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 7.0",
+		"id":"Shield Line : MPR-51614",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"50.00",
+		"formatted_desc":"[\"Nitrile Surgeons Gloves\",\"7.0in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3831":{
+        "desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 7.5",
+		"id":"Shield Line : MPR-51615",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"50.00",
+		"formatted_desc":"[\"Nitrile Surgeons Gloves\",\"7.5in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3832":{
+        "desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 8.0",
+		"id":"Shield Line : MPR-51616",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"50.00",
+		"formatted_desc":"[\"Nitrile Surgeons Gloves\",\"8.0in\",\"Sterile, Powder Free, Pairs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3833":{
+        "desc":"Nitrile Surgeons Gloves - Sterile - Powder Free - Pairs - 8.5",
+		"id":"Shield Line : MPR-51617",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"50.00",
+		"formatted_desc":"[\"Nitrile Surgeons Gloves\",\"Sterile, Powder Free, Pairs, Size 8.5\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3834":{
+        "desc":"Stretch Gauze Bandage Roll - Non-sterile - 2\"",
+		"id":"Shield Line : MPR-60302",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"1.46",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"2in\",\"Non-sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3835":{
+        "desc":"Stretch Gauze Bandage Roll - Non-sterile - 3\"",
+		"id":"Shield Line : MPR-60303",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"1.83",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"3in\",\"Non-sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3836":{
+        "desc":"Stretch Gauze Bandage Roll - Non-sterile - 6\"",
+		"id":"Shield Line : MPR-60306",
+		"manufacturer":"Shield Line",
+		"uom":"6/bx","unitprice":"1.83",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"6in\",\"Non-sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3837":{
+        "desc":"Stretch Gauze Bandage Roll -  Sterile - 2\"",
+		"id":"Shield Line : MPR-60322",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"2.08",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"2in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3838":{
+        "desc":"Stretch Gauze Bandage Roll -  Sterile - 3\"",
+		"id":"Shield Line : MPR-60323",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"2.81",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"3in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3839":{
+        "desc":"Stretch Gauze Bandage Roll -  Sterile - 4\"",
+		"id":"Shield Line : MPR-60324",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"3.23",
+		"formatted_desc":"[\"Stretch Gauze Bandage\",\"4in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3840":{
+        "desc":"Stretch Gauze Bandage Roll -  Sterile - 6\"",
+		"id":"Shield Line : MPR-60326",
+		"manufacturer":"Shield Line",
+		"uom":"6/bx","unitprice":"2.54",
+		"formatted_desc":"[\"Stretch Gauze Bandage Roll\",\"6in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3841":{
+        "desc":"Krinkle Gauze Roll - Non-sterile",
+		"id":"Shield Line : MPR-60353",
+		"manufacturer":"Shield Line",
+		"uom":"100/cs","unitprice":"100.00",
+		"formatted_desc":"[\"Krinkle Gauze Roll\",\"Non-sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3842":{
+        "desc":"Krinkle Gauze Roll - Sterile",
+		"id":"Shield Line : MPR-60373",
+		"manufacturer":"Shield Line",
+		"uom":"100/cs","unitprice":"106.67",
+		"formatted_desc":"[\"Krinkle Gauze Roll\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3843":{
+        "desc":"Gauze Sponge - Non-sterile - 2x2 - 8 Ply",
+		"id":"Shield Line : MPR-60403",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"1.64",
+		"formatted_desc":"[\"Gauze Sponge\",\"2in\",\"2in\",\"Non-sterile, 8 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3844":{
+        "desc":"Gauze Sponge - Non-sterile - 3x3 -  8 Ply",
+		"id":"Shield Line : MPR-60413",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"2.67",
+		"formatted_desc":"[\"Gauze Sponge\",\"3in\",\"3in\",\"Non-sterile, 8 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3845":{
+        "desc":"Gauze Sponge - Non-sterile - 3x3 - 12 Ply",
+		"id":"Shield Line : MPR-60414",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"3.75",
+		"formatted_desc":"[\"Gauze Sponge\",\"3in\",\"3in\",\"Non-sterile, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3846":{
+        "desc":"Gauze Sponge - Non-sterile - 4x4 -  8 Ply",
+		"id":"Shield Line : MPR-60423",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"4.46",
+		"formatted_desc":"[\"Gauze Sponge\",\"4in\",\"4in\",\"Non-sterile, 8 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3847":{
+        "desc":"Gauze Sponge - Non-sterile - 4x4 - 12 Ply",
+		"id":"Shield Line : MPR-60424",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"6.08",
+		"formatted_desc":"[\"Gauze Sponge\",\"4in\",\"4in\",\"Non-sterile, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3848":{
+        "desc":"Gauze Sponge - Non-sterile - 4x4 - 16 Ply",
+		"id":"Shield Line : MPR-60425",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"8.67",
+		"formatted_desc":"[\"Gauze Sponge\",\"4in\",\"4in\",\"Non-sterile, 16 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3849":{
+        "desc":"Gauze Sponge Sterile - 2's, 2x2 - 8 Ply",
+		"id":"Shield Line : MPR-60523",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"1.78",
+		"formatted_desc":"[\"Gauze Sponge\",\"2in\",\"2in\",\"Sterile, 8 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3850":{
+        "desc":"Gauze Sponge Sterile - 2's, 4x4 - 8 Ply",
+		"id":"Shield Line : MPR-60543",
+		"manufacturer":"Shield Line",
+		"uom":"25/bx","unitprice":"2.43",
+		"formatted_desc":"[\"Gauze Sponge\",\"4in\",\"4in\",\"Sterile, 2's per Pack, 8 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3851":{
+        "desc":"Gauze Sponge Sterile - 2's, 4x4 - 12 Ply",
+		"id":"Shield Line : MPR-60544",
+		"manufacturer":"Shield Line",
+		"uom":"25/bx","unitprice":"2.71",
+		"formatted_desc":"[\"Gauze Sponge\",\"4in\",\"4in\",\"Sterile, 2's, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3852":{
+        "desc":"Non-Woven Sponge - Sterile - 2's, 2x2 - 4 Ply",
+		"id":"Shield Line : MPR-60622",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"1.44",
+		"formatted_desc":"[\"Non-Woven Sponge\",\"2in\",\"2in\",\"Sterile, 4 Ply, 2 units per Pack\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3853":{
+        "desc":"Non-Woven Sponge - Sterile - 2's, 4x4 - 4 Ply",
+		"id":"Shield Line : MPR-60624",
+		"manufacturer":"Shield Line",
+		"uom":"25/bx","unitprice":"1.98",
+		"formatted_desc":"[\"Non-Woven Sponge\",\"4in\",\"4in\",\"Sterile, 2 units per Pack, 4 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3854":{
+        "desc":"Gauze Pad Sterile - 1's, 2x2 - 12 Ply",
+		"id":"Shield Line : MPR-60682",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"3.13",
+		"formatted_desc":"[\"Gauze Pad\",\"2in\",\"2in\",\"Sterile, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3855":{
+        "desc":"Gauze Pad Sterile - 1's, 3x3 - 12 Ply",
+		"id":"Shield Line : MPR-60683",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"4.86",
+		"formatted_desc":"[\"Gauze Pad\",\"3in\",\"3in\",\"Sterile, 1 unit per pack, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3856":{
+        "desc":"Non-Adherent Pad - Sterile - 2x3",
+		"id":"Shield Line : MPR-60732",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"6.11",
+		"formatted_desc":"[\"Non-Adherent Pad\",\"3in\",\"2in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3857":{
+        "desc":"Non-Adherent Pad - Sterile - 3x8",
+		"id":"Shield Line : MPR-60734",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"7.22",
+		"formatted_desc":"[\"Non-Adherent Pad\",\"3in\",\"8in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3858":{
+        "desc":"Paper Surgical Tape - 1/2\" x 10 yds.",
+		"id":"Shield Line : MPR-62011",
+		"manufacturer":"Shield Line",
+		"uom":"24/bx","unitprice":"5.56",
+		"formatted_desc":"[\"Paper Surgical Tape\",\"0.5in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3859":{
+        "desc":"Paper Surgical Tape - 1\" x 10 yds.",
+		"id":"Shield Line : MPR-62012",
+		"manufacturer":"Shield Line",
+		"uom":"12/bx","unitprice":"5.56",
+		"formatted_desc":"[\"Paper Surgical Tape\",\"1in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3860":{
+        "desc":"Paper Surgical Tape - 2\" x 10 yds.",
+		"id":"Shield Line : MPR-62013",
+		"manufacturer":"Shield Line",
+		"uom":"6/bx","unitprice":"5.56",
+		"formatted_desc":"[\"Paper Surgical Tape\",\"2in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3861":{
+        "desc":"Paper Surgical Tape - 3\" x 10 yds.",
+		"id":"Shield Line : MPR-62014",
+		"manufacturer":"Shield Line",
+		"uom":"4/bx","unitprice":"5.56",
+		"formatted_desc":"[\"Paper Surgical Tape\",\"3in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3862":{
+        "desc":"Cloth Surgical Tape - 1/2\" x 10 yds.",
+		"id":"Shield Line : MPR-62101",
+		"manufacturer":"Shield Line",
+		"uom":"24/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Cloth Surgical Tape\",\"0.5in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3863":{
+        "desc":"Cloth Surgical Tape - 2\" x 10 yds.",
+		"id":"Shield Line : MPR-62103",
+		"manufacturer":"Shield Line",
+		"uom":"6/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Cloth Surgical Tape\",\"2in\",\"10yd\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3864":{
+        "desc":"Cloth Surgical Tape - 3\" x 10 yds.",
+		"id":"Shield Line : MPR-62104",
+		"manufacturer":"Shield Line",
+		"uom":"4/bx","unitprice":"14.58",
+		"formatted_desc":"[\"Cloth Surgical Tape\",\"3in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3865":{
+        "desc":"Clear Surgical Tape - 1/2\" x 10 yds.",
+		"id":"Shield Line : MPR-62201",
+		"manufacturer":"Shield Line",
+		"uom":"24/bx","unitprice":"6.39",
+		"formatted_desc":"[\"Clear Surgical Tape\",\"0.5in\",\"10yds\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3866":{
+        "desc":"Clear Surgical Tape - 2\" x 10 yds.",
+		"id":"Shield Line : MPR-62203",
+		"manufacturer":"Shield Line",
+		"uom":"6/bx","unitprice":"6.39",
+		"formatted_desc":"[\"Clear Surgical Tape\",\"2in\",\"10yds\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3867":{
+        "desc":"Clear Surgical Tape - 3\" x 10 yds.",
+		"id":"Shield Line : MPR-62204",
+		"manufacturer":"Shield Line",
+		"uom":"4/bx","unitprice":"6.39",
+		"formatted_desc":"[\"Clear Surgical Tape\",\"3in\",\"10yd\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3868":{
+        "desc":"Adhesive Bandage - Fabric 1\" x 3\", Sterile - 24/100/cs.",
+		"id":"Shield Line : MPR-63102",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"2.99",
+		"formatted_desc":"[\"Adhesive Bandage\",\"Fabric\",\"1in\",\"3in\",\"Sterile, 24 units per 100 units per Case\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3869":{
+        "desc":"Ear Loop Face Mask - Blue",
+		"id":"Shield Line : MPR-70053",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"4.17",
+		"formatted_desc":"[\"Ear Loop Face Mask\",\"Blue\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3870":{
+        "desc":"Surgical Face Mask - Ear Loop - Level 2 - Blue",
+		"id":"Shield Line : MPR-70055",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"6.25",
+		"formatted_desc":"[\"Surgical Face Mask\",\"Ear Loop\",\"Level 2, Blue\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3871":{
+        "desc":"Exam Table Paper - Smooth - 18\" - 225ft./ roll",
+		"id":"Shield Line : MPR-90324",
+		"manufacturer":"Shield Line",
+		"uom":"12/cs","unitprice":"62.00",
+		"formatted_desc":"[\"Exam Table Paper\",\"Smooth\",\"18in\",\"225ft per roll\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3872":{
+        "desc":"Exam Table Paper - Smooth - 21\" - 225ft./ roll",
+		"id":"Shield Line : MPR-90326",
+		"manufacturer":"Shield Line",
+		"uom":"12/cs","unitprice":"64.00",
+		"formatted_desc":"[\"Exam Table Paper\",\"21in\",\"225ft\",\"Smooth\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3873":{
+        "desc":"Exam Table Paper - Crepe - 18\" - 125ft./ roll",
+		"id":"Shield Line : MPR-90334",
+		"manufacturer":"Shield Line",
+		"uom":"12/cs","unitprice":"54.00",
+		"formatted_desc":"[\"Exam Table Paper\",\"Crepe\",\"18in\",\"125ft\",\"Per Roll\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3874":{
+        "desc":"Exam Table Paper - Crepe - 21\" - 125ft./ roll",
+		"id":"Shield Line : MPR-90336",
+		"manufacturer":"Shield Line",
+		"uom":"12/cs","unitprice":"56.00",
+		"formatted_desc":"[\"Exam Table Paper\",\"Crepe\",\"21in\",\"125ft/Roll\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3875":{
+        "desc":"Medical Exam Nitrile Gloves - ChemoShield - Sm - N/S - Powder Free",
+		"id":"Shield Line : SHL-50543",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"8.00",
+		"formatted_desc":"[\"Medical Exam Nitrile Gloves\",\"ChemoShield\",\"Small, Nonsurgical, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3876":{
+        "desc":"Medical Exam Nitrile Gloves - ChemoShield - Md - N/S - Powder Free",
+		"id":"Shield Line : SHL-50544",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"8.00",
+		"formatted_desc":"[\"Medical Exam Nitrile Gloves\",\"ChemoShield\",\"Md, N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3877":{
+        "desc":"Medical Exam Nitrile Gloves - ChemoShield - Lg - N/S - Powder Free",
+		"id":"Shield Line : SHL-50545",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"8.00",
+		"formatted_desc":"[\"Medical Exam Nitrile Gloves\",\"ChemoShield\",\"Lg, N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3878":{
+        "desc":"Medical Exam Nitrile Gloves - ChemoShield - XL - N/S - Powder Free",
+		"id":"Shield Line : SHL-50546",
+		"manufacturer":"Shield Line",
+		"uom":"100/bx","unitprice":"8.00",
+		"formatted_desc":"[\"Medical Exam Nitrile Gloves\",\"ChemoShield\",\"XL, N/S, Powder Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3879":{
+        "desc":"Blunt Fill Needle 18G*1\"",
+		"id":"Sol-Millennium : 110021",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"11.67",
+		"formatted_desc":"[\"Blunt Fill Needle\",\"18G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3880":{
+        "desc":"Blunt Fill Needle 18G*1 1/2\"",
+		"id":"Sol-Millennium : 110022",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"12.50",
+		"formatted_desc":"[\"Blunt Fill Needle\",\"18G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3881":{
+        "desc":"Hypodermic Needle 16G x 1\"",
+		"id":"Sol-Millennium : 111610",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"16G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3882":{
+        "desc":"Hypodermic Needle 16G x 1 1/2\"",
+		"id":"Sol-Millennium : 111615",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"16G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3883":{
+        "desc":"Hypodermic Needle 18G x 1\"",
+		"id":"Sol-Millennium : 111810",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"18G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3884":{
+        "desc":"Hypodermic Needle 18G x 1 1/2\"",
+		"id":"Sol-Millennium : 111815",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"18G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3885":{
+        "desc":"Hypodermic Needle 19G x 1\"",
+		"id":"Sol-Millennium : 111910",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"19G\",\"1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3886":{
+        "desc":"Hypodermic Needle 19G x 1 1/2\"",
+		"id":"Sol-Millennium : 111915",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"19G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3887":{
+        "desc":"Hypodermic Needle 20G x 1\"",
+		"id":"Sol-Millennium : 112010",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"20G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3888":{
+        "desc":"Hypodermic Needle 20G x 1 1/2\"",
+		"id":"Sol-Millennium : 112015",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"20G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3889":{
+        "desc":"Hypodermic Needle 21G x 1\"",
+		"id":"Sol-Millennium : 112110",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"21G\",\"1in\"]",
+		"pricelevel":["Website - Free Shipping","Base Price"]
+	},
+	"3890":{
+        "desc":"Hypodermic Needle 21G x 1 1/2\"",
+		"id":"Sol-Millennium : 112115",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"21G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3891":{
+        "desc":"Hypodermic Needle 22G x 1\"",
+		"id":"Sol-Millennium : 112210",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"22G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3892":{
+        "desc":"Hypodermic Needle 22G x 1 1/2\"",
+		"id":"Sol-Millennium : 112215",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"22G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3893":{
+        "desc":"Hypodermic Needle 23G x 1\"",
+		"id":"Sol-Millennium : 112310",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"23G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3894":{
+        "desc":"Hypodermic Needle 23G x 1 1/2\"",
+		"id":"Sol-Millennium : 112315",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"23G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3895":{
+        "desc":"Hypodermic Needle 23G x 5/8\"",
+		"id":"Sol-Millennium : 112358",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"23G\",\"5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3896":{
+        "desc":"Hypodermic Needle 25G x 5/8\"",
+		"id":"Sol-Millennium : 112506",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"25G\",\"5/8in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3897":{
+        "desc":"Hypodermic Needle 25G x 1\"",
+		"id":"Sol-Millennium : 112510",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"25G\",\"1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3898":{
+        "desc":"Hypodermic Needle 25G x 1 1/2\"",
+		"id":"Sol-Millennium : 112515",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"25G\",\"1.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3899":{
+        "desc":"Hypodermic Needle 26G x 1/2\"",
+		"id":"Sol-Millennium : 112612",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"26G\",\"0.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3900":{
+        "desc":"Hypodermic Needle 26G x 3/8\"",
+		"id":"Sol-Millennium : 112638",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"26G\",\"0.375in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3901":{
+        "desc":"Hypodermic Needle 27G x 1/2\"",
+		"id":"Sol-Millennium : 112705",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"27G\",\"0.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3902":{
+        "desc":"Hypodermic Needle 30G x 1/2\"",
+		"id":"Sol-Millennium : 113005",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"30G\",\"0.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3903":{
+        "desc":"Hypodermic Needle 30G x 1\"",
+		"id":"Sol-Millennium : 113010",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"30G\",\"1in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3904":{
+        "desc":"1ml TB Syringe w/Fixed Needle 25G*5/8''",
+		"id":"Sol-Millennium : 181025",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"17.00",
+		"formatted_desc":"[\"1ml TB Syringe\",\"with Fixed Needle, 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3905":{
+        "desc":"Hypodermic Needle 27G x 1 1/4’’",
+		"id":"Sol-Millennium : 1127125",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"4.23",
+		"formatted_desc":"[\"Hypodermic Needle\",\"27G\",\"1.25in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3906":{
+        "desc":"10ml Luer Lock Syringe w/Exch Needle 20G*1''",
+		"id":"Sol-Millennium : 1812010",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"20.31",
+		"formatted_desc":"[\"10ml\",\"Luer Lock Syringe, With Exchange Needle, 20G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3907":{
+        "desc":"10ml Luer Lock Syringe w/Exch Needle 20G*1 1/2''",
+		"id":"Sol-Millennium : 1812015",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"20.31",
+		"formatted_desc":"[\"10ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 20G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3908":{
+        "desc":"10ml Luer Lock Syringe w/Exch Needle 21G*1''",
+		"id":"Sol-Millennium : 1812110",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"20.31",
+		"formatted_desc":"[\"10ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 21G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3909":{
+        "desc":"10ml Luer Lock Syringe w/Exch Needle 22G*1''",
+		"id":"Sol-Millennium : 1812210",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"20.31",
+		"formatted_desc":"[\"10ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 22G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3910":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 20G*1''",
+		"id":"Sol-Millennium : 1832010",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 20G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3911":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 20G*1 1/2''",
+		"id":"Sol-Millennium : 1832015",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 20G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3912":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 21G*1''",
+		"id":"Sol-Millennium : 1832110",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 21G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3913":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 21G*1 1/2''",
+		"id":"Sol-Millennium : 1832115",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"w/Exch Needle 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3914":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 22G*1''",
+		"id":"Sol-Millennium : 1832210",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 22G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3915":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 22G*1 1/2''",
+		"id":"Sol-Millennium : 1832215",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3916":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 23G*1''",
+		"id":"Sol-Millennium : 1832310",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"23G, 1in, with Exchange Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3917":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 25G*1''",
+		"id":"Sol-Millennium : 1832510",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 25G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3918":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 25G*1 1/2''",
+		"id":"Sol-Millennium : 1832515",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml Luer Lock Syringe\",\"25G\",\"1.5in\",\"with Exchange Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3919":{
+        "desc":"3ml Luer Lock Syringe w/Exch Needle 25G*5/8''",
+		"id":"Sol-Millennium : 1832558",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"10.00",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3920":{
+        "desc":"5ml Luer Lock Syringe w/Exch Needle 20G*1\"",
+		"id":"Sol-Millennium : 1852010",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"16.77",
+		"formatted_desc":"[\"5ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 20G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3921":{
+        "desc":"5ml Luer Lock Syringe w/Exch Needle 20G*1 1/2''",
+		"id":"Sol-Millennium : 1852015",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"16.77",
+		"formatted_desc":"[\"5ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 20G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3922":{
+        "desc":"5ml Luer Lock Syringe w/Exch Needle 21G*1\"",
+		"id":"Sol-Millennium : 1852110",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"16.77",
+		"formatted_desc":"[\"5ml\",\"Luer Lock Syringe\",\"w/Exch Needle, 21G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3923":{
+        "desc":"5ml Luer Lock Syringe w/Exch Needle 21G*1 1/2''",
+		"id":"Sol-Millennium : 1852115",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"16.77",
+		"formatted_desc":"[\"5ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3924":{
+        "desc":"5ml Luer Lock Syringe w/Exch Needle 22G*1 1/2''",
+		"id":"Sol-Millennium : 1852215",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"16.77",
+		"formatted_desc":"[\"5ml\",\"Luer Lock Syringe\",\"with Exchange Needle, 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3925":{
+        "desc":"Sol-Care 0.5mL Safety Syringe w/Fixed Needle 23G*1\"",
+		"id":"Sol-Millennium : 100006IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care\",\"0.5mL\",\"Safety Syringe, w/Fixed Needle, 23G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3926":{
+        "desc":"Sol-Care 0.5mL Safety Syringe w/Fixed Needle 25G*1\"",
+		"id":"Sol-Millennium : 100007IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care Safety Syringe\",\"0.5mL\",\"25G, 1in, with Fixed Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3927":{
+        "desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 25G*5/8",
+		"id":"Sol-Millennium : 100018IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"Safety Syringe, with Fixed Needle, 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3928":{
+        "desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 27G*1/2",
+		"id":"Sol-Millennium : 100019IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"TB Safety Syringe, Fixed Needle 27G, 1/2in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3929":{
+        "desc":"Sol-Care 1ml Safety Syringe Allergy Tray 27G*1/2''",
+		"id":"Sol-Millennium : 100032IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"11.50",
+		"formatted_desc":"[\"Sol-Care Safety Syringe\",\"1ml\",\"27G\",\"0.5in\",\"Allergy Tray\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3930":{
+        "desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 25G*1",
+		"id":"Sol-Millennium : 100034IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care Safety Syringe\",\"1ml\",\"25G, with Fixed Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3931":{
+        "desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 100040IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care Safety Syringe\",\"1ml\",\"22G, 1.5in, TB, w/Fixed Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3932":{
+        "desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 28G*1/2",
+		"id":"Sol-Millennium : 100067IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"TB Safety Syringe\",\"with Fixed Needle 28G, 1/2in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3933":{
+        "desc":"Sol-Care 1ml Safety Syringe Allergy Tray 26G*3/8'' IDB",
+		"id":"Sol-Millennium : 100069IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"11.50",
+		"formatted_desc":"[\"Sol-Care Safety Syringe\",\"1ml\",\"26G, 3/8in, Allergy Tray, IDs\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3934":{
+        "desc":"Sol-Care 1ml TB Safety Syringe w/Fixed Needle 26G*3/8 IDB",
+		"id":"Sol-Millennium : 100070IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"TB Safety Syringe, w/ Fixed Needle, 26G, 3/8in, IDB\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3935":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 21G*1 1/2",
+		"id":"Sol-Millennium : 100072IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock Safety Syringe, with Exchange Needle, 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3936":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 20G*1",
+		"id":"Sol-Millennium : 100074IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock Safety Syringe, with Exchange Needle, 20G, 1 unit\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3937":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 21G*1",
+		"id":"Sol-Millennium : 100075IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock, Safety Syringe with Exchange Needle, 21G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3938":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 100076IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock, Safety Syringe w/Exchange Needle, 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3939":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 23G*1",
+		"id":"Sol-Millennium : 100077IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3mm\",\"Luer Lock, Safety Syringe, With Exchange Needle 23G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3940":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 25G*5/8",
+		"id":"Sol-Millennium : 100078IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock, Safety Syringe with Exchange Needle, 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3941":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 25G*1",
+		"id":"Sol-Millennium : 100079IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock Safety Syringe, with Exchange Needle, 25 Gauge, 1 Inch\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3942":{
+        "desc":"Sol-Care 1mL Safety Syringe w/Fixed Needle 30G*1/2\"",
+		"id":"Sol-Millennium : 100082IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care Safety Syringe\",\"1mL\",\"30G, 1/2in, With Fixed Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3943":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/Exch Needle 22G*1",
+		"id":"Sol-Millennium : 100085IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock, Safety Syringe, with Exchange Needle, 22G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3944":{
+        "desc":"Sol-Care 1ml Safety Syringe w/FixedNeelde 25G*1\"",
+		"id":"Sol-Millennium : 100088IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"7.88",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"Safety Syringe, with Fixed Needle, 25G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3945":{
+        "desc":"Sol-Care 0.5mL Safety Syringe w/Fixed Neelde 27G*1/2\"",
+		"id":"Sol-Millennium : 100090IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"31.50",
+		"formatted_desc":"[\"Sol-Care\",\"0.5mL\",\"Safety Syringe w/Fixed Needle, 27G, 1/2in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3946":{
+        "desc":"Sol-Care 10ml Luer Lock Syringe w/Safety Needle 21G*1 1/2",
+		"id":"Sol-Millennium : 102115SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"18.33",
+		"formatted_desc":"[\"Sol-Care\",\"10ml\",\"Luer Lock Syringe\",\"with Safety Needle, 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3947":{
+        "desc":"Sol-Care 10ml Luer Lock Syringe w/Safety Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 102215SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"18.33",
+		"formatted_desc":"[\"Sol-Care\",\"10ml\",\"Luer Lock Syringe with Safety Needle, 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3948":{
+        "desc":"Blunt Fill Needle w/ filter 18G*1 1/2\"",
+		"id":"Sol-Millennium : 110022F",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"36.67",
+		"formatted_desc":"[\"Blunt Fill Needle\",\"18G\",\"1.5in\",\"w/ filter\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3949":{
+        "desc":"Sol-Care 3ml Luer Lock Safety Syringe w/o Needle",
+		"id":"Sol-Millennium : 120006IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"23.33",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock, Safety Syringe, without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3950":{
+        "desc":"Sol-Care 5mL Luer Lock Safety Syringe w/o Needle",
+		"id":"Sol-Millennium : 120007IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"32.21",
+		"formatted_desc":"[\"Sol-Care\",\"5mL\",\"Luer Lock, Safety Syringe, without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3951":{
+        "desc":"Sol-Care 10ml Luer Lock Safety Syringe w/o Needle",
+		"id":"Sol-Millennium : 120008IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"39.54",
+		"formatted_desc":"[\"Sol-Care\",\"10ml, Luer Lock, Safety Syringe, w/o Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3952":{
+        "desc":"Sol-Care 20ml Luer Lock Safety Syringe w/o Needle",
+		"id":"Sol-Millennium : 120009IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"23.92",
+		"formatted_desc":"[\"Sol-Care\",\"20ml, Luer Lock, Safety Syringe, without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3953":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 23G*1''",
+		"id":"Sol-Millennium : 12310SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"1ml\",\"Luer Lock, with Safety Needle 23G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3954":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 23G*1 1/2''",
+		"id":"Sol-Millennium : 12315SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"1ml\",\"Luer Lock, Safety Needle 23G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3955":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1\"?low dead space?",
+		"id":"Sol-Millennium : 12510LDS",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"1ml\",\"25G, 1in, Luer Lock, with Safety Needle, Low Dead Space\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3956":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1",
+		"id":"Sol-Millennium : 12510SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"Syringe, Luer Lock, with Safety Needle, 25G, 1 unit\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3957":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1 1/2''?low dead space?",
+		"id":"Sol-Millennium : 12515LDS",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care 1ml Luer Lock Syringe\",\"25G\",\"1.5in\",\"with Safety Needle, Low Dead Space\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3958":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*1 1/2''",
+		"id":"Sol-Millennium : 12515SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"1ml\",\"Luer Lock, with Safety Needle, 25G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3959":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*5/8\"?low dead space?",
+		"id":"Sol-Millennium : 12558LDS",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"1ml\",\"Luer Lock, with Safety Needle, 25G, 5/8in, Low Dead Space\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3960":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 25G*5/8",
+		"id":"Sol-Millennium : 12558SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"Luer Lock Syringe, with Safety Needle, 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3961":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 27G*1/2",
+		"id":"Sol-Millennium : 12705SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care\",\"1ml\",\"Luer Lock, Syringe w/Safety Needle, 27G, 1/2in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3962":{
+        "desc":"Sol-Care 1ml Luer Lock Syringe w/Safety Needle 30G*1/2",
+		"id":"Sol-Millennium : 13005SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.50",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"1ml\",\"Luer Lock, with Safety Needle 30G, 1/2in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3963":{
+        "desc":"Sol-Care 5ml Luer Lock Safety Syringe w/Exch Needle 21G*1 1/2",
+		"id":"Sol-Millennium : 140072IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"32.67",
+		"formatted_desc":"[\"Sol-Care\",\"5ml\",\"Luer Lock, Safety Syringe with Exchange Needle, 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3964":{
+        "desc":"Sol-Care 5ml Luer Lock Safety Syringe w/Exch Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 140076IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"32.67",
+		"formatted_desc":"[\"Sol-Care\",\"5ml\",\"Luer Lock Safety Syringe, with Exchange Needle, 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3965":{
+        "desc":"Sol-Care 5ml Luer Lock Safety Syringe w/Exch Needle 23G*1",
+		"id":"Sol-Millennium : 140077IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"32.67",
+		"formatted_desc":"[\"Sol-Care\",\"5ml\",\"Luer Lock Safety Syringe\",\"with Exchange Needle, 23G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3966":{
+        "desc":"Sol-Care 10ml Luer Lock Safety Syringe w/Exch Needle 21G*1 1/2",
+		"id":"Sol-Millennium : 160072IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"53.67",
+		"formatted_desc":"[\"Sol-Care\",\"10ml\",\"Luer Lock Safety Syringe, with Exchange Needle 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3967":{
+        "desc":"Sol-Care 10ml Luer Lock Safety Syringe w/Exch Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 160076IM",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"53.67",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"10ml\",\"Luer Lock, Safety, with Exchange Needle 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3968":{
+        "desc":"1ml Standard Insulin Syringe 29G x 1/2\"",
+		"id":"Sol-Millennium : 1612912B",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"Insulin Syringe\",\"1ml\",\"29G\",\"1/2in\",\"Standard\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3969":{
+        "desc":"Insulin Syringe, 1ml 31g X 5/16",
+		"id":"Sol-Millennium : 1613151B",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"Insulin Syringe\",\"1ml\",\"31g\",\"5/16in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3970":{
+        "desc":"0.3ml Standard Insulin Syringe 30G x 1/2\"",
+		"id":"Sol-Millennium : 1633012B",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"0.3ml\",\"Standard Insulin Syringe\",\"30G\",\"1/2in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3971":{
+        "desc":"Insulin Syringe, .3ml 31g X 5/16",
+		"id":"Sol-Millennium : 1633151B",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"Insulin Syringe\",\"0.3ml\",\"31g\",\"5/16in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3972":{
+        "desc":"0.5ml Standard Insulin Syringe 28G x 1/2\"",
+		"id":"Sol-Millennium : 1652812B",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"0.5ml\",\"Standard Insulin Syringe\",\"28G\",\"0.5in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3973":{
+        "desc":"Insulin Syringe, .5ml 31g X 5/16",
+		"id":"Sol-Millennium : 1653151B",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"15.95",
+		"formatted_desc":"[\"Insulin Syringe\",\"0.5ml\",\"31g\",\"5/16in\",\"\"]",
+		"pricelevel":["Base Price","Website - Free Shipping Over $350","Website - Free Shipping Over $1000","Website - Free Shipping Over $100","Online Price"]
+	},
+	"3974":{
+        "desc":"60ml Catheter Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : 180060CT",
+		"manufacturer":"Sol-Millennium",
+		"uom":"30/bx","unitprice":"19.24",
+		"formatted_desc":"[\"60ml\",\"Catheter Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3975":{
+        "desc":"1ml Allergy Syringe Tray 26G*3/8'' IDB",
+		"id":"Sol-Millennium : 181026IDBT",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"3.00",
+		"formatted_desc":"[\"1ml\",\"Allergy Syringe Tray\",\"26G\",\"3/8in\",\"IDB\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3976":{
+        "desc":"1ml Allergy Syringe Tray 26G*1/2''",
+		"id":"Sol-Millennium : 181026T",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"3.00",
+		"formatted_desc":"[\"Allergy Syringe\",\"1ml\",\"26G\",\"0.5in\",\"Tray\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3977":{
+        "desc":"1ml Allergy Syringe Tray 27G*3/8'' IDB",
+		"id":"Sol-Millennium : 181027IDBT",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"3.00",
+		"formatted_desc":"[\"1ml\",\"Allergy Syringe Tray\",\"27G\",\"3/8in\",\"IDB\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3978":{
+        "desc":"1ml Allergy Syringe Tray 27G*1/2''",
+		"id":"Sol-Millennium : 181027T",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"3.00",
+		"formatted_desc":"[\"Allergy Syringe\",\"1ml\",\"27G, 0.5in, Tray\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3979":{
+        "desc":"1ml Allergy Syringe Tray 26G*1/2'' IDB",
+		"id":"Sol-Millennium : 181126IDBT",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"3.00",
+		"formatted_desc":"[\"Allergy Syringe\",\"1ml\",\"26G\",\"1/2in\",\"Tray, IDB\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3980":{
+        "desc":"Sol-Guard 1ml TB Safety Syringe w/Fixed Needle 25G*5/8",
+		"id":"Sol-Millennium : 200018SG",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"27.50",
+		"formatted_desc":"[\"Sol-Guard\",\"1ml\",\"TB Safety Syringe, with Fixed Needle, 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3981":{
+        "desc":"Sol-Guard 1mL Safety Syringe w/Fixed Needle 25G*1\"",
+		"id":"Sol-Millennium : 200034SG",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"27.50",
+		"formatted_desc":"[\"Sol-Guard\",\"1mL\",\"Safety Syringe, w/Fixed Needle, 25G, 1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3982":{
+        "desc":"Sol-Guard 1ml TB Safety Syringe w/Fixed Needle 28G*1/2",
+		"id":"Sol-Millennium : 200067SG",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"27.50",
+		"formatted_desc":"[\"Sol-Guard\",\"1ml\",\"TB Safety Syringe, w/Fixed Needle, 28G, 1/2in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3983":{
+        "desc":"Sol-Guard 1mL Safety Syringe w/Fixed Needle 25G*1\" Flu Tray",
+		"id":"Sol-Millennium : 200088SG",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"6.88",
+		"formatted_desc":"[\"Sol-Guard Safety Syringe\",\"1mL\",\"with Fixed Needle 25G, 1in, Flu Tray\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3984":{
+        "desc":"Sol-Guard 0.3mL Safety syringe w/Fixed Needle 31G*5/16\"",
+		"id":"Sol-Millennium : 2031516SG",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"27.50",
+		"formatted_desc":"[\"Sol-Guard\",\"0.3mL\",\"Safety syringe, Fixed Needle 31G, 5/16in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3985":{
+        "desc":"Sol-Guard 1mL Safety Syringe w/Fixed Needle 31G*5/16\"",
+		"id":"Sol-Millennium : 2131516SG",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"27.50",
+		"formatted_desc":"[\"Sol-Guard Safety Syringe\",\"1mL\",\"with Fixed Needle, 31G, 5/16in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3986":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 21G*1",
+		"id":"Sol-Millennium : 32110SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"3ml\",\"Luer Lock,Coupled with Safety Needle,21G,1in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3987":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 21G*1 1/2",
+		"id":"Sol-Millennium : 32115SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"3ml\",\"Luer Lock, with Safety Needle, 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3988":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 22G*1",
+		"id":"Sol-Millennium : 32210SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"3ml\",\"Luer Lock, with Safety Needle, 22G\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3989":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 32215SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock Syringe\",\"with Safety Needle, 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3990":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 23G*1",
+		"id":"Sol-Millennium : 32310SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"3ml\",\"Luer Lock, w/Safety Needle, 23G, 1 unit\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3991":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 25G*1",
+		"id":"Sol-Millennium : 32510SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock Syringe, with Safety Needle, 25G, 1 unit\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3992":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 25G*1 1/2''",
+		"id":"Sol-Millennium : 32515SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care\",\"3ml\",\"Luer Lock Syringe, w/Safety Needle, 25G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3993":{
+        "desc":"Sol-Care 3ml Luer Lock Syringe w/Safety Needle 25G*5/8",
+		"id":"Sol-Millennium : 32558SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"14.17",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"3ml\",\"Luer Lock, w/Safety Needle 25G, 5/8in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3994":{
+        "desc":"Sol-Care 5ml Luer Lock Syringe w/Safety Needle 21G*1 1/2",
+		"id":"Sol-Millennium : 52115SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"15.47",
+		"formatted_desc":"[\"Sol-Care Syringe\",\"5ml\",\"Luer Lock, with Safety Needle 21G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3995":{
+        "desc":"Sol-Care 5ml Luer Lock Syringe w/Safety Needle 22G*1 1/2",
+		"id":"Sol-Millennium : 52215SN",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"15.47",
+		"formatted_desc":"[\"Sol-Care 5ml\",\"Luer Lock Syringe, w/Safety Needle 22G, 1.5in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3996":{
+        "desc":"1ml Luer Lock Syringe w/o Needle (PP) (low dead space)",
+		"id":"Sol-Millennium : P180001PP",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"25.00",
+		"formatted_desc":"[\"1ml\",\"Luer Lock Syringe\",\"without Needle, made of Polypropylene, with low dead space\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3997":{
+        "desc":"3ml Luer Lock Syringe w/o Needle",
+		"id":"Sol-Millennium : P180003",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"7.60",
+		"formatted_desc":"[\"3ml\",\"Luer Lock Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price","Website - Free Shipping Over $100","Online Price","Website - Free Shipping Over $350","Website - Free Shipping Over $1000"]
+	},
+	"3998":{
+        "desc":"3ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180003ST",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"9.38",
+		"formatted_desc":"[\"3ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"3999":{
+        "desc":"5ml Luer Lock Syringe w/o Needle",
+		"id":"Sol-Millennium : P180005",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"11.10",
+		"formatted_desc":"[\"5ml\",\"Luer Lock Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4000":{
+        "desc":"5ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180005ST",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"11.10",
+		"formatted_desc":"[\"5ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4001":{
+        "desc":"10ml Luer Lock Syringe w/o Needle",
+		"id":"Sol-Millennium : P180010",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"10ml\",\"Luer Lock Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4002":{
+        "desc":"10ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180010ST",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"14.50",
+		"formatted_desc":"[\"10ml Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4003":{
+        "desc":"1ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180011",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"11.67",
+		"formatted_desc":"[\"1ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4004":{
+        "desc":"20ml Luer Lock Syringe w/o Needle",
+		"id":"Sol-Millennium : P180020",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"29.17",
+		"formatted_desc":"[\"20ml\",\"Luer Lock Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4005":{
+        "desc":"20ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180020ST",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"56.67",
+		"formatted_desc":"[\"20ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4006":{
+        "desc":"30ml Luer Lock Syringe w/o Needle",
+		"id":"Sol-Millennium : P180030",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"17.25",
+		"formatted_desc":"[\"30ml\",\"Luer Lock Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4007":{
+        "desc":"30ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180030ST (inactive)",
+		"manufacturer":"Sol-Millennium",
+		"uom":"100/bx","unitprice":"17.25",
+		"formatted_desc":"[\"30ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4008":{
+        "desc":"60ml Luer Lock Syringe w/o Needle",
+		"id":"Sol-Millennium : P180060",
+		"manufacturer":"Sol-Millennium",
+		"uom":"30/bx","unitprice":"16.82",
+		"formatted_desc":"[\"60ml\",\"Luer Lock Syringe, Without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4009":{
+        "desc":"60ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180060ST",
+		"manufacturer":"Sol-Millennium",
+		"uom":"30/bx","unitprice":"16.82",
+		"formatted_desc":"[\"60ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4010":{
+        "desc":"Syringe Tip Cap - Blue, Luer Lock",
+		"id":"Sol-Millennium : STCB01",
+		"manufacturer":"Sol-Millennium",
+		"uom":"200/bx","unitprice":"33.33",
+		"formatted_desc":"[\"Syringe Tip Cap\",\"Blue\",\"Luer Lock\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4011":{
+        "desc":"Latex-Free Tourniquet 1” x 18”",
+		"id":"Sol-Millennium : TNQ002",
+		"manufacturer":"Sol-Millennium",
+		"uom":"25/bx","unitprice":"3.26",
+		"formatted_desc":"[\"Latex-Free Tourniquet\",\"1in\",\"18in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4012":{
+        "desc":"IV Ext Set, Minibore, DEHP-Free, 7\"",
+		"id":"TrueCare Biomedix : TCBEXT001",
+		"manufacturer":"TrueCare Biomedix",
+		"uom":"50/cs","unitprice":"31.18",
+		"formatted_desc":"[\"IV Ext Set\",\"7in\",\"Minibore, DEHP-Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4013":{
+        "desc":"IV Admin Set, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92\", 20 drop/ml",
+		"id":"TrueCare Biomedix : TCBINF001",
+		"manufacturer":"TrueCare Biomedix",
+		"uom":"50/cs","unitprice":"70.95",
+		"formatted_desc":"[\"IV Admin Set\",\"92in\",\"DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 20 drop per ml\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4014":{
+        "desc":"IV Admin Set, with GVS EasyDrop® Flow Regulator, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92\", 20 drop/ml - Roller Clamp",
+		"id":"TrueCare Biomedix : TCBINF033G",
+		"manufacturer":"TrueCare Biomedix",
+		"uom":"40/cs","unitprice":"108.48",
+		"formatted_desc":"[\"IV Admin Set\",\"92in\",\"with GVS EasyDrop® Flow Regulator, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 20 drop per ml, features a Roller Clamp\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4015":{
+        "desc":"IV Admin Set, with GVS EasyDrop® Flow Regulator, 0.2µ In-Line GVS SpeedFlow® Air-Eliminating Filter, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92\", 20 drop/ml",
+		"id":"TrueCare Biomedix : TCBINF044G",
+		"manufacturer":"TrueCare Biomedix",
+		"uom":"40/cs","unitprice":"193.27",
+		"formatted_desc":"[\"IV Admin Set\",\"with GVS EasyDrop Flow Regulator, 0.2µ In-Line GVS SpeedFlow Air-Eliminating Filter, DEHP-Free, 1 Y-Site, 15µ Filter in Drip Chamber, Swivel Luer Lock, 92in, 20 drop per ml\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4052":{
+        "desc":"Gauze Sponge - Non-sterile - 2x2 - 12 Ply\r\n",
+		"id":"Shield Line : MPR-60404",
+		"manufacturer":"Shield Line",
+		"uom":"200/bx","unitprice":"1.83",
+		"formatted_desc":"[\"Gauze Sponge\",\"2in\",\"2in\",\"Non-sterile, 12 Ply\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4053":{
+        "desc":"Self-Adherent Wrap, 2\" x 5 yds. - Tan - Latex Free",
+		"id":"Shield Line : MPR-65112",
+		"manufacturer":"Shield Line",
+		"uom":"Each","unitprice":"2.50",
+		"formatted_desc":"[\"Self-Adherent Wrap\",\"2in\",\"5yd\",\"Tan, Latex Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4054":{
+        "desc":"Self-Adherent Wrap, 3\" x 5 yds. - Tan - Latex Free",
+		"id":"Shield Line : MPR-65113",
+		"manufacturer":"Shield Line",
+		"uom":"Each","unitprice":"2.50",
+		"formatted_desc":"[\"Self-Adherent Wrap\",\"3in\",\"5yds\",\"Tan, Latex Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4260":{
+        "desc":"Caloric Agent Dextrose Water, Preservative Free 5% IV Solution Flexible Bag 250 mL",
+		"id":"B. Braun : L5102",
+		"manufacturer":"B. Braun",
+		"uom":"24/cs","unitprice":"127.50",
+		"formatted_desc":"[\"Caloric Agent Dextrose Water\",\"5%\",\"IV Solution, Flexible Bag, 250 mL, Preservative Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4261":{
+        "desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 100 mL Fill in 150 mL",
+		"id":"B. Braun : S8004-5264",
+		"manufacturer":"B. Braun",
+		"uom":"64/cs","unitprice":"206.66",
+		"formatted_desc":"[\"Sodium Chloride\",\"0.9%\",\"Replacement Preparation, Preservative Free, IV Solution, Flexible Bag, 100 mL Fill in 150 mL\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4262":{
+        "desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 250 mL",
+		"id":"B. Braun : L8002",
+		"manufacturer":"B. Braun",
+		"uom":"24/cs","unitprice":"100.10",
+		"formatted_desc":"[\"Replacement Preparation\",\"Sodium Chloride, Preservative Free, 0.9% IV Solution\",\"250mL, Flexible Bag\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4263":{
+        "desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 500 mL",
+		"id":"B. Braun : L8001",
+		"manufacturer":"B. Braun",
+		"uom":"24/cs","unitprice":"126.07",
+		"formatted_desc":"[\"Replacement Preparation Sodium Chloride\",\"0.9%\",\"IV Solution, Preservative Free, 500 mL, Flexible Bag\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4264":{
+        "desc":"Replacement Preparation Sodium Chloride, Preservative Free 0.9% IV Solution Flexible Bag 1,000 mL",
+		"id":"B. Braun : L8000",
+		"manufacturer":"B. Braun",
+		"uom":"12/cs","unitprice":"67.46",
+		"formatted_desc":"[\"Replacement Preparation Sodium Chloride\",\"0.9%\",\"IV Solution, Flexible Bag, 1,000 mL, Preservative Free\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4360":{
+        "desc":"IV Start Kit, Site-Loc",
+		"id":"MedSource : MS-80045",
+		"manufacturer":"MedSource",
+		"uom":"100/cs","unitprice":"10.60",
+		"formatted_desc":"[\"IV Start Kit\",\"Site-Loc\"]",
+		"pricelevel":["Base Price","Website - Free Shipping Over $350","Website - Free Shipping Over $1000","Website - Free Shipping","Online Price","Website - Free Shipping Over $100"]
+	},
+	"4461":{
+        "desc":"IV Stand 2-Hooks 4-Leg Chrome Plated Steel with Weights",
+		"id":"Dynarex : 10554",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"50.47",
+		"formatted_desc":"[\"IV Stand\",\"2-Hooks, 4-Leg, Chrome Plated, Steel with Weights\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4560":{
+        "desc":"30ml Slip Tip Syringe w/o Needle",
+		"id":"Sol-Millennium : P180030ST",
+		"manufacturer":"Sol-Millennium",
+		"uom":"50/bx","unitprice":"18.29",
+		"formatted_desc":"[\"30ml\",\"Slip Tip Syringe\",\"without Needle\"]",
+		"pricelevel":["Online Price","Website - Free Shipping Over $350","Website - Free Shipping Over $1000","Base Price","Website - Free Shipping Over $100"]
+	},
+	"4766":{
+        "desc":"3.0 mm Disposable Dermal Curette, Sea Green",
+		"id":"SkinStitch : 78003-4C",
+		"manufacturer":"SkinStitch",
+		"uom":"25/bx","unitprice":"58.30",
+		"formatted_desc":"[\"3.0mm\",\"Disposable Dermal Curette, Sea Green\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4767":{
+        "desc":"4.0 mm Disposable Dermal Curette, Pink",
+		"id":"SkinStitch : 78004-4C",
+		"manufacturer":"SkinStitch",
+		"uom":"25/bx","unitprice":"58.30",
+		"formatted_desc":"[\"4.0mm\",\"Disposable, Dermal Curette\",\"Pink\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4866":{
+        "desc":"Iso- Gown - Impervious, Universal - Blue",
+		"id":"Shield Line : MPR-70173",
+		"manufacturer":"Shield Line",
+		"uom":"50/cs","unitprice":"58.00",
+		"formatted_desc":"[\"Iso- Gown\",\"Impervious, Universal, Blue\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4867":{
+        "desc":"Tie on Face Mask - Blue",
+		"id":"Shield Line : MPR-70063",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"4.17",
+		"formatted_desc":"[\"Face Mask\",\"Tie\",\"Blue\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4868":{
+        "desc":"Disposable Towel Drapes Plain Sterile, 18\" x 26\"",
+		"id":"Dynarex : 4410",
+		"manufacturer":"Dynarex",
+		"uom":"50/bx","unitprice":"16.25",
+		"formatted_desc":"[\"Disposable Towel Drapes\",\"18in\",\"26in\",\"Plain Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4869":{
+        "desc":"Extra Absorbent Abdominal Pad - 5x9 - Sterile",
+		"id":"Shield Line : MPR-60770",
+		"manufacturer":"Shield Line",
+		"uom":"50/bx","unitprice":"8.06",
+		"formatted_desc":"[\"Extra Absorbent Abdominal Pad\",\"9in\",\"5in\",\"Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4872":{
+        "desc":"Table Paper Crepe, 18\" x 125 ft",
+		"id":"Dynarex : 4486",
+		"manufacturer":"Dynarex",
+		"uom":"12/cs","unitprice":"35.00",
+		"formatted_desc":"[\"Table Paper Crepe\",\"18in\",\"125ft\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4873":{
+        "desc":"Table Paper Crepe, 21\" x 125 ft",
+		"id":"Dynarex : 4487",
+		"manufacturer":"Dynarex",
+		"uom":"12/cs","unitprice":"39.00",
+		"formatted_desc":"[\"Table Paper Crepe\",\"21in\",\"125ft\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4966":{
+        "desc":"Drape Sheets Blue Poly / Tissue 2ply, 40\" x 90\"",
+		"id":"Dynarex : 8150",
+		"manufacturer":"Dynarex",
+		"uom":"50/cs","unitprice":"31.50",
+		"formatted_desc":"[\"Drape Sheets\",\"Blue, Poly/Tissue, 2ply, 40in x 90in\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4967":{
+        "desc":"Sharps Containers, 1qt.",
+		"id":"Dynarex : 4622",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"2.67",
+		"formatted_desc":"[\"Sharps Containers\",\"1qt\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4968":{
+        "desc":"Sharps Containers, 2qt.",
+		"id":"Dynarex : 4623",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"3.33",
+		"formatted_desc":"[\"Sharps Containers\",\"2qt\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4969":{
+        "desc":"Sharps Containers, 5qt.",
+		"id":"Dynarex : 4624",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"8.20",
+		"formatted_desc":"[\"Sharps Containers\",\"5qt\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4970":{
+        "desc":"Sharps Containers, 5.4qt.",
+		"id":"Dynarex : 4625",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"9.50",
+		"formatted_desc":"[\"Sharps Containers\",\"5.4qt\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4971":{
+        "desc":"Sharps Containers, 1gal.",
+		"id":"Dynarex : 4626",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"6.67",
+		"formatted_desc":"[\"Sharps Containers\",\"1gal\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4973":{
+        "desc":"Sharps Containers, 3gal.",
+		"id":"Dynarex : 4628",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"15.33",
+		"formatted_desc":"[\"Sharps Containers\",\"3gal\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"4974":{
+        "desc":"Sharps Containers, 6gal.",
+		"id":"Dynarex : 4629",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"19.83",
+		"formatted_desc":"[\"Sharps Containers\",\"6gal\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5274":{
+        "desc":"1 Quart Sharps Container - Red",
+		"id":"OakRidge : 0310-1500",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"1.57",
+		"formatted_desc":"[\"1 Quart\",\"Sharps Container\",\"Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5275":{
+        "desc":"1 Gallon Sharps Container - Red",
+		"id":"OakRidge : 0319-1500",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"3.21",
+		"formatted_desc":"[\"1 Gallon\",\"Sharps Container\",\"Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5276":{
+        "desc":"2 Gallon Sharps Container - Slide - Red",
+		"id":"OakRidge : 0320-1500",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"3.81",
+		"formatted_desc":"[\"2 Gallon\",\"Sharps Container, Slide, Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5277":{
+        "desc":"3 Gallon Sharps Container - Slide - Red",
+		"id":"OakRidge : 0330-1500",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"6.56",
+		"formatted_desc":"[\"3 Gallon\",\"Sharps Container\",\"Slide, Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5278":{
+        "desc":"5.4 Quart Sharps Container  - B Style - Red",
+		"id":"OakRidge : 0354-150B",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"4.58",
+		"formatted_desc":"[\"Sharps Container\",\"5.4qt\",\"B Style, Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5279":{
+        "desc":"5 Quart Sharps Container  - M-Style - Red",
+		"id":"OakRidge : 0354-150M",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"3.95",
+		"formatted_desc":"[\"5 Quart\",\"Sharps Container\",\"M-Style, Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5280":{
+        "desc":"8 Gallon Sharps Container - Rotary - Red",
+		"id":"OakRidge : 0380-150R",
+		"manufacturer":"OakRidge",
+		"uom":"Each","unitprice":"11.80",
+		"formatted_desc":"[\"8 Gallon\",\"Sharps Container\",\"Rotary, Red\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5475":{
+        "desc":"IV Start Kit w/o Gloves",
+		"id":"Dynarex : 4692",
+		"manufacturer":"Dynarex",
+		"uom":"50/cs","unitprice":"65.00",
+		"formatted_desc":"[\"IV Start Kit\",\"with no Gloves\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5477":{
+        "desc":"Absorbable Suture with Needle Coated Vicryl™ Polyglactin 910 SH 1/2 Circle Taper Point Needle Size 3 - 0 Braided",
+		"id":"Ethicon : J416H",
+		"manufacturer":"Ethicon",
+		"uom":"36/bx","unitprice":"273.59",
+		"formatted_desc":"[\"Absorbable Suture\",\"Coated Vicryl, Polyglactin 910, SH, 1/2 Circle, Taper Point Needle, Size 3-0, Braided\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5478":{
+        "desc":"Nonabsorbable Suture with Needle Prolene Polypropylene P-3 3/8 Circle Precision Reverse Cutting Needle Size 4 - 0 Monofilament",
+		"id":"Ethicon : 8604G",
+		"manufacturer":"Ethicon",
+		"uom":"12/bx","unitprice":"341.09",
+		"formatted_desc":"[\"Nonabsorbable Suture\",\"Prolene, Polypropylene, P-3, 3/8 Circle, Precision, Reverse Cutting Needle, Size 4-0, Monofilament\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5479":{
+        "desc":"Non- Absorbable Suture 3-0 Nylon PC-5 Ethilon Black 18\" Monofilament",
+		"id":"Ethicon : 1993G",
+		"manufacturer":"Ethicon",
+		"uom":"12/bx","unitprice":"264.59",
+		"formatted_desc":"[\"Non-Absorbable Suture\",\"3-0\",\"Nylon, PC-5, Ethilon, Black, 18in, Monofilament\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5480":{
+        "desc":"Solution Basin Kendall 16 oz. Round Sterile",
+		"id":"Covidien : 61000-",
+		"manufacturer":"Covidien",
+		"uom":"75/cs","unitprice":"90.95",
+		"formatted_desc":"[\"Solution Basin\",\"Kendall\",\"16oz\",\"Round, Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5481":{
+        "desc":"Antiseptic / Antimicrobial Skin Cleanser Hibiclens 1 gal. Jug 4% Strength CHG (Chlorhexidine Gluconate) NonSterile",
+		"id":"Molnlycke : 57591",
+		"manufacturer":"Molnlycke",
+		"uom":"4/cs","unitprice":"167.30",
+		"formatted_desc":"[\"Antiseptic\",\"Hibiclens\",\"1gal\",\"4% Concentration, NonSterile, Antimicrobial Skin Cleanser\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5482":{
+        "desc":"Diluent Sterile Water for Injection, Preservative Free IV Solution Flexible Bag 500 mL",
+		"id":"B. Braun : L8501-01",
+		"manufacturer":"B. Braun",
+		"uom":"24/cs","unitprice":"153.70",
+		"formatted_desc":"[\"Diluent\",\"Sterile Water for Injection, Preservative Free, IV Solution, Flexible Bag, 500mL\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5579":{
+        "desc":"Sensi Wrap, Self-Adherent - Latex Free, 2\" x 5 yds Tan",
+		"id":"Dynarex : 3188",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"2.50",
+		"formatted_desc":"[\"Sensi Wrap\",\"2in\",\"5yds\",\"Self-Adherent, Latex Free, in Tan color\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5580":{
+        "desc":"Sensi Wrap, Self-Adherent - Latex Free, 3\" x 5 yds Tan",
+		"id":"Dynarex : 3189",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"2.50",
+		"formatted_desc":"[\"Sensi Wrap\",\"3in\",\"5yd\",\"Self-Adherent, Latex Free, Tan\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5685":{
+        "desc":"Liposuction Tubing Plastic 3/8 Inch I.D. 10 Foot Length Sterile",
+		"id":"Busse Hospital Disposables : 1540",
+		"manufacturer":"Busse Hospital Disposables",
+		"uom":"10/cs","unitprice":"115.00",
+		"formatted_desc":"[\"Liposuction Tubing\",\"0.375in\",\"10ft\",\"Plastic, Sterile\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5994":{
+        "desc":"Hand Sanitizer Wipes, 5.9\" x 7.5\"",
+		"id":"Dynarex : 1306",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"7.00",
+		"formatted_desc":"[\"Hand Sanitizer Wipes\",\"7.5in\",\"5.9in\",\"\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5995":{
+        "desc":"Hand Sanitizer, 16 oz - square pump",
+		"id":"Dynarex : 1432",
+		"manufacturer":"Dynarex",
+		"uom":"Each","unitprice":"4.00",
+		"formatted_desc":"[\"Hand Sanitizer\",\"16oz\",\"Square, Pump\"]",
+		"pricelevel":["Base Price"]
+	},
+	"5996":{
+        "desc":"Universal Exam Gown 3 ply (Blue)",
+		"id":"Dynarex : 8102",
+		"manufacturer":"Dynarex",
+		"uom":"50/cs","unitprice":"30.00",
+		"formatted_desc":"[\"Universal Exam Gown\",\"3 ply\",\"Blue\"]",
+		"pricelevel":["Base Price"]
+	},
+	"6405":{
+        "desc":"4-0 MERSILENE WHITE 1X18\" S-2 DOUBLE ARMED",
+		"id":"Ethicon : 1779G",
+		"manufacturer":"Ethicon",
+		"uom":"12/bx","unitprice":"38.00",
+		"formatted_desc":"[\"MERSILENE\",\"0.1875in\",\"18in\",\"S-2, DOUBLE ARMED, WHITE\"]",
+		"pricelevel":["Base Price","Website - Free Shipping","Website - Free Shipping Over $100","Online Price","Website - Free Shipping Over $350","Website - Free Shipping Over $1000"]}
+}

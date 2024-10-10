@@ -9,20 +9,29 @@ export default function FooterBanner(props: {
 }) {
     const getSelectedData = () => {
         let data: {
-            manufacturer: any;
-            item_code: any;
+            comp_manufacturer: any;
+            comp_item_code: any;
             comp_description: any;
             our_description: any;
+            our_manufacturer: any;
+            our_item_code: any;
+            uom: any;
+            pricelevel: any;
+            price: any;
         }[] = [];
         props.uploadedData.forEach((item) => {
-            console.log("item:", item);
             for (const desc of item.our_descriptions) {
                 if (desc.selected) {
                     data.push({
-                        manufacturer: item.manufacturer,
-                        item_code: item.item_code,
+                        comp_manufacturer: item.manufacturer,
+                        comp_item_code: item.item_code,
                         comp_description: item.comp_description,
-                        our_description: desc.text
+                        our_description: desc.text,
+                        our_manufacturer: desc.manufacturer,
+                        our_item_code: desc.id,
+                        uom: desc.uom,
+                        pricelevel: desc.pricelevel,
+                        price: desc.unitprice
                     });
                 }
             }
@@ -53,10 +62,15 @@ export default function FooterBanner(props: {
             <CsvDownloader
                 filename="Selected_items"
                 columns={[
-                    { id: "manufacturer", displayName: "Manufacturer" },
-                    { id: "item_code", displayName: "Item Code" },
+                    { id: "comp_manufacturer", displayName: "Competitor Manufacturer" },
+                    { id: "comp_item_code", displayName: "Competitor Item Code" },
                     { id: "comp_description", displayName: "Competitor Description" },
-                    { id: "our_description", displayName: "Our Description" }
+                    { id: "our_manufacturer", displayName: "Our Manufacturer" },
+                    { id: "our_item_code", displayName: "Our Item Code" },
+                    { id: "our_description", displayName: "Our Description" },
+                    { id: "uom", displayName: "UOM"},
+                    { id: "pricelevel", displayName: "Price Level"},
+                    { id: "price", displayName: "Price"},
                 ]}
                 datas={getSelectedData}
                 extension=".csv"
