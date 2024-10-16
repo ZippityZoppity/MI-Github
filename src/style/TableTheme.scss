@@ -1,6 +1,12 @@
+.pricelevel-selection-container {
+    margin: 4vh 0 10px 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
 .item-table {
-    width: 70vw;
-    margin: 4vh auto;
+    width: 100%;
     border-collapse: collapse;
     text-align: left;
     color: var(--table-header-color);
@@ -13,7 +19,7 @@
 
     th {
         font-weight: bold;
-        font-size: medium;
+        font-size: small;
         text-wrap: nowrap;
     }
 
@@ -41,6 +47,7 @@
         // overflow: hidden;
         text-align: center;
         max-height: 1000px;
+        max-width: 100%;
         transition: max-height 1s;
     }
     
@@ -54,17 +61,17 @@
             margin-top: 20px;
             overflow: hidden;
             height: 100px;
-            width: 10vw;
+            // width: 100%;
             align-content: center;
         }
         .unitprice-text-box {
             margin: auto;
-            width: 5vw;
+            // width: 2vw;
         }
         select {
             margin: auto;
             height: 40px;
-            width: 5vw;
+            // width: 2vw;
         }
         textarea {
             border: none;
@@ -81,17 +88,9 @@
         .search-desc-container {
             margin-top: 20px;
             height: 100px;
-            width: 10vw;
+            // width: 5vw;
             align-content: center;
         }
-    }
-    .pricelevel-selection-col {
-        display: flex;
-        margin-top: 20px;
-        overflow: hidden;
-        height: 100px;
-        width: 10vw;
-        align-content: center;
     }
 }
 

@@ -12,7 +12,7 @@ export default function MainApp() {
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);
     const [isSearching, updateIsSearching] = useState(false);
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
-    const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2034&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQeSRiaGFOdDceUSYGX5NvWdJ18iHgoS7KSRwHRMwL6VY'
+    const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2314&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQVktpf1TINONf-OGaFYjkQ7GhYjEmHM6ONMQFSyXVIjs'
     const ourDescriptions: Record<string, Object> = itemDescriptions;
 
     const get_our_descriptions = async function() {
@@ -37,7 +37,7 @@ export default function MainApp() {
 
     }
     //  //  //  //  //  //  //
-    // get_our_descriptions();
+    get_our_descriptions();
     // TODO: FIX CORS ERROR ON THIS FETCH CALL
     //  //  //  //  //  //  //
 

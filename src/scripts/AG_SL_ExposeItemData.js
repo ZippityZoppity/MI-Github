@@ -11,30 +11,21 @@
  * @NScriptType Suitelet
 */
 
-define(["N/record", "N/search"],
-function (record, search) {
+define(["N/file", "N/search"],
+function (file, search) {
 
     function onRequest(context) {
-        const get_our_descriptions = async function() {
-            const response = await fetch(NETSUITE_ENDPOINT, {
-                method: "GET",
-                mode: "cors",
-                headers: {
-                    "Content-Type": "text/plain",
-                },
-            })
-            log.error("response:", response);
-            if (response.status == 200) {
-                const data = await response.json();
-                log.error("data:", data);
-            } else {
-                log.error('error', response.status)
-            }
-    
-        }
-        get_our_descriptions();
 
-        return "hello world"
+        var itemExports = file.load({
+            id: '232151'
+        }).getContents();
+        log.audit('itemExports', itemExports);
+
+        const response = {
+            'data': itemExports,
+            'Access-Control-Allow-Origin': '*'//context.request.headers.referer
+        }
+        context.response.write(JSON.stringify(response));
     }
 
     //Other functions

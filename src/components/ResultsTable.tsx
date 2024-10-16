@@ -159,22 +159,34 @@ export default function ResultsTable(props: {
         />
     );
     return (
-        <table className="item-table">
-            <thead>
-                <tr>
-                    <th colSpan={1}>Competitor Manufacturer</th>
-                    <th id="table-primary-column" colSpan={1}>Competitor Item Code</th>
-                    <th colSpan={3}>Competitor Description</th>
-                    <th id="table-primary-column" colSpan={1}>Our Manufacturer</th>
-                    <th colSpan={1}>Our Item Code</th>
-                    <th id="table-primary-column" colSpan={4}>Our Description</th>
-                    <th colSpan={1}>UoM</th>
-                    <th id="table-primary-column" colSpan={1}>Price</th>
-                    <th colSpan={1}>Best Match</th>
-                    <th id="table-primary-column" colSpan={1}>Selection</th>
-                </tr>
-            </thead>
-            <tbody>{rows}</tbody>
-        </table>
+        <>
+            <div className="pricelevel-selection-container">
+                <select>
+                    <option>Base Price</option>
+                    <option>Website - Free Shipping	10.0%</option>
+                    <option>Website - Free Shipping Over $100	6.0%</option>
+                    <option>Website - Free Shipping Over $1000	-5.0%</option>
+                    <option>Website - Free Shipping Over $350	0.0%</option>
+                    <option>Online Price</option>
+                </select>
+            </div>
+            <table className="item-table">
+                <thead>
+                    <tr>
+                        <th colSpan={1}>Competitor Manufacturer</th>
+                        <th id="table-primary-column" colSpan={1}>Competitor Item Code</th>
+                        <th colSpan={3}>Competitor Description</th>
+                        <th id="table-primary-column" colSpan={1}>Our Manufacturer</th>
+                        <th colSpan={1}>Our Item Code</th>
+                        <th id="table-primary-column" colSpan={4}>Our Description</th>
+                        <th colSpan={1}>UoM</th>
+                        <th id="table-primary-column" colSpan={1}>Price</th>
+                        <th colSpan={1}>Best Match</th>
+                        <th id="table-primary-column" colSpan={1}>Selection</th>
+                    </tr>
+                </thead>
+                <tbody>{rows}</tbody>
+            </table>
+        </>
     );
 }

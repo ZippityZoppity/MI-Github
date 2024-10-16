@@ -206,7 +206,7 @@ export default function Row(props: {
                 </div>
             </td>
 
-            {/*Price Level Column */}
+            {/*Price Column */}
             <td id="table-primary-column" colSpan={1}>
                 <div className={cellContainerClass}>
                     {
@@ -216,30 +216,9 @@ export default function Row(props: {
                     }
                     {
                         props.subrows.map((subrow, index) => {
-                            if (subrow.pricelevel) {
-                                return (
-                                    <div className="pricelevel-selection-col">
-                                        <select name="pricelevel" id="pricelevel">
-                                        {
-                                            subrow.pricelevel?.map((level: any, ind: any) => {
-                                                return (<option value={level} key={'pricelevel-options' + ind}>
-                                                    {level}
-                                                </option>);
-                                                
-                                            })
-                                        }
-                                        </select>
-                                        <p className="unitprice-text-box" key={subrow.pricelevel + '-pricelevel-' + index}>
-                                            ${
-                                                subrow.unitprice
-                                            }
-                                        </p>
-                                    </div>
-                                );
-                            } else {
-                                return <></>
-                            }
-                            
+                            return ( <p key={subrow.pricelevel + '-pricelevel-' + index}>
+                                    ${ subrow.unitprice }
+                                </p> );
                         })
                     }
                 </div>
