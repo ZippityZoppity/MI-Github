@@ -1,4 +1,3 @@
-import {ITEM_CODE_MATCHES} from "../data/MatchesMap"
 import CsvDownloader from "react-csv-downloader";
 import checkIcon from "../assets/check-48.png";
 import errIcon from "../assets/error-48.png";
