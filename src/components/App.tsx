@@ -12,13 +12,13 @@ export default function MainApp() {
     const [uploadedData, setUploadedData] = useState<Array<any>>([]);
     const [isSearching, updateIsSearching] = useState(false);
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
-    const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2314&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQVktpf1TINONf-OGaFYjkQ7GhYjEmHM6ONMQFSyXVIjs'
+    const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2322&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQ5pcIkUw4lVTiK6MfLMVj_4Ps60p4kBNpiLZRkA-Id5A'
     const ourDescriptions: Record<string, Object> = itemDescriptions;
 
     const get_our_descriptions = async function() {
         try {
             const response = await fetch(NETSUITE_ENDPOINT, {
-                method: "GET",
+                method: "OPTIONS",
                 mode: "cors",
                 headers: {
                     "Content-Type": "text/plain",

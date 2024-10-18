@@ -3,7 +3,7 @@
     "name": "Product Conversion Tool",
     "icons": [
         {
-            "src": "assets/mi-logo.png",
+            "src": "/src/assets/mi-logo.png",
             "type": "image/png",
             "sizes": "192x192"
         }
