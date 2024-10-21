@@ -11,35 +11,49 @@
  * @NScriptType Suitelet
 */
 
-define(["N/file", "N/runtime"],
-function (file, runtime) {
+define(["N/file", "N/runtime", "N/search"],
+function (file, runtime, search) {
     function onRequest(context) {
     
-        var script = runtime.getCurrentScript()
-        var itemExports_id = script.getParameter({name: 'custscript_ag_item_exports_fileid	'});
-        log.error('itemExports_id', itemExports_id);
-        var matchMap_id = script.getParameter({name: 'custscript_ag_match_map_file_id'});
-        log.error('matchMap_id', matchMap_id);
-        var pct_url = script.getParameter({name: 'custscript_ag_prod_conversion_tool_url'});
-        log.error('pct_url', pct_url);
-
+        
         try {
-            var itemExports = file.load({
-                id: '232256'
+            let script = runtime.getCurrentScript()
+            const itemExports_id = script.getParameter({name: 'custscript_ag_item_exports_fileid'});
+            const matchMap_id = script.getParameter({name: 'custscript_ag_match_map_file_id'});
+            const pct_url = script.getParameter({name: 'custscript_ag_prod_conversion_tool_url'});
+            let itemExports = file.load({
+                id: itemExports_id
             }).getContents();
 
-            var matchMap = file.load({
-                id: '232257'
+            let matchMap = file.load({
+                id: matchMap_id
             }).getContents();
     
             context.response.addHeader({
                 name: 'Access-Control-Allow-Origin',
-                value: 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2315&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQ_EHEkiFmKLPEuduplujesvc-Y7iyyaBdoUMzgALkxYg'
+                value: pct_url
             })
+            context.response.addHeader({
+                name: 'Access-Control-Allow-Methods',
+                value: 'GET, OPTIONS'
+            })
+
+            let priceLevels = []
+            search.create({
+                type: 'pricelevel',
+                filters: [],
+                columns: [
+                    'name',
+                ],
+            }).run().each(function (result) {
+                priceLevels.push(result.getValue('name'))
+                return true;
+            });
 
             const response = {
                 itemExports: itemExports,
-                matchMap: matchMap
+                matchMap: matchMap,
+                priceLevels: priceLevels
             }
             log.error('response', response);
             context.response.write(JSON.stringify(response));

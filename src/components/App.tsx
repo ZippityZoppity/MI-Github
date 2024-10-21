@@ -1,4 +1,4 @@
-import { SetStateAction, useState } from "react";
+import { SetStateAction, useState, useEffect } from "react";
 import { itemDescriptions } from "../data/ItemExports"
 import "../style/MainTheme.scss";
 import FileBanner from "./FileBanner";
@@ -13,9 +13,12 @@ export default function MainApp() {
     const [isSearching, updateIsSearching] = useState(false);
     const MEDICAL_INNOVATIONS_ENDPOINT = 'https://hclolpo3qzkqx4aufyxjgux2lu0hgarc.lambda-url.us-east-2.on.aws/'
     const NETSUITE_ENDPOINT = 'https://3696995-sb1.extforms.netsuite.com/app/site/hosting/scriptlet.nl?script=2322&deploy=1&compid=3696995_SB1&ns-at=AAEJ7tMQ5pcIkUw4lVTiK6MfLMVj_4Ps60p4kBNpiLZRkA-Id5A'
-    const ourDescriptions: Record<string, Object> = itemDescriptions;
+    // const ourDescriptions: Record<string, Object> = itemDescriptions;
+    const [ourDescriptions, setDescriptions] = useState({});
+    const [matchesMap, setMatchesMap] = useState({});
+    const [priceLevels, setPriceLevels] = useState([]);
 
-    const get_our_descriptions = async function() {
+    const get_netsuite_data = async function() {
         try {
             const response = await fetch(NETSUITE_ENDPOINT, {
                 method: "OPTIONS",
@@ -24,10 +27,12 @@ export default function MainApp() {
                     "Content-Type": "text/plain",
                 },
             })
-            console.log("response:", response);
             if (response.status == 200) {
                 const data = await response.json();
-                console.log("data:", data);
+                setDescriptions(data.itemExports);
+                setMatchesMap(data.matchMap);
+                setPriceLevels(data.priceLevels);
+                return data;
             } else {
                 console.log('status', response.status)
             }
@@ -36,10 +41,6 @@ export default function MainApp() {
         }
 
     }
-    //  //  //  //  //  //  //
-    get_our_descriptions();
-    // TODO: FIX CORS ERROR ON THIS FETCH CALL
-    //  //  //  //  //  //  //
 
     const get_formatted_data = async function (prompt: any) {
         const response = await fetch(MEDICAL_INNOVATIONS_ENDPOINT, {
@@ -71,6 +72,10 @@ export default function MainApp() {
         return allRowsSelected;
     };
 
+    useEffect(() => {
+        get_netsuite_data()
+    }, []);
+
     return (
         <div className="MainApp">
             <HeaderBanner
@@ -91,6 +96,7 @@ export default function MainApp() {
                 updateFile={(file: SetStateAction<string>) => updateFile(file)}
                 setUploadedData={(data: SetStateAction<any[]>) => setUploadedData(data)}
                 ourDescriptions={ourDescriptions}
+                priceLevels={priceLevels}
                 uploadedData={uploadedData}
                 uploadedFile={uploadedFile}
                 isSearching={isSearching}

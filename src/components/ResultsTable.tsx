@@ -8,6 +8,7 @@ export default function ResultsTable(props: {
     uploadedData: Array<any>;
     uploadedFile: any;
     ourDescriptions: any;
+    priceLevels: any;
     getFormattedData: Function;
     isSearching: boolean;
     updateIsSearching: Function;
@@ -162,12 +163,17 @@ export default function ResultsTable(props: {
         <>
             <div className="pricelevel-selection-container">
                 <select>
+                    {
+                        props.priceLevels.map((level: any) => {
+                            return <option>{level}</option>
+                        })
+                    }
+                    {/* <option>Online Price</option>
                     <option>Base Price</option>
                     <option>Website - Free Shipping	10.0%</option>
                     <option>Website - Free Shipping Over $100	6.0%</option>
                     <option>Website - Free Shipping Over $1000	-5.0%</option>
-                    <option>Website - Free Shipping Over $350	0.0%</option>
-                    <option>Online Price</option>
+                    <option>Website - Free Shipping Over $350	0.0%</option> */}
                 </select>
             </div>
             <table className="item-table">
